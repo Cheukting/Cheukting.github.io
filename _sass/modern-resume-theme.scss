@@ -102,6 +102,7 @@ ul.icons a {
   .logo-container{
     display: flex;
     flex-direction: row;
+    flex-wrap: wrap;
     align-items: center;
     justify-content: center;
   }
