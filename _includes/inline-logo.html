@@ -18,8 +18,13 @@
         </a>
     {%- endif -%}
     {%- if include.item.twitter -%}
-        <a href="https://twitter.com//{{ include.item.twitter }}" target="_blank">
+        <a href="https://twitter.com/{{ include.item.twitter }}" target="_blank">
           <i class="fa fa-twitter" title="{{ include.item.name }} Twitter link"></i>
+        </a>
+    {%- endif -%}
+    {%- if include.item.telegram -%}
+        <a href="https://t.me/{{ include.item.telegram }}" target="_blank">
+          <i class="fa fa-telegram" title="{{ include.item.name }} Telegram link"></i>
         </a>
     {%- endif -%}
     </p>

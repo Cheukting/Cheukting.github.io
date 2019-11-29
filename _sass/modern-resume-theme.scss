@@ -99,6 +99,12 @@ ul.icons a {
   h3 {
     margin-bottom: 0;
   }
+  .logo-container{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+  }
 }
 
 .layout {
@@ -171,6 +177,12 @@ ul.icons a {
   float:left;
   margin: 10px;
   width: 250px;
+  .details p {
+    text-align: center;
+  }
+  h4 {
+    text-align: center;
+  }
 }
 
 .layout-top-middle-link {
