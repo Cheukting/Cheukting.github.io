@@ -1,0 +1,42 @@
+# Experience template
+- layout: top-middle-link
+  company: Storing data like git — TerminusDB
+  link: https://medium.com/terminusdb/storing-data-like-git-terminusdb-d96c62edcad5?source=friends_link&sk=6925a271bc252d5b790a84392b15ecb1
+  job_title: 4 mins read | Git, Graph Database, Database, New Techonology, Ai Tools
+  dates: 5 Nov 2019
+  tags: Git, Graph Database, Database, New Techonology, Ai Tools
+  quote: >
+    Last week I have been to a meetup where a team of software developers from Dublin talks about their newest invention — TerminusDB, a graph database that stores data like git. My reaction was like, what? Imagine all the cool things you can do with git: time travel, branching and forking etc, you can do them with your data.
+  description: | # this will include new lines to allow paragraphs
+
+- layout: top-middle-link
+  company: Build a Traffic Alert App with TensorFlow.js, Ably and HTML
+  link: https://medium.com/javascript-in-plain-english/build-a-traffic-alert-app-with-just-one-html-ably-tensorflow-741c40582672?source=friends_link&sk=93f7c467c88b44627f923db1c0be2e3d
+  job_title: 5 mins read | JavaScript, Websocket, Realtime, TensorFlow, Text Detection
+  dates: 15 Oct 2019
+  tags: JavaScript, Websocket, Realtime, TensorFlow, Text Detection
+  quote: >
+    In this blog post, we will showcase the power of Ably and Tensorflow.js. Everything will be just on the frontend, in just one html. It’s a demo, in production you may not do things this way but you can have a feeling how powerful Ably is and how you can use deep learning model with just a few lines of code.
+  description: | # this will include new lines to allow paragraphs
+
+
+- layout: top-middle-link
+  company: Build a Grakn Knowledge Graph for Game Of Throne
+  link: https://medium.com/@cheukting.ho/build-a-grakn-knowledge-graph-for-game-of-throne-6a893743c3fb?source=friends_link&sk=5dac4a41ed1d9a717ed5b4f8b4a501c3
+  job_title: 7 mins read | Python, Database, AI, Data Science, Tutorial
+  dates: 12 Aug 2019
+  tags: Python, Database, AI, Data Science, Tutorial
+  quote: >
+    In this tutorial, we will use the character information from the Game of Throne to build a knowledge graph using Grakn Client in Python. The data that we use originally from this csv. We are using Python >= 3.6.
+  description: | # this will include new lines to allow paragraphs
+
+
+- layout: top-middle-link
+  company: GRAKN — A Smarter Database that could handle reasonings like a human
+  link: https://medium.com/@cheukting.ho/grakn-a-smarter-database-that-could-handle-reasonings-like-a-human-2f7742dae5e6?source=friends_link&sk=4fb54e5aa64baf7312550b5e2aed80be
+  job_title: 5 mins read | Database, AI, Knowledge Graph, Data Science, Technology
+  dates: 12 Aug 2019
+  tags: Database, AI, Knowledge Graph, Data Science, Technology
+  quote: >
+    Since we have replaced file cabinets with computers, the most efficient way of storing massive amounts of data is using databases and users can retrieve the data that they need by using queries. But these queries never work quite like how a human brain works. Have you ever imagine that data can be stored as a knowledge graph and a query can take care of human reasoning?
+  description: | # this will include new lines to allow paragraphs

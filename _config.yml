@@ -1,54 +1,49 @@
 # Site
-repository: Git repository where your resume will be hosted, only required if you are hosting on GitHub (eg. sproogen/modern-resume-theme)
-# favicon: Directory of your favicon (eg. images/favicon.ico)(optional)
+repository: Cheukting/Cheukting.github.io
+favicon: images/favicon.ico
 
 # Personal info
-name: Your Name
-title: Your job title
-email: Your email (optional)
-phone: Your phone number (optional)
-website: Your website (eg. https://google.com)(optional)
+name: Cheuk Ting Ho
+title: Me and my work
+email:
+phone:
+website:
 
 # Social links
-twitter_username: jekyllrb
-github_username:  jekyll
-dribbble_username: jekyll
-facebook_username: jekyll
-flickr_username: jekyll
-instagram_username: jekyll
-linkedin_username: jekyll
-xing_username: jekyll
-pinterest_username: jekyll
-youtube_username: jekyll
-googleplus_username: +jekyll
+twitter_username: cheukting_ho
+github_username:  Cheukting
+dribbble_username:
+facebook_username:
+flickr_username:
+instagram_username:
+linkedin_username: cheukting-ho
+xing_username:
+pinterest_username:
+youtube_username:
+googleplus_username:
+medium_username: cheukting.ho
 
 # About Section
 # about_title: About Me (Use this to override about section title)
-about_profile_image: Directory of profile image (eg. images/profile.jpg)
+about_profile_image: images/IMG_1037.jpg
 about_content: | # this will include new lines to allow paragraphs
-  Write an awesome description about yourself here, this supports markdown, so you can add [links](http://foobar.com) and highlight things <mark>like this</mark>.
+    After spending 5 years researching theoretical physics at [Hong Kong University of Science and Technology](https://www.ust.hk/home), Cheuk has transferred her analytical and logical skills in natural science and built a career in data science. Cheuk has been a Data Scientist in one of the biggest worldwide wholesalers in the travel business;  an AWS partnered consultancy which delivers machine learning model; a startup aiming to revolutionise revenue management with data science and; a global bank using machine learning to investigating financial crime. Now Cheuk is working in a team of developers building a [revolutionary graph database](https://terminusdb.com/).
 
-  You can even add paragraphs by using empty lines like this and add anything else markdown supports such as
-    - Lists
-    - Tables
-    - Links
-    - Images
+    Cheuk constantly contributes to the community by giving AI and deep learning workshops and [organize sprints](https://python-sprints.github.io/) for open source projects, at the same time contribute to open source projects including Pandas, Keras, Scikit-learn, Dateutil and maintaining her open-source library - [PicknMix](https://picknmix.readthedocs.io/en/latest/). Cheuk has also been a guest speaker at Universities and various conferences. Believing in gender equality, Cheuk is currently a co-organizer of [AI Club for Gender Minorities](https://www.meetup.com/ai-club/) to support Tech Diversity and Inclusion. This year, on top of speaking at conferences, Cheuk has been deeply involved in EuroPython as one of the organizers and master of lightning talks.
 
 # Projects Section
 # projects_title: Projects #(Use this to override about projects section title)
 
 # Experience Section
-# experience_title: Experience #(Use this to override about experience section title)
+experience_title: Talks #(Use this to override about experience section title)
 
 # Education Section
-# education_title: Education #(Use this to override about education section title)
+education_title: Workshops #(Use this to override about education section title)
 
 # More Section
-# more_title: A Little More About Me #(Use this to override about more section title)
+more_title: Invite me to speak? #(Use this to override about more section title)
 more_content: | # this will include new lines to allow paragraphs
-  This is where you can write a little more about yourself. You could title this section **Interests** and include some of your other interests.
-
-  Or you could title it **Skills** and write a bit more about things that make you more desirable, like *leadership* or *teamwork*
+  I am happy to speak at conferences/ meetups / events, or facilitate the above workshops for the community. You can contact me via [Twitter](https://twitter.com/cheukting_ho) or [LinkedIn](https://www.linkedin.com/in/cheukting-ho).
 
 # Footer
 footer_show_references: true

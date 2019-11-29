@@ -1,9 +1,29 @@
 # Education Template
-- layout: left
-  name: Institution name
-  dates: Date Range (eg. 2016 - 2019)
-  qualification: Qualifications (eg. BA Performing Arts)
+- layout: top-middle-link
+  name: Chatbots that know if you are angry
+  link: https://github.com/Cheukting/rasa_workshop
+  dates:
+  qualification:
   quote: >
-    Short institution or course description (optional)
+    In this workshop, we will be using Rasa, an open source machine learning framework, to build a chatbot that will ask for an individual's contact details (compliant to GDPR) and for feedback for an event that they may have attended. Feedback will then be analyse for sentiment and reported in a basic web app.
   description: | # this will include new lines to allow paragraphs
-    Description of qualification
+
+
+- layout: top-middle-link
+  name: Deep Reinforcement Learning Workshop
+  link: https://github.com/Cheukting/rl_workshop
+  dates:
+  qualification:
+  quote: >
+    In this workshop, through exercises, we will learn about (Deep) Reinforcement Learning and how to implement different strategies and train an agent to solve different tasks (or play games) in OpenAI Gym. For the consistency of the environment and make use of a free GPU, we will use Google Colaboratory (Google Account needed)
+  description: | # this will include new lines to allow paragraphs
+
+
+- layout: top-middle-link
+  name: Step into Open Source Contribution - My First PR
+  link: https://slides.com/cheukting_ho/1st_pr
+  dates:
+  qualification:
+  quote: >
+    A step by step guide to making your first pull request (PR) in GitHub. As most open-source projects are hosted on GitHub, it will be the first thing you have to learn if you want to contribute to open-source projects. Also, you will have git setup and learn how to start using git.
+  description: | # this will include new lines to allow paragraphs

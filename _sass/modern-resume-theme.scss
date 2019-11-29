@@ -94,7 +94,8 @@ ul.icons a {
   }
 }
 
-.projects-container, .experience-container, .education-container {
+.projects-container, .experience-container, .education-container,
+ .meetups-container, .articles-container {
   h3 {
     margin-bottom: 0;
   }
@@ -163,6 +164,21 @@ ul.icons a {
 .layout-top-middle {
   .details {
     text-align: center;
+  }
+}
+
+.layout-inline-logo {
+  float:left;
+  margin: 10px;
+  max-width: 250px;
+}
+
+.layout-top-middle-link {
+  .details {
+    text-align: center;
+    .link {
+      font-size: 1em;
+    }
   }
 }
 

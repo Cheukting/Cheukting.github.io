@@ -1,9 +1,34 @@
 # Project template
-- layout: top-middle
-  name: Project name
-  link: Link to project (eg. sproogen.github.io/modern-resume-theme)(optional)
-  github: Github page for project (eg. sproogen/modern-resume-theme)(optional)
+- layout: inline-logo
+  name: Soapie
+  link: https://github.com/soapie-tool/project-introduction/blob/master/README.md
+  github: soapie-tool/soapie-demo
+  twitter:
   quote: >
-    Short overview of the project (optional)
+
   description: | # this will include new lines to allow paragraphs
-    Description about the work on/with the project
+    Soapie is an open-source browser extension (support Mozilla Firefox and Google Chrome) to make the internet more accessible for people who are sight impaired. We aim to use the cutting edge AI technology to fill in the blanks of a webpage (e.g. missing alt tag) or remove blocks to improve browsing experience for people in need. When installed and switched on, Soapie will automatically change the html of the webpage so it can be easily accessible for other assisting tools.
+
+
+- layout: inline-logo
+  name: Opt-out
+  link: https://github.com/opt-out-tools/start-here
+  github: opt-out-tools/opt-out
+  twitter: optoutsocial
+  quote: >
+
+  description: | # this will include new lines to allow paragraphs
+    Opt Out is a browser extension for Firefox that filters online misogyny from an individual’s twitter feed.
+
+    The General Data Protection Regulation (GDPR) has changed our lives online on social media platforms. We have the right to be forgotten, to see what is being collected about us and to opt-out if we wish. The current abuse that those who identify as women suffer is not avoidable. We see Opt Out as an extension of the GDPR that also protects the human rights of women and those with intersecting identities online. While steps have been made to protect these people online, not enough has been done. This is a global tragedy affecting the well-being, economical potential and political representation of these people. Let's Opt Out.
+
+
+- layout: inline-logo
+  name: PicknMix
+  link: https://picknmix.readthedocs.io/en/latest/
+  github: picknmix/picknmix
+  twitter: PicknMix_Py
+  quote: >
+
+  description: | # this will include new lines to allow paragraphs
+    Pick n Mix is a simple stacking tool for stacking Sci-Kit learn models of your picks. It provided 2 classes: Layer and Stack. Layer is a parallel combination of models, while Stack combine Layers to create a stacking model.

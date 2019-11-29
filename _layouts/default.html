@@ -24,6 +24,14 @@
         {%- include education.html -%}
       {%- endif -%}
 
+      {%- if site.data.meetups.size > 0 -%}
+        {%- include meetups.html -%}
+      {%- endif -%}
+
+      {%- if site.data.articles.size > 0 -%}
+        {%- include articles.html -%}
+      {%- endif -%}
+
       {%- if site.more_content -%}
         {%- include more.html -%}
       {%- endif -%}

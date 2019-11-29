@@ -1,0 +1,19 @@
+# Project template
+- layout: inline-logo
+  name: Python Sprints
+  link: https://python-sprints.github.io/
+  github:
+  twitter: py_sprints
+  quote: >
+
+  description: | # this will include new lines to allow paragraphs
+
+
+- layout: inline-logo
+  name: AI Club for Gender Minorities
+  link: https://www.meetup.com/ai-club/
+  github:
+  twitter: AIClubGenderMin
+  quote: >
+
+  description: | # this will include new lines to allow paragraphs

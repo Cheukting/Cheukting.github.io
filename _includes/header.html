@@ -83,6 +83,13 @@
             </a>
           </li>
         {%- endif -%}
+        {%- if site.medium_username -%}
+          <li>
+            <a target="_blank" href="https://medium.com/@{{ site.medium_username}}" class="button button--sacnite button--round-l">
+              <i class="fab fa-medium-m" title="Medium link"></i>
+            </a>
+          </li>
+        {%- endif -%}
       </ul>
 
       {%- if site.email -%}
