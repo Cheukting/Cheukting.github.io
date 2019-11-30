@@ -1,4 +1,13 @@
-# Experience template
+- layout: top-middle-link
+  company: Newbie tips — 5 Advantage of Using GitHub Pages for Hosting
+  link: https://medium.com/@cheukting.ho/newbie-tips-5-advantage-of-using-github-pages-for-hosting-35bee4c1ce14?sk=c22b06efc6bbd2f2f5765f334db5b948
+  job_title: 3 mins read | Database, AI, Knowledge Graph, Data Science, Technology
+  dates: 30 Nov 2019
+  tags: Github, Web Hosting, Web Development, Website, Indiewebcamp
+  quote: >
+    Recently I have an idea of putting all my work in one place, make it kind of like a portfolio. I brought a domain name — cheuk.dev (try to be cool) and went to the IndieWebCamp in Berlin where they are happy to help with web newbies to get started. They recommended many options, including Wordpress and Blogger, to get your website set up. But since I have experience maintain the website for Python Sprint, which uses Jekyll on GitHub Pages, I feel more comfortable going down the GitHub route.
+  description: | # this will include new lines to allow paragraphs
+
 - layout: top-middle-link
   company: Storing data like git — TerminusDB
   link: https://medium.com/terminusdb/storing-data-like-git-terminusdb-d96c62edcad5?source=friends_link&sk=6925a271bc252d5b790a84392b15ecb1
