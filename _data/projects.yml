@@ -4,6 +4,7 @@
   link: https://github.com/soapie-tool/project-introduction/blob/master/README.md
   github: soapie-tool/soapie-demo
   twitter:
+  logo: /images/soapie.png
   quote: >
 
   description: | # this will include new lines to allow paragraphs
@@ -15,6 +16,7 @@
   link: https://github.com/opt-out-tools/start-here
   github: opt-out-tools/opt-out
   twitter: optoutsocial
+  logo: /images/optout.png
   quote: >
 
   description: | # this will include new lines to allow paragraphs
@@ -28,6 +30,7 @@
   link: https://picknmix.readthedocs.io/en/latest/
   github: picknmix/picknmix
   twitter: PicknMix_Py
+  logo: /images/picknmix.png
   quote: >
 
   description: | # this will include new lines to allow paragraphs

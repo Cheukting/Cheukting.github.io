@@ -1,8 +1,17 @@
 <div class="row clearfix layout layout-inline-logo">
   <div class="col-xs-12 col-print-12 details">
-    {%- if include.item.name -%}<h4>
+    {%- if include.item.logo -%}
+    <p>
+      {% include a.html href=include.item.link class="link" %}
+        <img src="{{ include.item.logo }}" alt="{{ include.item.name }} logo">
+        <p class="small-name">{{ include.item.name }}</p>
+      </a>
+    </p>
+    {%- elsif include.item.name -%}
+    <h4>
       {% include a.html href=include.item.link class="link" %}{{ include.item.name }}</a>
-    </h4>{%- endif -%}
+    </h4>
+    {%- endif -%}
     {%- if include.item.company -%}<h4>{{ include.item.company }}</h4>{%- endif -%}
     {%- if include.item.job_title -%}<p><b>{{ include.item.job_title }}</b></p>{%- endif -%}
     {%- if include.item.qualification -%}<p><b>{{ include.item.qualification }}</b></p>{%- endif -%}
