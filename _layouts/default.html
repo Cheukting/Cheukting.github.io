@@ -3,8 +3,9 @@
 
 {%- include head.html -%}
 
-<body>
 
+<body id="page-top">
+  {%- include nav.html -%}
   {%- include header.html -%}
 
   <main class="page-content" aria-label="Content">
@@ -40,6 +41,7 @@
   </main>
 
   {%- include footer.html -%}
+  {% include scripts.html %}
 
 </body>
 

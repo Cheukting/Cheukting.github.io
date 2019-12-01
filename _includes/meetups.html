@@ -1,8 +1,10 @@
-<div class="container meetups-container">
-  <h3>{{ site.meetups_title | default: "Meetups" }}</h3>
-  <div class="logo-container">
-    {% for project in site.data.meetups %}
-      {% include {{ project.layout | default: 'inline-logo' | append: ".html" }} item=project %}
-    {% endfor %}
+<section id="meetups">
+  <div class="container meetups-container">
+    <h3>{{ site.meetups_title | default: "Meetups" }}</h3>
+    <div class="logo-container">
+      {% for project in site.data.meetups %}
+        {% include {{ project.layout | default: 'inline-logo' | append: ".html" }} item=project %}
+      {% endfor %}
+    </div>
   </div>
-</div>
+</section>
