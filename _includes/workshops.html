@@ -1,0 +1,8 @@
+<section id="workshops">
+  <div class="container education-container">
+    <h3>{{ site.woekshops_title | default: "Workshops" }}</h3>
+    {% for workshop in site.data.workshops %}
+      {% include {{ workshop.layout | default: 'left' | append: ".html" }} item=workshop %}
+    {% endfor %}
+  </div>
+</section>

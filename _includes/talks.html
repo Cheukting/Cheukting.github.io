@@ -1,0 +1,8 @@
+<section id="talks">
+  <div class="container experience-container">
+    <h3>{{ site.talks_title | default: "Talks" }}</h3>
+    {% for talk in site.data.talks %}
+      {% include {{ talk.layout | default: 'left' | append: ".html" }} item=talk %}
+    {% endfor %}
+  </div>
+</section>
