@@ -90,6 +90,13 @@
             </a>
           </li>
         {%- endif -%}
+        {%- if site.devto -%}
+        <li>
+          <a target="_blank" href="https://dev.to/{{ site.devto_username}}" class="button button--sacnite button--round-l">
+            <i class="fab fa-dev" title="DEV Profile"></i>
+          </a>
+        </li>
+        {%- endif -%}
       </ul>
 
       {%- if site.email -%}
