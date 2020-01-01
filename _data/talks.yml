@@ -1,5 +1,14 @@
 # Experience template
 - layout: top-middle-link
+  company: Running An Open Source Project Like A Start Up
+  link: https://youtu.be/ZhE-xdJ6V34
+  job_title: PyCon DE
+  dates: 9 Oct 2019
+  quote: >
+    Not so long ago, I started an open source project - PicknMIx. It feels like running a start up if you are serious about it. Want to know my story? Want to check if you can do it as well? I will tell you.
+  description: | # this will include new lines to allow paragraphs
+
+- layout: top-middle-link
   company: Do we have a diversity problem in Python community
   link: https://youtu.be/g68eJwauOww
   job_title: PyCon UK * Keynote *
