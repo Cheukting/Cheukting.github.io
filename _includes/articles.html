@@ -4,5 +4,6 @@
     {% for experience in site.data.articles %}
       {% include {{ experience.layout | default: 'left' | append: ".html" }} item=experience %}
     {% endfor %}
-  </div>
+    <p class="more-link"><a href="https://medium.com/@cheukting.ho" target="_blank">See all articles</a>
+  </p>
 </section>

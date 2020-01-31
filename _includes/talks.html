@@ -4,5 +4,7 @@
     {% for talk in site.data.talks %}
       {% include {{ talk.layout | default: 'left' | append: ".html" }} item=talk %}
     {% endfor %}
+    <p class="more-link"><a href="https://www.youtube.com/channel%2FUCie_J9IohYO4hSsz4O2mDfQ" target="_blank">See all talks</a>
+  </p>
   </div>
 </section>
