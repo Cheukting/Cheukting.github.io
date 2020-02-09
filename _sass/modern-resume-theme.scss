@@ -98,10 +98,22 @@ ul.icons a {
   }
 }
 
+
 .projects-container, .experience-container, .education-container,
  .meetups-container, .articles-container {
 
-.more-link{
+  .row{
+         margin-top: 30px;
+         font-size: 1.4em;
+      p{
+         font-size: 1.2em;
+      }
+     }
+  .btn-blog{
+      display: none;
+  }
+
+  .more-link{
 
     margin-top: 30px;
     text-align: center;
