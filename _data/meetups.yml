@@ -19,3 +19,14 @@
   quote: >
 
   description: | # this will include new lines to allow paragraphs
+
+
+- layout: inline-logo
+  name: IndieWebCamp London
+  link: https://2020.indieweb.org/london
+  github:
+  twitter: indiewebcamp
+  logo: /images/indiewebcamp.png
+  quote: >
+
+  description: | # this will include new lines to allow paragraphs

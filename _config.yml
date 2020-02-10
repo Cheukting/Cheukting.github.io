@@ -41,6 +41,8 @@ experience_title: Talks #(Use this to override about experience section title)
 # Education Section
 education_title: Workshops #(Use this to override about education section title)
 
+meetups_title: Meetups / Events
+
 # More Section
 more_title: Invite me to speak? #(Use this to override about more section title)
 more_content: | # this will include new lines to allow paragraphs
