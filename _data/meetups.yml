@@ -30,3 +30,13 @@
   quote: >
 
   description: | # this will include new lines to allow paragraphs
+
+ - layout: inline-logo
+   name: EuroPython 2020
+   link: https://ep2020.europython.eu/
+   github:
+   twitter: eurypython
+   logo: /images/europython2020.png
+   quote: >
+
+   description: | # this will include new lines to allow paragraphs
