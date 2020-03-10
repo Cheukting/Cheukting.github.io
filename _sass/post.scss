@@ -186,11 +186,11 @@
       margin-top: 1rem;
     }
   }
-  li {
+  li, pre {
       font-size: 1.5em;
-  }
-  pre {
-      font-size: 1.5em;
+      @media (min-width: $mq-small) {
+        font-size: 1.75em;
+      }
   }
   p {
     margin-bottom: 1.5rem;
