@@ -1,12 +1,13 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>building the open-source community</title>
-    <description></description>
-    <link></link>
-    <atom:link href="/feed.xml" rel="self" type="application/rss+xml"/>
-    <pubDate>Tue, 10 Mar 2020 22:25:32 +0000</pubDate>
-    <lastBuildDate>Tue, 10 Mar 2020 22:25:32 +0000</lastBuildDate>
+    <title>Building the Open-source Community</title>
+    <description>Cheuk constantly contributes to the open-source community by giving AI and deep learning workshops and organize sprints to encourage diversity contributions.
+</description>
+    <link>https://cheuk.dev</link>
+    <atom:link href="https://cheuk.dev/feed.xml" rel="self" type="application/rss+xml"/>
+    <pubDate>Tue, 10 Mar 2020 23:49:18 +0000</pubDate>
+    <lastBuildDate>Tue, 10 Mar 2020 23:49:18 +0000</lastBuildDate>
     <generator>Jekyll v3.8.6</generator>
     
       <item>
@@ -46,8 +47,8 @@
 &lt;p&gt;If you are interested in Opt Out Tools and want to volunteer or sponsor us, we would love to hear from you. Also, show us some love on &lt;a href=&quot;https://github.com/opt-out-tools/&quot;&gt;GitHub&lt;/a&gt; and &lt;a href=&quot;https://twitter.com/optoutools&quot;&gt;Twitter&lt;/a&gt;.&lt;/p&gt;
 </description>
         <pubDate>Fri, 31 Jan 2020 00:00:00 +0000</pubDate>
-        <link>/2020/01/31/first-oot-meetup.html</link>
-        <guid isPermaLink="true">/2020/01/31/first-oot-meetup.html</guid>
+        <link>https://cheuk.dev/2020/01/31/first-oot-meetup/</link>
+        <guid isPermaLink="true">https://cheuk.dev/2020/01/31/first-oot-meetup/</guid>
         
         <category>AI</category>
         
@@ -106,8 +107,8 @@ but you have brought a cool domain like I am. GitHub will let you use your own, 
 &lt;p&gt;So here you go, 5 advantage of using GitHub Pages for a starter website. If you are still not convinced to start your first website, I hope to see you at one of the &lt;a href=&quot;https://indieweb.org/IndieWebCamp&quot;&gt;IndieWebCamps&lt;/a&gt; and I am happy to help you out.&lt;/p&gt;
 </description>
         <pubDate>Fri, 13 Dec 2019 00:00:00 +0000</pubDate>
-        <link>/2019/12/13/gh-page-hosting.html</link>
-        <guid isPermaLink="true">/2019/12/13/gh-page-hosting.html</guid>
+        <link>https://cheuk.dev/2019/12/13/gh-page-hosting/</link>
+        <guid isPermaLink="true">https://cheuk.dev/2019/12/13/gh-page-hosting/</guid>
         
         <category>github</category>
         
@@ -181,8 +182,8 @@ https://git-scm.com/book/en/v2/Git-Internals-Git-Objects&lt;/p&gt;
 &lt;/ul&gt;
 </description>
         <pubDate>Tue, 05 Nov 2019 00:00:00 +0000</pubDate>
-        <link>/2019/11/05/git-terminusdb.html</link>
-        <guid isPermaLink="true">/2019/11/05/git-terminusdb.html</guid>
+        <link>https://cheuk.dev/2019/11/05/git-terminusdb/</link>
+        <guid isPermaLink="true">https://cheuk.dev/2019/11/05/git-terminusdb/</guid>
         
         <category>database</category>
         
@@ -341,8 +342,8 @@ I would also like to point out that, using an API key like what we did is not a 
 &lt;p&gt;I hope you had fun! To see the finished html file as a whole, please refer to &lt;a href=&quot;https://github.com/Cheukting/ably-tensorflow-demo/blob/master/ably%2Btensorflow_example.html&quot;&gt;the file&lt;/a&gt; on GitHub&lt;/p&gt;
 </description>
         <pubDate>Tue, 15 Oct 2019 00:00:00 +0000</pubDate>
-        <link>/2019/10/15/ably-tf.html</link>
-        <guid isPermaLink="true">/2019/10/15/ably-tf.html</guid>
+        <link>https://cheuk.dev/2019/10/15/ably-tf/</link>
+        <guid isPermaLink="true">https://cheuk.dev/2019/10/15/ably-tf/</guid>
         
         <category>javascript</category>
         
