@@ -4,10 +4,15 @@ repository: Cheukting/Cheukting.github.io
 
 # Personal info
 name: Cheuk Ting Ho
-title: building the open-source community
+title: Building the Open-source Community
 email:
 phone:
 website:
+description: >
+  Cheuk constantly contributes to the open-source community by giving AI and deep learning workshops and organize sprints to encourage diversity contributions.
+url: https://cheuk.dev
+baseurl: ""
+permalink: /:year/:month/:day/:title/
 
 # Social links
 twitter_username: cheukting_ho
