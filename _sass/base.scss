@@ -155,6 +155,7 @@ body {
   text-align: center; }
 
 .container {
+  font-size: 1.2em;
   margin-top:30px;
 
   @media print {
@@ -162,8 +163,18 @@ body {
   }
 }
 
+.banner-logo {
+    //min-width: 400px;
+}
+
 .header-contianer {
-  margin-top:50px;
+  margin-top: 0px;
+  .row{
+    margin-top: 50px;
+    display: flex;
+    align-items: flex-end;
+    flex-wrap: wrap;
+  }
 }
 
 .header-right {
