@@ -146,7 +146,8 @@
   h4,
   h5,
   h6 {
-    margin-bottom: 0.5rem;
+    margin-top: 2rem;
+    margin-bottom: 1rem;
 
     font-family: $font;
   }
@@ -191,7 +192,8 @@
       font-size: 1.5em;
   }
   p {
-    margin-bottom: 1.5rem;
+    text-align: left;
+    margin-bottom: 2rem;
 
     font-size: 1.5em;
 
@@ -207,6 +209,7 @@
   blockquote {
     p {
       margin-bottom: 0;
+      font-size: 1.2em;
     }
   }
 
@@ -221,7 +224,7 @@
     width: 100%;
     margin: {
       top: 0;
-      bottom: 1.5rem;
+      bottom: 2rem;
     }
 
     border: 0;
