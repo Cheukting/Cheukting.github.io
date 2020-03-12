@@ -264,7 +264,11 @@ ul.icons a {
 }
 
 .page-content {
-  padding: 0;
+    padding: {
+      right: 2em;
+      left: 2em;
+    }
+  font-size: 1em;
 
   a {
     color: inherit;
