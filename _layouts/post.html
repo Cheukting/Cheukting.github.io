@@ -64,13 +64,15 @@ layout: default
 </div>
 
 <!-- Links to Previous/Next posts -->
-{% assign relatedTag = page.tags | first %}
-{% if relatedTag %}
+{% assign relatedCount = 0 %}
+{% if page.tags.size > 0 %}
   <section class="related section-padding">
     <div class="grid-xlarge">
       <h2 class="related__title">Related</h2>
       <div class="related__container">
-        {% for post in site.tags[relatedTag] limit: 3 %}
+      {% for relatedTag in page.tags %}
+        {% for post in site.tags[relatedTag] %}
+        {% if post.title !=  page.title%}
           <article class="related__post">
             <a class="related__link" href="{{ post.url | absolute_url }}">
               {% if post.image %}
@@ -83,7 +85,19 @@ layout: default
               </div>
             </a>
           </article>
+        {% assign relatedCount = relatedCount | plus: 1 %}
+        {% endif %}
+        {% if relatedCount == 3 %}
+          {% break %}
+        {% endif %}
         {% endfor %}
+      {% if relatedCount == 3 %}
+        {% break %}
+      {% endif %}
+      {% endfor %}
+      {% if relatedCount == 0 %}
+      <div class="related__text">There are no related posts.</div>
+      {% endif %}
       </div>
     </div>
   </section>
