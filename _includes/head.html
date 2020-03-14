@@ -1,30 +1,30 @@
 <head>
-  <meta charset="utf-8">
-  <meta http-equiv="X-UA-Compatible" content="IE=edge">
-  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta charset="utf-8" />
+  <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
 
   <title>{{ site.name }} | {{ site.title }}</title>
   {%- seo title=false -%}
 
-  <link rel="stylesheet" href="{{ '/assets/main.css' | relative_url }}">
+  <link rel="stylesheet" href="{{ '/assets/main.css' | relative_url }}" />
 
   <!--
   <link rel="shortcut icon" type="image/x-icon" href="{{ site.favicon | relative_url }}">
   -->
 
 <!-- favicon -->
-  <link rel="apple-touch-icon" sizes="180x180" href="/favicon/apple-touch-icon.png">
-  <link rel="icon" type="image/png" sizes="32x32" href="/favicon/favicon-32x32.png">
-  <link rel="icon" type="image/png" sizes="16x16" href="/favicon/favicon-16x16.png">
-  <link rel="manifest" href="/favicon/site.webmanifest">
+  <link rel="apple-touch-icon" sizes="180x180" href="/favicon/apple-touch-icon.png" />
+  <link rel="icon" type="image/png" sizes="32x32" href="/favicon/favicon-32x32.png" />
+  <link rel="icon" type="image/png" sizes="16x16" href="/favicon/favicon-16x16.png" />
+  <link rel="manifest" href="/favicon/site.webmanifest" />
 <!-- favicon -->
 
 <!-- indieweb links -->
-  <link rel="authorization_endpoint" href="https://indieauth.com/auth">
-  <link rel="token_endpoint" href="https://tokens.indieauth.com/token">
-  <link href="https://twitter.com/{{ site.twitter_username }}" rel="me">
-  <link href="https://github.com/{{ site.github_username }}" rel="me">
-  <link href="https://dev.to/{{ site.twitter_username }}" rel="me">
+  <link rel="authorization_endpoint" href="https://indieauth.com/auth" />
+  <link rel="token_endpoint" href="https://tokens.indieauth.com/token" />
+  <link href="https://twitter.com/{{ site.twitter_username }}" rel="me" />
+  <link href="https://github.com/{{ site.github_username }}" rel="me" />
+  <link href="https://dev.to/{{ site.twitter_username }}" rel="me" />
 <!-- indieweb links -->
 
   {%- if jekyll.environment == 'production' and site.google_analytics -%}
