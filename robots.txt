@@ -1,1 +1,1 @@
-Sitemap: https://terminusdb.github.io/terminusdb-blog//sitemap.xml
+Sitemap: https://cheuk.dev/sitemap.xml
