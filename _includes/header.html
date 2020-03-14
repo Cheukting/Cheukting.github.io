@@ -100,6 +100,13 @@
           </a>
         </li>
         {%- endif -%}
+        {%- if site.twitch_username -%}
+        <li>
+          <a target="_blank" href="https://www.twitch.tv/{{ site.twitch_username}}" class="button button--sacnite button--round-l">
+            <i class="fab fa-twitch" title="Twitch Channel"></i>
+          </a>
+        </li>
+        {%- endif -%}
       </ul>
 
       {%- if site.email -%}
