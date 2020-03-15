@@ -6,9 +6,42 @@
 </description>
     <link>https://cheuk.dev</link>
     <atom:link href="https://cheuk.dev/feed.xml" rel="self" type="application/rss+xml"/>
-    <pubDate>Sun, 15 Mar 2020 13:14:59 +0000</pubDate>
-    <lastBuildDate>Sun, 15 Mar 2020 13:14:59 +0000</lastBuildDate>
+    <pubDate>Sun, 15 Mar 2020 13:37:37 +0000</pubDate>
+    <lastBuildDate>Sun, 15 Mar 2020 13:37:37 +0000</lastBuildDate>
     <generator>Jekyll v3.8.6</generator>
+    
+      <item>
+        <title>IndieWebCamp London - Indie Webmention!</title>
+        <description>&lt;p&gt;I would like to add webmention to my blog. And I am testing it out now!&lt;/p&gt;
+
+&lt;h2 id=&quot;why-you-should-own-your-content&quot;&gt;Why you should own your content?&lt;/h2&gt;
+
+&lt;p&gt;Because we have full control of our appearance and interaction with people on the internet:&lt;/p&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;No more losing content due to closing of websites&lt;/li&gt;
+  &lt;li&gt;No more privacy issues, no more hidden tracking&lt;/li&gt;
+  &lt;li&gt;Cause I am cool&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h2 id=&quot;join-the-indie-web-community&quot;&gt;Join the Indie Web community&lt;/h2&gt;
+
+&lt;p&gt;Visit &lt;a href=&quot;http://indieweb.org/&quot;&gt;http://indieweb.org/&lt;/a&gt; to get started.&lt;/p&gt;
+</description>
+        <pubDate>Sun, 15 Mar 2020 00:00:00 +0000</pubDate>
+        <link>https://cheuk.dev/2020/03/15/indie-webmention/</link>
+        <guid isPermaLink="true">https://cheuk.dev/2020/03/15/indie-webmention/</guid>
+        
+        <category>Indie Web</category>
+        
+        <category>Webmention</category>
+        
+        <category>Indie Web Camp</category>
+        
+        <category>Trial</category>
+        
+        
+      </item>
     
       <item>
         <title>Celebrate our first Opt Out Tools meetup!</title>

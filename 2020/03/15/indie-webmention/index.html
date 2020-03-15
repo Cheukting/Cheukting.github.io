@@ -1,0 +1,295 @@
+<!DOCTYPE html>
+<html lang=" en "><head>
+  <meta charset="utf-8" />
+  <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+
+  <title>Cheuk Ting Ho | Building the Open-source Community</title><!-- Begin Jekyll SEO tag v2.4.0 -->
+<meta name="generator" content="Jekyll v3.8.6" />
+<meta property="og:title" content="IndieWebCamp London - Indie Webmention!" />
+<meta name="author" content="Cheuk Ting Ho" />
+<meta property="og:locale" content="en_US" />
+<meta name="description" content="I would like to add webmention to my blog. And I am testing it out now!" />
+<meta property="og:description" content="I would like to add webmention to my blog. And I am testing it out now!" />
+<link rel="canonical" href="https://cheuk.dev/2020/03/15/indie-webmention/" />
+<meta property="og:url" content="https://cheuk.dev/2020/03/15/indie-webmention/" />
+<meta property="og:site_name" content="Building the Open-source Community" />
+<meta property="og:image" content="https://cheuk.dev/assets/images/indiewebcamp-london-20200314.png" />
+<meta property="og:type" content="article" />
+<meta property="article:published_time" content="2020-03-15T00:00:00+00:00" />
+<script type="application/ld+json">
+{"description":"I would like to add webmention to my blog. And I am testing it out now!","url":"https://cheuk.dev/2020/03/15/indie-webmention/","headline":"IndieWebCamp London - Indie Webmention!","dateModified":"2020-03-15T00:00:00+00:00","datePublished":"2020-03-15T00:00:00+00:00","@type":"BlogPosting","author":{"@type":"Person","name":"Cheuk Ting Ho"},"image":"https://cheuk.dev/assets/images/indiewebcamp-london-20200314.png","mainEntityOfPage":{"@type":"WebPage","@id":"https://cheuk.dev/2020/03/15/indie-webmention/"},"@context":"http://schema.org"}</script>
+<!-- End Jekyll SEO tag -->
+<link rel="stylesheet" href="/assets/main.css" />
+
+  <!--
+  <link rel="shortcut icon" type="image/x-icon" href="">
+  -->
+
+<!-- favicon -->
+  <link rel="apple-touch-icon" sizes="180x180" href="/favicon/apple-touch-icon.png" />
+  <link rel="icon" type="image/png" sizes="32x32" href="/favicon/favicon-32x32.png" />
+  <link rel="icon" type="image/png" sizes="16x16" href="/favicon/favicon-16x16.png" />
+  <link rel="manifest" href="/favicon/site.webmanifest" />
+<!-- favicon -->
+
+<!-- indieweb links -->
+  <link rel="authorization_endpoint" href="https://indieauth.com/auth" />
+  <link rel="token_endpoint" href="https://tokens.indieauth.com/token" />
+  <link rel="webmention" href="https://webmention.io/cheuk.dev/webmention" />
+  <link rel="pingback" href="https://webmention.io/cheuk.dev/xmlrpc" />
+<!-- indieweb links --></head>
+<body id="page-top"><nav id="mainNav" class="navbar navbar-default navbar-fixed-top">
+    <div class="container-fluid">
+        <!-- Brand and toggle get grouped for better mobile display -->
+        <div class="navbar-header">
+            <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1">
+                <span class="sr-only">Toggle navigation</span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+            </button>
+            <a class="navbar-brand" href="/"><img src="/favicon/favicon-32x32.png" alt="back to top"></a>
+        </div>
+
+        <!-- Collect the nav links, forms, and other content for toggling -->
+        <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+            <ul class="nav navbar-nav navbar-right">
+                <li>
+                    <a href="/#projects">Projects</a>
+                </li>
+                <li>
+                    <a href="/#articles">Articles</a>
+                </li>
+                <li>
+                    <a href="/#meetups">Meetups</a>
+                </li>
+                <li>
+                    <a href="/#talks">Talks</a>
+                </li>
+                <li>
+                    <a href="/#workshops">Workshops</a>
+                </li>
+            </ul>
+        </div>
+        <!-- /.navbar-collapse -->
+    </div>
+    <!-- /.container-fluid -->
+</nav>
+<div class="container header-contianer h-card">
+  <div class="row">
+    <div class="col-xs-12 col-sm-6 col-md-6 col-lg-8 header-left">
+      <img class="banner-logo u-photo" src="/images/logo.png" alt="website banner">
+        <!----
+      <h1>Cheuk Ting Ho</h1>
+      <h2>Building the Open-source Community</h2>
+      --->
+    </div>
+    <div class="col-xs-12 col-sm-6 col-md-6 col-lg-4 header-right">
+      <ul class="icons no-print"><li>
+            <a target="_blank" href="https://github.com/Cheukting" class="button button--sacnite button--round-l u-url" rel="me">
+              <i class="fab fa-github" title="Github link"></i>
+            </a>
+          </li><li>
+            <a target="_blank" href="https://www.linkedin.com/in/cheukting-ho" class="button button--sacnite button--round-l u-url">
+              <i class="fab fa-linkedin" title="Linkedin link"></i>
+            </a>
+          </li><li>
+            <a target="_blank" href="https://twitter.com/cheukting_ho" class="button button--sacnite button--round-l u-url" rel="me">
+              <i class="fab fa-twitter" title="Twitter link"></i>
+            </a>
+          </li><li>
+          <a target="_blank" href="https://dev.to/cheukting_ho" class="button button--sacnite button--round-l u-url" rel="me">
+            <i class="fab fa-dev" title="DEV Profile"></i>
+          </a>
+        </li><li>
+          <a target="_blank" href="https://www.twitch.tv/cheukting_ho" class="button button--sacnite button--round-l u-url">
+            <i class="fab fa-twitch" title="Twitch Channel"></i>
+          </a>
+        </li></ul></div>
+  </div>
+</div>
+<main class="page-content" aria-label="Content">
+<div class="post container intro-container">
+  <article itemprop="blogPost" itemscope itemtype="http://schema.org/BlogPosting" class="h-entry">
+    <div class="post__header section-padding">
+      <div class="grid-large">
+        <h2 itemprop="name headline" class="p-name">IndieWebCamp London - Indie Webmention!</h2>
+
+        <time class="post__date dt-published" datetime="2020-03-15T00:00:00+00:00" itemprop="datePublished">15 Mar 2020</time>
+      </div>
+    </div>
+
+    
+      <div class="post__img u-photo">
+        <div>
+          <figure class="absolute-bg" style="background-image: url('/assets/images/indiewebcamp-london-20200314.png');"></figure>
+        </div>
+      </div>
+    
+
+    <div class="post__content section-padding">
+      <div class="grid-large">
+        <div id="markdown" itemprop="articleBody" class="e-content">
+          <p>I would like to add webmention to my blog. And I am testing it out now!</p>
+
+<h2 id="why-you-should-own-your-content">Why you should own your content?</h2>
+
+<p>Because we have full control of our appearance and interaction with people on the internet:</p>
+
+<ul>
+  <li>No more losing content due to closing of websites</li>
+  <li>No more privacy issues, no more hidden tracking</li>
+  <li>Cause I am cool</li>
+</ul>
+
+<h2 id="join-the-indie-web-community">Join the Indie Web community</h2>
+
+<p>Visit <a href="http://indieweb.org/">http://indieweb.org/</a> to get started.</p>
+
+        </div>
+
+        <br /><br />
+<h2 class="post__social">Share this article</h2>
+<ul class="post__social">
+  <li><a href="https://www.facebook.com/sharer/sharer.php?u=https://cheuk.dev/2020/03/15/indie-webmention/" target="_blank"><i class="fa fa-facebook"></i></a></li>
+  <li><a href="https://twitter.com/intent/tweet?&text=IndieWebCamp London - Indie Webmention!+https://cheuk.dev/2020/03/15/indie-webmention/+by+Cheuk Ting Ho" target="_blank"><i class="fa fa-twitter"></i></a></li>
+  <!------
+  <li><a href="https://plus.google.com/share?url=https://cheuk.dev/2020/03/15/indie-webmention/" target="_blank"><i class="fa fa-google-plus"></i></a></li>
+  ------->
+  <li><a href="https://www.linkedin.com/shareArticle?mini=true&source=IndieWebCamp London - Indie Webmention!&summary=I would like to add webmention to my blog. And I am testing it out now!&url=https://cheuk.dev/2020/03/15/indie-webmention/" target="_blank"><i class="fa fa-linkedin"></i></a></li>
+  <!------
+  <li><a href="https://www.stumbleupon.com/badge/?url=https://cheuk.dev/2020/03/15/indie-webmention/" target="_blank"><i class="fa fa-stumbleupon"></i></a></li>
+  ------->
+  <li><a href="https://www.reddit.com/submit?url=https://cheuk.dev/2020/03/15/indie-webmention/" target="_blank"><i class="fa fa-reddit-alien"></i></a></li>
+  <li><a href="https://www.tumblr.com/share/link?url=https://cheuk.dev/2020/03/15/indie-webmention/" target="_blank"><i class="fa fa-tumblr"></i></a></li>
+  <li><a href="https://www.pinterest.com/pin/create/link/?description=I would like to add webmention to my blog. And I am testing it out now!&media=https://cheuk.dev/assets/images/indiewebcamp-london-20200314.png&url=https://cheuk.dev/2020/03/15/indie-webmention/" target="_blank"><i class="fa fa-pinterest"></i></a></li>
+</ul>
+<a href="https://cheuk.dev/2020/03/15/indie-webmention/" class="post__social u-url">https://cheuk.dev/2020/03/15/indie-webmention/</a>
+
+      </div>
+    </div>
+
+    <!-- Everything inside the #author tags pulls data from the author -->
+    
+      <div class="section-padding--none">
+        <div class="grid">
+          <hr class="sep"/>
+        </div>
+      </div>
+
+      <div class="section-padding">
+        <div class="grid p-author h-card">
+          
+            
+            
+              <span class="post__author">About
+            
+            <a href="https://cheuk.dev" title="More By Cheuk Ting Ho" class="p-name u-url">Cheuk Ting Ho</a></span>
+            <p class="post__bio p-note">After having a career in data science, Cheuk now brings her knowledge in data and passion for the tech community into TerminusDB as the developer relations lead. Cheuk constantly contributes to the open-source community by giving AI and deep learning workshops and organize sprints to encourage diversity contributions.</p>
+          
+        </div>
+      </div>
+    
+
+    <!--
+
+If you use Disqus comments, just uncomment this block.
+The only thing you need to change is "test-apkdzgmqhj" - which
+should be replaced with your own Disqus site-id.
+
+<div class="post__comments section-padding">
+  <div class="grid-small">
+    <div id="disqus_thread"></div>
+    <script>
+      var disqus_config = function () {
+        this.page.url = 'https://cheuk.dev/2020/03/15/indie-webmention/';
+        this.page.identifier = 'https://cheuk.dev/2020/03/15/indie-webmention/';
+      };
+      (function() {
+        var d = document, s = d.createElement('script');
+        s.src = 'https://.disqus.com/embed.js';
+        s.setAttribute('data-timestamp', + new Date());
+        (d.head || d.body).appendChild(s);
+      })();
+    </script>
+  </div>
+</div>
+-->
+
+<div id="webmention-display"></div>
+
+
+  </article>
+</div>
+
+<!-- Links to Previous/Next posts -->
+
+
+  <section class="related section-padding">
+    <div class="grid-xlarge">
+      <h2 class="related__title">Related</h2>
+      <div class="related__container">
+      
+        
+        
+        
+        
+      
+      
+        
+        
+        
+        
+      
+      
+        
+        
+        
+        
+      
+      
+        
+        
+        
+        
+      
+      
+      
+      <div class="related__text">There are no related posts.</div>
+      
+      </div>
+    </div>
+  </section>
+
+</main><div class="container footer-container">
+  <p>
+    Cheuk Ting Ho -
+    <a href="mailto:" target="_blank"></a>&nbsp;- building the open-source community</p>
+</div>
+<!-- jQuery -->
+<script src="/js/jquery.js"></script>
+
+<!-- Bootstrap Core JavaScript -->
+<script src="/js/bootstrap.min.js"></script>
+
+<!-- Plugin JavaScript -->
+<script src="/js/jquery.easing.min.js"></script>
+<script src="/js/jquery.fittext.js"></script>
+<script src="/js/wow.min.js"></script>
+
+<!-- Custom Theme JavaScript -->
+<script src="/js/creative.js"></script>
+
+<!-- Posts -->
+
+
+<script src="/assets/js/app.min.js"></script>
+
+<script src="/js/webmention.js"></script>
+
+</body>
+
+
+
+</html>
