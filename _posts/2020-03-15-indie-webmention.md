@@ -3,7 +3,7 @@ layout: post
 title: "IndieWebCamp London - Indie Webmention!"
 date: 2020-03-15
 description: "I would like to add webmention to my blog. And I am testing it out now!"
-image: /assets/images/indiewebcamp-london-20200314.png
+image: /assets/images/indiewebcamp-london-20200315.png
 author: Cheuk Ting Ho
 tags:
   - Indie Web
