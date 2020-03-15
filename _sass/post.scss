@@ -86,6 +86,58 @@
     }
   }
 
+  #webmentions{
+      h2{
+        font-size: 1.5em;
+        font-weight: 500;
+        margin: 0.8em 0 0 0;
+      }
+
+      a {
+        color: $color-black;
+        transition: color 200ms ease-in-out;
+        text-decoration: none;
+
+        &:hover,
+        &:active,
+        &:focus {
+          color: darken($color-black, 5);
+        }
+      }
+
+      ul {
+        list-style-type: none;
+        margin: 0;
+        padding: 0;
+      }
+
+      .text{
+          font-size: 1.4em;
+          line-height: 2em;
+      }
+
+      .reaction {
+        font-size: 1.4em;
+
+        a {
+          color: $color-black;
+          transition: color 200ms ease-in-out;
+          text-decoration: none;
+          
+          &:hover,
+          &:active,
+          &:focus {
+            color: darken($color-black, 5);
+          }
+        }
+        img{
+            border-radius: 50%;
+            height: 1.4em;
+        }
+
+    }
+}
+
   &__author {
     @extend %font-header;
     @extend %font-size;
