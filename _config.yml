@@ -78,6 +78,15 @@ pagination:
 # theme: modern-resume-theme (Use this is you are hosting your resume yourself)
 # remote_theme: sproogen/modern-resume-theme (Use this if you are hosting your resume on GitHub)
 
+markdown: kramdown
+highlighter: rouge
+
+# Markdown Processors
+kramdown:
+  input: GFM
+  auto_ids: true
+  syntax_highlighter: rouge
+
 sass:
   sass_dir: _sass
   style: compressed
