@@ -1,0 +1,28 @@
+---
+layout: default
+title: Page Not Found
+permalink: /404
+---
+<!--
+This error template is used for all 404 errors, which might occur on your site.
+It's a good idea to keep this template as minimal as possible in terms of both file size and complexity.
+-->
+<body id="page-top">
+  {%- include post-nav.html -%}
+  {%- include header.html -%}
+
+  <main class="page-content" aria-label="Content">
+    <div class="wrapper">
+    <section class="container mast section-padding--double">
+      <div class="grid-small">
+        <h2>Oops!</h2>
+        <p class="mast__text">We can't find it... Seems this page does not exist. Instead, here is a dancing bear for you.</p>
+        <p style="text-align: center;"><img alt="dancing bear" src="/images/dancing_bear.gif" /></p>
+      </div>
+    </section>
+    </div>
+  </main>
+
+{%- include footer.html -%}
+{% include post-scripts.html %}
+</body>
