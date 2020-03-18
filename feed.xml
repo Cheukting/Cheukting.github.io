@@ -6,13 +6,13 @@
 </description>
     <link>https://cheuk.dev</link>
     <atom:link href="https://cheuk.dev/feed.xml" rel="self" type="application/rss+xml"/>
-    <pubDate>Wed, 18 Mar 2020 22:39:24 +0000</pubDate>
-    <lastBuildDate>Wed, 18 Mar 2020 22:39:24 +0000</lastBuildDate>
+    <pubDate>Wed, 18 Mar 2020 23:16:02 +0000</pubDate>
+    <lastBuildDate>Wed, 18 Mar 2020 23:16:02 +0000</lastBuildDate>
     <generator>Jekyll v3.8.6</generator>
     
       <item>
         <title>Remote Working club - Tools to facilitate meetings</title>
-        <description>&lt;p&gt;So, we have regular meetings to talk about the tools and strategies regarding remote meetings. I feel that it will be good to summaries the discussion and share the knowledge to people who are interested.&lt;/p&gt;
+        <description>&lt;p&gt;So, we have regular meetings to talk about the tools and strategies regarding remote meetings. I feel that it will be good to summaries the discussion and share the knowledge with people who are interested.&lt;/p&gt;
 
 &lt;h2 id=&quot;how-many-tools&quot;&gt;How many tools?&lt;/h2&gt;
 
@@ -24,7 +24,7 @@
   &lt;p&gt;Even for tech savvy people, many new tools can be overwhelming, there’s a learning curve. less tech-aware people it may be even harder - one or two at a time should be enough.&lt;/p&gt;
 &lt;/blockquote&gt;
 
-&lt;p&gt;But on the other hands, there are people thinks that there are advantage to use the best tool for the job.&lt;/p&gt;
+&lt;p&gt;But on the other hands, there are people thinks that there is advantage to use the best tool for the job.&lt;/p&gt;
 
 &lt;p&gt;So what is the minimal set is?&lt;/p&gt;
 
@@ -40,15 +40,15 @@
 
 &lt;h2 id=&quot;audio-vs-video&quot;&gt;Audio VS Video?&lt;/h2&gt;
 
-&lt;p&gt;There are also discussion about is using video essential for a call? Or Audio is enough so people can focus on the task at hands? (e.g. note taking, pair programming)&lt;/p&gt;
+&lt;p&gt;There is also discussion about is using video essential for a call? Or Audio is enough so people can focus on the task at hands? (e.g. note-taking, pair programming)&lt;/p&gt;
 
-&lt;p&gt;People who praise using video call do have a solid reason:&lt;/p&gt;
+&lt;p&gt;People who praise using video calls do have a solid reason:&lt;/p&gt;
 
 &lt;blockquote&gt;
   &lt;p&gt;(Using only audio) missing the video connection, especially in sales its better for the personal connection.&lt;/p&gt;
 &lt;/blockquote&gt;
 
-&lt;p&gt;However, the people who prefer audio also get a good point:&lt;/p&gt;
+&lt;p&gt;However, people who prefer audio also get a good point:&lt;/p&gt;
 
 &lt;blockquote&gt;
   &lt;p&gt;Reliability is one of the reasons to go primarily audio, also it frees the screen to use the tools like stickynote board.&lt;/p&gt;
