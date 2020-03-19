@@ -42,3 +42,14 @@
   quote: >
 
   description: | # this will include new lines to allow paragraphs
+
+- layout: inline-logo
+  name: Pyjamas 2020
+  link: https://pyjamas.live/
+  github:
+  twitter: PyjamasConf
+  telegram:
+  logo: /images/pyjamas.png
+  quote: >
+
+  description: | # this will include new lines to allow paragraphs
