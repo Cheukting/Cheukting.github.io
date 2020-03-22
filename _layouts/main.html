@@ -22,6 +22,10 @@ layout: default
         {%- include meetups.html -%}
       {%- endif -%}
 
+      {%- if site.data.videos.size > 0 -%}
+        {%- include videos.html -%}
+      {%- endif -%}
+
       {%- if site.data.talks.size > 0 -%}
         {%- include talks.html -%}
       {%- endif -%}

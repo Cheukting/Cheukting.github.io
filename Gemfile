@@ -9,4 +9,5 @@ group :jekyll_plugins do
   gem "jekyll-paginate-v2"
   gem "jekyll-sitemap"
   gem "jekyll-seo-tag"
+  gem 'jekyll-linkpreview', '~> 0.3.0'
 end
