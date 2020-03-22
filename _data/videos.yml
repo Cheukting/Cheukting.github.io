@@ -1,3 +1,10 @@
+- title: Test tutorial - sydicating blog post to dev.to and Medium
+  vid: UFay8F0ykfQ
+  description: |
+    In this tutorial, I am showing you how to syndicate your blog post to dev.to and Medium (sorry about the sound quality at the end, and my background, I am still learning how to do it properly)
+  date: 2020-03-17
+  author: Cheuk Ting Ho
+
 - title: Running An Open Source Project Like A Start Up
   vid: ZhE-xdJ6V34
   description: |
@@ -31,11 +38,4 @@
   description: |
     Some think neural networks are magic boxes, let the computers to have a mind of its own. Beside making classifications and predictions, neural networks have also been used to creating pictures, music, jokes and plays. Can creativity, what seems to make us special, be achieved by these magic boxes?
   date: 2019-05-03
-  author: Cheuk Ting Ho
-
-- title: Test tutorial - sydicating blog post to dev.to and Medium
-  vid: UFay8F0ykfQ
-  description: |
-    In this tutorial, I am showing you how to syndicate your blog post to dev.to and Medium (sorry about the sound quality at the end, and my background, I am still learning how to do it properly)
-  date: 2020-03-17
   author: Cheuk Ting Ho
