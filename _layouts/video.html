@@ -18,7 +18,9 @@ layout: default
 
     {% if page.vid %}
     <div class="post__header" style="text-align: center; background-color: #000;">
-      <iframe width="560" height="315" src="https://www.youtube.com/embed/{{ page.vid }}" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+      <div class="ytcontainer">
+        <iframe class="yt" src="https://www.youtube.com/embed/{{ page.vid }}" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+      </div>
     </div>
     {% endif %}
 
