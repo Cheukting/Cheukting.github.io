@@ -1,6 +1,10 @@
 <article class="posts__post" itemprop="blogPost" itemscope itemtype="http://schema.org/BlogPosting">
-  {% capture yt_link %}https://www.youtube.com/watch?v={{ video.vid }}{% endcapture %}
   <a class="posts__link h-entry" href="/videos/{{ video.vid | downcase }}" itemprop="url">
-    {% linkpreview yt_link %}
+      <figure class="posts__img u-photo">
+        <img src="http://img.youtube.com/vi/{{ video.vid }}/0.jpg" alt="{{ video.title }}" data-aos="fade-in" itemprop="image"/>
+      </figure>
+    <div>
+      <h2 class="posts__text e-content"><strong itemprop="name">{{ video.title }}</strong> — <span itemprop="description">{{ video.description | strip_html | truncatewords: 30 }}</span></h2>
+    </div>
   </a>
 </article>
