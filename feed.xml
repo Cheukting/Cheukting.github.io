@@ -6,9 +6,56 @@
 </description>
     <link>https://cheuk.dev</link>
     <atom:link href="https://cheuk.dev/feed.xml" rel="self" type="application/rss+xml"/>
-    <pubDate>Wed, 25 Mar 2020 00:03:52 +0000</pubDate>
-    <lastBuildDate>Wed, 25 Mar 2020 00:03:52 +0000</lastBuildDate>
+    <pubDate>Wed, 25 Mar 2020 23:54:41 +0000</pubDate>
+    <lastBuildDate>Wed, 25 Mar 2020 23:54:41 +0000</lastBuildDate>
     <generator>Jekyll v3.8.6</generator>
+    
+      <item>
+        <title>How to be Pythonic? Design a Query Language in Python</title>
+        <description>&lt;p&gt;I gave a talk at &lt;a href=&quot;https://py.amsterdam/2020/03/25/virtual-pyamsterdam-from-home-stayathome.html&quot;&gt;PyAmsterdam&lt;/a&gt; today and it was a lovely community. I get the chance to answer some questions that have been puzzling me for a while. I ask people to vote for me on &lt;a href=&quot;https://directpoll.com/&quot;&gt;DirectPoll&lt;/a&gt; (first time trying it) so I know what the community thinks.&lt;/p&gt;
+
+&lt;h2 id=&quot;is-pythonic-a-thing&quot;&gt;Is Pythonic a thing?&lt;/h2&gt;
+
+&lt;p&gt;It is a questions that I have been thinking since I was a naive Python Data Scientist. “Why I can’t just do it in a for loop?” came through my mind all the time. Why we have to follow certain convention in coding? Is Pythonic a thing or just peer pressure.&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&quot;/assets/images/is_pythonic_a_thing.png&quot; alt=&quot;Poll of Is Pythonic a Thing&quot; /&gt;&lt;/p&gt;
+
+&lt;p&gt;Almost 90% of you things that it really is a thing. (35 votes)&lt;/p&gt;
+
+&lt;h2 id=&quot;who-like-sql&quot;&gt;Who like SQL?&lt;/h2&gt;
+
+&lt;p&gt;For me, I am not a fan of SQL. Date back to my first data science job I was furious about writing thousand links of SQL just to get some aggregated results. Joining tables are not fun as mistakes can be made easily. As we are designing a new query language in TerminusDB, I want to know what people things about SQL.&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&quot;/assets/images/who_like_sql.png&quot; alt=&quot;Poll of Who like SQL&quot; /&gt;&lt;/p&gt;
+
+&lt;p&gt;I am surprised that 70% of you like SQL! Hmmmmm… (38 votes)&lt;/p&gt;
+
+&lt;h2 id=&quot;which-one-do-you-prefer&quot;&gt;Which one do you prefer?&lt;/h2&gt;
+
+&lt;p&gt;During the time I was translating WOQLjs to &lt;a href=&quot;http://blog.terminusdb.com/2020/01/20/design-a-query-language-client-for-pythonistas-and-data-scientists/&quot;&gt;WOQLpy&lt;/a&gt; I wonder what how shall I make the query building more “Pythonic”. What would Pythonistas prefer? Chainable calls like &lt;code class=&quot;highlighter-rouge&quot;&gt;WOQLQuery().doctype(&quot;journey&quot;).label(&quot;Journey)&lt;/code&gt; or Pandas DataFrame style, multi-parameters calls like &lt;code class=&quot;highlighter-rouge&quot;&gt;WOQLQuery().doctype(id=&quot;journey, label=&quot;Journey&quot;)&lt;/code&gt;. (I failed to show the result in the talk so here you go!)&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&quot;/assets/images/which_one_do_you_prefer.png&quot; alt=&quot;Poll of Which one do you prefer&quot; /&gt;&lt;/p&gt;
+
+&lt;p&gt;Since Pandas, the most popular data manipulation library in Python uses the multi-parameters calls, I am not surprised that 80% of you would prefer that. (25 votes)&lt;/p&gt;
+
+&lt;hr /&gt;
+
+&lt;p&gt;If you have missed the talk, you can now watch it [here] (/videos/hl7xl7kurkg/). If you want to catch me streaming live, follow me on &lt;a href=&quot;https://www.twitch.tv/cheukting_ho&quot;&gt;Twitch&lt;/a&gt;.&lt;/p&gt;
+</description>
+        <pubDate>Fri, 20 Mar 2020 00:00:00 +0000</pubDate>
+        <link>https://cheuk.dev/2020/03/20/how-to-be-pythonic/</link>
+        <guid isPermaLink="true">https://cheuk.dev/2020/03/20/how-to-be-pythonic/</guid>
+        
+        <category>Talk</category>
+        
+        <category>Python</category>
+        
+        <category>Query Language</category>
+        
+        <category>TerminusDB</category>
+        
+        
+      </item>
     
       <item>
         <title>OOT is recrOOTing!</title>
@@ -315,6 +362,8 @@ https://git-scm.com/book/en/v2/Git-Internals-Git-Objects&lt;/p&gt;
         <guid isPermaLink="true">https://cheuk.dev/2019/11/05/git-terminusdb/</guid>
         
         <category>database</category>
+        
+        <category>TerminusDB</category>
         
         <category>git</category>
         
