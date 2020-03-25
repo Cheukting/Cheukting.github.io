@@ -1,3 +1,10 @@
+- title: How to be Pythonic? Design a Query Language in Python
+  vid: Hl7xL7KUrKg
+  description: |
+    We created Python API calls that let you can make queries and manipulate data in our graph database. We thought about what will be best for Pythonistas? What will be the most Pythonic way to do it? (Is it a thing?) Here’s our journey in making WOQLpy and we want to make it useful to you.
+  date: 2020-03-25
+  author: Cheuk Ting Ho
+
 - title: WIP Pyjamas Conf - a 24hr global online Python conference
   vid: w-RWJqfDiVc
   description: |

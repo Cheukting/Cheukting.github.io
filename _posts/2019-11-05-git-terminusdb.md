@@ -7,6 +7,7 @@ image: /assets/images/curtis-macnewton-vVIwtmqsIuk-unsplash.jpg
 author: Cheuk Ting Ho
 tags:
   - database
+  - TerminusDB
   - git
   - newtech
   - ai
