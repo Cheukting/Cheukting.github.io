@@ -6,8 +6,8 @@
 </description>
     <link>https://cheuk.dev</link>
     <atom:link href="https://cheuk.dev/feed.xml" rel="self" type="application/rss+xml"/>
-    <pubDate>Wed, 25 Mar 2020 23:54:41 +0000</pubDate>
-    <lastBuildDate>Wed, 25 Mar 2020 23:54:41 +0000</lastBuildDate>
+    <pubDate>Thu, 26 Mar 2020 00:01:45 +0000</pubDate>
+    <lastBuildDate>Thu, 26 Mar 2020 00:01:45 +0000</lastBuildDate>
     <generator>Jekyll v3.8.6</generator>
     
       <item>
@@ -40,7 +40,7 @@
 
 &lt;hr /&gt;
 
-&lt;p&gt;If you have missed the talk, you can now watch it [here] (/videos/hl7xl7kurkg/). If you want to catch me streaming live, follow me on &lt;a href=&quot;https://www.twitch.tv/cheukting_ho&quot;&gt;Twitch&lt;/a&gt;.&lt;/p&gt;
+&lt;p&gt;If you have missed the talk, you can now watch it &lt;a href=&quot;/videos/hl7xl7kurkg/&quot;&gt;here&lt;/a&gt;. If you want to catch me streaming live, follow me on &lt;a href=&quot;https://www.twitch.tv/cheukting_ho&quot;&gt;Twitch&lt;/a&gt;.&lt;/p&gt;
 </description>
         <pubDate>Fri, 20 Mar 2020 00:00:00 +0000</pubDate>
         <link>https://cheuk.dev/2020/03/20/how-to-be-pythonic/</link>
