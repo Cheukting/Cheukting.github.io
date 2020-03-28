@@ -1,3 +1,10 @@
+- title: World of WoqlCraft - Ep.1 making type opjects
+  vid: CoETjW3Y2f0
+  description: |
+    First episode of World of WoqlCraft! We try to use the type provided form Schema.org to construct our schema objects in TerminusDB (p.s. sorry my connection got cut off, gonna fix this internet problem soon)
+  date: 2020-03-27
+  author: Cheuk Ting Ho
+
 - title: How to be Pythonic? Design a Query Language in Python
   vid: Hl7xL7KUrKg
   description: |
