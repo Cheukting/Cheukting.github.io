@@ -6,10 +6,11 @@ description: "I am not a web developer, not yet. But you don’t have to be a we
 image: /assets/images/brina-blum-Bb_X4JgSqIM-unsplash.jpg
 author: Cheuk Ting Ho
 tags:
-  - github
+  - GitHub
   - webdev
-  - jekyll
-  - hosting
+  - Jekyll
+  - Hosting
+  - Web
 ---
 I am not a web developer, not yet. But you don’t have to be a web developer to set up a website with GitHub Pages.
 

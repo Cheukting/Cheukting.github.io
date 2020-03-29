@@ -11,6 +11,7 @@ tags:
   - Meetup
   - Technology
   - Internet
+  - Opt Out Tools
 ---
 Last week (23 Jan 2020) we had our first Opt Out Tools meetup at Mozilla Berlin! Attendees compile of a team of international experts from different fields: data scientists, web engineers, project managers, digital marketers etc. It was a fruitful discussion as we have consolidated the goal for Opt Out Tools in 2020 and have formed workgroups to work towards our goals.
 

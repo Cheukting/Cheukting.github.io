@@ -10,6 +10,7 @@ tags:
   - Webmention
   - Indie Web Camp
   - Trial
+  - Web
 ---
 I would like to add webmention to my blog. And I am testing it out now!
 

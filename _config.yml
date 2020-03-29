@@ -67,7 +67,7 @@ author:
 pagination:
   enabled: true
   debug: false
-  per_page: 12
+  per_page: 9
   permalink: '/page/:num/'
   title: ':title'
   limit: 0

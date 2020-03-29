@@ -6,11 +6,11 @@ description: "Last week I have been to a meetup where a team of software develop
 image: /assets/images/curtis-macnewton-vVIwtmqsIuk-unsplash.jpg
 author: Cheuk Ting Ho
 tags:
-  - database
+  - Database
   - TerminusDB
-  - git
-  - newtech
-  - ai
+  - Git
+  - Newtech
+  - AI
 ---
 Last week I have been to a meetup where a team of software developers from Dublin talks about their newest invention - TerminusDB, a graph database that stores data like git. My reaction was like, what? Imagine all the cool things you can do with git: time travel, branching and forking etc, you can do them with your data.
 
