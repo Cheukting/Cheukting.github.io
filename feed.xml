@@ -6,8 +6,8 @@
 </description>
     <link>https://cheuk.dev</link>
     <atom:link href="https://cheuk.dev/feed.xml" rel="self" type="application/rss+xml"/>
-    <pubDate>Sat, 28 Mar 2020 02:33:49 +0000</pubDate>
-    <lastBuildDate>Sat, 28 Mar 2020 02:33:49 +0000</lastBuildDate>
+    <pubDate>Sun, 29 Mar 2020 13:46:03 +0000</pubDate>
+    <lastBuildDate>Sun, 29 Mar 2020 13:46:03 +0000</lastBuildDate>
     <generator>Jekyll v3.8.6</generator>
     
       <item>
@@ -86,6 +86,8 @@
         <category>UX Designer</category>
         
         <category>User Research</category>
+        
+        <category>Opt Out Tools</category>
         
         
       </item>
@@ -183,6 +185,8 @@
         
         <category>Trial</category>
         
+        <category>web</category>
+        
         
       </item>
     
@@ -236,6 +240,8 @@
         
         <category>Internet</category>
         
+        <category>OOT</category>
+        
         
       </item>
     
@@ -286,13 +292,15 @@ but you have brought a cool domain like I am. GitHub will let you use your own, 
         <link>https://cheuk.dev/2019/12/13/gh-page-hosting/</link>
         <guid isPermaLink="true">https://cheuk.dev/2019/12/13/gh-page-hosting/</guid>
         
-        <category>github</category>
+        <category>GitHub</category>
         
         <category>webdev</category>
         
-        <category>jekyll</category>
+        <category>Jekyll</category>
         
-        <category>hosting</category>
+        <category>Hosting</category>
+        
+        <category>Web</category>
         
         
       </item>
@@ -369,7 +377,7 @@ https://git-scm.com/book/en/v2/Git-Internals-Git-Objects&lt;/p&gt;
         
         <category>newtech</category>
         
-        <category>ai</category>
+        <category>AI</category>
         
         
       </item>
@@ -523,13 +531,13 @@ I would also like to point out that, using an API key like what we did is not a 
         <link>https://cheuk.dev/2019/10/15/ably-tf/</link>
         <guid isPermaLink="true">https://cheuk.dev/2019/10/15/ably-tf/</guid>
         
-        <category>javascript</category>
+        <category>JavaScript</category>
         
-        <category>frontend</category>
+        <category>Frontend</category>
         
-        <category>websocket</category>
+        <category>Websocket</category>
         
-        <category>demo</category>
+        <category>Web</category>
         
         
       </item>
