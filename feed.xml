@@ -6,8 +6,8 @@
 </description>
     <link>https://cheuk.dev</link>
     <atom:link href="https://cheuk.dev/feed.xml" rel="self" type="application/rss+xml"/>
-    <pubDate>Sun, 29 Mar 2020 13:46:03 +0000</pubDate>
-    <lastBuildDate>Sun, 29 Mar 2020 13:46:03 +0000</lastBuildDate>
+    <pubDate>Sun, 29 Mar 2020 14:42:30 +0000</pubDate>
+    <lastBuildDate>Sun, 29 Mar 2020 14:42:30 +0000</lastBuildDate>
     <generator>Jekyll v3.8.6</generator>
     
       <item>
@@ -185,7 +185,7 @@
         
         <category>Trial</category>
         
-        <category>web</category>
+        <category>Web</category>
         
         
       </item>
@@ -240,7 +240,7 @@
         
         <category>Internet</category>
         
-        <category>OOT</category>
+        <category>Opt Out Tools</category>
         
         
       </item>
@@ -369,13 +369,13 @@ https://git-scm.com/book/en/v2/Git-Internals-Git-Objects&lt;/p&gt;
         <link>https://cheuk.dev/2019/11/05/git-terminusdb/</link>
         <guid isPermaLink="true">https://cheuk.dev/2019/11/05/git-terminusdb/</guid>
         
-        <category>database</category>
+        <category>Database</category>
         
         <category>TerminusDB</category>
         
-        <category>git</category>
+        <category>Git</category>
         
-        <category>newtech</category>
+        <category>Newtech</category>
         
         <category>AI</category>
         
