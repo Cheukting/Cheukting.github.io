@@ -99,6 +99,8 @@ module Jekyll
           name_expr = data_spec['name_expr']
           dir = data_spec['dir'] || data_spec['data']
           extension = data_spec['extension'] || "html"
+          paginate = data_spec['paginate'] || 0
+          paginate_template = data_spec['paginate_template'] || data_spec['data']
 
           if site.layouts.key? template
             # records is the list of records defined in _data.yml
@@ -126,6 +128,97 @@ module Jekyll
             end
           else
             puts "error (datapage_gen). could not find template #{template}" if not site.layouts.key? template
+          end
+        end
+      end
+    end
+  end
+
+  # this class is used to tell Jekyll to paginate generated
+  class PaginateDataPage < Page
+    include Sanitizer
+
+    # - site and base are copied from other plugins: to be honest, I am not sure what they do
+    # - `dir` is the default output directory
+    # - `data` is the data defined in `_data.yml` of the record for which we are generating a page
+    # - `paginate_template` is the name of the template for pagination
+    # - `page_num` is the page number of this page
+    # - `s`
+    def initialize(site, base, dir, paginate_template, page_num, start_idx, end_idx)
+      @site = site
+      @base = base
+      @dir = dir + "/page/" + page_num.to_s + "/"
+      # @dir is the directory where we want to output the page
+      # @name is the name of the page to generate
+      # @name_expr is an expression for generating the name of the page
+      @name = "index.html"
+
+      self.process(@name)
+      self.read_yaml(File.join(base, '_includes'), paginate_template + ".html")
+      self.data['title'] = "Page " + page_num.to_s
+      self.data['start_idx'] = start_idx
+      self.data['end_idx'] = end_idx
+      # add all the information defined in _data for the current record to the
+      # current page (so that we can access it with liquid tags)
+    end
+  end
+
+  class PaginateDataPagesGenerator < Generator
+    safe true
+
+    # generate loops over _config.yml/page_gen invoking the DataPage
+    # constructor for each record for which we want to generate a page
+
+    def generate(site)
+      # page_gen_dirs determines whether we want to generate index pages
+      # (name/index.html) or standard files (name.html). This information
+      # is passed to the DataPage constructor, which sets the @dir variable
+      # as required by this directive
+      index_files = site.config['page_gen-dirs'] == true
+
+      # data contains the specification of the data for which we want to generate
+      # the pages (look at the README file for its specification)
+      data = site.config['page_gen']
+      if data
+        data.each do |data_spec|
+          index_files_for_this_data = data_spec['index_files'] != nil ? data_spec['index_files'] : index_files
+          template = data_spec['template'] || data_spec['data']
+          name = data_spec['name']
+          name_expr = data_spec['name_expr']
+          dir = data_spec['dir'] || data_spec['data']
+          extension = data_spec['extension'] || "html"
+          paginate = data_spec['paginate'] || 0
+          paginate_template = data_spec['paginate_template'] || data_spec['data']
+
+          # records is the list of records defined in _data.yml
+          # for which we want to generate different pages
+          records = nil
+          data_spec['data'].split('.').each do |level|
+            if records.nil?
+              records = site.data[level]
+            else
+              records = records[level]
+            end
+          end
+          if (records.kind_of?(Hash))
+            records = records.values
+          end
+
+          # apply filtering conditions:
+          # - filter requires the name of a boolean field
+          # - filter_condition evals a ruby expression
+          records = records.select { |r| r[data_spec['filter']] } if data_spec['filter']
+          records = records.select { |record| eval(data_spec['filter_condition']) } if data_spec['filter_condition']
+
+          if paginate > 0
+            total_records = records.length()
+            total_pages = ((total_records * 1.0) / paginate).ceil()
+
+            for page_num in 1..total_pages do
+              start_idx = (page_num-1)*paginate #start with 0
+              end_idx = start_idx + paginate
+              site.pages << PaginateDataPage.new(site, site.source, dir, paginate_template, page_num, start_idx, end_idx)
+            end
           end
         end
       end

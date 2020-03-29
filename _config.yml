@@ -81,6 +81,8 @@ page_gen:
     template: 'video'
     name: 'vid'
     dir: 'videos'
+    paginate: 3
+    paginate_template: 'videos-page'
 
 # Build settings
 # theme: modern-resume-theme (Use this is you are hosting your resume yourself)
@@ -104,7 +106,7 @@ plugins:
  - jekyll-paginate-v2
  - jekyll-sitemap
  - jekyll-linkpreview
- - data_page_generator
+# - data_page_generator
 
 exclude : [
   "Gemfile",
