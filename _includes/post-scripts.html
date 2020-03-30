@@ -4,6 +4,12 @@
 {% if paginator.next_page %}
 <script>
   var maxPages = parseInt('{{ paginator.total_pages }}');
+  {% if site.page_gen[0]['paginate'] > 0 %}
+  var maxVideoPages = parseInt("{{ site.data.videos.size | divided_by: site.page_gen[0]['paginate'] | ceil }}");
+  {% else %}
+  var maxVideoPages = 0;
+  {% endif %}
+  console.log(maxVideoPages)
 </script>
 {% endif %}
 

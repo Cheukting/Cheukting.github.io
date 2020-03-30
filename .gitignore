@@ -3,5 +3,5 @@
 .sass-cache
 _site
 *.code-workspace
-vendor
+node_modules
 Gemfile.lock

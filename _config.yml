@@ -67,7 +67,7 @@ author:
 pagination:
   enabled: true
   debug: false
-  per_page: 9
+  per_page: 3
   permalink: '/page/:num/'
   title: ':title'
   limit: 0
@@ -112,11 +112,7 @@ exclude : [
   "Gemfile",
   "Gemfile.lock",
   "node_modules",
-  "vendor/bundle/",
-  "vendor/cache/",
-  "vendor/gems/",
-  "vendor/ruby/",
-  "lib/",
+  "package.json",
+  "gulpfile.js",
   "scripts/",
-  "docker-compose.yml",
   ]

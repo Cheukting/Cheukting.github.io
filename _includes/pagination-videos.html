@@ -1,0 +1,5 @@
+{% if site.page_gen[0]['paginate'] > 0 or site.data.videos.size < site.page_gen[0]['paginate'] %}
+  <div class="videos__pagination">
+    <span class="videos__next">Load More</span>
+  </div>
+{% endif %}

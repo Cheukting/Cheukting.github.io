@@ -1,10 +1,10 @@
 <section id="videos">
-    <div class="posts container articles-container">
+    <div class="videos container articles-container">
       <h3>{{ site.videos_title | default: "Videos" }}</h3>
       <div class="grid-xlarge">
-        <div class="posts__container" itemscope itemtype="http://schema.org/Blog" data-columns>
+        <div class="videos__container" itemscope itemtype="http://schema.org/Blog" data-columns>
 
-          {% for video in site.data.videos offset:page.start_idx limit:page.end_idx %}
+          {% for video in site.data.videos offset:page.start_idx limit:site.page_gen[0]['paginate'] %}
 
             <!-- The tag below includes the markup for each post - partials/post-card.html -->
             {% include video-card.html %}
