@@ -4,7 +4,7 @@
     I wrote Ruby for the first time! With a little bit of Ruby, you can make Jekyll do anything for you. All you need is write your own plug-in. Today we will customize one here: https://github.com/avillafiorita/jekyll-datapage_gen
 
     Things that I used for my website:
-    https://github.com/sproogen/modern-resume-theme
+    https://github.com/sproogen/modern-resume-theme and
     https://github.com/samesies/barber-jekyll
   date: 2020-03-30
   author: Cheuk Ting Ho
@@ -12,7 +12,7 @@
 - title: World of WoqlCraft - Ep.1 making type opjects
   vid: CoETjW3Y2f0
   description: |
-    First episode of World of WoqlCraft! We try to use the type provided form Schema.org to construct our schema objects in TerminusDB (p.s. sorry my connection got cut off, gonna fix this internet problem soon)
+    First episode of World of WoqlCraft! We try to use the type provided form Schema.org to construct our schema objects in TerminusDB: https://terminusdb.com/ (p.s. sorry my connection got cut off, gonna fix this internet problem soon)
   date: 2020-03-27
   author: Cheuk Ting Ho
 
