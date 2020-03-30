@@ -1,3 +1,14 @@
+- title: Web Surgery - Ep.1 custom Jekyll Plug-in
+  vid: 5YqlkRN8Nek
+  description: |
+    I wrote Ruby for the first time! With a little bit of Ruby, you can make Jekyll do anything for you. All you need is write your own plug-in. Today we will customize one here: https://github.com/avillafiorita/jekyll-datapage_gen
+
+    Things that I used for my website:
+    https://github.com/sproogen/modern-resume-theme
+    https://github.com/samesies/barber-jekyll
+  date: 2020-03-30
+  author: Cheuk Ting Ho
+
 - title: World of WoqlCraft - Ep.1 making type opjects
   vid: CoETjW3Y2f0
   description: |
