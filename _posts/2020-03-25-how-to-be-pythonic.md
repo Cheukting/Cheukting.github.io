@@ -2,7 +2,7 @@
 layout: post
 title: "How to be Pythonic? Design a Query Language in Python"
 date: 2020-03-20
-description: "I save a talk at PyAmsterdam to find out how to be Pythonic"
+description: "I gave a talk at PyAmsterdam to find out how to be Pythonic"
 image: /assets/images/cover_of_how_to_be_pythonic.png
 author: Cheuk Ting Ho
 tags:
