@@ -1,18 +1,18 @@
 - title: Web Surgery - Ep.1 custom Jekyll Plug-in
   vid: 5YqlkRN8Nek
   description: |
-    I wrote Ruby for the first time! With a little bit of Ruby, you can make Jekyll do anything for you. All you need is write your own plug-in. Today we will customize one here: https://github.com/avillafiorita/jekyll-datapage_gen
+    I wrote Ruby for the first time! With a little bit of Ruby, you can make Jekyll do anything for you. All you need is write your own plug-in. Today we will customize one here: [https://github.com/avillafiorita/jekyll-datapage_gen](https://github.com/avillafiorita/jekyll-datapage_gen)
 
     Things that I used for my website:
-    https://github.com/sproogen/modern-resume-theme and
-    https://github.com/samesies/barber-jekyll
+    [https://github.com/sproogen/modern-resume-theme](https://github.com/sproogen/modern-resume-theme) and
+    [https://github.com/samesies/barber-jekyll](https://github.com/samesies/barber-jekyll)
   date: 2020-03-30
   author: Cheuk Ting Ho
 
 - title: World of WoqlCraft - Ep.1 making type opjects
   vid: CoETjW3Y2f0
   description: |
-    First episode of World of WoqlCraft! We try to use the type provided form Schema.org to construct our schema objects in TerminusDB: https://terminusdb.com/ (p.s. sorry my connection got cut off, gonna fix this internet problem soon)
+    First episode of World of WoqlCraft! We try to use the type provided form Schema.org to construct our schema objects in [TerminusDB](https://terminusdb.com/) (p.s. sorry my connection got cut off, gonna fix this internet problem soon)
   date: 2020-03-27
   author: Cheuk Ting Ho
 
@@ -26,7 +26,7 @@
 - title: WIP Pyjamas Conf - a 24hr global online Python conference
   vid: w-RWJqfDiVc
   description: |
-    Are you disappointed by many conferences being cancelled this year? Fear not! We are organising a 24hr global online Python conference. Do you want to help? We need you! Please fill in the form here: https://forms.gle/i6SWKT8C4yDD1pKi7
+    Are you disappointed by many conferences being cancelled this year? Fear not! We are organising a 24hr global online Python conference. Do you want to help? We need you! Please [fill in the form here](https://forms.gle/i6SWKT8C4yDD1pKi7)
   date: 2020-03-24
   author: Cheuk Ting Ho
 

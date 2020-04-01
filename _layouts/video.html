@@ -28,7 +28,7 @@ layout: default
       <div class="grid-large">
         <div id="markdown" itemprop="articleBody" class="e-content">
             {% if page.description %}
-            <p>{{ page.description }}</p>
+            <p>{{ page.description | strip | markdownify }}</p>
             {% endif %}
             <p>If you want to catch me streaming live, follow me on <a href="https://www.twitch.tv/cheukting_ho">Twitch</a>.</p>
         </div>
