@@ -1,7 +1,17 @@
+- title: World of WoqlCraft - Ep.2 continue crafting schema
+  vid: 9lWxdcU1DiE
+  description: |
+    We tried to continue building the schema, only being brutally ended by my poor internet connection.
+
+    Find the source code from our [tutorial repo](https://github.com/terminusdb/terminus-tutorials).
+  date: 2020-04-04
+  author: Cheuk Ting Ho
+
 - title: Mid Meet Py - Ep.1
   vid: L0TsE1DmBFo
   description: |
     In this episode, we chat about:
+
     Pyjamas - online conference recruiting organisers (<https://forms.gle/i6SWKT8C4yDD1pKi7>)
 
     CfP for Remote Python Pizza ends on the 6th April (<https://remote.python.pizza/>)
