@@ -1,3 +1,12 @@
+- title: Web Surgery - Ep.2 - using gulp pipeline for the css build
+  vid: KpGqIzD-CzI
+  description: |
+    We continue to work on my website. Introducing Gulp.js, to speed up the Jekyll build by using Gulp to lint and prebuild the css (as well as the js scripts). Gulp will watch and automatically build a minified version of the css and js scripts when there are changes in the source files.
+
+    (p.s. sorry for the abrupt end, the internet got cut off almost at the end of the streaming and you have not missed anything important really)
+  date: 2020-04-06
+  author: Cheuk Ting Ho
+
 - title: Python Zero to Hero - Ep.1 - get your Python setup
   vid: lVjWSugPHsY
   description: |
