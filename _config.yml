@@ -67,7 +67,7 @@ author:
 pagination:
   enabled: true
   debug: false
-  per_page: 3
+  per_page: 6
   permalink: '/page/:num/'
   title: ':title'
   limit: 0
@@ -81,7 +81,7 @@ page_gen:
     template: 'video'
     name: 'vid'
     dir: 'videos'
-    paginate: 3
+    paginate: 6
     paginate_template: 'videos-page'
 
 # Build settings
