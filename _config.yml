@@ -97,9 +97,9 @@ kramdown:
   auto_ids: true
   syntax_highlighter: rouge
 
-sass:
-  sass_dir: _sass
-  style: compressed
+#sass:
+#  sass_dir: _sass
+#  style: compressed
 
 plugins:
  - jekyll-seo-tag

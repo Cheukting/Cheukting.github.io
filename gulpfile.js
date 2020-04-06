@@ -11,6 +11,28 @@ const stylelint = require('gulp-stylelint');
 const uglify = require('gulp-uglify');
 const zip = require('gulp-zip');
 
+function lintStyles() {
+  return gulp.src([
+    './_assets/scss/**/*.scss',
+    '!./_assets/scss/vendor/_normalize.scss',
+    '!./_assets/scss/fonts/*.scss'
+  ])
+    .pipe(stylelint({
+      reporters: [
+        {formatter: 'string', console: true}
+      ]
+    }));
+}
+
+function styles() {
+  return gulp.src('./_assets/scss/app.scss')
+    .pipe(sass().on('error', sass.logError))
+    .pipe(autoprefixer({cascade: false}))
+    .pipe(cleanCSS())
+    .pipe(rename({suffix: '.min'}))
+    .pipe(gulp.dest('./assets/css'));
+}
+
 function lint() {
   return gulp.src([
     './_assets/js/components/_formcarry.js',
@@ -49,15 +71,15 @@ function dist() {
 }
 
 function watch() {
-  //gulp.watch('./_assets/scss/**/*.scss', styles);
+  gulp.watch('./_assets/scss/**/*.scss', styles);
   gulp.watch('./_assets/js/**/*.js', scripts);
 }
 
 const build = gulp.series(scripts, watch);
 gulp.task('default', build);
 
-//exports.lintStyles = lintStyles;
-//exports.styles = styles;
+exports.lintStyles = lintStyles;
+exports.styles = styles;
 exports.lint = lint;
 exports.scripts = scripts;
 exports.dist = dist;
