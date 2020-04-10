@@ -1,3 +1,12 @@
+- title: World of WoqlCraft - Ep.3 finish off the type objects
+  vid: L2DN_he0l7g
+  description: |
+    Finish building the type object structures in the schema, including the SubClassOf relations.
+
+    Find the source code from our [tutorial repo](https://github.com/terminusdb/terminus-tutorials).
+  date: 2020-04-10
+  author: Cheuk Ting Ho
+
 - title: Mid Meet Py - Ep.2
   vid: 3_5qlAiPzZY
   description: |
