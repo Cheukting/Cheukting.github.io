@@ -1,3 +1,12 @@
+- title: Python Zero to Hero - Ep.2 - Python Basics (int, float, str)
+  vid: GZx4go3ybsE
+  description: |
+    Today we learnt 3 types of Python objects: Integer (int), Decimal Numbers (float) and Strings (str). With the help of some built-in functions we can write very simple Python programs.
+
+    You can get the slide deck [here] (https://bit.ly/PythonBasics1) and the example code form [GitHub here] (https://github.com/Cheukting/python02hero).
+  date: 2020-04-12
+  author: Cheuk Ting Ho
+
 - title: World of WoqlCraft - Ep.3 finish off the type objects
   vid: L2DN_he0l7g
   description: |
