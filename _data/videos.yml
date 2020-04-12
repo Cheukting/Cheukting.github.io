@@ -3,7 +3,7 @@
   description: |
     Today we learnt 3 types of Python objects: Integer (int), Decimal Numbers (float) and Strings (str). With the help of some built-in functions we can write very simple Python programs.
 
-    You can get the slide deck [here] (https://bit.ly/PythonBasics1) and the example code form [GitHub here] (https://github.com/Cheukting/python02hero).
+    You can get the slide deck [here](https://bit.ly/PythonBasics1) and the example code form [GitHub here](https://github.com/Cheukting/python02hero).
   date: 2020-04-12
   author: Cheuk Ting Ho
 
