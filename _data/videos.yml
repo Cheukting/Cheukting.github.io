@@ -1,3 +1,16 @@
+- title: Web Surgery - Ep.3 - Web tracking and cookie consensus banner
+  vid: u4Yhx68mbZA
+  description: |
+    Today I added a GDPR compliance web tracking to my website. If you are using another tracking service (e.g. Google Analytics) that use cookies, I will also show you how to add a banner to get visitors' consensus.
+
+    Web tracking service that I use: [Fathom Analytics](https://usefathom.com/ref/W4UI50)
+
+    This site to download the cookie consent banner: [osano.com](https://www.osano.com/cookieconsent/download/)
+
+    I got the JavaScript for clearing all cookies from this [Stackoverflow thread](https://stackoverflow.com/a/33366171)
+  date: 2020-04-13
+  author: Cheuk Ting Ho
+
 - title: Python Zero to Hero - Ep.2 - Python Basics (int, float, str)
   vid: GZx4go3ybsE
   description: |
