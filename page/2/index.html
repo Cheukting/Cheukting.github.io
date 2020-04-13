@@ -19,6 +19,8 @@
 <!-- End Jekyll SEO tag -->
 <link rel="stylesheet" href="/assets/css/app.min.css" />
 
+  <link rel="stylesheet" type="text/css" href="https://cdn.jsdelivr.net/npm/cookieconsent@3/build/cookieconsent.min.css" />
+
   <!--
   <link rel="shortcut icon" type="image/x-icon" href="">
   -->
@@ -550,19 +552,93 @@ Find the source code from our tutorial repo.
     <a href="mailto:" target="_blank"></a>&nbsp;- building the open-source community</p>
 </div>
 
+<script src="https://cdn.jsdelivr.net/npm/cookieconsent@3/build/cookieconsent.min.js" data-cfasync="false"></script>
+<script>
+window.cookieconsent.initialise({
+  "palette": {
+    "popup": {
+      "background": "#efefef",
+      "text": "#404040"
+    },
+    "button": {
+      "background": "transparent",
+      "text": "#857d7d",
+      "border": "#6e6969"
+    }
+  },
+  "type": "opt-in",
+  "content": {
+    "message": "We are using cookies, I hope you don't mind?",
+    "link": "Tell me more"
+  },
+
+  onInitialise: function (status) {
+  var type = this.options.type;
+  var didConsent = this.hasConsented();
+  if (type == 'opt-in' && didConsent) {
+    enableCookies()
+  }
+  if (type == 'opt-out' && !didConsent) {
+    disableCookies()
+  }
+  },
+
+  onStatusChange: function(status, chosenBefore) {
+    var type = this.options.type;
+    var didConsent = this.hasConsented();
+    if (type == 'opt-in' && didConsent) {
+      enableCookies()
+    }
+    if (type == 'opt-out' && !didConsent) {
+      disableCookies()
+    }
+  },
+
+  onRevokeChoice: function() {
+    var type = this.options.type;
+    if (type == 'opt-in') {
+      disableCookies()
+    }
+    if (type == 'opt-out') {
+      enableCookies()
+    }
+  },
+});
+</script>
+
 <!-- Fathom - simple website analytics - https://usefathom.com -->
 <script>
-(function(f, a, t, h, o, m){
-a[h]=a[h]||function(){
-(a[h].q=a[h].q||[]).push(arguments)
-};
-o=f.createElement('script'),
-m=f.getElementsByTagName('script')[0];
-o.async=1; o.src=t; o.id='fathom-script';
-m.parentNode.insertBefore(o,m)
-})(document, window, 'https://cdn.usefathom.com/tracker.js', 'fathom');
-fathom('set', 'siteId', 'HNKQJJRG');
-fathom('trackPageview');
+  function enableCookies() {
+    (function(f, a, t, h, o, m){
+    a[h]=a[h]||function(){
+    (a[h].q=a[h].q||[]).push(arguments)
+    };
+    o=f.createElement('script'),
+    m=f.getElementsByTagName('script')[0];
+    o.async=1; o.src=t; o.id='fathom-script';
+    m.parentNode.insertBefore(o,m)
+    })(document, window, 'https://cdn.usefathom.com/tracker.js', 'fathom');
+    fathom('set', 'siteId', 'HNKQJJRG');
+    fathom('trackPageview');
+  }
+
+  function disableCookies() {
+    var cookies = document.cookie.split("; ");
+    for (var c = 0; c < cookies.length; c++) {
+        var d = window.location.hostname.split(".");
+        while (d.length > 0) {
+            var cookieBase = encodeURIComponent(cookies[c].split(";")[0].split("=")[0]) + '=; expires=Thu, 01-Jan-1970 00:00:01 GMT; domain=' + d.join('.') + ' ;path=';
+            var p = location.pathname.split('/');
+            document.cookie = cookieBase + '/';
+            while (p.length > 0) {
+                document.cookie = cookieBase + p.join('/');
+                p.pop();
+            };
+            d.shift();
+        }
+    }
+    location.reload();
+  }
 </script>
 <!-- / Fathom -->
 <!-- jQuery -->
