@@ -1,3 +1,12 @@
+- title: Exciting Mac mini Unboxing
+  vid: 39sIYmIqZGo
+  description: |
+    Big thanks to [TerminusDB](https://terminusdb.com/)!
+
+    With the 6-core i7 Mac mini, hopefully, we will have better streaming and tutorials coming! Watch me on [Twitch](https://www.twitch.tv/cheukting_ho) for my tutorials including World of WoqlCraft tutorial every Friday at 4pm UK time and Python beginner tutorials every Sunday at 1pm UK time. Follow TerminusDB [here](https://www.youtube.com/channel/UC5kZt8pP-FM0u-R0BQr78YA) for weekly Webnibar that I hosted and knowledge-rich contents.
+  date: 2020-04-15
+  author: Cheuk Ting Ho
+
 - title: Mid Meet Py - Ep.3
   vid: srCjYJPFRM4
   description: |
@@ -20,6 +29,7 @@
     EffectiveQuadratures - <https://www.effective-quadratures.org/>
 
     SimPy - discrete-event simulation library - <https://simpy.readthedocs.io/en/latest/>
+  date: 2020-04-15
   author: Cheuk Ting Ho
 
 - title: Web Surgery - Ep.3 - Web tracking and cookie consensus banner
