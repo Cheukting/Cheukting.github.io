@@ -4,7 +4,7 @@
         <img src="http://img.youtube.com/vi/{{ video.vid }}/0.jpg" alt="{{ video.title }}" data-aos="fade-in" itemprop="image"/>
       </figure>
     <div>
-      <h2 class="videos__text e-content"><strong itemprop="name">{{ video.title }}</strong> — <span itemprop="description">{{ video.description | markdownify | strip_html |truncatewords: 30 }}</span></h2>
+      <h2 class="videos__text e-content" style="overflow-wrap: break-word;"><strong itemprop="name">{{ video.title }}</strong> — <span itemprop="description">{{ video.description | markdownify | strip_html |truncatewords: 30 }}</span></h2>
     </div>
   </a>
 </article>
