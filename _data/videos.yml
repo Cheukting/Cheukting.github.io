@@ -1,3 +1,16 @@
+- title: Web Surgery - Ep.4 - Start of teh Animal Crossing Item Wishlist Website
+  vid: jGQhNt-a20g
+  description: |
+    This episode is the start of our Animal Crossing Item Wishlist Website project. I started to copy my website and change it so anyone can have their own item wishlist. Within 1 hour we have changed some of the components in Jekyll templates to suit our need. We will continue next week.
+
+    We will be using the pictures and information on Animal Crossing Fandom wiki page - [list of all funitures](https://animalcrossing.fandom.com/wiki/Furniture_(New_Horizons)).
+
+    The code is work in progress but if you want to check it out, it will be uploaded and updated in [this repo](https://github.com/Cheukting/animal-crossing-wishlist)
+
+    I am thinking about doing 1.5 hours starting next week so we can get this project done quicker. Please leave any comments and thoughts in the panels of my [Twitch channel](https://www.twitch.tv/cheukting_ho) make sure to follow me to catch me live on more coding and Python contents.
+  date: 2020-04-20
+  author: Cheuk Ting Ho
+
 - title: Python Zero to Hero - Ep.3 - Python Basics 2 (bool, list, dict)
   vid: 7DDYTmMk1jk
   description: |
