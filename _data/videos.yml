@@ -1,3 +1,14 @@
+- title: World of WoqlCraft - Ep.5 load data into Schame.org schema
+  vid: D604sGeeveE
+  description: |
+    We try to put the Schema.org schema that we built into action. However, I discovered there are a few problems with the schema and we fixed that. We scrape the microdata form the [event page](http://events.terminusdb.com/london/2020/02/11/london-1st-graph.html) of our past meetup and put them into the database with our Schema.org schema.
+
+    Find the source code from our [tutorial repo](https://github.com/terminusdb/terminus-tutorials).
+
+    Join the TerminusDB community at [Discord](https://discord.gg/Gvdqw97)
+  date: 2020-04-24
+  author: Cheuk Ting Ho
+
 - title: Mid Meet Py - Ep.4 - Interview with Michael Foord
   vid: OYOUlZoqSsU
   description: |
