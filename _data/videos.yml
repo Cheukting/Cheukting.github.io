@@ -1,3 +1,13 @@
+- title: Web Surgery - Ep.6 - Adding Netlify CMS to the website
+  vid: vA0v6qD4DOc
+  description: |
+    This episode we will start to add Netlify CMS so the website. It can easily be done by adding an html and config.yml under admin. It is promising running on localhost but it is not fully working yet because we still have to figure out the Auth for GitHub, also we may add more functionality in the future, tell me what you suggest at my [Twitch](https://www.twitch.tv/cheukting_ho).
+
+    The code is work in progress but if you want to check it out, it will be uploaded and updated in [this repo](https://github.com/Cheukting/animal-crossing-wishlist)
+
+  date: 2020-05-04
+  author: Cheuk Ting Ho
+
 - title: Python Zero to Hero - Ep.5 - Python Functions and Modules
   vid: zRJn85rsQyw
   description: |
