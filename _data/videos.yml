@@ -1,3 +1,35 @@
+- title: Mid Meet Py - Ep.6 - Interview with Steve Dower
+  vid: oN0FZ1B4pwg
+  description: |
+    PyChat:
+
+    [Pydata UK joint meetup with multiple chapters in UK yesterday, awesome talks about TensorFlow Probability and How to expend Pandas capabilities](https://www.meetup.com/PyData-Manchester/events/270272244/)
+
+    [Global Pydata conference calling for organizing committee](https://twitter.com/dontusethiscode/status/1257907697141329926)
+
+    [PyData Dublin starting with a round of Monday talks from the 18th](https://www.meetup.com/PyDataDublin/)
+
+    [Release of Napari `0.3.0` with many new features](https://napari.org/docs/release/release_0_3_0.html)
+
+    [Naomi Ceder is the first keynote speaker announced for EuroPython](https://twitter.com/europython/status/1257680784384831489)
+
+    [Learning aid for Vim](https://vim-adventures.com/) Learn Vim while playing a game
+
+    Py Hall of Frame:
+
+    Interview with Steve Dower, Python tools developer at Microsoft and core CPython developer
+
+    [Follow Steve on Twitter](https://twitter.com/zooba)
+
+    PyPI Highlight:
+
+    [Napari - fast, interactive, multi-dimensional image viewer for Python](https://github.com/napari/napari)
+
+    [Kedro - a best-practice scaffold for ML and DS pipelines](https://github.com/quantumblacklabs/kedro)
+
+  date: 2020-05-06
+  author: Cheuk Ting Ho
+
 - title: Web Surgery - Ep.6 - Adding Netlify CMS to the website
   vid: vA0v6qD4DOc
   description: |
