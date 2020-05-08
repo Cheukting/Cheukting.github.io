@@ -1,3 +1,16 @@
+- title: World of WoqlCraft - Ep.7 My Frist Graph Visulization wiht TerminusDB
+  vid: SedqCtFNyHg
+  description: |
+    This episode is a beginner version of World of Woql Craft (we want more people to get started). It is for people who have not used TerminusDB and WOQL before. We start form how to download TerminuDB, creating a schema, loading csv data, querying to customizing the graph view on TerminusDB console.
+
+    [Visit our blog](https://terminusdb.com/blog/2020/01/14/my-first-terminusdb-graph-visualisation-bike-share-data/) for a text version of this tutorial.
+
+    Find the source code from our [tutorial repo](https://github.com/terminusdb/terminus-tutorials).
+
+    Join the TerminusDB community at [Discord](https://discord.gg/Gvdqw97)
+  date: 2020-05-08
+  author: Cheuk Ting Ho
+
 - title: Mid Meet Py - Ep.6 - Interview with Steve Dower
   vid: oN0FZ1B4pwg
   description: |
