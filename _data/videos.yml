@@ -1,4 +1,4 @@
-- title: World of WoqlCraft - Ep.7 My Frist Graph Visulization wiht TerminusDB
+- title: World of WoqlCraft - Ep.7 My Frist Graph Visualization with TerminusDB
   vid: SedqCtFNyHg
   description: |
     This episode is a beginner version of World of Woql Craft (we want more people to get started). It is for people who have not used TerminusDB and WOQL before. We start form how to download TerminuDB, creating a schema, loading csv data, querying to customizing the graph view on TerminusDB console.
