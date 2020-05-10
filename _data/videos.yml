@@ -1,3 +1,14 @@
+- title: Python Zero to Hero - Ep.6 - Python Classes and Instances
+  vid: tnHxNMSRwAA
+  description: |
+    Python classes provide functionalities for Object-Oriented Programming. Today we explore how to write classes in Python, clear some concepts of scopes. We learn by purposely breaking some code.
+
+    You can get the slide deck [here](https://slides.com/cheukting_ho/python-classes#/) and the example code and homework form [GitHub here](https://github.com/Cheukting/python02hero). Ask questions at my [Twitch channel](https://t.co/7sqvTilzF1?amp=1)
+
+    Also, check out Naomi Ceder's [Twitch channel](https://t.co/hXhTu0ZIG8?amp=1) for more beginner's (slightly more advance) tutorial.
+  date: 2020-05-10
+  author: Cheuk Ting Ho
+
 - title: World of WoqlCraft - Ep.7 My Frist Graph Visualization with TerminusDB
   vid: SedqCtFNyHg
   description: |
