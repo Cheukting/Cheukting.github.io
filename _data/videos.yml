@@ -1,3 +1,14 @@
+- title: World of WoqlCraft - Ep.8 Create Game of Thrones Graph within an Hour
+  vid: lEIBauxSHHc
+  description: |
+    Inspired by the famous Game of Thrones example of Neo4j, I tried to create the same graph (more or less) with just a script of Python using WOQL and TerminusDB wihtin an hour, I call it speed coding. Did I succeed?
+
+    Find the source code from our [tutorial repo](https://github.com/terminusdb/terminus-tutorials).
+
+    Join the TerminusDB community at [Discord](https://discord.gg/Gvdqw97)
+  date: 2020-05-15
+  author: Cheuk Ting Ho
+
 - title: Nintendo Switch (Animal Crossing Edition) Unboxing
   vid: -UpidC5aFqc
   description: |
