@@ -1,3 +1,16 @@
+- title: Python Zero to Hero - Ep.7 - Unit testing with Pytest
+  vid: K_PN5sfaG-k
+  description: |
+    Update: the reason why I cannot install pytest in my environment is that I have installed conda yesterday and it messed up the path. Somehow conda overrides the pyenv paths so they cannot exist together. You can either keep it and use `python -m pytest` every time instead of `pytest` or, like me, remove conda so it works again.
+
+    Testing is very important in software development. Unit testing is the smallest building block of your tests. It locks a unit of your code in place so making debugging much easier. Today we will use Pytest, a popular testing library in Python, to do some unit testing. We only cover the basics today and if you are interested to learn more about testing using pytest or other libraries, please leave your comment at my [Twitch channel](https://t.co/7sqvTilzF1?amp=1)
+
+    You can get the slide deck [here](https://slides.com/cheukting_ho/python-pytest/) and the example code and homework form [GitHub here](https://github.com/Cheukting/python02hero). Ask questions at my [Twitch channel](https://t.co/7sqvTilzF1?amp=1)
+
+    Also, check out Naomi Ceder's [Twitch channel](https://t.co/hXhTu0ZIG8?amp=1) for more beginner's (slightly more advance) tutorial.
+  date: 2020-05-17
+  author: Cheuk Ting Ho
+
 - title: World of WoqlCraft - Ep.8 Create Game of Thrones Graph within an Hour
   vid: lEIBauxSHHc
   description: |
