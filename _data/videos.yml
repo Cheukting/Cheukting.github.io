@@ -1,3 +1,14 @@
+- title: World of WoqlCraft - Ep.9 Graph visualisation of Game of Thrones Character Relations
+  vid: 4lYzEcMh9F8
+  description: |
+    Continue with what we have done last week, we will do some graph visualisations with TerminusDB console to create a knowledge graph of the characters relations in the Game of Thrones.
+
+    Find the source code from our [tutorial repo](https://github.com/terminusdb/terminus-tutorials).
+
+    Join the TerminusDB community at [Discord](https://discord.gg/Gvdqw97)
+  date: 2020-05-22
+  author: Cheuk Ting Ho
+
 - title: Mid Meet Py - Ep.8 - Interview with Tania Allard
   vid: wkLGRy1RqGI
   description: |
