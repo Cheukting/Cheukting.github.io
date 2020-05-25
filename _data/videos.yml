@@ -1,3 +1,14 @@
+- title: Python Zero to Hero - Ep.8 - Decorators
+  vid: TKlxV7_uyB0
+  description: |
+    Today we cover what is a decorator and the basics of how to write a decorator. We also cover using the property decorator to write some getters and setters. If you have any questions or any suggestions about which Python topics to cover, please leave your comment at my [Twitch channel](https://www.twitch.tv/cheukting_ho)
+
+    You can get the slide deck [here](https://slides.com/cheukting_ho/python-decorators/) and the example code and homework form [GitHub here](https://github.com/Cheukting/python02hero). Ask questions at my [Twitch channel](https://www.twitch.tv/cheukting_ho)
+
+    Also, check out Naomi Ceder's [Twitch channel](https://www.twitch.tv/nceder) for more beginner's (slightly more advance) tutorial.
+  date: 2020-05-24
+  author: Cheuk Ting Ho
+
 - title: World of WoqlCraft - Ep.9 Graph visualisation of Game of Thrones Character Relations
   vid: 4lYzEcMh9F8
   description: |
