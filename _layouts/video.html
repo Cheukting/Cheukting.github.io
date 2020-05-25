@@ -85,17 +85,15 @@ layout: default
       <h2 class="related__title">Related</h2>
       <div class="related__container">
       {% for relatedTag in page.tags %}
-        {% for post in site.tags[relatedTag] %}
-        {% if post.title !=  page.title%}
+        {% for video in site.data.videos %}
+        {% if video.title !=  page.title and video.tags == page.tags %}
           <article class="related__post">
             <a class="related__link" href="{{ post.url | absolute_url }}">
-              {% if post.image %}
-                <figure class="related__img">
-                  <img src="{{ post.image }}" alt="{{ post.title }}"/>
-                </figure>
-              {% endif %}
+              <figure class="related__img">
+                <img src="http://img.youtube.com/vi/{{ video.vid }}/0.jpg" alt="{{ video.title }}"/>
+              </figure>
               <div>
-                <h2 class="related__text">{{ post.title }}</h2>
+                <h2 class="related__text">{{ video.title }}</h2>
               </div>
             </a>
           </article>

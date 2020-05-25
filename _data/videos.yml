@@ -1,5 +1,6 @@
 - title: Python Zero to Hero - Ep.8 - Decorators
   vid: TKlxV7_uyB0
+  tags: Python Zero to Hero
   description: |
     Today we cover what is a decorator and the basics of how to write a decorator. We also cover using the property decorator to write some getters and setters. If you have any questions or any suggestions about which Python topics to cover, please leave your comment at my [Twitch channel](https://www.twitch.tv/cheukting_ho)
 
@@ -11,6 +12,7 @@
 
 - title: World of WoqlCraft - Ep.9 Graph visualisation of Game of Thrones Character Relations
   vid: 4lYzEcMh9F8
+  tags: World of WoqlCraft
   description: |
     Continue with what we have done last week, we will do some graph visualisations with TerminusDB console to create a knowledge graph of the characters relations in the Game of Thrones.
 
@@ -22,6 +24,7 @@
 
 - title: Mid Meet Py - Ep.8 - Interview with Tania Allard
   vid: wkLGRy1RqGI
+  tags: Mid Meet Py
   description: |
     (Sorry for the technical difficulties, we failed to capture Lais on the call today)
 
@@ -66,6 +69,7 @@
 
 - title: Python Zero to Hero - Ep.7 - Unit testing with Pytest
   vid: K_PN5sfaG-k
+  tags: Python Zero to Hero
   description: |
     Update: the reason why I cannot install pytest in my environment is that I have installed conda yesterday and it messed up the path. Somehow conda overrides the pyenv paths so they cannot exist together. You can either keep it and use `python -m pytest` every time instead of `pytest` or, like me, remove conda so it works again.
 
@@ -79,6 +83,7 @@
 
 - title: World of WoqlCraft - Ep.8 Create Game of Thrones Graph within an Hour
   vid: lEIBauxSHHc
+  tags: World of WoqlCraft
   description: |
     Inspired by the famous Game of Thrones example of Neo4j, I tried to create the same graph (more or less) with just a script of Python using WOQL and TerminusDB within an hour, I call it speed coding. Did I succeed?
 
@@ -99,6 +104,7 @@
 
 - title: Mid Meet Py - Ep.7 - Interview with Nicolas Demarchi
   vid: aso59ZWxdGA
+  tags: Mid Meet Py
   description: |
     PyChat:
 
@@ -130,6 +136,7 @@
 
 - title: Web Surgery - Ep.7 - Authentication for Netlify CMS on GitHub
   vid: hs3KCTaFtWM
+  tags: Web Surgery
   description: |
     This episode we deploy a Heroku dyno for the Auth for GitHub, but before that, we set up an app on GitHub to grant access to the GitHub repo. This is needed as the Netlify CMS will send a PR to that repo. In the future, we may add more functionality to our wishlist website, tell me what you would like to suggest at my [Twitch](https://www.twitch.tv/cheukting_ho).
 
@@ -140,6 +147,7 @@
 
 - title: Python Zero to Hero - Ep.6 - Python Classes and Instances
   vid: tnHxNMSRwAA
+  tags: Python Zero to Hero
   description: |
     Python classes provide functionalities for Object-Oriented Programming. Today we explore how to write classes in Python, clear some concepts of scopes. We learn by purposely breaking some code.
 
@@ -151,6 +159,7 @@
 
 - title: World of WoqlCraft - Ep.7 My Frist Graph Visualization with TerminusDB
   vid: SedqCtFNyHg
+  tags: World of WoqlCraft
   description: |
     This episode is a beginner version of World of Woql Craft (we want more people to get started). It is for people who have not used TerminusDB and WOQL before. We start form how to download TerminuDB, creating a schema, loading csv data, querying to customizing the graph view on TerminusDB console.
 
@@ -164,6 +173,7 @@
 
 - title: Mid Meet Py - Ep.6 - Interview with Steve Dower
   vid: oN0FZ1B4pwg
+  tags: Mid Meet Py
   description: |
     PyChat:
 
@@ -196,6 +206,7 @@
 
 - title: Web Surgery - Ep.6 - Adding Netlify CMS to the website
   vid: vA0v6qD4DOc
+  tags: Web Surgery
   description: |
     This episode we will start to add Netlify CMS so the website. It can easily be done by adding an html and config.yml under admin. It is promising running on localhost but it is not fully working yet because we still have to figure out the Auth for GitHub, also we may add more functionality in the future, tell me what you suggest at my [Twitch](https://www.twitch.tv/cheukting_ho).
 
@@ -206,6 +217,7 @@
 
 - title: Python Zero to Hero - Ep.5 - Python Functions and Modules
   vid: zRJn85rsQyw
+  tags: Python Zero to Hero
   description: |
     Today we go through a very important thing in Python - functions. I so thought the usage of it and some common mistakes that beginners could make. Also, we touch on importing modules - either it is a standard library or another python scripts.
 
@@ -217,6 +229,7 @@
 
 - title: World of WoqlCraft - Ep.6 recap and wrap up Schame.org schema, start OpenFlights.org data
   vid: M2mECiPW5Oc
+  tags: World of WoqlCraft
   description: |
     We finish off the Schema.org schema by recapping what we have done in the past weeks. Then we started a new project with OpenFlights.org data. We started with a fairly simple set of data and aim to build some application form there.
 
@@ -228,6 +241,7 @@
 
 - title: Mid Meet Py - Ep.5 - Interview with Naomi Ceder
   vid: 2Mqp_sja3AU
+  tags: Mid Meet Py
   description: |
     PyChat (news in the community):
 
@@ -269,6 +283,7 @@
 
 - title: Web Surgery - Ep.5 - Updating the look of the Animal Crossing Item Wishlist Website
   vid: L5xCFcNNyw8
+  tags: Web Surgery
   description: |
     Continue with the last episode, we make more changes to the look of the website: fix the pictures of the items and icons of the social media. We have more or less got a website that we want - we may add more functionality in the future, tell me what you suggest at my [Twitch](https://www.twitch.tv/cheukting_ho). We will be ready to add the Netlify CMS to our website next time.
 
@@ -281,6 +296,7 @@
 
 - title: Python Zero to Hero - Ep.4 - Python Control Flow (if, else, loop)
   vid: REVfLh9wD_c
+  tags: Python Zero to Hero
   description: |
     We got one step closer to writing a Python program. Learning how to branch out which path for the program to take base on conditions using if-else, we also learn writing loops so the program can do things over and over again with slight variation.
 
@@ -292,6 +308,7 @@
 
 - title: World of WoqlCraft - Ep.5 load data into Schame.org schema
   vid: D604sGeeveE
+  tags: World of WoqlCraft
   description: |
     We try to put the Schema.org schema that we built into action. However, I discovered there are a few problems with the schema and we fixed that. We scrape the microdata form the [event page](http://events.terminusdb.com/london/2020/02/11/london-1st-graph.html) of our past meetup and put them into the database with our Schema.org schema.
 
@@ -303,6 +320,7 @@
 
 - title: Mid Meet Py - Ep.4 - Interview with Michael Foord
   vid: OYOUlZoqSsU
+  tags: Mid Meet Py
   description: |
     PyChat (news in the community):
 
@@ -335,6 +353,7 @@
 
 - title: Web Surgery - Ep.4 - Start of the Animal Crossing Item Wishlist Website
   vid: jGQhNt-a20g
+  tags: Web Surgery
   description: |
     This episode is the start of our Animal Crossing Item Wishlist Website project. I started to copy my website and change it so anyone can have their own item wishlist. Within 1 hour we have changed some of the components in Jekyll templates to suit our need. We will continue next week.
 
@@ -348,6 +367,7 @@
 
 - title: Python Zero to Hero - Ep.3 - Python Basics 2 (bool, list, dict)
   vid: 7DDYTmMk1jk
+  tags: Python Zero to Hero
   description: |
     Today we learnt another 3 types of Python objects: Boolean (bool), List (list) and Dictionary (dict). I also explained a bit about mutability and hashable in Python.
 
@@ -359,6 +379,7 @@
 
 - title: World of WoqlCraft - Ep.4 we have built our schema
   vid: dywhlFSWKig
+  tags: World of WoqlCraft
   description: |
     Finally we finish building the whole schema. We put the multiple domains and range of the properties into a subclass of a single domain and properties so we can build the properties of the graph properly.
 
@@ -377,6 +398,7 @@
 
 - title: Mid Meet Py - Ep.3
   vid: srCjYJPFRM4
+  tags: Mid Meet Py
   description: |
     [EuroPython talk voting started](https://ep2020.europython.eu/events/talk-voting/)
 
@@ -402,6 +424,7 @@
 
 - title: Web Surgery - Ep.3 - Web tracking and cookie consensus banner
   vid: u4Yhx68mbZA
+  tags: Web Surgery
   description: |
     Today I added a GDPR compliance web tracking to my website. If you are using another tracking service (e.g. Google Analytics) that use cookies, I will also show you how to add a banner to get visitors' consensus.
 
@@ -415,6 +438,7 @@
 
 - title: Python Zero to Hero - Ep.2 - Python Basics (int, float, str)
   vid: GZx4go3ybsE
+  tags: Python Zero to Hero
   description: |
     Today we learnt 3 types of Python objects: Integer (int), Decimal Numbers (float) and Strings (str). With the help of some built-in functions we can write very simple Python programs.
 
@@ -424,6 +448,7 @@
 
 - title: World of WoqlCraft - Ep.3 finish off the type objects
   vid: L2DN_he0l7g
+  tags: World of WoqlCraft
   description: |
     Finish building the type object structures in the schema, including the SubClassOf relations.
 
@@ -433,6 +458,7 @@
 
 - title: Mid Meet Py - Ep.2
   vid: 3_5qlAiPzZY
+  tags: Mid Meet Py
   description: |
     [PyCon US go online](https://python.us19.list-manage.com/track/click?u=5697f493c3a48994f504d4deb&id=e8f98ba7ce&e=01fe521e01)! Subscribe to their [YouTube channel to catch all the talks](https://python.us19.list-manage.com/track/click?u=5697f493c3a48994f504d4deb&id=8535f39b4c&e=01fe521e01)
 
@@ -454,6 +480,7 @@
 
 - title: Web Surgery - Ep.2 - using gulp pipeline for the css build
   vid: KpGqIzD-CzI
+  tags: Web Surgery
   description: |
     We continue to work on my website. Introducing Gulp.js, to speed up the Jekyll build by using Gulp to lint and prebuild the css (as well as the js scripts). Gulp will watch and automatically build a minified version of the css and js scripts when there are changes in the source files.
 
@@ -463,6 +490,7 @@
 
 - title: Python Zero to Hero - Ep.1 - get your Python setup
   vid: lVjWSugPHsY
+  tags: Python Zero to Hero
   description: |
     Today we start our Python journey. Start setting your Python coding environment. I tried to explain as detail as possible for you to understand how your Pyhton got installed and information about Python and related software packages.
 
@@ -472,6 +500,7 @@
 
 - title: World of WoqlCraft - Ep.2 continue crafting schema
   vid: 9lWxdcU1DiE
+  tags: World of WoqlCraft
   description: |
     We tried to continue building the schema, only being brutally ended by my poor internet connection.
 
@@ -481,6 +510,7 @@
 
 - title: Mid Meet Py - Ep.1
   vid: L0TsE1DmBFo
+  tags: Mid Meet Py
   description: |
     In this episode, we chat about:
 
@@ -502,6 +532,7 @@
 
 - title: Web Surgery - Ep.1 custom Jekyll Plug-in
   vid: 5YqlkRN8Nek
+  tags: Web Surgery
   description: |
     I wrote Ruby for the first time! With a little bit of Ruby, you can make Jekyll do anything for you. All you need is write your own plug-in. Today we will customize one here: [https://github.com/avillafiorita/jekyll-datapage_gen](https://github.com/avillafiorita/jekyll-datapage_gen)
 
@@ -513,6 +544,7 @@
 
 - title: World of WoqlCraft - Ep.1 making type opjects
   vid: CoETjW3Y2f0
+  tags: World of WoqlCraft
   description: |
     First episode of World of WoqlCraft! We try to use the type provided form Schema.org to construct our schema objects in [TerminusDB](https://terminusdb.com/) (p.s. sorry my connection got cut off, gonna fix this internet problem soon)
   date: 2020-03-27
