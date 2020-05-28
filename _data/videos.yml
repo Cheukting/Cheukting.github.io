@@ -3,19 +3,29 @@
   tags: Mid Meet Py
   description: |
     PyChat:
+
       [Free Python DS book (online)](https://jakevdp.github.io/PythonDataScienceHandbook/) Intro to NumPy, Matplotlib & sci-kit learn
+
       [CfP for FlaskCon is open!](https://flaskcon.com/)
+
       [Way to have more diverse board members is to have diverse voters](https://twitter.com/NaomiCeder/status/1264025804125716482) - become a voting member of the PSF
+
       [Test pip’s alpha resolver](http://www.ei8fdb.org/thoughts/2020/05/test-pips-alpha-resolver-and-help-us-document-dependency-conflicts/)
+
       [New pymsbuild for windows people](https://pypi.org/project/pymsbuild/)
+
       [Workshop online PythonIreland](https://www.meetup.com/pythonireland/events/270568029/)
 
     Mid Meet - Hall of Fame:
+
       Ian Ozsvald - co-founder of PyData London
+
       Follow Ian on Twitter [@ianozsvald](https://twitter.com/ianozsvald)
 
     PyPI highlights:
+
       [Tesseract OCR text localization & detection](https://pypi.org/project/pytesseract/)
+      
       [Shed](https://github.com/Zac-HD/shed) - black plus autoflake plus isort plus pyupgrade plus some custom fixers
 
     [Listen to MidMeetPy podcast](https://anchor.fm/midmeetpy)
