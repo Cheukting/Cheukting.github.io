@@ -1,3 +1,23 @@
+- title: The Legend of Data - Ep.1 - Introduciton to Jupyter notebook
+  vid: KvKigk0oqQA
+  tags: The Legend of Data
+  description: |
+    Jupyter notebook is one of the most popular IDE for data scientists. As the first episode of this new data science series, we will have an introduction to this open-source tool, how it works and how to use it efficiently. We also talked about what we will cover in the upcoming tutorials in this series. If you have any questions or any suggestions about which Python or Data Science topics to cover, please leave your comment at my [Twitch channel](https://www.twitch.tv/cheukting_ho)
+
+    You can get the slide deck [here](https://slides.com/cheukting_ho/legend-data-intro/).
+  date: 2020-06-01
+  author: Cheuk Ting Ho
+
+- title: Python Zero to Hero - Ep.9 - Strings and Regex
+  vid: eCwszdgLw88
+  tags: Python Zero to Hero
+  description: |
+    String operations are very useful in handling data, either input from a file or by the user. Today we have covered how to use the strings methods and the re module in Python to manipulate strings. If you have any questions or any suggestions about which Python topics to cover, please leave your comment at my [Twitch channel](https://www.twitch.tv/cheukting_ho)
+
+    You can get the slide deck [here](https://slides.com/cheukting_ho/python-decorators/) and the example code and homework form [GitHub here](https://github.com/Cheukting/python02hero). Ask questions at my [Twitch channel](https://www.twitch.tv/cheukting_ho)
+  date: 2020-05-31
+  author: Cheuk Ting Ho
+
 - title: Mid Meet Py - Ep.9 - Interview with Ian Ozsvald
   vid: KZkpJewAUL0
   tags: Mid Meet Py
@@ -25,7 +45,7 @@
     PyPI highlights:
 
       [Tesseract OCR text localization & detection](https://pypi.org/project/pytesseract/)
-      
+
       [Shed](https://github.com/Zac-HD/shed) - black plus autoflake plus isort plus pyupgrade plus some custom fixers
 
     [Listen to MidMeetPy podcast](https://anchor.fm/midmeetpy)
