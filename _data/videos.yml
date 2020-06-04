@@ -1,3 +1,28 @@
+- title: Mid Meet Py - Ep.10 - Interview with Adam Johnson
+  vid: 2egOgUWu378
+  tags: Mid Meet Py
+  description: |
+    PyChat:
+        [PSF support diversity, BlackLivesMatters](https://twitter.com/ThePSF/status/1267591714925133825)
+        [YSYS will be hosting an event bringing together black community leaders + allies in tech to discuss how we can mobilise and rebuild] (https://twitter.com/ThisIsYSYS/status/1267393576708734976 but BLM related)
+        [EuroPython Schedule is out](https://ep2020.europython.eu/schedule/)
+        [AnacondaCon Starting today](https://anacondacon.io/)
+        [Django security releases, update ASAP](https://www.djangoproject.com/weblog/2020/jun/03/security-releases/)
+
+    Py Hall of Fram:
+        Adam Johnson, Django technical board member
+        Follow Adam on twitter [@AdamChainz](https://twitter.com/AdamChainz)
+        [Get Adam's book](https://gumroad.com/l/suydt)
+
+    PyPI Highlight:
+        Cheuk's choice - [sidetable](https://pbpython.com/sidetable.html) - Create Simple Summary Tables in Pandas
+        Adam's choice - [time-machine](https://adamj.eu/tech/2020/06/03/introducing-time-machine/)
+        Lais's choice - [pillow](https://pypi.org/project/Pillow/)
+
+    [Listen to MidMeetPy podcast](https://anchor.fm/midmeetpy)
+  date: 2020-06-03
+  author: Cheuk Ting Ho
+
 - title: The Legend of Data - Ep.1 - Introduciton to Jupyter notebook
   vid: KvKigk0oqQA
   tags: The Legend of Data
