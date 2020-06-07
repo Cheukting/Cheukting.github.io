@@ -1,3 +1,15 @@
+- title: World of WoqlCraft - Ep.10 Tour on TerminusDB 2.0 and the new version of WOQL
+  vid: 7TNyMSVZ9-A
+  tags: World of WoqlCraft
+  description: |
+    We had a tour at the newly release of TerminusDB 2.0, we have a play at the time-travel feature, going back and forth different commits, making a new branch. We also try using WOQL.js with the new console.
+
+    Find the source code from our [tutorial repo](https://github.com/terminusdb/terminus-tutorials).
+
+    Join the TerminusDB community at [Discord](https://discord.gg/Gvdqw97)
+  date: 2020-06-05
+  author: Cheuk Ting Ho
+
 - title: Mid Meet Py - Ep.10 - Interview with Adam Johnson
   vid: 2egOgUWu378
   tags: Mid Meet Py
