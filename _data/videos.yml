@@ -1,3 +1,13 @@
+- title: Python Zero to Hero - Ep.10 - More Pytest and Mock
+  vid: IlL-tNtQo3Q
+  tags: Python Zero to Hero
+  description: |
+    Today we go deeper into pytest, try using fixture, mark xfail, skip and parametrize. We also look into how to monkey patch an object with mock.patch decorators. If you have any questions or any suggestions about which Python topics to cover, please leave your comment at my [Twitch channel](https://www.twitch.tv/cheukting_ho)
+
+    You can get the slide deck [here](https://slides.com/cheukting_ho/python-decorators/) and the example code and homework form [GitHub here](https://github.com/Cheukting/python02hero). Ask questions at my [Twitch channel](https://www.twitch.tv/cheukting_ho)
+  date: 2020-06-07
+  author: Cheuk Ting Ho
+
 - title: World of WoqlCraft - Ep.10 Tour on TerminusDB 2.0 and the new version of WOQL
   vid: 7TNyMSVZ9-A
   tags: World of WoqlCraft
@@ -15,20 +25,31 @@
   tags: Mid Meet Py
   description: |
     PyChat:
+
         [PSF support diversity, BlackLivesMatters](https://twitter.com/ThePSF/status/1267591714925133825)
+
         [YSYS will be hosting an event bringing together black community leaders + allies in tech to discuss how we can mobilise and rebuild] (https://twitter.com/ThisIsYSYS/status/1267393576708734976 but BLM related)
+
         [EuroPython Schedule is out](https://ep2020.europython.eu/schedule/)
+
         [AnacondaCon Starting today](https://anacondacon.io/)
+
         [Django security releases, update ASAP](https://www.djangoproject.com/weblog/2020/jun/03/security-releases/)
 
     Py Hall of Fram:
+
         Adam Johnson, Django technical board member
+
         Follow Adam on twitter [@AdamChainz](https://twitter.com/AdamChainz)
+
         [Get Adam's book](https://gumroad.com/l/suydt)
 
     PyPI Highlight:
+
         Cheuk's choice - [sidetable](https://pbpython.com/sidetable.html) - Create Simple Summary Tables in Pandas
+
         Adam's choice - [time-machine](https://adamj.eu/tech/2020/06/03/introducing-time-machine/)
+
         Lais's choice - [pillow](https://pypi.org/project/Pillow/)
 
     [Listen to MidMeetPy podcast](https://anchor.fm/midmeetpy)
