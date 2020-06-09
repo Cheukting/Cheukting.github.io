@@ -1,3 +1,15 @@
+- title: The Legend of Data - Ep.2 - Pandas basics 1
+  vid: P2oz8o4-nJs
+  tags: The Legend of Data
+  description: |
+    Pandas is a superpower tool to handle data in Python. It lets you read and write from csv, xlsx and other file formats; lets you change the structure of the data, change the data types, aggregate data, joining data etc. In this episode, we will talk a bit about the internal of pandas DataFrames and some basic operations for reading and writing csvs, slicing DataFrames and changing data types.
+
+    If you have any questions or any suggestions about which Python or Data Science topics to cover, please leave your comment at my [Twitch channel](https://www.twitch.tv/cheukting_ho)
+
+    You can get the slide deck [here](https://slides.com/cheukting_ho/legend-data-pandas1/). The notebook that I used can be found [here](https://github.com/Cheukting/legend_data).
+  date: 2020-06-08
+  author: Cheuk Ting Ho
+
 - title: Python Zero to Hero - Ep.10 - More Pytest and Mock
   vid: IlL-tNtQo3Q
   tags: Python Zero to Hero
