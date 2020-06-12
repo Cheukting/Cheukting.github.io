@@ -1,4 +1,39 @@
-- title: The Legend of Data - Ep.2 - Pandas basics 1
+- title: Mid Meet Py - Ep.11 - Interview with David Lord
+  vid: rgIuaCws25k
+  tags: Mid Meet Py
+  description: |
+    PyChat:
+
+      [PyData Festerval Amsterday](https://www.eventbrite.com/e/pydata-festival-amsterdam-2020-tickets-105751621948)
+
+      [Zen of Python song!](https://twitter.com/pumpichank/status/1264340179902332928)
+
+      [pyOpenSci community call today](https://twitter.com/pyOpenSci/status/1270004163234144257)
+
+      [Python Packaging Guide](https://dev.to/shyams1993/python-packaging-guide-25i6)
+
+      [PyLadies Call for Speakers](https://twitter.com/PyLadiesDub/status/1269963641518018568)
+
+      [Python Ireland call for speakers](https://twitter.com/PythonIreland/status/1268607953080397825)
+
+
+    Mid Meet - Hall of Fame:
+
+      David Lord - lead dev Flask and related libraries on @PalletsTeam. Meetup organizer @SanDiegoPython
+
+      [Follow David on Twitter](https://twitter.com/davidism)
+
+
+    PyPI highlights:
+
+      [Make yourself a cartoon](https://github.com/minivision-ai/photo2cartoon) - They use this: [face-alignment](https://pypi.org/project/face-alignment/)
+
+      Create representations of large DS - [datashader](https://datashader.org/)
+
+    [Listen to MidMeetPy podcast](https://anchor.fm/midmeetpy)
+  date: 2020-06-10
+  author: Cheuk Ting Ho
+
   vid: P2oz8o4-nJs
   tags: The Legend of Data
   description: |
