@@ -1,3 +1,15 @@
+- title: World of WoqlCraft - Ep.11 TerminusDB new Python client updates and new woql.py syntax
+  vid: zj0iNXeRCtA
+  tags: World of WoqlCraft
+  description: |
+    Today is a short episode that I am giving you a preview of the new Python Client for TerminusDB. It is more pythonic than the last version and let you to have more options in constructing your WOQL objects. Best of all, it works with the most powerful TerminusDB 2.0.
+
+    Find the source code from our [tutorial repo](https://github.com/terminusdb/terminus-tutorials).
+
+    Join the TerminusDB community at [Discord](https://discord.gg/Gvdqw97)
+  date: 2020-06-05
+  author: Cheuk Ting Ho
+
 - title: Mid Meet Py - Ep.11 - Interview with David Lord
   vid: rgIuaCws25k
   tags: Mid Meet Py
