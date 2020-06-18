@@ -1,3 +1,33 @@
+- title: Mid Meet Py - Ep.12 - Interview with Dani Papamaximou
+  vid: gklPNrkHRSM
+  tags: Mid Meet Py
+  description: |
+    PyChat:
+
+      [Dropping pytz?](https://twitter.com/pganssle/status/1271878126235197440)
+
+      [PyData MCR](https://twitter.com/PyDataMCR/status/1271902376962785280)
+
+      [CPython - old parser is dead](https://twitter.com/pyblogsal/status/1271115432590807041)
+
+      [TutorialDB - a small scale OS search engine for programming/dev tutorials](https://tutorialdb-app.herokuapp.com/about/)
+
+    Mid Meet - Hall of Fame:
+
+      Dani Papamaximou - organizer of Django Girls Birmingham and Python Midwest
+
+      [Follow Dani on Twiter](https://twitter.com/DaniQuietNow)
+
+    PyPI highlights:
+
+      Recently wanna try using [Pre-commit](https://pre-commit.com/)
+
+      [HTTPrunner](https://docs.httprunner.org/) HTTP(s) testing framework in Python
+
+    [Listen to MidMeetPy podcast](https://anchor.fm/midmeetpy)
+  date: 2020-06-10
+  author: Cheuk Ting Ho
+
 - title: The Legend of Data - Ep.3 - Pandas basics 2
   vid: xPOKiPZEoMY
   tags: The Legend of Data
