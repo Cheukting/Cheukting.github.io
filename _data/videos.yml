@@ -1,3 +1,15 @@
+- title: World of WoqlCraft - Ep.12 Start creating movies data graph
+  vid: 0DKC5DQ5ho8
+  tags: World of WoqlCraft
+  description: |
+    Using the new Python client for the most powerful TerminusDB 2.0, we start creating a knowledge graph with the IMDB movies data.
+
+    Find the source code from our [tutorial repo](https://github.com/terminusdb/terminus-tutorials).
+
+    Join the TerminusDB community at [Discord](https://discord.gg/Gvdqw97)
+  date: 2020-06-05
+  author: Cheuk Ting Ho
+
 - title: Mid Meet Py - Ep.12 - Interview with Dani Papamaximou
   vid: gklPNrkHRSM
   tags: Mid Meet Py
@@ -25,7 +37,7 @@
       [HTTPrunner](https://docs.httprunner.org/) HTTP(s) testing framework in Python
 
     [Listen to MidMeetPy podcast](https://anchor.fm/midmeetpy)
-  date: 2020-06-10
+  date: 2020-06-17
   author: Cheuk Ting Ho
 
 - title: The Legend of Data - Ep.3 - Pandas basics 2
