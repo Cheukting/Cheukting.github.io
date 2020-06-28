@@ -2,7 +2,7 @@
   vid: 8TXwRxShUDA
   tags: World of WoqlCraft
   description: |
-    Using the new Python client for the most powerful TerminusDB 2.0, we continue building a knowledge graph with the IMDB movies data by loading the data from the csv..
+    Using the new Python client for the most powerful TerminusDB 2.0, we continue building a knowledge graph with the IMDB movies data by loading the data from the csv.
 
     Find the source code from our [tutorial repo](https://github.com/terminusdb/terminus-tutorials).
 
