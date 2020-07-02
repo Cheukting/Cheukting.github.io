@@ -1,3 +1,34 @@
+- title: Mid Meet Py - Ep.14 - Interview with Waylon Walker
+  vid: GHhwqk-z3cE
+  tags: Mid Meet Py
+  description: |
+    PyChat:
+      [PyData global CfP is opened](https://global.pydata.org/pages/cfp.html)
+      [JupyterCon 2020 Virtual Event](https://jupytercon.com/?eType=EmailBlastContent&eId=7199698e-39b2-4a0a-b12b-1c819f8582be)
+      [PyTorch joins NumFOCUS as an Affiliated Project](https://github.com/pytorch/ignite?eType=EmailBlastContent&eId=7199698e-39b2-4a0a-b12b-1c819f8582be)
+      [PyGotham TV - last days for CfP (July 5th)](https://cfp.pygotham.tv/)
+      [Python Ireland remote meetup events](https://www.meetup.com/pythonireland/events/271602841/) > [volunteers for Lightning Talks](https://bit.ly/3g8w0xh)
+      [Blog about Pickle: Pickle’s nine flaws](https://nedbatchelder.com/blog/202006/pickles_nine_flaws.html)
+
+    Mid Meet - Hall of Fame
+      Interview with Waylon Walker ([Twitter](https://twitter.com/_waylonwalker) & [dev.to](https://dev.to/waylonwalker))- Data driven solution enabler, creator of find-kedro and kedro-static-viz
+
+    [Listen to MidMeetPy podcast](https://anchor.fm/midmeetpy)
+  date: 2020-07-01
+  author: Cheuk Ting Ho
+
+- title: The Legend of Data - Ep.5 - Data Visualization 2
+  vid: BTqDPbyuVBU
+  tags: The Legend of Data
+  description: |
+    This week we continue to do data visualisation with Matplotlib, we learn what are figures and axes, how to customize your plot by changing the elements in your axes, and having multiple subplots in a figure. In the end, we figure out a few slow fire type pokemon, can you guess what they are?
+
+    If you have any questions or any suggestions about which Python or Data Science topics to cover, please leave your comment at my [Twitch channel](https://www.twitch.tv/cheukting_ho)
+
+    You can get the slide deck [here](https://slides.com/cheukting_ho/legend-data-pandas1/). The notebook that I used can be found [here](https://github.com/Cheukting/legend_data).
+  date: 2020-06-29
+  author: Cheuk Ting Ho
+
 - title: Python Zero to Hero - Ep.13 - Test-driven Development
   vid: QGJUkf9au0w
   tags: Python Zero to Hero
