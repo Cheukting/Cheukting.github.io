@@ -1,16 +1,35 @@
+- title: World of WoqlCraft - Ep.14 Finish building movies data graph
+  vid: 8TXwRxShUDA
+  tags: World of WoqlCraft
+  description: |
+    We finally solve all the problems and finish loading all data in the most powerful TerminusDB 2.0, we are now ready to get some analysis out of the IMDB movies data. Follow this series to see how we use TerminusDB client and making queries in Python.
+
+    Find the source code from our [tutorial repo](https://github.com/terminusdb/terminus-tutorials).
+
+    Join the TerminusDB community at [Discord](https://discord.gg/Gvdqw97)
+  date: 2020-07-03
+  author: Cheuk Ting Ho
+
 - title: Mid Meet Py - Ep.14 - Interview with Waylon Walker
   vid: GHhwqk-z3cE
   tags: Mid Meet Py
   description: |
     PyChat:
+
       [PyData global CfP is opened](https://global.pydata.org/pages/cfp.html)
+
       [JupyterCon 2020 Virtual Event](https://jupytercon.com/?eType=EmailBlastContent&eId=7199698e-39b2-4a0a-b12b-1c819f8582be)
+
       [PyTorch joins NumFOCUS as an Affiliated Project](https://github.com/pytorch/ignite?eType=EmailBlastContent&eId=7199698e-39b2-4a0a-b12b-1c819f8582be)
+
       [PyGotham TV - last days for CfP (July 5th)](https://cfp.pygotham.tv/)
+
       [Python Ireland remote meetup events](https://www.meetup.com/pythonireland/events/271602841/) > [volunteers for Lightning Talks](https://bit.ly/3g8w0xh)
+
       [Blog about Pickle: Pickle’s nine flaws](https://nedbatchelder.com/blog/202006/pickles_nine_flaws.html)
 
     Mid Meet - Hall of Fame
+
       Interview with Waylon Walker ([Twitter](https://twitter.com/_waylonwalker) & [dev.to](https://dev.to/waylonwalker))- Data driven solution enabler, creator of find-kedro and kedro-static-viz
 
     [Listen to MidMeetPy podcast](https://anchor.fm/midmeetpy)
