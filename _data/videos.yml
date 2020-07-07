@@ -1,5 +1,17 @@
+- title: The Legend of Data - Ep.6 - Data Visualization 3
+  vid: momGI-b8_UA
+  tags: The Legend of Data
+  description: |
+    Continue form last week, we try plotting by simply using df.plot. It uses Matplotlib as a back end and make plotting much easier. Also, we tried out Seaborn, a library that makes beautiful plots by providing a higher-level API on top of Matplotlib.
+
+    If you have any questions or any suggestions about which Python or Data Science topics to cover, please leave your comment at my [Twitch channel](https://www.twitch.tv/cheukting_ho)
+
+    You can get the slide deck [here](https://slides.com/cheukting_ho/legend-data-pandas1/). The notebook that I used can be found [here](https://github.com/Cheukting/legend_data).
+  date: 2020-06-29
+  author: Cheuk Ting Ho
+
 - title: World of WoqlCraft - Ep.14 Finish building movies data graph
-  vid: 8TXwRxShUDA
+  vid: 1N7C1D5l7Og
   tags: World of WoqlCraft
   description: |
     We finally solve all the problems and finish loading all data in the most powerful TerminusDB 2.0, we are now ready to get some analysis out of the IMDB movies data. Follow this series to see how we use TerminusDB client and making queries in Python.
