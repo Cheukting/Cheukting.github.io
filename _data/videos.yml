@@ -1,3 +1,36 @@
+- title: Mid Meet Py - Ep.15 - Interview with Stéphane
+  vid: vubl0YfJNFA
+  tags: Mid Meet Py
+  description: |
+    PyChat:
+
+      [Python security announcement](https://twitter.com/zooba/status/1280235122730680324) - If your application embeds Python on Windows, you may be at risk.
+
+      [Matplotlib Cheatsheet](https://twitter.com/NPRougier/status/1280249448774414339)
+      [EuroPyhon Merch Shop](https://ep2020.europython.eu/europython/europython-merchandise-shop/) (15% off till 15th)
+
+      [Turn you Raspberry Pi into gaming machine](https://twitter.com/Raspberry_Pi/status/1280819367882764290)
+
+      [Python Ireland remote meetup event today](https://www.meetup.com/pythonireland/events/271602841/)
+
+      [Pydata event](https://www.meetup.com/pythonireland/events/271604309/): joined effort with regional meetup
+
+    Mid Meet - Hall of Fame:
+
+      Stéphane - CPython core developer, Board member of EuroPython
+
+      Follow Stéphane on [Twitter](https://twitter.com/matrixise)
+
+    PyPI highlights:
+
+      [Pandas-Bokeh](https://github.com/PatrikHlobil/Pandas-Bokeh) - using bokeh with pandas
+
+      [interrogate](https://pypi.org/project/interrogate/) checks your code base for missing docstrings.
+
+    [Listen to MidMeetPy podcast](https://anchor.fm/midmeetpy)
+  date: 2020-07-08
+  author: Cheuk Ting Ho
+
 - title: The Legend of Data - Ep.6 - Data Visualization 3
   vid: momGI-b8_UA
   tags: The Legend of Data
