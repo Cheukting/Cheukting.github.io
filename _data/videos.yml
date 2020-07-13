@@ -1,3 +1,25 @@
+- title: Python Zero to Hero - Ep.14 - Python iterators
+  vid: YSYjsI2O6v0
+  tags: Python Zero to Hero
+  description: |
+    In this tutorial, we will investigate Python's iterators. Whenever you are doing a for-loop, an iterator is created under the hood. Let's have a closer look at this mysterious Python object. If you have any questions or any suggestions about which Python topics to cover, please leave your comment at my [Twitch channel](https://www.twitch.tv/cheukting_ho)
+
+    You can get the slide deck [here](https://slides.com/cheukting_ho) and the example code and homework form [GitHub here](https://github.com/Cheukting/python02hero). Ask questions at my [Twitch channel](https://www.twitch.tv/cheukting_ho)
+  date: 2020-07-12
+  author: Cheuk Ting Ho
+
+- title: World of WoqlCraft - Ep.15 Querying movies data graph
+  vid: EL1xgD1ztv0
+  tags: World of WoqlCraft
+  description: |
+    We can now test out the IMDB movies data by making querying, asking what movie an actor is in and try to find a movie to watch by picking a genre. These all can be done in Jupyter Notebook with the TerminusDB Python client. Follow this series to see how we use TerminusDB client and making queries in Python.
+
+    Find the source code from our [tutorial repo](https://github.com/terminusdb/terminus-tutorials).
+
+    Join the TerminusDB community at [Discord](https://discord.gg/Gvdqw97)
+  date: 2020-07-03
+  author: Cheuk Ting Ho
+
 - title: Mid Meet Py - Ep.15 - Interview with Stéphane
   vid: vubl0YfJNFA
   tags: Mid Meet Py
