@@ -1,3 +1,47 @@
+- title: Mid Meet Py - Ep.16 - Interview with Sandrine Pataut
+  vid: yNNE8N1wl1o
+  tags: Mid Meet Py
+  description: |
+    PyChat:
+
+      [Pytest 6.0 is coming](https://twitter.com/pytestdotorg/status/1281954639684857856)
+
+      [GitHub -> Slack bot for pyladies](https://twitter.com/mariatta/status/1281739430554787840)
+
+      [Registrations for PyConAfrica2020 are open](https://twitter.com/pyconafrica/status/1282709212028600320)
+
+      [EuroPython 2020 will start on Thursday next week](https://twitter.com/europython/status/1282618451799023617)
+
+      [PyLadies Dublin Virtual Meetup July](https://www.meetup.com/PyLadiesDublin/events/271327497/)
+
+    Mid Meet - Hall of Fame:
+
+      Sandrine Pataut - Pythonista, Data Scientist
+
+      Follow Sandrine on [Twitter](https://twitter.com/SPataut)
+
+    PyPI highlights:
+
+      [Marshmallow](https://marshmallow.readthedocs.io/en/stable/)
+      
+      [AffectInTweets](https://github.com/erayyildiz/AffectInTweets)
+
+    [Listen to MidMeetPy podcast](https://anchor.fm/midmeetpy)
+  date: 2020-07-15
+  author: Cheuk Ting Ho
+
+- title: The Legend of Data - Ep.7 - Data Visualization 4
+  vid: cj_QRu_4JJ4
+  tags: The Legend of Data
+  description: |
+    In this last episode of a series of data visualization tutorial, we talked about using Boken, an interactive plotting library to generate some interactive plots with our pokemon dataset. We also tried making a widget which will take a user's input to control the look of our plot.
+
+    If you have any questions or any suggestions about which Python or Data Science topics to cover, please leave your comment at my [Twitch channel](https://www.twitch.tv/cheukting_ho)
+
+    You can get the slide deck [here](https://slides.com/cheukting_ho/legend-data-pandas1/). The notebook that I used can be found [here](https://github.com/Cheukting/legend_data).
+  date: 2020-07-13
+  author: Cheuk Ting Ho
+
 - title: Python Zero to Hero - Ep.14 - Python iterators
   vid: YSYjsI2O6v0
   tags: Python Zero to Hero
@@ -62,7 +106,7 @@
     If you have any questions or any suggestions about which Python or Data Science topics to cover, please leave your comment at my [Twitch channel](https://www.twitch.tv/cheukting_ho)
 
     You can get the slide deck [here](https://slides.com/cheukting_ho/legend-data-pandas1/). The notebook that I used can be found [here](https://github.com/Cheukting/legend_data).
-  date: 2020-06-29
+  date: 2020-07-06
   author: Cheuk Ting Ho
 
 - title: World of WoqlCraft - Ep.14 Finish building movies data graph
