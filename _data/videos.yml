@@ -1,3 +1,15 @@
+- title: World of WoqlCraft - Ep.16 Knowledge Graph for NLP
+  vid: R85QfT3k1H0
+  tags: World of WoqlCraft
+  description: |
+    This time we try to see if we can store the structure of a sentence in a knowledge graph? We build a schema to store the SpaCy tokens and will store the structure of a SpaCy doc in a graph. This is a part 1, we will continue loading it into the graph in next episode.
+
+    Find the source code from our [tutorial repo](https://github.com/terminusdb/terminus-tutorials).
+
+    Join the TerminusDB community at [Discord](https://discord.gg/Gvdqw97)
+  date: 2020-07-17
+  author: Cheuk Ting Ho
+
 - title: Mid Meet Py - Ep.16 - Interview with Sandrine Pataut
   vid: yNNE8N1wl1o
   tags: Mid Meet Py
@@ -23,7 +35,7 @@
     PyPI highlights:
 
       [Marshmallow](https://marshmallow.readthedocs.io/en/stable/)
-      
+
       [AffectInTweets](https://github.com/erayyildiz/AffectInTweets)
 
     [Listen to MidMeetPy podcast](https://anchor.fm/midmeetpy)
