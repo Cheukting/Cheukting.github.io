@@ -6,18 +6,18 @@
 
   <title>Cheuk Ting Ho | Building the Open-source Community</title><!-- Begin Jekyll SEO tag v2.4.0 -->
 <meta name="generator" content="Jekyll v3.8.7" />
-<meta property="og:title" content="Web Surgery - Ep.8 - Final fine tuning of my website" />
+<meta property="og:title" content="World of WoqlCraft - Ep.16 Knowledge Graph for NLP" />
 <meta name="author" content="Cheuk Ting Ho" />
 <meta property="og:locale" content="en_US" />
-<meta name="description" content="This is the last episode of Web Surgery as I will dedicate this time every week to start a new series. Today we gonna quickly wrap up the series with a little improvement of my website. Thank you for supporting this series. Let me know what you would like to learn and any suggestions at my Twitch." />
-<meta property="og:description" content="This is the last episode of Web Surgery as I will dedicate this time every week to start a new series. Today we gonna quickly wrap up the series with a little improvement of my website. Thank you for supporting this series. Let me know what you would like to learn and any suggestions at my Twitch." />
-<link rel="canonical" href="https://cheuk.dev/videos/4vweakbaxui/" />
-<meta property="og:url" content="https://cheuk.dev/videos/4vweakbaxui/" />
+<meta name="description" content="This time we try to see if we can store the structure of a sentence in a knowledge graph? We build a schema to store the SpaCy tokens and will store the structure of a SpaCy doc in a graph. This is a part 1, we will continue loading it into the graph in next episode. Find the source code from our tutorial repo. Join the TerminusDB community at Discord" />
+<meta property="og:description" content="This time we try to see if we can store the structure of a sentence in a knowledge graph? We build a schema to store the SpaCy tokens and will store the structure of a SpaCy doc in a graph. This is a part 1, we will continue loading it into the graph in next episode. Find the source code from our tutorial repo. Join the TerminusDB community at Discord" />
+<link rel="canonical" href="https://cheuk.dev/videos/r85qft3k1h0/" />
+<meta property="og:url" content="https://cheuk.dev/videos/r85qft3k1h0/" />
 <meta property="og:site_name" content="Building the Open-source Community" />
 <meta property="og:type" content="article" />
-<meta property="article:published_time" content="2020-05-25T00:00:00+00:00" />
+<meta property="article:published_time" content="2020-07-17T00:00:00+00:00" />
 <script type="application/ld+json">
-{"description":"This is the last episode of Web Surgery as I will dedicate this time every week to start a new series. Today we gonna quickly wrap up the series with a little improvement of my website. Thank you for supporting this series. Let me know what you would like to learn and any suggestions at my Twitch.","url":"https://cheuk.dev/videos/4vweakbaxui/","headline":"Web Surgery - Ep.8 - Final fine tuning of my website","dateModified":"2020-05-25T00:00:00+00:00","datePublished":"2020-05-25T00:00:00+00:00","@type":"BlogPosting","author":{"@type":"Person","name":"Cheuk Ting Ho"},"mainEntityOfPage":{"@type":"WebPage","@id":"https://cheuk.dev/videos/4vweakbaxui/"},"@context":"http://schema.org"}</script>
+{"description":"This time we try to see if we can store the structure of a sentence in a knowledge graph? We build a schema to store the SpaCy tokens and will store the structure of a SpaCy doc in a graph. This is a part 1, we will continue loading it into the graph in next episode. Find the source code from our tutorial repo. Join the TerminusDB community at Discord","url":"https://cheuk.dev/videos/r85qft3k1h0/","headline":"World of WoqlCraft - Ep.16 Knowledge Graph for NLP","dateModified":"2020-07-17T00:00:00+00:00","datePublished":"2020-07-17T00:00:00+00:00","@type":"BlogPosting","author":{"@type":"Person","name":"Cheuk Ting Ho"},"mainEntityOfPage":{"@type":"WebPage","@id":"https://cheuk.dev/videos/r85qft3k1h0/"},"@context":"http://schema.org"}</script>
 <!-- End Jekyll SEO tag -->
 <link rel="stylesheet" href="/assets/css/app.min.css" />
 
@@ -113,23 +113,23 @@
   <article itemprop="blogPost" itemscope itemtype="http://schema.org/BlogPosting" class="h-entry">
     <div class="post__header section-padding">
       <div class="grid-large">
-        <h2 itemprop="name headline" class="p-name">Web Surgery - Ep.8 - Final fine tuning of my website</h2>
+        <h2 itemprop="name headline" class="p-name">World of WoqlCraft - Ep.16 Knowledge Graph for NLP</h2>
 
-        <time class="post__date dt-published" datetime="2020-05-25T00:00:00+00:00" itemprop="datePublished">25 May 2020</time>
+        <time class="post__date dt-published" datetime="2020-07-17T00:00:00+00:00" itemprop="datePublished">17 Jul 2020</time>
       </div>
     </div>
 
     
     <div class="post__header" style="text-align: center; background-color: #000;">
       <div class="ytcontainer">
-        <iframe class="yt" src="https://www.youtube.com/embed/4vweAkbAxUI" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+        <iframe class="yt" src="https://www.youtube.com/embed/R85QfT3k1H0" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
       </div>
     </div>
     
 
     <div class="post__img u-photo" style="display: none;">
       <div>
-        <figure class="absolute-bg" style="background-image: url('http://img.youtube.com/vi/4vweAkbAxUI/0.jpg');"></figure>
+        <figure class="absolute-bg" style="background-image: url('http://img.youtube.com/vi/R85QfT3k1H0/0.jpg');"></figure>
       </div>
     </div>
 
@@ -137,7 +137,11 @@
       <div class="grid-large">
         <div id="markdown" itemprop="articleBody" class="e-content">
             
-            <p><p>This is the last episode of Web Surgery as I will dedicate this time every week to start a new series. Today we gonna quickly wrap up the series with a little improvement of my website. Thank you for supporting this series. Let me know what you would like to learn and any suggestions at my <a href="https://www.twitch.tv/cheukting_ho">Twitch</a>.</p>
+            <p><p>This time we try to see if we can store the structure of a sentence in a knowledge graph? We build a schema to store the SpaCy tokens and will store the structure of a SpaCy doc in a graph. This is a part 1, we will continue loading it into the graph in next episode.</p>
+
+<p>Find the source code from our <a href="https://github.com/terminusdb/terminus-tutorials">tutorial repo</a>.</p>
+
+<p>Join the TerminusDB community at <a href="https://discord.gg/Gvdqw97">Discord</a></p>
 </p>
             
             <p>If you want to catch me streaming live, follow me on <a href="https://www.twitch.tv/cheukting_ho">Twitch</a>.</p>
@@ -147,22 +151,30 @@
         <br /><br />
 <h2 class="post__social">Share this video</h2>
 <ul class="post__social">
-  <li><a href="https://www.facebook.com/sharer/sharer.php?u=https://cheuk.dev/videos/4vweakbaxui/" target="_blank"><i class="fa fa-facebook"></i></a></li>
-  <li><a href="https://twitter.com/intent/tweet?&text=Web Surgery - Ep.8 - Final fine tuning of my website+https://cheuk.dev/videos/4vweakbaxui/+by+Cheuk Ting Ho" target="_blank"><i class="fa fa-twitter"></i></a></li>
+  <li><a href="https://www.facebook.com/sharer/sharer.php?u=https://cheuk.dev/videos/r85qft3k1h0/" target="_blank"><i class="fa fa-facebook"></i></a></li>
+  <li><a href="https://twitter.com/intent/tweet?&text=World of WoqlCraft - Ep.16 Knowledge Graph for NLP+https://cheuk.dev/videos/r85qft3k1h0/+by+Cheuk Ting Ho" target="_blank"><i class="fa fa-twitter"></i></a></li>
   <!------
-  <li><a href="https://plus.google.com/share?url=https://cheuk.dev/videos/4vweakbaxui/" target="_blank"><i class="fa fa-google-plus"></i></a></li>
+  <li><a href="https://plus.google.com/share?url=https://cheuk.dev/videos/r85qft3k1h0/" target="_blank"><i class="fa fa-google-plus"></i></a></li>
   ------->
-  <li><a href="https://www.linkedin.com/shareArticle?mini=true&source=Web Surgery - Ep.8 - Final fine tuning of my website&summary=This is the last episode of Web Surgery as I will dedicate this time every week to start a new series. Today we gonna quickly wrap up the series with a little improvement of my website. Thank you for supporting this series. Let me know what you would like to learn and any suggestions at my [Twitch](https://www.twitch.tv/cheukting_ho).
-&url=https://cheuk.dev/videos/4vweakbaxui/" target="_blank"><i class="fa fa-linkedin"></i></a></li>
+  <li><a href="https://www.linkedin.com/shareArticle?mini=true&source=World of WoqlCraft - Ep.16 Knowledge Graph for NLP&summary=This time we try to see if we can store the structure of a sentence in a knowledge graph? We build a schema to store the SpaCy tokens and will store the structure of a SpaCy doc in a graph. This is a part 1, we will continue loading it into the graph in next episode.
+
+Find the source code from our [tutorial repo](https://github.com/terminusdb/terminus-tutorials).
+
+Join the TerminusDB community at [Discord](https://discord.gg/Gvdqw97)
+&url=https://cheuk.dev/videos/r85qft3k1h0/" target="_blank"><i class="fa fa-linkedin"></i></a></li>
   <!------
-  <li><a href="https://www.stumbleupon.com/badge/?url=https://cheuk.dev/videos/4vweakbaxui/" target="_blank"><i class="fa fa-stumbleupon"></i></a></li>
+  <li><a href="https://www.stumbleupon.com/badge/?url=https://cheuk.dev/videos/r85qft3k1h0/" target="_blank"><i class="fa fa-stumbleupon"></i></a></li>
   ------->
-  <li><a href="https://www.reddit.com/submit?url=https://cheuk.dev/videos/4vweakbaxui/" target="_blank"><i class="fa fa-reddit-alien"></i></a></li>
-  <li><a href="https://www.tumblr.com/share/link?url=https://cheuk.dev/videos/4vweakbaxui/" target="_blank"><i class="fa fa-tumblr"></i></a></li>
-  <li><a href="https://www.pinterest.com/pin/create/link/?description=This is the last episode of Web Surgery as I will dedicate this time every week to start a new series. Today we gonna quickly wrap up the series with a little improvement of my website. Thank you for supporting this series. Let me know what you would like to learn and any suggestions at my [Twitch](https://www.twitch.tv/cheukting_ho).
-&media=&url=https://cheuk.dev/videos/4vweakbaxui/" target="_blank"><i class="fa fa-pinterest"></i></a></li>
+  <li><a href="https://www.reddit.com/submit?url=https://cheuk.dev/videos/r85qft3k1h0/" target="_blank"><i class="fa fa-reddit-alien"></i></a></li>
+  <li><a href="https://www.tumblr.com/share/link?url=https://cheuk.dev/videos/r85qft3k1h0/" target="_blank"><i class="fa fa-tumblr"></i></a></li>
+  <li><a href="https://www.pinterest.com/pin/create/link/?description=This time we try to see if we can store the structure of a sentence in a knowledge graph? We build a schema to store the SpaCy tokens and will store the structure of a SpaCy doc in a graph. This is a part 1, we will continue loading it into the graph in next episode.
+
+Find the source code from our [tutorial repo](https://github.com/terminusdb/terminus-tutorials).
+
+Join the TerminusDB community at [Discord](https://discord.gg/Gvdqw97)
+&media=&url=https://cheuk.dev/videos/r85qft3k1h0/" target="_blank"><i class="fa fa-pinterest"></i></a></li>
 </ul>
-<a href="https://cheuk.dev/videos/4vweakbaxui/" class="post__social u-url">https://cheuk.dev/videos/4vweakbaxui/</a>
+<a href="https://cheuk.dev/videos/r85qft3k1h0/" class="post__social u-url">https://cheuk.dev/videos/r85qft3k1h0/</a>
 
       </div>
     </div>
@@ -207,8 +219,8 @@ should be replaced with your own Disqus site-id.
     <div id="disqus_thread"></div>
     <script>
       var disqus_config = function () {
-        this.page.url = 'https://cheuk.dev/videos/4vweakbaxui/';
-        this.page.identifier = 'https://cheuk.dev/videos/4vweakbaxui/';
+        this.page.url = 'https://cheuk.dev/videos/r85qft3k1h0/';
+        this.page.identifier = 'https://cheuk.dev/videos/r85qft3k1h0/';
       };
       (function() {
         var d = document, s = d.createElement('script');
@@ -247,94 +259,16 @@ should be replaced with your own Disqus site-id.
         
         
         
-        
-        
-        
-        
-        
-        
-        
-        
-        
-        
-        
-        
-        
-        
-        
-        
-        
-        
-        
-        
-        
-        
-        
-        
-        
-        
-        
-        
-        
-        
-        
-        
-        
-        
-        
-        
-        
-        
-        
-        
-        
-        
-        
-        
-        
-        
-        
-        
-        
-        
-        
-        
-        
-        
-        
-        
-        
-        
-        
-        
-        
-        
-        
-        
-        
-        
-        
-        
-        
-        
-        
-        
-        
-        
-        
-        
-        
-        
-        
-        
-        
-        
-        
-        
-        
-        
-        
-        
+          <article class="related__post">
+            <a class="related__link" href="">
+              <figure class="related__img">
+                <img src="http://img.youtube.com/vi/EL1xgD1ztv0/0.jpg" alt="World of WoqlCraft - Ep.15 Querying movies data graph"/>
+              </figure>
+              <div>
+                <h2 class="related__text">World of WoqlCraft - Ep.15 Querying movies data graph</h2>
+              </div>
+            </a>
+          </article>
         
         
         
@@ -349,10 +283,10 @@ should be replaced with your own Disqus site-id.
           <article class="related__post">
             <a class="related__link" href="">
               <figure class="related__img">
-                <img src="http://img.youtube.com/vi/hs3KCTaFtWM/0.jpg" alt="Web Surgery - Ep.7 - Authentication for Netlify CMS on GitHub"/>
+                <img src="http://img.youtube.com/vi/1N7C1D5l7Og/0.jpg" alt="World of WoqlCraft - Ep.14 Finish building movies data graph"/>
               </figure>
               <div>
-                <h2 class="related__text">Web Surgery - Ep.7 - Authentication for Netlify CMS on GitHub</h2>
+                <h2 class="related__text">World of WoqlCraft - Ep.14 Finish building movies data graph</h2>
               </div>
             </a>
           </article>
@@ -373,34 +307,10 @@ should be replaced with your own Disqus site-id.
           <article class="related__post">
             <a class="related__link" href="">
               <figure class="related__img">
-                <img src="http://img.youtube.com/vi/vA0v6qD4DOc/0.jpg" alt="Web Surgery - Ep.6 - Adding Netlify CMS to the website"/>
+                <img src="http://img.youtube.com/vi/8TXwRxShUDA/0.jpg" alt="World of WoqlCraft - Ep.13 Continue building movies data graph"/>
               </figure>
               <div>
-                <h2 class="related__text">Web Surgery - Ep.6 - Adding Netlify CMS to the website</h2>
-              </div>
-            </a>
-          </article>
-        
-        
-        
-        
-        
-        
-        
-        
-        
-        
-        
-        
-        
-        
-          <article class="related__post">
-            <a class="related__link" href="">
-              <figure class="related__img">
-                <img src="http://img.youtube.com/vi/L5xCFcNNyw8/0.jpg" alt="Web Surgery - Ep.5 - Updating the look of the Animal Crossing Item Wishlist Website"/>
-              </figure>
-              <div>
-                <h2 class="related__text">Web Surgery - Ep.5 - Updating the look of the Animal Crossing Item Wishlist Website</h2>
+                <h2 class="related__text">World of WoqlCraft - Ep.13 Continue building movies data graph</h2>
               </div>
             </a>
           </article>
