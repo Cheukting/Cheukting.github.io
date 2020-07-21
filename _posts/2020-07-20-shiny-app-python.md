@@ -130,7 +130,7 @@ layout = column(slider_b, slider_A, plot, div)
 
 show(layout)
 ```
-Okay, that's quite a big truck of code here, let's crack it down bit by bit:
+Okay, that's quite a big chunk of code here, let's crack it down bit by bit:
 
 ```python
 output_notebook()
