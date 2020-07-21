@@ -1,0 +1,541 @@
+<!DOCTYPE html>
+<html lang=" en "><head>
+  <meta charset="utf-8" />
+  <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+
+  <title>Cheuk Ting Ho | Building the Open-source Community</title><!-- Begin Jekyll SEO tag v2.4.0 -->
+<meta name="generator" content="Jekyll v3.8.7" />
+<meta property="og:title" content="Shiny App in Python? Bokeh + Jupyter notebook" />
+<meta name="author" content="Cheuk Ting Ho" />
+<meta property="og:locale" content="en_US" />
+<meta name="description" content="How to build an interactive plot with Bokeh and Jupyter notebook" />
+<meta property="og:description" content="How to build an interactive plot with Bokeh and Jupyter notebook" />
+<link rel="canonical" href="https://cheuk.dev/2020/03/20/shiny-app-python/" />
+<meta property="og:url" content="https://cheuk.dev/2020/03/20/shiny-app-python/" />
+<meta property="og:site_name" content="Building the Open-source Community" />
+<meta property="og:image" content="https://cheuk.dev/assets/images/line_reg.gif" />
+<meta property="og:type" content="article" />
+<meta property="article:published_time" content="2020-03-20T00:00:00+00:00" />
+<script type="application/ld+json">
+{"description":"How to build an interactive plot with Bokeh and Jupyter notebook","url":"https://cheuk.dev/2020/03/20/shiny-app-python/","headline":"Shiny App in Python? Bokeh + Jupyter notebook","dateModified":"2020-03-20T00:00:00+00:00","datePublished":"2020-03-20T00:00:00+00:00","@type":"BlogPosting","author":{"@type":"Person","name":"Cheuk Ting Ho"},"image":"https://cheuk.dev/assets/images/line_reg.gif","mainEntityOfPage":{"@type":"WebPage","@id":"https://cheuk.dev/2020/03/20/shiny-app-python/"},"@context":"http://schema.org"}</script>
+<!-- End Jekyll SEO tag -->
+<link rel="stylesheet" href="/assets/css/app.min.css" />
+
+  <!--
+  <link rel="shortcut icon" type="image/x-icon" href="">
+  -->
+
+<!-- favicon -->
+  <link rel="apple-touch-icon" sizes="180x180" href="/favicon/apple-touch-icon.png" />
+  <link rel="icon" type="image/png" sizes="32x32" href="/favicon/favicon-32x32.png" />
+  <link rel="icon" type="image/png" sizes="16x16" href="/favicon/favicon-16x16.png" />
+  <link rel="manifest" href="/favicon/site.webmanifest" />
+<!-- favicon -->
+
+<!-- indieweb links -->
+  <link rel="authorization_endpoint" href="https://indieauth.com/auth" />
+  <link rel="token_endpoint" href="https://tokens.indieauth.com/token" />
+  <link rel="webmention" href="https://webmention.io/cheuk.dev/webmention" />
+  <link rel="pingback" href="https://webmention.io/cheuk.dev/xmlrpc" />
+<!-- indieweb links --></head>
+<body id="page-top"><nav id="mainNav" class="navbar navbar-default navbar-fixed-top">
+    <div class="container-fluid">
+        <!-- Brand and toggle get grouped for better mobile display -->
+        <div class="navbar-header">
+            <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1">
+                <span class="sr-only">Toggle navigation</span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+            </button>
+            <a class="navbar-brand" href="/"><img src="/favicon/favicon-32x32.png" alt="back to top"></a>
+        </div>
+
+        <!-- Collect the nav links, forms, and other content for toggling -->
+        <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+            <ul class="nav navbar-nav navbar-right">
+                <li>
+                    <a href="/#projects">Projects</a>
+                </li>
+                <li>
+                    <a href="/#articles">Articles</a>
+                </li>
+                <li>
+                    <a href="/#meetups">Meetups</a>
+                </li>
+                <li>
+                    <a href="/#videos">Videos</a>
+                </li>
+                <li>
+                    <a href="/#workshops">Workshops</a>
+                </li>
+            </ul>
+        </div>
+        <!-- /.navbar-collapse -->
+    </div>
+    <!-- /.container-fluid -->
+</nav>
+<div class="container header-contianer h-card">
+  <div class="row">
+    <div class="col-xs-12 col-sm-6 col-md-6 col-lg-8 header-left">
+      <img class="banner-logo u-photo" src="/images/logo.png" alt="website banner">
+        <!----
+      <h1>Cheuk Ting Ho</h1>
+      <h2>Building the Open-source Community</h2>
+      --->
+    </div>
+    <div class="col-xs-12 col-sm-6 col-md-6 col-lg-4 header-right">
+      <ul class="icons no-print"><li>
+            <a target="_blank" href="https://github.com/Cheukting" class="button button--sacnite button--round-l u-url" rel="me">
+              <i class="fab fa-github" title="Github link"></i>
+            </a>
+          </li><li>
+            <a target="_blank" href="https://www.linkedin.com/in/cheukting-ho" class="button button--sacnite button--round-l u-url">
+              <i class="fab fa-linkedin" title="Linkedin link"></i>
+            </a>
+          </li><li>
+            <a target="_blank" href="https://twitter.com/cheukting_ho" class="button button--sacnite button--round-l u-url" rel="me">
+              <i class="fab fa-twitter" title="Twitter link"></i>
+            </a>
+          </li><li>
+          <a target="_blank" href="https://dev.to/cheukting_ho" class="button button--sacnite button--round-l u-url" rel="me">
+            <i class="fab fa-dev" title="DEV Profile"></i>
+          </a>
+        </li><li>
+          <a target="_blank" href="https://www.twitch.tv/cheukting_ho" class="button button--sacnite button--round-l u-url">
+            <i class="fab fa-twitch" title="Twitch Channel"></i>
+          </a>
+        </li></ul></div>
+  </div>
+</div>
+<main class="page-content" aria-label="Content">
+<div class="post container intro-container">
+  <article itemprop="blogPost" itemscope itemtype="http://schema.org/BlogPosting" class="h-entry">
+    <div class="post__header section-padding">
+      <div class="grid-large">
+        <h2 itemprop="name headline" class="p-name">Shiny App in Python? Bokeh + Jupyter notebook</h2>
+
+        <time class="post__date dt-published" datetime="2020-03-20T00:00:00+00:00" itemprop="datePublished">20 Mar 2020</time>
+      </div>
+    </div>
+
+    
+      <div class="post__img u-photo">
+        <div>
+          <figure class="absolute-bg" style="background-image: url('/assets/images/line_reg.gif');"></figure>
+        </div>
+      </div>
+    
+
+    <div class="post__content section-padding">
+      <div class="grid-large">
+        <div id="markdown" itemprop="articleBody" class="e-content">
+          <p>While I am preparing my Data Science tutorial today, I suddenly have an idea of making an interactive plot with Bokeh and Jupyter notebook. I have a feeling that it’s possible because I was looking at the Bokeh widgets last week and I know that you can link up a Bokeh widget with a plot to change it’s appearance. It was a brave idea and I am happy with the result.</p>
+
+<p>By doing so, I learn a thing or two about Bokeh and to be honest, this actually reminds me about Shiny in R. A few years ago, my friend and I had a conversation about how useful Shiny is and we wish there is something similar in Python. Here you go! It’s not exactly the same but, in my opinion after coding in Python full time for a few years, it is better than a Shiny app.</p>
+
+<h2 id="what-is-bokeh">What is Bokeh</h2>
+
+<p>For those who does not know Bokeh, it’s an interactive visualisation library for modern web browsers. It allows you to create interactive graph with just Python (of cause if you can code in JS you will get some bonus control over it). You can render your interactive graph as an html or embedded it in the Jupyter notebook.</p>
+
+<p><strong>If you want to learn more about Bokeh, you can watch <a href="https://cheuk.dev/videos/cj_qru_4jj4">my tutorial</a></strong></p>
+
+<h2 id="prerequisite">Prerequisite</h2>
+
+<p>To create something like I did - an interactive plot with Bokeh, you will have to be able to code in basic Python. Have some idea about Bokeh (the <a href="https://docs.bokeh.org/en/latest/index.html">documentation</a> is your best friend here).</p>
+
+<p>On top of that, you will have to be able/ happy to write a bit of JavaScript. But don’t worry, you will only need to write some small code snippets of it and it is highly similar to Python.</p>
+
+<h2 id="lets-get-started">Let’s get started</h2>
+
+<p>In this example, we will create an app that the user can use 2 slider bars to control a line trying fit the data with the least sum of error square. I call it a linear regression simulator. The sum of error square is re-calculated whenever any of the the slider bars is moved. Like this:</p>
+
+<iframe width="400" height="800" src="/assets/html/line_reg.html" frameborder="0"></iframe>
+
+<p>So I think the best way is to show you the code then I will explain what we did in the code. Remember I will assume you have some basic idea about using Bokeh here. If you want to learn Bokeh, you can watch <a href="https://cheuk.dev/videos/cj_qru_4jj4">my tutorial here</a>. I would also assume you know how to use Jupyter notebook and put the code in the cells and run them.</p>
+
+<p>First, let’s prepare our data:</p>
+
+<div class="language-python highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="n">b</span> <span class="o">=</span> <span class="mf">0.425</span>
+<span class="n">A</span> <span class="o">=</span> <span class="mf">0.785</span>
+
+<span class="k">def</span> <span class="nf">sum_error_eq</span><span class="p">(</span><span class="n">x</span><span class="p">,</span><span class="n">y</span><span class="p">,</span><span class="n">b</span><span class="p">,</span><span class="n">A</span><span class="p">):</span>
+    <span class="n">sum_error_sq</span> <span class="o">=</span> <span class="mi">0</span>
+    <span class="k">for</span> <span class="n">i</span> <span class="ow">in</span> <span class="nb">range</span><span class="p">(</span><span class="nb">len</span><span class="p">(</span><span class="n">x</span><span class="p">)):</span>
+        <span class="n">sum_error_sq</span> <span class="o">+=</span> <span class="p">((</span><span class="n">b</span><span class="o">*</span><span class="n">x</span><span class="p">[</span><span class="n">i</span><span class="p">]</span><span class="o">+</span><span class="n">A</span><span class="p">)</span> <span class="o">-</span>  <span class="n">y</span><span class="p">[</span><span class="n">i</span><span class="p">])</span><span class="o">**</span><span class="mi">2</span>
+    <span class="k">return</span> <span class="n">sum_error_sq</span>
+
+<span class="n">data</span> <span class="o">=</span> <span class="p">{</span><span class="s">'X'</span><span class="p">:</span> <span class="p">[</span><span class="mi">1</span><span class="p">,</span><span class="mi">2</span><span class="p">,</span><span class="mi">3</span><span class="p">,</span><span class="mi">4</span><span class="p">,</span><span class="mi">5</span><span class="p">],</span> <span class="s">'Y'</span><span class="p">:</span> <span class="p">[</span><span class="mi">1</span><span class="p">,</span><span class="mi">2</span><span class="p">,</span><span class="mf">1.3</span><span class="p">,</span><span class="mf">3.75</span><span class="p">,</span><span class="mf">2.25</span><span class="p">]}</span>
+<span class="n">data</span><span class="p">[</span><span class="s">'b'</span><span class="p">]</span> <span class="o">=</span> <span class="p">[</span><span class="n">b</span><span class="p">]</span> <span class="o">*</span> <span class="nb">len</span><span class="p">(</span><span class="n">data</span><span class="p">[</span><span class="s">'X'</span><span class="p">])</span>
+<span class="n">data</span><span class="p">[</span><span class="s">'A'</span><span class="p">]</span> <span class="o">=</span> <span class="p">[</span><span class="n">A</span><span class="p">]</span> <span class="o">*</span> <span class="nb">len</span><span class="p">(</span><span class="n">data</span><span class="p">[</span><span class="s">'X'</span><span class="p">])</span>
+<span class="n">data</span><span class="p">[</span><span class="s">'Y pred'</span><span class="p">]</span> <span class="o">=</span> <span class="nb">list</span><span class="p">(</span><span class="nb">map</span><span class="p">(</span><span class="k">lambda</span> <span class="n">X</span><span class="p">:</span> <span class="n">X</span> <span class="o">*</span> <span class="n">b</span> <span class="o">+</span> <span class="n">A</span><span class="p">,</span> <span class="n">data</span><span class="p">[</span><span class="s">'X'</span><span class="p">]))</span>
+</code></pre></div></div>
+<p>Here we have a preset value of <code class="highlighter-rouge">b</code> and <code class="highlighter-rouge">A</code>, these are the slope and the intercept of the line that we are going to create in the graph. We also have a function <code class="highlighter-rouge">sum_error_eq</code> to calculate the sum of error square. Unfortunally we cannot reuse this function in out JS code snippets and will have to imprement the same in JS.</p>
+
+<p>Then we have a dictionary that is the data. Originally in <a href="https://github.com/Cheukting/legend_data/blob/master/linear-reg.ipynb">my notebook</a> I use pandas, but I think I will take away another prerequisite by just using a  dictionary here. Note that we have ‘Y’, which is for the actually points that we are going to plot with <code class="highlighter-rouge">circle</code> in Bokeh and ‘Y pred’ which is the “predicted” Y form the line equation:</p>
+
+<p><strong>Y’ = Xb + A</strong></p>
+
+<p>this will be used in the interactive line plot in Bokeh.</p>
+
+<p>Next we want to make the plot:</p>
+
+<div class="language-python highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="kn">from</span> <span class="nn">bokeh.layouts</span> <span class="kn">import</span> <span class="n">column</span>
+<span class="kn">from</span> <span class="nn">bokeh.models</span> <span class="kn">import</span> <span class="n">ColumnDataSource</span><span class="p">,</span> <span class="n">CustomJS</span><span class="p">,</span> <span class="n">Slider</span><span class="p">,</span> <span class="n">Div</span>
+<span class="kn">from</span> <span class="nn">bokeh.plotting</span> <span class="kn">import</span> <span class="n">figure</span><span class="p">,</span> <span class="n">output_notebook</span><span class="p">,</span> <span class="n">show</span>
+
+<span class="n">output_notebook</span><span class="p">()</span>
+
+<span class="n">source</span> <span class="o">=</span> <span class="n">ColumnDataSource</span><span class="p">(</span><span class="n">data</span><span class="p">)</span>
+
+<span class="n">plot</span> <span class="o">=</span> <span class="n">figure</span><span class="p">(</span><span class="n">plot_width</span><span class="o">=</span><span class="mi">400</span><span class="p">,</span> <span class="n">plot_height</span><span class="o">=</span><span class="mi">200</span><span class="p">,</span> <span class="n">x_range</span><span class="o">=</span><span class="p">[</span><span class="mi">0</span><span class="p">,</span><span class="mi">6</span><span class="p">],</span> <span class="n">y_range</span><span class="o">=</span><span class="p">[</span><span class="mi">0</span><span class="p">,</span><span class="mi">5</span><span class="p">])</span>
+<span class="n">plot</span><span class="p">.</span><span class="n">line</span><span class="p">(</span><span class="n">x</span><span class="o">=</span><span class="s">'X'</span><span class="p">,</span> <span class="n">y</span><span class="o">=</span><span class="s">'Y pred'</span><span class="p">,</span> <span class="n">source</span><span class="o">=</span><span class="n">source</span><span class="p">,</span> <span class="n">line_width</span><span class="o">=</span><span class="mi">3</span><span class="p">,</span> <span class="n">line_alpha</span><span class="o">=</span><span class="mf">0.6</span><span class="p">)</span>
+<span class="n">plot</span><span class="p">.</span><span class="n">circle</span><span class="p">(</span><span class="n">x</span><span class="o">=</span><span class="s">'X'</span><span class="p">,</span> <span class="n">y</span><span class="o">=</span><span class="s">'Y'</span><span class="p">,</span> <span class="n">source</span><span class="o">=</span><span class="n">source</span><span class="p">,</span> <span class="n">size</span><span class="o">=</span><span class="mi">10</span><span class="p">,</span> <span class="n">color</span><span class="o">=</span><span class="s">"green"</span><span class="p">,</span> <span class="n">alpha</span><span class="o">=</span><span class="mf">0.5</span><span class="p">)</span>
+
+<span class="n">callback_b</span> <span class="o">=</span> <span class="n">CustomJS</span><span class="p">(</span><span class="n">args</span><span class="o">=</span><span class="nb">dict</span><span class="p">(</span><span class="n">source</span><span class="o">=</span><span class="n">source</span><span class="p">),</span> <span class="n">code</span><span class="o">=</span><span class="s">"""
+        var data = source.data;
+        var b_val = cb_obj.value
+        var b = data['b']
+        var A = data['A']
+        var x = data['X']
+        var y = data['Y pred']
+        for (var i = 0; i &lt; x.length; i++) {
+            b[i] = b_val
+            y[i] = b[i] * x[i] + A[i]
+        }
+        source.change.emit();
+    """</span><span class="p">)</span>
+
+<span class="n">callback_A</span> <span class="o">=</span> <span class="n">CustomJS</span><span class="p">(</span><span class="n">args</span><span class="o">=</span><span class="nb">dict</span><span class="p">(</span><span class="n">source</span><span class="o">=</span><span class="n">source</span><span class="p">),</span> <span class="n">code</span><span class="o">=</span><span class="s">"""
+        var data = source.data;
+        var A_val = cb_obj.value
+        var b = data['b']
+        var A = data['A']
+        var x = data['X']
+        var y = data['Y pred']
+        for (var i = 0; i &lt; x.length; i++) {
+            A[i] = A_val
+            y[i] = b[i] * x[i] + A[i]
+        }
+        source.change.emit();
+    """</span><span class="p">)</span>
+
+<span class="n">div</span> <span class="o">=</span> <span class="n">Div</span><span class="p">(</span><span class="n">text</span><span class="o">=</span><span class="s">"Sum of error sq: "</span><span class="o">+</span> <span class="nb">str</span><span class="p">(</span><span class="n">sum_error_eq</span><span class="p">(</span><span class="n">data</span><span class="p">[</span><span class="s">'X'</span><span class="p">],</span><span class="n">data</span><span class="p">[</span><span class="s">'Y'</span><span class="p">],</span> <span class="n">b</span><span class="p">,</span> <span class="n">A</span><span class="p">)))</span>
+
+<span class="n">change_text</span> <span class="o">=</span> <span class="n">CustomJS</span><span class="p">(</span><span class="n">args</span><span class="o">=</span><span class="nb">dict</span><span class="p">(</span><span class="n">div</span><span class="o">=</span><span class="n">div</span><span class="p">,</span> <span class="n">source</span><span class="o">=</span><span class="n">source</span><span class="p">),</span> <span class="n">code</span><span class="o">=</span><span class="s">"""
+                var data = source.data;
+                var y_pred = data['Y pred'];
+                var y = data['Y'];
+                var result = 0;
+                for (var i = 0; i &lt; y.length; i++) {
+                    var diff = y_pred[i] - y[i]
+                    result = result + diff * diff
+                }
+                div.text = "Sum of error sq: " + result;
+             """</span>       
+    <span class="p">)</span>
+
+<span class="n">slider_b</span> <span class="o">=</span> <span class="n">Slider</span><span class="p">(</span><span class="n">start</span><span class="o">=</span><span class="mi">0</span><span class="p">,</span> <span class="n">end</span><span class="o">=</span><span class="mi">4</span><span class="p">,</span> <span class="n">value</span><span class="o">=</span><span class="n">b</span><span class="p">,</span> <span class="n">step</span><span class="o">=</span><span class="p">.</span><span class="mi">1</span><span class="p">,</span> <span class="n">title</span><span class="o">=</span><span class="s">"value of b"</span><span class="p">)</span>
+<span class="n">slider_b</span><span class="p">.</span><span class="n">js_on_change</span><span class="p">(</span><span class="s">'value'</span><span class="p">,</span> <span class="n">callback_b</span><span class="p">,</span> <span class="n">change_text</span><span class="p">)</span>
+<span class="n">slider_A</span> <span class="o">=</span> <span class="n">Slider</span><span class="p">(</span><span class="n">start</span><span class="o">=</span><span class="mi">0</span><span class="p">,</span> <span class="n">end</span><span class="o">=</span><span class="mi">4</span><span class="p">,</span> <span class="n">value</span><span class="o">=</span><span class="n">A</span><span class="p">,</span> <span class="n">step</span><span class="o">=</span><span class="p">.</span><span class="mi">1</span><span class="p">,</span> <span class="n">title</span><span class="o">=</span><span class="s">"value of A"</span><span class="p">)</span>
+<span class="n">slider_A</span><span class="p">.</span><span class="n">js_on_change</span><span class="p">(</span><span class="s">'value'</span><span class="p">,</span> <span class="n">callback_A</span><span class="p">,</span> <span class="n">change_text</span><span class="p">)</span>
+
+<span class="n">layout</span> <span class="o">=</span> <span class="n">column</span><span class="p">(</span><span class="n">slider_b</span><span class="p">,</span> <span class="n">slider_A</span><span class="p">,</span> <span class="n">plot</span><span class="p">,</span> <span class="n">div</span><span class="p">)</span>
+
+<span class="n">show</span><span class="p">(</span><span class="n">layout</span><span class="p">)</span>
+</code></pre></div></div>
+<p>Okay, that’s quite a big truck of code here, let’s crack it down bit by bit:</p>
+
+<div class="language-python highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="n">output_notebook</span><span class="p">()</span>
+</code></pre></div></div>
+
+<p>This let you output your “app” inline in the Jupyter notebook, If you want to export it as an html and embedded in your blog (like I did above) the you can use <code class="highlighter-rouge">output_file</code> instead.</p>
+
+<div class="language-python highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="n">source</span> <span class="o">=</span> <span class="n">ColumnDataSource</span><span class="p">(</span><span class="n">data</span><span class="p">)</span>
+</code></pre></div></div>
+
+<p>This create a source with the data that we have, a source created with <code class="highlighter-rouge">ColumnDataSource</code> can let you pass this data to the Bokeh plots and JS Callbacks (that we will explain later).</p>
+
+<div class="language-python highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="n">plot</span> <span class="o">=</span> <span class="n">figure</span><span class="p">(</span><span class="n">plot_width</span><span class="o">=</span><span class="mi">400</span><span class="p">,</span> <span class="n">plot_height</span><span class="o">=</span><span class="mi">200</span><span class="p">,</span> <span class="n">x_range</span><span class="o">=</span><span class="p">[</span><span class="mi">0</span><span class="p">,</span><span class="mi">6</span><span class="p">],</span> <span class="n">y_range</span><span class="o">=</span><span class="p">[</span><span class="mi">0</span><span class="p">,</span><span class="mi">5</span><span class="p">])</span>
+<span class="n">plot</span><span class="p">.</span><span class="n">line</span><span class="p">(</span><span class="n">x</span><span class="o">=</span><span class="s">'X'</span><span class="p">,</span> <span class="n">y</span><span class="o">=</span><span class="s">'Y pred'</span><span class="p">,</span> <span class="n">source</span><span class="o">=</span><span class="n">source</span><span class="p">,</span> <span class="n">line_width</span><span class="o">=</span><span class="mi">3</span><span class="p">,</span> <span class="n">line_alpha</span><span class="o">=</span><span class="mf">0.6</span><span class="p">)</span>
+<span class="n">plot</span><span class="p">.</span><span class="n">circle</span><span class="p">(</span><span class="n">x</span><span class="o">=</span><span class="s">'X'</span><span class="p">,</span> <span class="n">y</span><span class="o">=</span><span class="s">'Y'</span><span class="p">,</span> <span class="n">source</span><span class="o">=</span><span class="n">source</span><span class="p">,</span> <span class="n">size</span><span class="o">=</span><span class="mi">10</span><span class="p">,</span> <span class="n">color</span><span class="o">=</span><span class="s">"green"</span><span class="p">,</span> <span class="n">alpha</span><span class="o">=</span><span class="mf">0.5</span><span class="p">)</span>
+</code></pre></div></div>
+
+<p>Here we are creating the plot, with the interactive line and the circle. Note that the line here is not interactive yet but we will use the JS callback to change the data in the source so it will change with the slider when we hook up the callbacks with the slider bars.</p>
+
+<div class="language-python highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="n">callback_b</span> <span class="o">=</span> <span class="n">CustomJS</span><span class="p">(</span><span class="n">args</span><span class="o">=</span><span class="nb">dict</span><span class="p">(</span><span class="n">source</span><span class="o">=</span><span class="n">source</span><span class="p">),</span> <span class="n">code</span><span class="o">=</span><span class="s">"""
+        var data = source.data;
+        var b_val = cb_obj.value
+        var b = data['b']
+        var A = data['A']
+        var x = data['X']
+        var y = data['Y pred']
+        for (var i = 0; i &lt; x.length; i++) {
+            b[i] = b_val
+            y[i] = b[i] * x[i] + A[i]
+        }
+        source.change.emit();
+    """</span><span class="p">)</span>
+
+<span class="n">callback_A</span> <span class="o">=</span> <span class="n">CustomJS</span><span class="p">(</span><span class="n">args</span><span class="o">=</span><span class="nb">dict</span><span class="p">(</span><span class="n">source</span><span class="o">=</span><span class="n">source</span><span class="p">),</span> <span class="n">code</span><span class="o">=</span><span class="s">"""
+        var data = source.data;
+        var A_val = cb_obj.value
+        var b = data['b']
+        var A = data['A']
+        var x = data['X']
+        var y = data['Y pred']
+        for (var i = 0; i &lt; x.length; i++) {
+            A[i] = A_val
+            y[i] = b[i] * x[i] + A[i]
+        }
+        source.change.emit();
+    """</span><span class="p">)</span>
+</code></pre></div></div>
+
+<p>These are the callbacks that we will be hooking up the the slider bars. There is one for each. You can see that we pass the source in the JS code snippets and we change it according the the value that we received in the slider bar. The snippets above is when <code class="highlighter-rouge">b</code> slider bar’s value has been change and the one below is for <code class="highlighter-rouge">A</code></p>
+
+<div class="language-python highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="n">div</span> <span class="o">=</span> <span class="n">Div</span><span class="p">(</span><span class="n">text</span><span class="o">=</span><span class="s">"Sum of error sq: "</span><span class="o">+</span> <span class="nb">str</span><span class="p">(</span><span class="n">sum_error_eq</span><span class="p">(</span><span class="n">data</span><span class="p">[</span><span class="s">'X'</span><span class="p">],</span><span class="n">data</span><span class="p">[</span><span class="s">'Y'</span><span class="p">],</span> <span class="n">b</span><span class="p">,</span> <span class="n">A</span><span class="p">)))</span>
+
+<span class="n">change_text</span> <span class="o">=</span> <span class="n">CustomJS</span><span class="p">(</span><span class="n">args</span><span class="o">=</span><span class="nb">dict</span><span class="p">(</span><span class="n">div</span><span class="o">=</span><span class="n">div</span><span class="p">,</span> <span class="n">source</span><span class="o">=</span><span class="n">source</span><span class="p">),</span> <span class="n">code</span><span class="o">=</span><span class="s">"""
+                var data = source.data;
+                var y_pred = data['Y pred'];
+                var y = data['Y'];
+                var result = 0;
+                for (var i = 0; i &lt; y.length; i++) {
+                    var diff = y_pred[i] - y[i]
+                    result = result + diff * diff
+                }
+                div.text = "Sum of error sq: " + result;
+             """</span>       
+    <span class="p">)</span>
+</code></pre></div></div>
+
+<p>Here we created a <code class="highlighter-rouge">Div</code> object, it is just like a <code class="highlighter-rouge">&lt;div&gt;</code> session in your html. The <code class="highlighter-rouge">text</code> will actually be interpreted as html. We also created another callback, this one is actually for changing the <code class="highlighter-rouge">text</code> in the <code class="highlighter-rouge">div</code>. Note that in the for-loop here we are doing exactly the same thing as <code class="highlighter-rouge">sum_error_eq</code> but in JS.</p>
+
+<div class="language-python highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="n">slider_b</span> <span class="o">=</span> <span class="n">Slider</span><span class="p">(</span><span class="n">start</span><span class="o">=</span><span class="mi">0</span><span class="p">,</span> <span class="n">end</span><span class="o">=</span><span class="mi">4</span><span class="p">,</span> <span class="n">value</span><span class="o">=</span><span class="n">b</span><span class="p">,</span> <span class="n">step</span><span class="o">=</span><span class="p">.</span><span class="mi">1</span><span class="p">,</span> <span class="n">title</span><span class="o">=</span><span class="s">"value of b"</span><span class="p">)</span>
+<span class="n">slider_b</span><span class="p">.</span><span class="n">js_on_change</span><span class="p">(</span><span class="s">'value'</span><span class="p">,</span> <span class="n">callback_b</span><span class="p">,</span> <span class="n">change_text</span><span class="p">)</span>
+<span class="n">slider_A</span> <span class="o">=</span> <span class="n">Slider</span><span class="p">(</span><span class="n">start</span><span class="o">=</span><span class="mi">0</span><span class="p">,</span> <span class="n">end</span><span class="o">=</span><span class="mi">4</span><span class="p">,</span> <span class="n">value</span><span class="o">=</span><span class="n">A</span><span class="p">,</span> <span class="n">step</span><span class="o">=</span><span class="p">.</span><span class="mi">1</span><span class="p">,</span> <span class="n">title</span><span class="o">=</span><span class="s">"value of A"</span><span class="p">)</span>
+<span class="n">slider_A</span><span class="p">.</span><span class="n">js_on_change</span><span class="p">(</span><span class="s">'value'</span><span class="p">,</span> <span class="n">callback_A</span><span class="p">,</span> <span class="n">change_text</span><span class="p">)</span>
+</code></pre></div></div>
+
+<p>Now we can create the <code class="highlighter-rouge">Slider</code> bars and hook them up with <code class="highlighter-rouge">js_on_change</code></p>
+
+<div class="language-python highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="n">layout</span> <span class="o">=</span> <span class="n">column</span><span class="p">(</span><span class="n">slider_b</span><span class="p">,</span> <span class="n">slider_A</span><span class="p">,</span> <span class="n">plot</span><span class="p">,</span> <span class="n">div</span><span class="p">)</span>
+
+<span class="n">show</span><span class="p">(</span><span class="n">layout</span><span class="p">)</span>
+</code></pre></div></div>
+
+<p>Finally we create the layout will all our components inside and <code class="highlighter-rouge">show</code> it.</p>
+
+<h2 id="how-can-i-make-a-dark-one-like-the-gif">How can I make a dark one like the gif?</h2>
+
+<p>Yes, there’s two thing that I have done to make it “dark theme”. First, I use <a href="https://github.com/dunovank/jupyter-themes">Jupyter Themes</a> to give my Jupyter a new look. The theme that I used is <code class="highlighter-rouge">monokai</code>. Then I use the <code class="highlighter-rouge">night_sky</code> <a href="https://docs.bokeh.org/en/latest/docs/reference/themes.html?highlight=themes#module-bokeh.themes">theme from Bokeh</a> (by the way, I made this theme).</p>
+
+<hr />
+
+<p>I hope you had fun and will keep on exploring this cool functionality of Bokeh. If you have my tutorials, you can now watch them <a href="https://www.youtube.com/channel/UCie_J9IohYO4hSsz4O2mDfQ">here</a>. If you want to catch me streaming live, follow me on <a href="https://www.twitch.tv/cheukting_ho">Twitch</a>.</p>
+
+        </div>
+
+        <br /><br />
+<h2 class="post__social">Share this article</h2>
+<ul class="post__social">
+  <li><a href="https://www.facebook.com/sharer/sharer.php?u=https://cheuk.dev/2020/03/20/shiny-app-python/" target="_blank"><i class="fa fa-facebook"></i></a></li>
+  <li><a href="https://twitter.com/intent/tweet?&text=Shiny App in Python? Bokeh + Jupyter notebook+https://cheuk.dev/2020/03/20/shiny-app-python/+by+Cheuk Ting Ho" target="_blank"><i class="fa fa-twitter"></i></a></li>
+  <!------
+  <li><a href="https://plus.google.com/share?url=https://cheuk.dev/2020/03/20/shiny-app-python/" target="_blank"><i class="fa fa-google-plus"></i></a></li>
+  ------->
+  <li><a href="https://www.linkedin.com/shareArticle?mini=true&source=Shiny App in Python? Bokeh + Jupyter notebook&summary=How to build an interactive plot with Bokeh and Jupyter notebook&url=https://cheuk.dev/2020/03/20/shiny-app-python/" target="_blank"><i class="fa fa-linkedin"></i></a></li>
+  <!------
+  <li><a href="https://www.stumbleupon.com/badge/?url=https://cheuk.dev/2020/03/20/shiny-app-python/" target="_blank"><i class="fa fa-stumbleupon"></i></a></li>
+  ------->
+  <li><a href="https://www.reddit.com/submit?url=https://cheuk.dev/2020/03/20/shiny-app-python/" target="_blank"><i class="fa fa-reddit-alien"></i></a></li>
+  <li><a href="https://www.tumblr.com/share/link?url=https://cheuk.dev/2020/03/20/shiny-app-python/" target="_blank"><i class="fa fa-tumblr"></i></a></li>
+  <li><a href="https://www.pinterest.com/pin/create/link/?description=How to build an interactive plot with Bokeh and Jupyter notebook&media=https://cheuk.dev/assets/images/line_reg.gif&url=https://cheuk.dev/2020/03/20/shiny-app-python/" target="_blank"><i class="fa fa-pinterest"></i></a></li>
+</ul>
+<a href="https://cheuk.dev/2020/03/20/shiny-app-python/" class="post__social u-url">https://cheuk.dev/2020/03/20/shiny-app-python/</a>
+
+      </div>
+    </div>
+
+    <div class="grid">
+      <div class="post__webmention">
+  <div id="webmentions" ></div>
+</div>
+
+    </div>
+
+    <!-- Everything inside the #author tags pulls data from the author -->
+    
+      <div class="section-padding--none">
+        <div class="grid">
+          <hr class="sep"/>
+        </div>
+      </div>
+
+      <div class="section-padding">
+        <div class="grid p-author h-card">
+          
+            
+            
+              <span class="post__author">About
+            
+            <a href="https://cheuk.dev" title="More By Cheuk Ting Ho" class="p-name u-url">Cheuk Ting Ho</a></span>
+            <p class="post__bio p-note">After having a career in data science, Cheuk now brings her knowledge in data and passion for the tech community into TerminusDB as the developer relations lead. Cheuk constantly contributes to the open-source community by giving free tutorials on Twitch and organize sprints to encourage diversity contributions.</p>
+          
+        </div>
+      </div>
+    
+
+    <!--
+
+If you use Disqus comments, just uncomment this block.
+The only thing you need to change is "test-apkdzgmqhj" - which
+should be replaced with your own Disqus site-id.
+
+<div class="post__comments section-padding">
+  <div class="grid-small">
+    <div id="disqus_thread"></div>
+    <script>
+      var disqus_config = function () {
+        this.page.url = 'https://cheuk.dev/2020/03/20/shiny-app-python/';
+        this.page.identifier = 'https://cheuk.dev/2020/03/20/shiny-app-python/';
+      };
+      (function() {
+        var d = document, s = d.createElement('script');
+        s.src = 'https://.disqus.com/embed.js';
+        s.setAttribute('data-timestamp', + new Date());
+        (d.head || d.body).appendChild(s);
+      })();
+    </script>
+  </div>
+</div>
+-->
+
+
+  </article>
+</div>
+
+<!-- Links to Previous/Next posts -->
+
+
+  <section class="related section-padding">
+    <div class="grid-xlarge">
+      <h2 class="related__title">Related</h2>
+      <div class="related__container">
+      
+        
+        
+        
+        
+        
+          <article class="related__post">
+            <a class="related__link" href="https://cheuk.dev/2020/03/20/how-to-be-pythonic/">
+              
+                <figure class="related__img">
+                  <img src="/assets/images/cover_of_how_to_be_pythonic.png" alt="How to be Pythonic? Design a Query Language in Python"/>
+                </figure>
+              
+              <div>
+                <h2 class="related__text">How to be Pythonic? Design a Query Language in Python</h2>
+              </div>
+            </a>
+          </article>
+        
+        
+        
+        
+      
+      
+        
+        
+        
+        
+      
+      
+        
+        
+        
+        
+        
+          <article class="related__post">
+            <a class="related__link" href="https://cheuk.dev/2019/10/15/ably-tf/">
+              
+                <figure class="related__img">
+                  <img src="/assets/images/scott-webb-hDyO6rr3kqk-unsplash.jpg" alt="Build a Traffic Alert App with just one html — Ably + Tensorflow"/>
+                </figure>
+              
+              <div>
+                <h2 class="related__text">Build a Traffic Alert App with just one html — Ably + Tensorflow</h2>
+              </div>
+            </a>
+          </article>
+        
+        
+        
+        
+      
+      
+        
+        
+        
+        
+      
+      
+      
+      </div>
+    </div>
+  </section>
+
+</main><div class="container footer-container">
+  <p>
+    Cheuk Ting Ho -
+    <a href="mailto:" target="_blank"></a>&nbsp;- building the open-source community</p>
+</div>
+
+<!-- Fathom - simple website analytics - https://usefathom.com -->
+<script>
+(function(f, a, t, h, o, m){
+a[h]=a[h]||function(){
+(a[h].q=a[h].q||[]).push(arguments)
+};
+o=f.createElement('script'),
+m=f.getElementsByTagName('script')[0];
+o.async=1; o.src=t; o.id='fathom-script';
+m.parentNode.insertBefore(o,m)
+})(document, window, 'https://cdn.usefathom.com/tracker.js', 'fathom');
+fathom('set', 'siteId', 'HNKQJJRG');
+fathom('trackPageview');
+</script>
+<!-- / Fathom -->
+<!-- jQuery -->
+<script src="/js/jquery.js"></script>
+
+<!-- Bootstrap Core JavaScript -->
+<script src="/js/bootstrap.min.js"></script>
+
+<!-- Plugin JavaScript -->
+<script src="/js/jquery.easing.min.js"></script>
+<script src="/js/jquery.fittext.js"></script>
+<script src="/js/wow.min.js"></script>
+
+<!-- Custom Theme JavaScript -->
+<script src="/js/creative.js"></script>
+
+<!-- Embed Medium posts -->
+<script src="https://www.retainable.io/assets/retainable/rss-embed/retainable-rss-embed.js"></script>
+
+
+<!-- Posts -->
+
+
+<script src="/assets/js/app.min.js"></script>
+
+<script src="/js/webmention.js"></script>
+
+</body>
+
+
+
+</html>
