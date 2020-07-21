@@ -6,19 +6,19 @@
 </description>
     <link>https://cheuk.dev</link>
     <atom:link href="https://cheuk.dev/feed.xml" rel="self" type="application/rss+xml"/>
-    <pubDate>Tue, 21 Jul 2020 01:11:20 +0000</pubDate>
-    <lastBuildDate>Tue, 21 Jul 2020 01:11:20 +0000</lastBuildDate>
+    <pubDate>Tue, 21 Jul 2020 01:20:18 +0000</pubDate>
+    <lastBuildDate>Tue, 21 Jul 2020 01:20:18 +0000</lastBuildDate>
     <generator>Jekyll v3.8.7</generator>
     
       <item>
         <title>Shiny App in Python? Bokeh + Jupyter notebook</title>
-        <description>&lt;p&gt;While I am preparing my Data Science tutorial today, I suddenly have an idea of making an interactive plot with Bokeh and Jupyter notebook. I have a feeling that it’s possible because I was looking at the Bokeh widgets last week and I know that you can link up a Bokeh widget with a plot to change it’s appearance. It was a brave idea and I am happy with the result.&lt;/p&gt;
+        <description>&lt;p&gt;While I am preparing my Data Science tutorial today, I suddenly have an idea of making an interactive plot with Bokeh and Jupyter notebook. I have a feeling that it’s possible because I was looking at the Bokeh widgets last week and I know that you can link up a Bokeh widget with a plot to change its appearance. It was a brave idea and I am happy with the result.&lt;/p&gt;
 
-&lt;p&gt;By doing so, I learn a thing or two about Bokeh and to be honest, this actually reminds me about Shiny in R. A few years ago, my friend and I had a conversation about how useful Shiny is and we wish there is something similar in Python. Here you go! It’s not exactly the same but, in my opinion after coding in Python full time for a few years, it is better than a Shiny app.&lt;/p&gt;
+&lt;p&gt;By doing so, I learn a thing or two about Bokeh and to be honest, this actually reminds me about Shiny in R. A few years ago, my friend and I had a conversation about how useful Shiny is and we wish there is something similar in Python. Here you go! It’s not exactly the same but, in my opinion, after coding in Python full time for a few years, it is better than a Shiny app.&lt;/p&gt;
 
 &lt;h2 id=&quot;what-is-bokeh&quot;&gt;What is Bokeh&lt;/h2&gt;
 
-&lt;p&gt;For those who does not know Bokeh, it’s an interactive visualisation library for modern web browsers. It allows you to create interactive graph with just Python (of cause if you can code in JS you will get some bonus control over it). You can render your interactive graph as an html or embedded it in the Jupyter notebook.&lt;/p&gt;
+&lt;p&gt;For those who do not know Bokeh, it’s an interactive visualisation library for modern web browsers. It allows you to create an interactive graph with just Python (of cause if you can code in JS you will get some bonus control over it). You can render your interactive graph as an html or embedded it in the Jupyter notebook.&lt;/p&gt;
 
 &lt;p&gt;&lt;strong&gt;If you want to learn more about Bokeh, you can watch &lt;a href=&quot;https://cheuk.dev/videos/cj_qru_4jj4&quot;&gt;my tutorial&lt;/a&gt;&lt;/strong&gt;&lt;/p&gt;
 
@@ -30,7 +30,7 @@
 
 &lt;h2 id=&quot;lets-get-started&quot;&gt;Let’s get started&lt;/h2&gt;
 
-&lt;p&gt;In this example, we will create an app that the user can use 2 slider bars to control a line trying fit the data with the least sum of error square. I call it a linear regression simulator. The sum of error square is re-calculated whenever any of the the slider bars is moved. Like this:&lt;/p&gt;
+&lt;p&gt;In this example, we will create an app that the user can use 2 slider bars to control a line trying to fit the data with the least sum of error square. I call it a linear regression simulator. The sum of error square is re-calculated whenever any of the slider bars are moved. Like this:&lt;/p&gt;
 
 &lt;iframe width=&quot;400&quot; height=&quot;800&quot; src=&quot;/assets/html/line_reg.html&quot; frameborder=&quot;0&quot;&gt;&lt;/iframe&gt;
 
@@ -52,15 +52,15 @@
 &lt;span class=&quot;n&quot;&gt;data&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;[&lt;/span&gt;&lt;span class=&quot;s&quot;&gt;'A'&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;]&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;=&lt;/span&gt; &lt;span class=&quot;p&quot;&gt;[&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;A&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;]&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;*&lt;/span&gt; &lt;span class=&quot;nb&quot;&gt;len&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;data&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;[&lt;/span&gt;&lt;span class=&quot;s&quot;&gt;'X'&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;])&lt;/span&gt;
 &lt;span class=&quot;n&quot;&gt;data&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;[&lt;/span&gt;&lt;span class=&quot;s&quot;&gt;'Y pred'&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;]&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;=&lt;/span&gt; &lt;span class=&quot;nb&quot;&gt;list&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;nb&quot;&gt;map&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;k&quot;&gt;lambda&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;X&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;:&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;X&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;*&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;b&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;+&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;A&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;,&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;data&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;[&lt;/span&gt;&lt;span class=&quot;s&quot;&gt;'X'&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;]))&lt;/span&gt;
 &lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;
-&lt;p&gt;Here we have a preset value of &lt;code class=&quot;highlighter-rouge&quot;&gt;b&lt;/code&gt; and &lt;code class=&quot;highlighter-rouge&quot;&gt;A&lt;/code&gt;, these are the slope and the intercept of the line that we are going to create in the graph. We also have a function &lt;code class=&quot;highlighter-rouge&quot;&gt;sum_error_eq&lt;/code&gt; to calculate the sum of error square. Unfortunally we cannot reuse this function in out JS code snippets and will have to imprement the same in JS.&lt;/p&gt;
+&lt;p&gt;Here we have a preset value of &lt;code class=&quot;highlighter-rouge&quot;&gt;b&lt;/code&gt; and &lt;code class=&quot;highlighter-rouge&quot;&gt;A&lt;/code&gt;, these are the slope and the intercept of the line that we are going to create in the graph. We also have a function &lt;code class=&quot;highlighter-rouge&quot;&gt;sum_error_eq&lt;/code&gt; to calculate the sum of error square. Unfortunately, we cannot reuse this function in our JS code snippets and will have to implement the same in JS.&lt;/p&gt;
 
-&lt;p&gt;Then we have a dictionary that is the data. Originally in &lt;a href=&quot;https://github.com/Cheukting/legend_data/blob/master/linear-reg.ipynb&quot;&gt;my notebook&lt;/a&gt; I use pandas, but I think I will take away another prerequisite by just using a  dictionary here. Note that we have ‘Y’, which is for the actually points that we are going to plot with &lt;code class=&quot;highlighter-rouge&quot;&gt;circle&lt;/code&gt; in Bokeh and ‘Y pred’ which is the “predicted” Y form the line equation:&lt;/p&gt;
+&lt;p&gt;Then we have a dictionary that is the data. Originally in &lt;a href=&quot;https://github.com/Cheukting/legend_data/blob/master/linear-reg.ipynb&quot;&gt;my notebook&lt;/a&gt; I use pandas, but I think I will take away another prerequisite by just using a  dictionary here. Note that we have ‘Y’, which is for the actual points that we are going to plot with &lt;code class=&quot;highlighter-rouge&quot;&gt;circle&lt;/code&gt; in Bokeh and ‘Y pred’ which is the “predicted” Y form the line equation:&lt;/p&gt;
 
 &lt;p&gt;&lt;strong&gt;Y’ = Xb + A&lt;/strong&gt;&lt;/p&gt;
 
 &lt;p&gt;this will be used in the interactive line plot in Bokeh.&lt;/p&gt;
 
-&lt;p&gt;Next we want to make the plot:&lt;/p&gt;
+&lt;p&gt;Next, we want to make the plot:&lt;/p&gt;
 
 &lt;div class=&quot;language-python highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;&lt;span class=&quot;kn&quot;&gt;from&lt;/span&gt; &lt;span class=&quot;nn&quot;&gt;bokeh.layouts&lt;/span&gt; &lt;span class=&quot;kn&quot;&gt;import&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;column&lt;/span&gt;
 &lt;span class=&quot;kn&quot;&gt;from&lt;/span&gt; &lt;span class=&quot;nn&quot;&gt;bokeh.models&lt;/span&gt; &lt;span class=&quot;kn&quot;&gt;import&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;ColumnDataSource&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;,&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;CustomJS&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;,&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;Slider&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;,&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;Div&lt;/span&gt;
@@ -131,12 +131,12 @@
 &lt;div class=&quot;language-python highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;&lt;span class=&quot;n&quot;&gt;output_notebook&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;()&lt;/span&gt;
 &lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;
 
-&lt;p&gt;This let you output your “app” inline in the Jupyter notebook, If you want to export it as an html and embedded in your blog (like I did above) the you can use &lt;code class=&quot;highlighter-rouge&quot;&gt;output_file&lt;/code&gt; instead.&lt;/p&gt;
+&lt;p&gt;This lets you output your “app” inline in the Jupyter notebook, If you want to export it as an html and embedded in your blog (like I did above) you can use &lt;code class=&quot;highlighter-rouge&quot;&gt;output_file&lt;/code&gt; instead.&lt;/p&gt;
 
 &lt;div class=&quot;language-python highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;&lt;span class=&quot;n&quot;&gt;source&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;=&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;ColumnDataSource&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;data&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;)&lt;/span&gt;
 &lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;
 
-&lt;p&gt;This create a source with the data that we have, a source created with &lt;code class=&quot;highlighter-rouge&quot;&gt;ColumnDataSource&lt;/code&gt; can let you pass this data to the Bokeh plots and JS Callbacks (that we will explain later).&lt;/p&gt;
+&lt;p&gt;This creates a source with the data that we have, a source created with &lt;code class=&quot;highlighter-rouge&quot;&gt;ColumnDataSource&lt;/code&gt; can let you pass this data to the Bokeh plots and JS Callbacks (that we will explain later).&lt;/p&gt;
 
 &lt;div class=&quot;language-python highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;&lt;span class=&quot;n&quot;&gt;plot&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;=&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;figure&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;plot_width&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;=&lt;/span&gt;&lt;span class=&quot;mi&quot;&gt;400&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;,&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;plot_height&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;=&lt;/span&gt;&lt;span class=&quot;mi&quot;&gt;200&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;,&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;x_range&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;=&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;[&lt;/span&gt;&lt;span class=&quot;mi&quot;&gt;0&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;,&lt;/span&gt;&lt;span class=&quot;mi&quot;&gt;6&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;],&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;y_range&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;=&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;[&lt;/span&gt;&lt;span class=&quot;mi&quot;&gt;0&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;,&lt;/span&gt;&lt;span class=&quot;mi&quot;&gt;5&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;])&lt;/span&gt;
 &lt;span class=&quot;n&quot;&gt;plot&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;line&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;x&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;=&lt;/span&gt;&lt;span class=&quot;s&quot;&gt;'X'&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;,&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;y&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;=&lt;/span&gt;&lt;span class=&quot;s&quot;&gt;'Y pred'&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;,&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;source&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;=&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;source&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;,&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;line_width&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;=&lt;/span&gt;&lt;span class=&quot;mi&quot;&gt;3&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;,&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;line_alpha&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;=&lt;/span&gt;&lt;span class=&quot;mf&quot;&gt;0.6&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;)&lt;/span&gt;
@@ -174,7 +174,7 @@
     &quot;&quot;&quot;&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;)&lt;/span&gt;
 &lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;
 
-&lt;p&gt;These are the callbacks that we will be hooking up the the slider bars. There is one for each. You can see that we pass the source in the JS code snippets and we change it according the the value that we received in the slider bar. The snippets above is when &lt;code class=&quot;highlighter-rouge&quot;&gt;b&lt;/code&gt; slider bar’s value has been change and the one below is for &lt;code class=&quot;highlighter-rouge&quot;&gt;A&lt;/code&gt;&lt;/p&gt;
+&lt;p&gt;These are the callbacks that we will be hooking up the slider bars. There is one for each. You can see that we pass the source in the JS code snippets and we change it according to the the value that we received in the slider bar. The snippets above are when &lt;code class=&quot;highlighter-rouge&quot;&gt;b&lt;/code&gt; slider bar’s value has been changed and the one below is for &lt;code class=&quot;highlighter-rouge&quot;&gt;A&lt;/code&gt;&lt;/p&gt;
 
 &lt;div class=&quot;language-python highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;&lt;span class=&quot;n&quot;&gt;div&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;=&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;Div&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;text&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;=&lt;/span&gt;&lt;span class=&quot;s&quot;&gt;&quot;Sum of error sq: &quot;&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;+&lt;/span&gt; &lt;span class=&quot;nb&quot;&gt;str&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;sum_error_eq&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;data&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;[&lt;/span&gt;&lt;span class=&quot;s&quot;&gt;'X'&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;],&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;data&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;[&lt;/span&gt;&lt;span class=&quot;s&quot;&gt;'Y'&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;],&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;b&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;,&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;A&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;)))&lt;/span&gt;
 
@@ -207,11 +207,11 @@
 &lt;span class=&quot;n&quot;&gt;show&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;layout&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;)&lt;/span&gt;
 &lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;
 
-&lt;p&gt;Finally we create the layout will all our components inside and &lt;code class=&quot;highlighter-rouge&quot;&gt;show&lt;/code&gt; it.&lt;/p&gt;
+&lt;p&gt;Finally, we create the layout will all our components inside and &lt;code class=&quot;highlighter-rouge&quot;&gt;show&lt;/code&gt; it.&lt;/p&gt;
 
 &lt;h2 id=&quot;how-can-i-make-a-dark-one-like-the-gif&quot;&gt;How can I make a dark one like the gif?&lt;/h2&gt;
 
-&lt;p&gt;Yes, there’s two thing that I have done to make it “dark theme”. First, I use &lt;a href=&quot;https://github.com/dunovank/jupyter-themes&quot;&gt;Jupyter Themes&lt;/a&gt; to give my Jupyter a new look. The theme that I used is &lt;code class=&quot;highlighter-rouge&quot;&gt;monokai&lt;/code&gt;. Then I use the &lt;code class=&quot;highlighter-rouge&quot;&gt;night_sky&lt;/code&gt; &lt;a href=&quot;https://docs.bokeh.org/en/latest/docs/reference/themes.html?highlight=themes#module-bokeh.themes&quot;&gt;theme from Bokeh&lt;/a&gt; (by the way, I made this theme).&lt;/p&gt;
+&lt;p&gt;Yes, there’s two things that I have done to make it “dark theme”. First, I use &lt;a href=&quot;https://github.com/dunovank/jupyter-themes&quot;&gt;Jupyter Themes&lt;/a&gt; to give my Jupyter a new look. The theme that I used is &lt;code class=&quot;highlighter-rouge&quot;&gt;monokai&lt;/code&gt;. Then I use the &lt;code class=&quot;highlighter-rouge&quot;&gt;night_sky&lt;/code&gt; &lt;a href=&quot;https://docs.bokeh.org/en/latest/docs/reference/themes.html?highlight=themes#module-bokeh.themes&quot;&gt;theme from Bokeh&lt;/a&gt; (by the way, I made this theme).&lt;/p&gt;
 
 &lt;hr /&gt;
 

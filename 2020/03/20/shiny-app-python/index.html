@@ -131,13 +131,13 @@
     <div class="post__content section-padding">
       <div class="grid-large">
         <div id="markdown" itemprop="articleBody" class="e-content">
-          <p>While I am preparing my Data Science tutorial today, I suddenly have an idea of making an interactive plot with Bokeh and Jupyter notebook. I have a feeling that it’s possible because I was looking at the Bokeh widgets last week and I know that you can link up a Bokeh widget with a plot to change it’s appearance. It was a brave idea and I am happy with the result.</p>
+          <p>While I am preparing my Data Science tutorial today, I suddenly have an idea of making an interactive plot with Bokeh and Jupyter notebook. I have a feeling that it’s possible because I was looking at the Bokeh widgets last week and I know that you can link up a Bokeh widget with a plot to change its appearance. It was a brave idea and I am happy with the result.</p>
 
-<p>By doing so, I learn a thing or two about Bokeh and to be honest, this actually reminds me about Shiny in R. A few years ago, my friend and I had a conversation about how useful Shiny is and we wish there is something similar in Python. Here you go! It’s not exactly the same but, in my opinion after coding in Python full time for a few years, it is better than a Shiny app.</p>
+<p>By doing so, I learn a thing or two about Bokeh and to be honest, this actually reminds me about Shiny in R. A few years ago, my friend and I had a conversation about how useful Shiny is and we wish there is something similar in Python. Here you go! It’s not exactly the same but, in my opinion, after coding in Python full time for a few years, it is better than a Shiny app.</p>
 
 <h2 id="what-is-bokeh">What is Bokeh</h2>
 
-<p>For those who does not know Bokeh, it’s an interactive visualisation library for modern web browsers. It allows you to create interactive graph with just Python (of cause if you can code in JS you will get some bonus control over it). You can render your interactive graph as an html or embedded it in the Jupyter notebook.</p>
+<p>For those who do not know Bokeh, it’s an interactive visualisation library for modern web browsers. It allows you to create an interactive graph with just Python (of cause if you can code in JS you will get some bonus control over it). You can render your interactive graph as an html or embedded it in the Jupyter notebook.</p>
 
 <p><strong>If you want to learn more about Bokeh, you can watch <a href="https://cheuk.dev/videos/cj_qru_4jj4">my tutorial</a></strong></p>
 
@@ -149,7 +149,7 @@
 
 <h2 id="lets-get-started">Let’s get started</h2>
 
-<p>In this example, we will create an app that the user can use 2 slider bars to control a line trying fit the data with the least sum of error square. I call it a linear regression simulator. The sum of error square is re-calculated whenever any of the the slider bars is moved. Like this:</p>
+<p>In this example, we will create an app that the user can use 2 slider bars to control a line trying to fit the data with the least sum of error square. I call it a linear regression simulator. The sum of error square is re-calculated whenever any of the slider bars are moved. Like this:</p>
 
 <iframe width="400" height="800" src="/assets/html/line_reg.html" frameborder="0"></iframe>
 
@@ -171,15 +171,15 @@
 <span class="n">data</span><span class="p">[</span><span class="s">'A'</span><span class="p">]</span> <span class="o">=</span> <span class="p">[</span><span class="n">A</span><span class="p">]</span> <span class="o">*</span> <span class="nb">len</span><span class="p">(</span><span class="n">data</span><span class="p">[</span><span class="s">'X'</span><span class="p">])</span>
 <span class="n">data</span><span class="p">[</span><span class="s">'Y pred'</span><span class="p">]</span> <span class="o">=</span> <span class="nb">list</span><span class="p">(</span><span class="nb">map</span><span class="p">(</span><span class="k">lambda</span> <span class="n">X</span><span class="p">:</span> <span class="n">X</span> <span class="o">*</span> <span class="n">b</span> <span class="o">+</span> <span class="n">A</span><span class="p">,</span> <span class="n">data</span><span class="p">[</span><span class="s">'X'</span><span class="p">]))</span>
 </code></pre></div></div>
-<p>Here we have a preset value of <code class="highlighter-rouge">b</code> and <code class="highlighter-rouge">A</code>, these are the slope and the intercept of the line that we are going to create in the graph. We also have a function <code class="highlighter-rouge">sum_error_eq</code> to calculate the sum of error square. Unfortunally we cannot reuse this function in out JS code snippets and will have to imprement the same in JS.</p>
+<p>Here we have a preset value of <code class="highlighter-rouge">b</code> and <code class="highlighter-rouge">A</code>, these are the slope and the intercept of the line that we are going to create in the graph. We also have a function <code class="highlighter-rouge">sum_error_eq</code> to calculate the sum of error square. Unfortunately, we cannot reuse this function in our JS code snippets and will have to implement the same in JS.</p>
 
-<p>Then we have a dictionary that is the data. Originally in <a href="https://github.com/Cheukting/legend_data/blob/master/linear-reg.ipynb">my notebook</a> I use pandas, but I think I will take away another prerequisite by just using a  dictionary here. Note that we have ‘Y’, which is for the actually points that we are going to plot with <code class="highlighter-rouge">circle</code> in Bokeh and ‘Y pred’ which is the “predicted” Y form the line equation:</p>
+<p>Then we have a dictionary that is the data. Originally in <a href="https://github.com/Cheukting/legend_data/blob/master/linear-reg.ipynb">my notebook</a> I use pandas, but I think I will take away another prerequisite by just using a  dictionary here. Note that we have ‘Y’, which is for the actual points that we are going to plot with <code class="highlighter-rouge">circle</code> in Bokeh and ‘Y pred’ which is the “predicted” Y form the line equation:</p>
 
 <p><strong>Y’ = Xb + A</strong></p>
 
 <p>this will be used in the interactive line plot in Bokeh.</p>
 
-<p>Next we want to make the plot:</p>
+<p>Next, we want to make the plot:</p>
 
 <div class="language-python highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="kn">from</span> <span class="nn">bokeh.layouts</span> <span class="kn">import</span> <span class="n">column</span>
 <span class="kn">from</span> <span class="nn">bokeh.models</span> <span class="kn">import</span> <span class="n">ColumnDataSource</span><span class="p">,</span> <span class="n">CustomJS</span><span class="p">,</span> <span class="n">Slider</span><span class="p">,</span> <span class="n">Div</span>
@@ -250,12 +250,12 @@
 <div class="language-python highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="n">output_notebook</span><span class="p">()</span>
 </code></pre></div></div>
 
-<p>This let you output your “app” inline in the Jupyter notebook, If you want to export it as an html and embedded in your blog (like I did above) the you can use <code class="highlighter-rouge">output_file</code> instead.</p>
+<p>This lets you output your “app” inline in the Jupyter notebook, If you want to export it as an html and embedded in your blog (like I did above) you can use <code class="highlighter-rouge">output_file</code> instead.</p>
 
 <div class="language-python highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="n">source</span> <span class="o">=</span> <span class="n">ColumnDataSource</span><span class="p">(</span><span class="n">data</span><span class="p">)</span>
 </code></pre></div></div>
 
-<p>This create a source with the data that we have, a source created with <code class="highlighter-rouge">ColumnDataSource</code> can let you pass this data to the Bokeh plots and JS Callbacks (that we will explain later).</p>
+<p>This creates a source with the data that we have, a source created with <code class="highlighter-rouge">ColumnDataSource</code> can let you pass this data to the Bokeh plots and JS Callbacks (that we will explain later).</p>
 
 <div class="language-python highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="n">plot</span> <span class="o">=</span> <span class="n">figure</span><span class="p">(</span><span class="n">plot_width</span><span class="o">=</span><span class="mi">400</span><span class="p">,</span> <span class="n">plot_height</span><span class="o">=</span><span class="mi">200</span><span class="p">,</span> <span class="n">x_range</span><span class="o">=</span><span class="p">[</span><span class="mi">0</span><span class="p">,</span><span class="mi">6</span><span class="p">],</span> <span class="n">y_range</span><span class="o">=</span><span class="p">[</span><span class="mi">0</span><span class="p">,</span><span class="mi">5</span><span class="p">])</span>
 <span class="n">plot</span><span class="p">.</span><span class="n">line</span><span class="p">(</span><span class="n">x</span><span class="o">=</span><span class="s">'X'</span><span class="p">,</span> <span class="n">y</span><span class="o">=</span><span class="s">'Y pred'</span><span class="p">,</span> <span class="n">source</span><span class="o">=</span><span class="n">source</span><span class="p">,</span> <span class="n">line_width</span><span class="o">=</span><span class="mi">3</span><span class="p">,</span> <span class="n">line_alpha</span><span class="o">=</span><span class="mf">0.6</span><span class="p">)</span>
@@ -293,7 +293,7 @@
     """</span><span class="p">)</span>
 </code></pre></div></div>
 
-<p>These are the callbacks that we will be hooking up the the slider bars. There is one for each. You can see that we pass the source in the JS code snippets and we change it according the the value that we received in the slider bar. The snippets above is when <code class="highlighter-rouge">b</code> slider bar’s value has been change and the one below is for <code class="highlighter-rouge">A</code></p>
+<p>These are the callbacks that we will be hooking up the slider bars. There is one for each. You can see that we pass the source in the JS code snippets and we change it according to the the value that we received in the slider bar. The snippets above are when <code class="highlighter-rouge">b</code> slider bar’s value has been changed and the one below is for <code class="highlighter-rouge">A</code></p>
 
 <div class="language-python highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="n">div</span> <span class="o">=</span> <span class="n">Div</span><span class="p">(</span><span class="n">text</span><span class="o">=</span><span class="s">"Sum of error sq: "</span><span class="o">+</span> <span class="nb">str</span><span class="p">(</span><span class="n">sum_error_eq</span><span class="p">(</span><span class="n">data</span><span class="p">[</span><span class="s">'X'</span><span class="p">],</span><span class="n">data</span><span class="p">[</span><span class="s">'Y'</span><span class="p">],</span> <span class="n">b</span><span class="p">,</span> <span class="n">A</span><span class="p">)))</span>
 
@@ -326,11 +326,11 @@
 <span class="n">show</span><span class="p">(</span><span class="n">layout</span><span class="p">)</span>
 </code></pre></div></div>
 
-<p>Finally we create the layout will all our components inside and <code class="highlighter-rouge">show</code> it.</p>
+<p>Finally, we create the layout will all our components inside and <code class="highlighter-rouge">show</code> it.</p>
 
 <h2 id="how-can-i-make-a-dark-one-like-the-gif">How can I make a dark one like the gif?</h2>
 
-<p>Yes, there’s two thing that I have done to make it “dark theme”. First, I use <a href="https://github.com/dunovank/jupyter-themes">Jupyter Themes</a> to give my Jupyter a new look. The theme that I used is <code class="highlighter-rouge">monokai</code>. Then I use the <code class="highlighter-rouge">night_sky</code> <a href="https://docs.bokeh.org/en/latest/docs/reference/themes.html?highlight=themes#module-bokeh.themes">theme from Bokeh</a> (by the way, I made this theme).</p>
+<p>Yes, there’s two things that I have done to make it “dark theme”. First, I use <a href="https://github.com/dunovank/jupyter-themes">Jupyter Themes</a> to give my Jupyter a new look. The theme that I used is <code class="highlighter-rouge">monokai</code>. Then I use the <code class="highlighter-rouge">night_sky</code> <a href="https://docs.bokeh.org/en/latest/docs/reference/themes.html?highlight=themes#module-bokeh.themes">theme from Bokeh</a> (by the way, I made this theme).</p>
 
 <hr />
 
