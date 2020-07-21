@@ -13,13 +13,13 @@ tags:
 
 ---
 
-While I am preparing my Data Science tutorial today, I suddenly have an idea of making an interactive plot with Bokeh and Jupyter notebook. I have a feeling that it's possible because I was looking at the Bokeh widgets last week and I know that you can link up a Bokeh widget with a plot to change it's appearance. It was a brave idea and I am happy with the result.
+While I am preparing my Data Science tutorial today, I suddenly have an idea of making an interactive plot with Bokeh and Jupyter notebook. I have a feeling that it's possible because I was looking at the Bokeh widgets last week and I know that you can link up a Bokeh widget with a plot to change its appearance. It was a brave idea and I am happy with the result.
 
-By doing so, I learn a thing or two about Bokeh and to be honest, this actually reminds me about Shiny in R. A few years ago, my friend and I had a conversation about how useful Shiny is and we wish there is something similar in Python. Here you go! It's not exactly the same but, in my opinion after coding in Python full time for a few years, it is better than a Shiny app.
+By doing so, I learn a thing or two about Bokeh and to be honest, this actually reminds me about Shiny in R. A few years ago, my friend and I had a conversation about how useful Shiny is and we wish there is something similar in Python. Here you go! It's not exactly the same but, in my opinion, after coding in Python full time for a few years, it is better than a Shiny app.
 
 ## What is Bokeh
 
-For those who does not know Bokeh, it's an interactive visualisation library for modern web browsers. It allows you to create interactive graph with just Python (of cause if you can code in JS you will get some bonus control over it). You can render your interactive graph as an html or embedded it in the Jupyter notebook.
+For those who do not know Bokeh, it's an interactive visualisation library for modern web browsers. It allows you to create an interactive graph with just Python (of cause if you can code in JS you will get some bonus control over it). You can render your interactive graph as an html or embedded it in the Jupyter notebook.
 
 **If you want to learn more about Bokeh, you can watch [my tutorial](https://cheuk.dev/videos/cj_qru_4jj4)**
 
@@ -32,7 +32,7 @@ On top of that, you will have to be able/ happy to write a bit of JavaScript. Bu
 
 ## Let's get started
 
-In this example, we will create an app that the user can use 2 slider bars to control a line trying fit the data with the least sum of error square. I call it a linear regression simulator. The sum of error square is re-calculated whenever any of the the slider bars is moved. Like this:
+In this example, we will create an app that the user can use 2 slider bars to control a line trying to fit the data with the least sum of error square. I call it a linear regression simulator. The sum of error square is re-calculated whenever any of the slider bars are moved. Like this:
 
 <iframe width="400" height="800" src="/assets/html/line_reg.html" frameborder="0"></iframe>
 
@@ -55,15 +55,15 @@ data['b'] = [b] * len(data['X'])
 data['A'] = [A] * len(data['X'])
 data['Y pred'] = list(map(lambda X: X * b + A, data['X']))
 ```
-Here we have a preset value of `b` and `A`, these are the slope and the intercept of the line that we are going to create in the graph. We also have a function `sum_error_eq` to calculate the sum of error square. Unfortunally we cannot reuse this function in out JS code snippets and will have to imprement the same in JS.
+Here we have a preset value of `b` and `A`, these are the slope and the intercept of the line that we are going to create in the graph. We also have a function `sum_error_eq` to calculate the sum of error square. Unfortunately, we cannot reuse this function in our JS code snippets and will have to implement the same in JS.
 
-Then we have a dictionary that is the data. Originally in [my notebook](https://github.com/Cheukting/legend_data/blob/master/linear-reg.ipynb) I use pandas, but I think I will take away another prerequisite by just using a  dictionary here. Note that we have 'Y', which is for the actually points that we are going to plot with `circle` in Bokeh and 'Y pred' which is the "predicted" Y form the line equation:
+Then we have a dictionary that is the data. Originally in [my notebook](https://github.com/Cheukting/legend_data/blob/master/linear-reg.ipynb) I use pandas, but I think I will take away another prerequisite by just using a  dictionary here. Note that we have 'Y', which is for the actual points that we are going to plot with `circle` in Bokeh and 'Y pred' which is the "predicted" Y form the line equation:
 
 **Y' = Xb + A**
 
 this will be used in the interactive line plot in Bokeh.
 
-Next we want to make the plot:
+Next, we want to make the plot:
 
 ```python
 from bokeh.layouts import column
@@ -136,13 +136,13 @@ Okay, that's quite a big truck of code here, let's crack it down bit by bit:
 output_notebook()
 ```
 
-This let you output your "app" inline in the Jupyter notebook, If you want to export it as an html and embedded in your blog (like I did above) the you can use `output_file` instead.
+This lets you output your "app" inline in the Jupyter notebook, If you want to export it as an html and embedded in your blog (like I did above) you can use `output_file` instead.
 
 ```python
 source = ColumnDataSource(data)
 ```
 
-This create a source with the data that we have, a source created with `ColumnDataSource` can let you pass this data to the Bokeh plots and JS Callbacks (that we will explain later).
+This creates a source with the data that we have, a source created with `ColumnDataSource` can let you pass this data to the Bokeh plots and JS Callbacks (that we will explain later).
 
 ```python
 plot = figure(plot_width=400, plot_height=200, x_range=[0,6], y_range=[0,5])
@@ -182,7 +182,7 @@ callback_A = CustomJS(args=dict(source=source), code="""
     """)
 ```
 
-These are the callbacks that we will be hooking up the the slider bars. There is one for each. You can see that we pass the source in the JS code snippets and we change it according the the value that we received in the slider bar. The snippets above is when `b` slider bar's value has been change and the one below is for `A`
+These are the callbacks that we will be hooking up the slider bars. There is one for each. You can see that we pass the source in the JS code snippets and we change it according to the the value that we received in the slider bar. The snippets above are when `b` slider bar’s value has been changed and the one below is for `A`
 
 ```python
 div = Div(text="Sum of error sq: "+ str(sum_error_eq(data['X'],data['Y'], b, A)))
@@ -218,11 +218,11 @@ layout = column(slider_b, slider_A, plot, div)
 show(layout)
 ```
 
-Finally we create the layout will all our components inside and `show` it.
+Finally, we create the layout will all our components inside and `show` it.
 
 ## How can I make a dark one like the gif?
 
-Yes, there's two thing that I have done to make it "dark theme". First, I use [Jupyter Themes](https://github.com/dunovank/jupyter-themes) to give my Jupyter a new look. The theme that I used is `monokai`. Then I use the `night_sky` [theme from Bokeh](https://docs.bokeh.org/en/latest/docs/reference/themes.html?highlight=themes#module-bokeh.themes) (by the way, I made this theme).
+Yes, there’s two things that I have done to make it “dark theme”. First, I use [Jupyter Themes](https://github.com/dunovank/jupyter-themes) to give my Jupyter a new look. The theme that I used is `monokai`. Then I use the `night_sky` [theme from Bokeh](https://docs.bokeh.org/en/latest/docs/reference/themes.html?highlight=themes#module-bokeh.themes) (by the way, I made this theme).
 
 ---
 
