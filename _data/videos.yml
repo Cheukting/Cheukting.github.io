@@ -1,3 +1,17 @@
+- title: The Legend of Data - Ep.8 - Linear Regression
+  vid: 6hBNiUXgFWo
+  tags: The Legend of Data
+  description: |
+    **Join our [free data science workshop at PyCon Africa](https://t.co/bS4nlglBmh?amp=1)**
+
+    Starting from this week we will be doing machine learning. Linear regression is considered to be machine learning 101, and from seeing how linear regression works we will have a basic idea of how we can draw conclusions and make predictions with data.
+
+    If you have any questions or any suggestions about which Python or Data Science topics to cover, please leave your comment at my [Twitch channel](https://www.twitch.tv/cheukting_ho)
+
+    You can get the slide deck [here](https://slides.com/cheukting_ho/legend-data-pandas1/). The notebook that I used can be found [here](https://github.com/Cheukting/legend_data).
+  date: 2020-07-20
+  author: Cheuk Ting Ho
+
 - title: Python Zero to Hero - Ep.15 - Python generators
   vid: 26Ci5E-9Tvg
   tags: Python Zero to Hero
