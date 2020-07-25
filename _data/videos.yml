@@ -1,3 +1,15 @@
+- title: World of WoqlCraft - Ep.17 Fixing the Knowledge Graph for NLP
+  vid: jyPO_ZoxlUc
+  tags: World of WoqlCraft
+  description: |
+    Sorry for the short episode, we are having EuroPython this week. We try to continue the knowledge graph that we build last week. We plan to use idgen() to link up the queries and with the new plus operator, it should be easy. But there is a twist at the end that stops us...
+
+    Find the source code from our [tutorial repo](https://github.com/terminusdb/terminus-tutorials).
+
+    Join the TerminusDB community at [Discord](https://discord.gg/Gvdqw97)
+  date: 2020-07-24
+  author: Cheuk Ting Ho
+
 - title: The Legend of Data - Ep.8 - Linear Regression
   vid: 6hBNiUXgFWo
   tags: The Legend of Data
