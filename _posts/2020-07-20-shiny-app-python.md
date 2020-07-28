@@ -1,7 +1,7 @@
 ---
 layout: post
 title: "Shiny App in Python? Bokeh + Jupyter notebook"
-date: 2020-03-20
+date: 2020-07-20
 description: "How to build an interactive plot with Bokeh and Jupyter notebook"
 image: /assets/images/line_reg.gif
 author: Cheuk Ting Ho
