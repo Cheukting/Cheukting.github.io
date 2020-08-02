@@ -1,4 +1,16 @@
-- title: Mid Meet Py - Ep.17 - Interview with Matin Borus
+- title: World of WoqlCraft - Ep.18 Finish Knowledge Graph for NLP and Using It
+  vid: e6n-5SvezE4
+  tags: World of WoqlCraft
+  description: |
+    Going through the hurdles and bugs, we have finally finished the knowledge graph for the SpaCy doc and making some query to get back the relations between the tokens.
+
+    Find the source code from our [tutorial repo](https://github.com/terminusdb/terminus-tutorials).
+
+    Join the TerminusDB community at [Discord](https://discord.gg/Gvdqw97)
+  date: 2020-07-31
+  author: Cheuk Ting Ho
+
+- title: Mid Meet Py - Ep.17 - Interview with Martin Borus
   vid: 2fklLbv7voY
   tags: Mid Meet Py
   description: |
