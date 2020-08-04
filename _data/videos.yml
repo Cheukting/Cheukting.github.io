@@ -1,3 +1,15 @@
+- title: The Legend of Data - Ep.10 - Categorical Data
+  vid: LJQWx_WLpJA
+  tags: The Legend of Data
+  description: |
+    Categorical data are everywhere, but machines are not good at dealing with them. So we need to have different ways of handling categorical data. In this episode, we will briefly introduce come ways of categorical data feature engineering and some machine learning algorithms that are designed to deal with categorical data.
+
+    If you have any questions or any suggestions about which Python or Data Science topics to cover, please leave your comment at my [Twitch channel](https://www.twitch.tv/cheukting_ho)
+
+    You can get the slide deck [here](https://slides.com/cheukting_ho/legend-data-pandas1/). The notebook that I used can be found [here](https://github.com/Cheukting/legend_data).
+  date: 2020-08-03
+  author: Cheuk Ting Ho
+
 - title: Python Zero to Hero - Ep.17 - Python docs
   vid: sjsY45VtK9I
   tags: Python Zero to Hero
