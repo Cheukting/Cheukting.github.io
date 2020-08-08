@@ -1,3 +1,15 @@
+- title: World of WoqlCraft - Ep.19 making of the Smart Query?
+  vid: LSlqe91zlKA
+  tags: World of WoqlCraft
+  description: |
+    This time we are doing something different, looking at the idea of creating a wrapper of the WOQL.py to create a smooth passing of the Python object to the WOQLQuery. We will also explore the possibility of using a metaclass in Python.
+
+    Find the source code from our [tutorial repo](https://github.com/terminusdb/terminus-tutorials).
+
+    Join the TerminusDB community at [Discord](https://discord.gg/Gvdqw97)
+  date: 2020-08-07
+  author: Cheuk Ting Ho
+
 - title: Mid Meet Py - Ep.18 - Interview with Vincent D. Warmerdam
   vid: bGmNjy4s-70
   tags: Mid Meet Py
