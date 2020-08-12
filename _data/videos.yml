@@ -1,3 +1,15 @@
+- title: The Legend of Data - Ep.11 - Decision Tree
+  vid: 39TktQSkovM
+  tags: The Legend of Data
+  description: |
+    Decision tree-based algrithms are a family of common algrithms to be used in many machine learning applications. By drawing conclusions based on the labeled data provided, it can build a decision path to give a prediction based on the different values of different features given.
+
+    If you have any questions or any suggestions about which Python or Data Science topics to cover, please leave your comment at my [Twitch channel](https://www.twitch.tv/cheukting_ho)
+
+    You can get the slide deck [here](https://slides.com/cheukting_ho/legend-data-pandas1/). The notebook that I used can be found [here](https://github.com/Cheukting/legend_data).
+  date: 2020-08-00
+  author: Cheuk Ting Ho
+
 - title: Python Zero to Hero - Ep.18 - Python packaging
   vid: p6WqpSCjAZo
   tags: Python Zero to Hero
