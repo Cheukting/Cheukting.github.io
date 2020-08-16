@@ -1,3 +1,15 @@
+- title: World of WoqlCraft - Ep.20 new branch and copy over
+  vid: UO8L6hdt-i8
+  tags: World of WoqlCraft
+  description: |
+    Today we will be using the Python client to create a new branch and copying data over. We will see how the `branch` and `checkout` methods can be used and how the `node` query can copy data across branches.
+
+    Find the source code from our [tutorial repo](https://github.com/terminusdb/terminus-tutorials).
+
+    Join the TerminusDB community at [Discord](https://discord.gg/Gvdqw97)
+  date: 2020-08-14
+  author: Cheuk Ting Ho
+
 - title: The Legend of Data - Ep.11 - Decision Tree
   vid: 39TktQSkovM
   tags: The Legend of Data
