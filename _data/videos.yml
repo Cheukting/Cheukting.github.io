@@ -1,3 +1,15 @@
+- title: The Legend of Data - Ep.12 - Comparing models
+  vid: sn_-Acj1DfY
+  tags: The Legend of Data
+  description: |
+    In this episode, we will be Introducing various metrics, standard measurements that we will use to measure how "good" a model is. Being able to pick the right model for your machine learning predictions is one of the most important things in data science.
+
+    If you have any questions or any suggestions about which Python or Data Science topics to cover, please leave your comment at my [Twitch channel](https://www.twitch.tv/cheukting_ho)
+
+    You can get the slide deck [here](https://slides.com/cheukting_ho/legend-data-pandas1/). The notebook that I used can be found [here](https://github.com/Cheukting/legend_data).
+  date: 2020-08-17
+  author: Cheuk Ting Ho
+
 - title: Python Zero to Hero - Ep.19 - Python type hinting
   vid: sWGNwcGsD5M
   tags: Python Zero to Hero
@@ -29,7 +41,7 @@
     If you have any questions or any suggestions about which Python or Data Science topics to cover, please leave your comment at my [Twitch channel](https://www.twitch.tv/cheukting_ho)
 
     You can get the slide deck [here](https://slides.com/cheukting_ho/legend-data-pandas1/). The notebook that I used can be found [here](https://github.com/Cheukting/legend_data).
-  date: 2020-08-00
+  date: 2020-08-10
   author: Cheuk Ting Ho
 
 - title: Python Zero to Hero - Ep.18 - Python packaging
