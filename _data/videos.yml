@@ -1,3 +1,15 @@
+- title: World of WoqlCraft - Ep.21 bank example
+  vid: RGwXcPd7Hoo
+  tags: World of WoqlCraft
+  description: |
+    Today we will be exploring the bank example in the Python client which showcase how we can create an account, make some changes to the details and branching it.
+
+    Find the source code from our [tutorial repo](https://github.com/terminusdb/terminus-tutorials).
+
+    Join the TerminusDB community at [Discord](https://discord.gg/Gvdqw97)
+  date: 2020-08-14
+  author: Cheuk Ting Ho
+
 - title: Mid Meet Py - Ep.19 - Interview with Nina Zakharenko
   vid: T-7ilqkcQI4
   tags: Mid Meet Py
