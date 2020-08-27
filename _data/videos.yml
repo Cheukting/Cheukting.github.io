@@ -1,3 +1,15 @@
+- title: The Legend of Data - Ep.13 - Boosting Algorithms
+  vid: U4_nEf8B6e0
+  tags: The Legend of Data
+  description: |
+    This week, we will have an introduction to different popular boosting algorithms. We will go over their characteristics and differences so hopefully will help you to find the right one in the future.
+
+    If you have any questions or any suggestions about which Python or Data Science topics to cover, please leave your comment at my [Twitch channel](https://www.twitch.tv/cheukting_ho)
+
+    You can get the slide deck [here](https://slides.com/cheukting_ho/legend-data-pandas1/). The notebook that I used can be found [here](https://github.com/Cheukting/legend_data).
+  date: 2020-08-17
+  author: Cheuk Ting Ho
+
 - title: Python Zero to Hero - Ep.20 - Python functional programming
   vid: Ympp6_Zt320
   tags: Python Zero to Hero
