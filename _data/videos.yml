@@ -1,3 +1,15 @@
+- title: World of WoqlCraft - Ep.22 WorldNet
+  vid: L8re0n0W8rQ
+  tags: World of WoqlCraft
+  description: |
+    Today we will be trying to insert WordNet into a schema-less graph. After that, we will have a look at what is in the schema-less graph and try to make sense out of it.
+
+    Find the source code from our [tutorial repo](https://github.com/terminusdb/terminus-tutorials).
+
+    Join the TerminusDB community at [Discord](https://discord.gg/Gvdqw97)
+  date: 2020-08-20
+  author: Cheuk Ting Ho
+
 - title: Mid Meet Py - Ep.20 - Interview with Bojan Miletic
   vid: 8qbluO6-4uE
   tags: Mid Meet Py
