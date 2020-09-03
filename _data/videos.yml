@@ -1,3 +1,54 @@
+- title: Mid Meet Py - Ep.21 - Interview with Jesper Dramsc
+  vid: JGyqCt8Umqc
+  tags: Mid Meet Py
+  description: |
+    PyChat
+
+      Very important - [Pyjamas CfP ends this Saturday!!!!](https://twitter.com/PyjamasConf/status/1300780564929228803)
+
+      [PyCon TaiWan (Maybe) the first non-online PyCon since COVID outbreak (5-6 Sep 2020)](https://tw.pycon.org/2020/en-us/)
+
+      At the same time - [PyConline AU (4-6 Sept) you can join anywhere in the world](https://2020.pycon.org.au/)
+
+      [PyData Global tickets are now available!](https://global.pydata.org/pages/tickets.html)
+
+      You can get PyData Swag [here](https://twitter.com/PyData/status/1296998059591774208)
+      [Bokeh 2.2 is out!](https://medium.com/bokeh/bokeh-2-2-d9096a223df6)
+
+    Mid Meet - Hall of Fame
+
+      Jesper Dramsc - ML engineer
+
+      Follow Jesper on [Twitter](https://twitter.com/JesperDramsch)
+
+      Skill share course [here](https://www.skillshare.com/site/join?teacherRef=6379366&via=teacher-referral&utm_campaign=teacher-referral&utm_source=ShortUrl&utm_medium=teacher-referral&t=Data-Science-and-Business-Analytics-with-Python&sku=1489151284)
+
+      [Pyrocko](https://pyrocko.org/)
+
+      [StatsQuest](https://www.youtube.com/channel/UCtYLUTtgS3k1Fg4y5tAhLbw)
+
+    PyPI highlights
+
+      [Docker Compose](https://pypi.org/project/docker-compose/) (is a Python library!!!!)
+
+      [Present](https://github.com/vinayak-mehta/present) - make your slides with a terminal window with flare
+
+      [Opacus](https://ai.facebook.com/blog/introducing-opacus-a-high-speed-library-for-training-pytorch-models-with-differential-privacy/)
+
+    [Listen to MidMeetPy podcast](https://anchor.fm/midmeetpy)
+  date: 2020-09-02
+  author: Cheuk Ting Ho
+
+- title: Python Zero to Hero - Ep.21 - More Python List and Dict
+  vid: ekkkCivI-Zw
+  tags: Python Zero to Hero
+  description: |
+    We go deeper with Python list and dictionary this time to see how we can create a list with the beautiful list comprehension. Also, we will see how we can sort a list in various ways. Before we end the episode, we also have a look at the OrderedDict and Counter that the Collections library offer. If you have any questions or any suggestions about which Python topics to cover, please leave your comment at my [Twitch channel](https://www.twitch.tv/cheukting_ho)
+
+    You can get the slide deck [here](https://slides.com/cheukting_ho) and the example code and homework form [GitHub here](https://github.com/Cheukting/python02hero). Ask questions at my [Twitch channel](https://www.twitch.tv/cheukting_ho)
+  date: 2020-08-29
+  author: Cheuk Ting Ho
+
 - title: World of WoqlCraft - Ep.22 WorldNet
   vid: L8re0n0W8rQ
   tags: World of WoqlCraft
@@ -7,7 +58,7 @@
     Find the source code from our [tutorial repo](https://github.com/terminusdb/terminus-tutorials).
 
     Join the TerminusDB community at [Discord](https://discord.gg/Gvdqw97)
-  date: 2020-08-20
+  date: 2020-08-28
   author: Cheuk Ting Ho
 
 - title: Mid Meet Py - Ep.20 - Interview with Bojan Miletic
@@ -15,20 +66,28 @@
   tags: Mid Meet Py
   description: |
     PyChat
+
         PyCon Italy [cancelled](https://pycon.it/en/blog/pycon-11-cancelled/)
+
         [Pyjamas CfP workshop](https://pyjamas.live/blog/ask-me-anything) August 27th & 28th
+
         Ticket sale to [PyData Global](https://global.pydata.org//) starts tomorrow (27th Aug)
+
         [Data Science and Business Analytics with Python course](https://www.skillshare.com/classes/Data-Science-and-Business-Analytics-with-Python/1489151284/projects?via=search-layout-grid) - Jesper Dramsch
+
         [CircuitPython day](https://circuitpython.org) - Sept 9th - Adafruit [newsletter](https://www.adafruitdaily.com/2020/08/25/python-on-microcontrollers-newsletter-usb-midi-host-8000-thanks-projects-and-more-python-adafruit-circuitpython-circuitpython-micropython-thepsf/)
+
         Nadia’s [new book on Open Source](https://twitter.com/nayafia/status/1273304859387719680) - Guido’s [tweet](https://twitter.com/gvanrossum/status/1297043394712092672)
 
     Mid Meet - Hall of Fame
+
         Bojan Miletic - Python developer
         Follow Bojan on [Twitter](https://twitter.com/mrBoyan)
         [Virtual Coffee](https://calendly.com/bojan-miletic/virtual-coffee)
         [Website](https://www.softerrific.com/)
 
     PyPI highlights
+
         [Pytest-docker-compose](https://github.com/pytest-docker-compose/pytest-docker-compose)
 
     [Listen to MidMeetPy podcast](https://anchor.fm/midmeetpy)
