@@ -1,3 +1,15 @@
+- title: World of WoqlCraft - Ep.23 Quick up data for TerminusDB 3.0
+  vid: 6RwccCujX2s
+  tags: World of WoqlCraft
+  description: |
+    Just a quick update about what is new for our new TerminusDB 3.0 release and our Python client. Now with Terminus Hub you can get the graphs that we show in previous episodes from Terminus Hub.
+
+    Find the source code from our [tutorial repo](https://github.com/terminusdb/terminus-tutorials).
+
+    Join the TerminusDB community at [Discord](https://discord.gg/Gvdqw97)
+  date: 2020-09-04
+  author: Cheuk Ting Ho
+
 - title: Mid Meet Py - Ep.21 - Interview with Jesper Dramsc
   vid: JGyqCt8Umqc
   tags: Mid Meet Py
