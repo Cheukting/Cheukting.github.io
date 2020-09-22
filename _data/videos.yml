@@ -1,3 +1,25 @@
+- title: Python Zero to Hero - Ep.23 - Learn click with me
+  vid: AaG1S2UjHhY
+  tags: Python Zero to Hero
+  description: |
+    I have not used click - a Python library that let you effortlessly create a cli tool, for years. So I would like to learn it again. Let's learn it together! If you have any questions or any suggestions about which Python topics to cover, please leave your comment at my [Twitch channel](https://www.twitch.tv/cheukting_ho)
+
+    You can get the slide deck [here](https://slides.com/cheukting_ho) and the example code and homework form [GitHub here](https://github.com/Cheukting/python02hero). Ask questions at my [Twitch channel](https://www.twitch.tv/cheukting_ho)
+  date: 2020-09-06
+  author: Cheuk Ting Ho
+
+- title: World of WoqlCraft - Ep.24 Graph visualisation on Jupyter notebook
+  vid: 6RwccCujX2s
+  tags: World of WoqlCraft
+  description: |
+    Today we will have a quick look at the new plug-in of the TerminusDB client which gives customisable interactive graph visualisation on Jupyter notebook. JavaScript did the heavy lifting but the users are just required to write in Python.
+
+    Find the source code from our [tutorial repo](https://github.com/terminusdb/terminus-tutorials).
+
+    Join the TerminusDB community at [Discord](https://discord.gg/Gvdqw97)
+  date: 2020-09-04
+  author: Cheuk Ting Ho
+
 - title: Mid Meet Py - Ep.23 - Interview with Vicky Tomey-Lee
   vid: H3yMpAHMi5s
   tags: Mid Meet Py
@@ -26,7 +48,7 @@
       Follow Vicky on [dev.to](https://dev.to/whykay)
 
     PyPI highlights
-    
+
       [Papermill](https://github.com/nteract/papermill) - let’s you use parameters and trigger actions on a notebook.
 
     [Listen to MidMeetPy podcast](https://anchor.fm/midmeetpy)
