@@ -6,18 +6,18 @@
 
   <title>Cheuk Ting Ho | Building the Open-source Community</title><!-- Begin Jekyll SEO tag v2.6.1 -->
 <meta name="generator" content="Jekyll v3.8.7" />
-<meta property="og:title" content="World of WoqlCraft - Ep.22 WorldNet" />
+<meta property="og:title" content="World of WoqlCraft - Ep.25 Exploring the Dbpedia and Seshat dataset" />
 <meta name="author" content="Cheuk Ting Ho" />
 <meta property="og:locale" content="en_US" />
-<meta name="description" content="Today we will be trying to insert WordNet into a schema-less graph. After that, we will have a look at what is in the schema-less graph and try to make sense out of it. Find the source code from our tutorial repo. Join the TerminusDB community at Discord" />
-<meta property="og:description" content="Today we will be trying to insert WordNet into a schema-less graph. After that, we will have a look at what is in the schema-less graph and try to make sense out of it. Find the source code from our tutorial repo. Join the TerminusDB community at Discord" />
-<link rel="canonical" href="https://cheuk.dev/videos/l8re0n0w8rq/" />
-<meta property="og:url" content="https://cheuk.dev/videos/l8re0n0w8rq/" />
+<meta name="description" content="Today we will explore the DBpedia and Seshat dataset using our new graph visualisation tool in Jupyter notebook. Not only generating a cool interactive graph in the Jupyter notebook, but we can also export it as an HTML file. Find the source code from our tutorial repo. Join the TerminusDB community at Discord" />
+<meta property="og:description" content="Today we will explore the DBpedia and Seshat dataset using our new graph visualisation tool in Jupyter notebook. Not only generating a cool interactive graph in the Jupyter notebook, but we can also export it as an HTML file. Find the source code from our tutorial repo. Join the TerminusDB community at Discord" />
+<link rel="canonical" href="https://cheuk.dev/videos/ht2nymvqt5w/" />
+<meta property="og:url" content="https://cheuk.dev/videos/ht2nymvqt5w/" />
 <meta property="og:site_name" content="Building the Open-source Community" />
 <meta property="og:type" content="article" />
-<meta property="article:published_time" content="2020-08-28T00:00:00+00:00" />
+<meta property="article:published_time" content="2020-09-25T00:00:00+00:00" />
 <script type="application/ld+json">
-{"url":"https://cheuk.dev/videos/l8re0n0w8rq/","@type":"BlogPosting","description":"Today we will be trying to insert WordNet into a schema-less graph. After that, we will have a look at what is in the schema-less graph and try to make sense out of it. Find the source code from our tutorial repo. Join the TerminusDB community at Discord","mainEntityOfPage":{"@type":"WebPage","@id":"https://cheuk.dev/videos/l8re0n0w8rq/"},"author":{"@type":"Person","name":"Cheuk Ting Ho"},"headline":"World of WoqlCraft - Ep.22 WorldNet","dateModified":"2020-08-28T00:00:00+00:00","datePublished":"2020-08-28T00:00:00+00:00","@context":"https://schema.org"}</script>
+{"url":"https://cheuk.dev/videos/ht2nymvqt5w/","@type":"BlogPosting","description":"Today we will explore the DBpedia and Seshat dataset using our new graph visualisation tool in Jupyter notebook. Not only generating a cool interactive graph in the Jupyter notebook, but we can also export it as an HTML file. Find the source code from our tutorial repo. Join the TerminusDB community at Discord","mainEntityOfPage":{"@type":"WebPage","@id":"https://cheuk.dev/videos/ht2nymvqt5w/"},"author":{"@type":"Person","name":"Cheuk Ting Ho"},"headline":"World of WoqlCraft - Ep.25 Exploring the Dbpedia and Seshat dataset","dateModified":"2020-09-25T00:00:00+00:00","datePublished":"2020-09-25T00:00:00+00:00","@context":"https://schema.org"}</script>
 <!-- End Jekyll SEO tag -->
 <link rel="stylesheet" href="/assets/css/app.min.css" />
 
@@ -113,23 +113,23 @@
   <article itemprop="blogPost" itemscope itemtype="http://schema.org/BlogPosting" class="h-entry">
     <div class="post__header section-padding">
       <div class="grid-large">
-        <h2 itemprop="name headline" class="p-name">World of WoqlCraft - Ep.22 WorldNet</h2>
+        <h2 itemprop="name headline" class="p-name">World of WoqlCraft - Ep.25 Exploring the Dbpedia and Seshat dataset</h2>
 
-        <time class="post__date dt-published" datetime="2020-08-28T00:00:00+00:00" itemprop="datePublished">28 Aug 2020</time>
+        <time class="post__date dt-published" datetime="2020-09-25T00:00:00+00:00" itemprop="datePublished">25 Sep 2020</time>
       </div>
     </div>
 
     
     <div class="post__header" style="text-align: center; background-color: #000;">
       <div class="ytcontainer">
-        <iframe class="yt" src="https://www.youtube.com/embed/L8re0n0W8rQ" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+        <iframe class="yt" src="https://www.youtube.com/embed/ht2nYMvqt5w" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
       </div>
     </div>
     
 
     <div class="post__img u-photo" style="display: none;">
       <div>
-        <figure class="absolute-bg" style="background-image: url('http://img.youtube.com/vi/L8re0n0W8rQ/0.jpg');"></figure>
+        <figure class="absolute-bg" style="background-image: url('http://img.youtube.com/vi/ht2nYMvqt5w/0.jpg');"></figure>
       </div>
     </div>
 
@@ -137,7 +137,7 @@
       <div class="grid-large">
         <div id="markdown" itemprop="articleBody" class="e-content">
             
-            <p><p>Today we will be trying to insert WordNet into a schema-less graph. After that, we will have a look at what is in the schema-less graph and try to make sense out of it.</p>
+            <p><p>Today we will explore the DBpedia and Seshat dataset using our new graph visualisation tool in Jupyter notebook. Not only generating a cool interactive graph in the Jupyter notebook, but we can also export it as an HTML file.</p>
 
 <p>Find the source code from our <a href="https://github.com/terminusdb/terminus-tutorials">tutorial repo</a>.</p>
 
@@ -151,30 +151,30 @@
         <br /><br />
 <h2 class="post__social">Share this video</h2>
 <ul class="post__social">
-  <li><a href="https://www.facebook.com/sharer/sharer.php?u=https://cheuk.dev/videos/l8re0n0w8rq/" target="_blank"><i class="fa fa-facebook"></i></a></li>
-  <li><a href="https://twitter.com/intent/tweet?&text=World of WoqlCraft - Ep.22 WorldNet+https://cheuk.dev/videos/l8re0n0w8rq/+by+Cheuk Ting Ho" target="_blank"><i class="fa fa-twitter"></i></a></li>
+  <li><a href="https://www.facebook.com/sharer/sharer.php?u=https://cheuk.dev/videos/ht2nymvqt5w/" target="_blank"><i class="fa fa-facebook"></i></a></li>
+  <li><a href="https://twitter.com/intent/tweet?&text=World of WoqlCraft - Ep.25 Exploring the Dbpedia and Seshat dataset+https://cheuk.dev/videos/ht2nymvqt5w/+by+Cheuk Ting Ho" target="_blank"><i class="fa fa-twitter"></i></a></li>
   <!------
-  <li><a href="https://plus.google.com/share?url=https://cheuk.dev/videos/l8re0n0w8rq/" target="_blank"><i class="fa fa-google-plus"></i></a></li>
+  <li><a href="https://plus.google.com/share?url=https://cheuk.dev/videos/ht2nymvqt5w/" target="_blank"><i class="fa fa-google-plus"></i></a></li>
   ------->
-  <li><a href="https://www.linkedin.com/shareArticle?mini=true&source=World of WoqlCraft - Ep.22 WorldNet&summary=Today we will be trying to insert WordNet into a schema-less graph. After that, we will have a look at what is in the schema-less graph and try to make sense out of it.
+  <li><a href="https://www.linkedin.com/shareArticle?mini=true&source=World of WoqlCraft - Ep.25 Exploring the Dbpedia and Seshat dataset&summary=Today we will explore the DBpedia and Seshat dataset using our new graph visualisation tool in Jupyter notebook. Not only generating a cool interactive graph in the Jupyter notebook, but we can also export it as an HTML file.
 
 Find the source code from our [tutorial repo](https://github.com/terminusdb/terminus-tutorials).
 
 Join the TerminusDB community at [Discord](https://discord.gg/Gvdqw97)
-&url=https://cheuk.dev/videos/l8re0n0w8rq/" target="_blank"><i class="fa fa-linkedin"></i></a></li>
+&url=https://cheuk.dev/videos/ht2nymvqt5w/" target="_blank"><i class="fa fa-linkedin"></i></a></li>
   <!------
-  <li><a href="https://www.stumbleupon.com/badge/?url=https://cheuk.dev/videos/l8re0n0w8rq/" target="_blank"><i class="fa fa-stumbleupon"></i></a></li>
+  <li><a href="https://www.stumbleupon.com/badge/?url=https://cheuk.dev/videos/ht2nymvqt5w/" target="_blank"><i class="fa fa-stumbleupon"></i></a></li>
   ------->
-  <li><a href="https://www.reddit.com/submit?url=https://cheuk.dev/videos/l8re0n0w8rq/" target="_blank"><i class="fa fa-reddit-alien"></i></a></li>
-  <li><a href="https://www.tumblr.com/share/link?url=https://cheuk.dev/videos/l8re0n0w8rq/" target="_blank"><i class="fa fa-tumblr"></i></a></li>
-  <li><a href="https://www.pinterest.com/pin/create/link/?description=Today we will be trying to insert WordNet into a schema-less graph. After that, we will have a look at what is in the schema-less graph and try to make sense out of it.
+  <li><a href="https://www.reddit.com/submit?url=https://cheuk.dev/videos/ht2nymvqt5w/" target="_blank"><i class="fa fa-reddit-alien"></i></a></li>
+  <li><a href="https://www.tumblr.com/share/link?url=https://cheuk.dev/videos/ht2nymvqt5w/" target="_blank"><i class="fa fa-tumblr"></i></a></li>
+  <li><a href="https://www.pinterest.com/pin/create/link/?description=Today we will explore the DBpedia and Seshat dataset using our new graph visualisation tool in Jupyter notebook. Not only generating a cool interactive graph in the Jupyter notebook, but we can also export it as an HTML file.
 
 Find the source code from our [tutorial repo](https://github.com/terminusdb/terminus-tutorials).
 
 Join the TerminusDB community at [Discord](https://discord.gg/Gvdqw97)
-&media=&url=https://cheuk.dev/videos/l8re0n0w8rq/" target="_blank"><i class="fa fa-pinterest"></i></a></li>
+&media=&url=https://cheuk.dev/videos/ht2nymvqt5w/" target="_blank"><i class="fa fa-pinterest"></i></a></li>
 </ul>
-<a href="https://cheuk.dev/videos/l8re0n0w8rq/" class="post__social u-url">https://cheuk.dev/videos/l8re0n0w8rq/</a>
+<a href="https://cheuk.dev/videos/ht2nymvqt5w/" class="post__social u-url">https://cheuk.dev/videos/ht2nymvqt5w/</a>
 
       </div>
     </div>
@@ -219,8 +219,8 @@ should be replaced with your own Disqus site-id.
     <div id="disqus_thread"></div>
     <script>
       var disqus_config = function () {
-        this.page.url = 'https://cheuk.dev/videos/l8re0n0w8rq/';
-        this.page.identifier = 'https://cheuk.dev/videos/l8re0n0w8rq/';
+        this.page.url = 'https://cheuk.dev/videos/ht2nymvqt5w/';
+        this.page.identifier = 'https://cheuk.dev/videos/ht2nymvqt5w/';
       };
       (function() {
         var d = document, s = d.createElement('script');
@@ -245,18 +245,6 @@ should be replaced with your own Disqus site-id.
       <h2 class="related__title">Related</h2>
       <div class="related__container">
       
-        
-        
-          <article class="related__post">
-            <a class="related__link" href="">
-              <figure class="related__img">
-                <img src="http://img.youtube.com/vi/ht2nYMvqt5w/0.jpg" alt="World of WoqlCraft - Ep.25 Exploring the Dbpedia and Seshat dataset"/>
-              </figure>
-              <div>
-                <h2 class="related__text">World of WoqlCraft - Ep.25 Exploring the Dbpedia and Seshat dataset</h2>
-              </div>
-            </a>
-          </article>
         
         
         
@@ -296,6 +284,27 @@ should be replaced with your own Disqus site-id.
               </figure>
               <div>
                 <h2 class="related__text">World of WoqlCraft - Ep.23 Quick up data for TerminusDB 3.0</h2>
+              </div>
+            </a>
+          </article>
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+          <article class="related__post">
+            <a class="related__link" href="">
+              <figure class="related__img">
+                <img src="http://img.youtube.com/vi/L8re0n0W8rQ/0.jpg" alt="World of WoqlCraft - Ep.22 WorldNet"/>
+              </figure>
+              <div>
+                <h2 class="related__text">World of WoqlCraft - Ep.22 WorldNet</h2>
               </div>
             </a>
           </article>
