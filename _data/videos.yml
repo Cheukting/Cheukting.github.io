@@ -1,3 +1,43 @@
+- title: Python Zero to Hero - Ep.27 - Further exploring Django
+  vid: GAJKL7pWCPE
+  tags: Python Zero to Hero
+  description: |
+    After a long break, we continue with our Django exploration journey. This time we see how the app's UI come into place by using some default Django template. If you have any questions or any suggestions about which Python topics to cover, please leave your comment at my [Twitch channel](https://www.twitch.tv/cheukting_ho)
+
+    You can get the slide deck [here](https://slides.com/cheukting_ho) and the example code and homework form [GitHub here](https://github.com/Cheukting/python02hero). Ask questions at my [Twitch channel](https://www.twitch.tv/cheukting_ho)
+  date: 2020-11-15
+  author: Cheuk Ting Ho
+
+- title: Python Zero to Hero - Ep.26 - Continue exploring Django
+  vid: GAJKL7pWCPE
+  tags: Python Zero to Hero
+  description: |
+    Following last week, we continue with our Django exploration journey. If you have any questions or any suggestions about which Python topics to cover, please leave your comment at my [Twitch channel](https://www.twitch.tv/cheukting_ho)
+
+    You can get the slide deck [here](https://slides.com/cheukting_ho) and the example code and homework form [GitHub here](https://github.com/Cheukting/python02hero). Ask questions at my [Twitch channel](https://www.twitch.tv/cheukting_ho)
+  date: 2020-10-18
+  author: Cheuk Ting Ho
+
+- title: Python Zero to Hero - Ep.25 - Let's learn Django
+  vid: GAJKL7pWCPE
+  tags: Python Zero to Hero
+  description: |
+    Today I started my journey learning Django by following the beginner tutorial at the official documentation. I made some discovery and it was fun. If you have any questions or any suggestions about which Python topics to cover, please leave your comment at my [Twitch channel](https://www.twitch.tv/cheukting_ho)
+
+    You can get the slide deck [here](https://slides.com/cheukting_ho) and the example code and homework form [GitHub here](https://github.com/Cheukting/python02hero). Ask questions at my [Twitch channel](https://www.twitch.tv/cheukting_ho)
+  date: 2020-10-11
+  author: Cheuk Ting Ho
+
+- title: Python Zero to Hero - Ep.24 - Python environment management tools
+  vid: mKpuhhPKDmo
+  tags: Python Zero to Hero
+  description: |
+    Today I have dive deeper into various Python environment management tools. I think it would be really helpful for beginners to start the habit of using separate environments for different projects. So come and pick one for yourself! If you have any questions or any suggestions about which Python topics to cover, please leave your comment at my [Twitch channel](https://www.twitch.tv/cheukting_ho)
+
+    You can get the slide deck [here](https://slides.com/cheukting_ho) and the example code and homework form [GitHub here](https://github.com/Cheukting/python02hero). Ask questions at my [Twitch channel](https://www.twitch.tv/cheukting_ho)
+  date: 2020-09-27
+  author: Cheuk Ting Ho
+
 - title: World of WoqlCraft - Ep.25 Exploring the Dbpedia and Seshat dataset
   vid: ht2nYMvqt5w
   tags: World of WoqlCraft
