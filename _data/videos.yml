@@ -1,3 +1,13 @@
+- title: Python Zero to Hero - Ep.29 - Building Fast with Flask
+  vid: 19PkakWlCEA
+  tags: Python Zero to Hero
+  description: |
+    This time, we see how Flask can let you build a web app super fast. It has a syntax similar to Fast API but can do more. If you have any questions or any suggestions about which Python topics to cover, please leave your comment at my [Twitch channel](https://www.twitch.tv/cheukting_ho)
+
+    You can get the slide deck [here](https://slides.com/cheukting_ho) and the example code and homework form [GitHub here](https://github.com/Cheukting/python02hero). Ask questions at my [Twitch channel](https://www.twitch.tv/cheukting_ho)
+  date: 2020-11-29
+  author: Cheuk Ting Ho
+
 - title: Python Zero to Hero - Ep.28 - Quick Look at FastAPI
   vid: OHhC85ly_iM
   tags: Python Zero to Hero
