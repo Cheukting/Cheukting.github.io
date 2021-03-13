@@ -1,3 +1,11 @@
+- title: Python Zero to Hero - Ep.38 - Will a dictionary of emoji help us in the prediction?
+  vid: 7NBkcshr970
+  tags: Python Zero to Hero
+  description: |
+    Like all NLP projects, it's not easy as the quality of your data may dictate everything! I showed some experiments on the old method that we used and we may have a better result with the new dataset - emoji net. If you have any questions or any suggestions about which Python topics to cover, please leave your comment at my [Twitch channel](https://www.twitch.tv/cheukting_ho)
+  date: 2021-03-07
+  author: Cheuk Ting Ho
+
 - title: Python Zero to Hero - Ep.37 - NLP with BERT encoding can predict emoji?
   vid: tMgeLZId4ww
   tags: Python Zero to Hero
@@ -5,6 +13,7 @@
     To make our emoprint less useless (double negative, let me try again) more useful, we will see if we can use some NLP tricks, namely BERT encoding to do emoji prediction. If you have any questions or any suggestions about which Python topics to cover, please leave your comment at my [Twitch channel](https://www.twitch.tv/cheukting_ho)
   date: 2021-02-28
   author: Cheuk Ting Ho
+
 - title: Mid Meet Py 2021 - Ep.02 - Let's chat with Lemon
   vid: dKFRtwKiV9k
   tags: Mid Meet Py
