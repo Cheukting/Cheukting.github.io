@@ -12,16 +12,6 @@
 
 
 - layout: inline-logo
-  name: AI Club for Gender Minorities
-  link: https://www.meetup.com/ai-club/
-  github:
-  twitter: AIClubGenderMin
-  quote: >
-
-  description: | # this will include new lines to allow paragraphs
-
-
-- layout: inline-logo
   name: IndieWebCamp London
   link: https://2020.indieweb.org/london
   github:
@@ -43,13 +33,38 @@
 
   description: | # this will include new lines to allow paragraphs
 
+
+- layout: inline-logo
+  name: Pydata Global 2020
+  link: https://global.pydata.org/
+  github:
+  twitter: PyData
+  telegram:
+  logo: /images/pydata_global.png
+  quote: >
+
+  description: | # this will include new lines to allow paragraphs
+
+
 - layout: inline-logo
   name: Pyjamas 2020
   link: https://pyjamas.live/
   github:
   twitter: PyjamasConf
   telegram:
-  logo: /images/pyjamas.png
+  logo: /images/pyjamas2020.png
+  quote: >
+
+  description: | # this will include new lines to allow paragraphs
+
+
+- layout: inline-logo
+  name: Humble Data
+  link: https://humbledata.org/
+  github:
+  twitter: HumbleData
+  telegram:
+  logo: /images/humble_data.png
   quote: >
 
   description: | # this will include new lines to allow paragraphs
