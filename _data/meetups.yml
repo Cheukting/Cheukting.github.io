@@ -68,3 +68,15 @@
   quote: >
 
   description: | # this will include new lines to allow paragraphs
+
+
+- layout: inline-logo
+  name: Mentored Sprints
+  link: https://www.mentored-sprints.dev/
+  github:
+  twitter: MentoredSprints
+  telegram:
+  logo: /images/MS_logo.png
+  quote: >
+
+  description: | # this will include new lines to allow paragraphs
