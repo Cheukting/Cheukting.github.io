@@ -1,5 +1,14 @@
 # Education Template
 - layout: top-middle-link
+  name: Shiny App in Python? Bokeh + Jupyter notebook
+  link: https://github.com/jupytercon/2020-Cheukting
+  dates:
+  qualification:
+  quote: >
+    Data scientist love building Shiny apps. It lets you create an interactive dashboard without the complexity of handling javascript or HTML. It also integrates well with other tools for data science as well. If you code in Python and you love Jupyter notebook, I will teach you how to make a “Shiny app” in Jupyter notebook with Python using Bokeh.
+  description: | # this will include new lines to allow paragraphs
+
+- layout: top-middle-link
   name: Chatbots that know if you are angry
   link: https://github.com/Cheukting/rasa_workshop
   dates:
