@@ -1,0 +1,25 @@
+name: Jekyll Build
+on: [push, pull_request]
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    steps:
+    - uses: actions/checkout@v2
+    - uses: ruby/setup-ruby@v1
+      with:
+        ruby-version: 2.7.1 # Not needed with a .ruby-version file
+        bundler-cache: true # runs 'bundle install' and caches installed gems automatically
+    - run: bundle exec jekyll build
+
+  deploy:
+    runs-on: ubuntu-latest
+    needs: build
+    if: github.event_name == 'push' && github.ref == 'refs/heads/src'
+    steps:
+    - name: Deploy 🚀
+      uses: JamesIves/github-pages-deploy-action@3.7.1
+      with:
+        GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+        BRANCH: master # The branch the action should deploy to.
+        FOLDER: _site # The folder the action should deploy.
+        CLEAN: true # Automatically remove deleted files from the deploy branch
