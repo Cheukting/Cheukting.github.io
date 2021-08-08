@@ -114,6 +114,5 @@ exclude : [
   "node_modules",
   "package.json",
   "gulpfile.js",
-  "scripts/",
   "vendor/",
   ]
