@@ -1,3 +1,63 @@
+- title: Getting Started with the TerminusDB - Lesson 6 - Version control, time travel, branch, and rebase
+  vid: aooqmigtwK8
+  tags: TerminusDB
+  description: |
+    This is video 6 of 6 in the Getting Started with the TerminusDB Python Client.
+
+    Lesson 6 demonstrates how to branch your database using the Python client, switch between versions, rollback in time and how to rebase your changes.
+  date: 2021-10-26
+  author: Cheuk Ting Ho
+
+- title: Getting Started with the TerminusDB - Lesson 5 - Query and get results back as CSVs or DataFrames
+  vid: ORkHJg76Pok
+  tags: TerminusDB
+  description: |
+    This is video 5 of 6 in the Getting Started with the TerminusDB Python Client.
+
+    Lesson 5 shows how to query objects in the database and export the results to a CSV file or for more complex queries such as statistical analysis as dataframes.
+  date: 2021-10-26
+  author: Cheuk Ting Ho
+
+- title: Getting Started with the TerminusDB - Lesson 4 - Update existing and import new data
+  vid: bM08lMNLQ6E
+  tags: TerminusDB
+  description: |
+    This is video 4 of 6 in the Getting Started with the TerminusDB Python Client.
+
+    Lesson 4 demonstrates how you can use Python scripts to update and link to existing data and how to add new data which also links to it.
+  date: 2021-10-26
+  author: Cheuk Ting Ho
+
+- title: Getting Started with the TerminusDB - Lesson 3 - Importing Data from Python Script
+  vid: NEfdwvgZCBg
+  tags: TerminusDB
+  description: |
+    This is video 3 of 6 in the Getting Started with the TerminusDB Python Client.
+
+    Lesson 3 shows how to import data using a Python script to handle more complex data imports.
+  date: 2021-10-26
+  author: Cheuk Ting Ho
+
+- title: Getting Started with the TerminusDB - Lesson 2 - Importing a CSV into the database
+  vid: ruZzI8NwgRM
+  tags: TerminusDB
+  description: |
+    This is video 2 of 6 in the Getting Started with the TerminusDB Python Client.
+
+    Lesson 2 demonstrates how to use import CSV commands to import CSV files into your database.
+  date: 2021-10-26
+  author: Cheuk Ting Ho
+
+- title: Getting Started with the TerminusDB - Lesson 1 - Install TerminusDB, start project and create an empty database with schema
+  vid: Ej4WcRcy0UM
+  tags: TerminusDB
+  description: |
+    This is video 1 of 6 in the Getting Started with the TerminusDB Python Client.
+
+    Lesson 1 covers installing TerminusDB, starting a new project, and finally creating an empty database with just a schema.
+  date: 2021-10-26
+  author: Cheuk Ting Ho
+
 - title: Python Zero to Hero - Ep.41 - Last time we ganna talk about emoji prediction for a while
   vid: CG4Zx5F34Cc
   tags: Python Zero to Hero

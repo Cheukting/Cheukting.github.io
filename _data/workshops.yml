@@ -1,4 +1,12 @@
-# Education Template
+- layout: top-middle-link
+  name: Knowledge graph data modelling with TerminusDB
+  link: https://www.credly.com/org/terminusdb/badge/certified-knowledge-graph-data-modeler.1
+  dates:
+  qualification:
+  quote: >
+    Storing data in a tabular format is not always ideal. Taking advantage of strong data in knowledge graphs can make handling complex data structure possible and data visualization easier. In this workshop, you will get all the basics to start modelling data in the terms of triples and building schemas of a knowledge graph.
+  description: | # this will include new lines to allow paragraphs
+
 - layout: top-middle-link
   name: Shiny App in Python? Bokeh + Jupyter notebook
   link: https://github.com/jupytercon/2020-Cheukting
