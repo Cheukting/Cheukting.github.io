@@ -6,9 +6,116 @@
 </description>
     <link>https://cheuk.dev</link>
     <atom:link href="https://cheuk.dev/feed.xml" rel="self" type="application/rss+xml"/>
-    <pubDate>Thu, 07 Apr 2022 18:04:29 +0000</pubDate>
-    <lastBuildDate>Thu, 07 Apr 2022 18:04:29 +0000</lastBuildDate>
+    <pubDate>Tue, 07 Jun 2022 09:54:47 +0000</pubDate>
+    <lastBuildDate>Tue, 07 Jun 2022 09:54:47 +0000</lastBuildDate>
     <generator>Jekyll v3.8.7</generator>
+    
+      <item>
+        <title>Trojan Source Code (Can we trust open-source anymore?)</title>
+        <description>&lt;p&gt;Last year, I overheard my boyfriend listening to &lt;a href=&quot;https://twit.tv/shows/security-now&quot;&gt;a podcast&lt;/a&gt; that talks about the &lt;a href=&quot;https://trojansource.codes/&quot;&gt;Trojan Source Code&lt;/a&gt;. I got interested and read &lt;a href=&quot;https://trojansource.codes/trojan-source.pdf&quot;&gt;the paper&lt;/a&gt;. Here is a beginner friendly explanation if you don’t want to read it (but I cannot see why).&lt;/p&gt;
+
+&lt;h2 id=&quot;first-lets-have-some-fun&quot;&gt;First, let’s have some fun!&lt;/h2&gt;
+
+&lt;p&gt;Open the &lt;a href=&quot;https://app.codingrooms.com/compiler?language=python3&quot;&gt;online Python console here&lt;/a&gt; and try running the following code:&lt;/p&gt;
+
+&lt;div class=&quot;language-python highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;&lt;span class=&quot;n&quot;&gt;hello&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;=&lt;/span&gt; &lt;span class=&quot;s&quot;&gt;&quot;Hello world&quot;&lt;/span&gt;
+&lt;span class=&quot;n&quot;&gt;world&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;=&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;hello&lt;/span&gt;
+&lt;span class=&quot;k&quot;&gt;print&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;world&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;)&lt;/span&gt;
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;
+
+&lt;p&gt;It is a standard “Hello world” right? How about this:&lt;/p&gt;
+
+&lt;div class=&quot;language-python highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;&lt;span class=&quot;n&quot;&gt;hello&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;=&lt;/span&gt; &lt;span class=&quot;s&quot;&gt;&quot;Hello world&quot;&lt;/span&gt;
+&lt;span class=&quot;n&quot;&gt;world&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;=&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;hell&lt;/span&gt;&lt;span class=&quot;err&quot;&gt;‮&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;o&lt;/span&gt;
+&lt;span class=&quot;k&quot;&gt;print&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;world&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;)&lt;/span&gt;
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;
+
+&lt;p&gt;Wait! They LOOK the same!&lt;/p&gt;
+
+&lt;p&gt;Yes my friend, you are right. They look the same but are NOT the same.&lt;/p&gt;
+
+&lt;h2 id=&quot;unicode-uηicσժe-ⓤⓝⓘⓒⓞⓓⓔ&quot;&gt;Unicode! Uηicσժe!! Ⓤⓝⓘⓒⓞⓓⓔ!!!&lt;/h2&gt;
+
+&lt;p&gt;We all know unicode is a bit wacky. But can you imagine a world that does not support unicode?&lt;/p&gt;
+
+&lt;p&gt;Unicode started as an attempt to make computer characters display all writing systems in the world. I benefit from it when I was a kid, learning how to use a computer at school. Like all “good kids” I will secretly open Netscape to browse websites. At that time, no one really care about the encoding when designing website. Sometimes, I would browse a website in Chinese but was displayed in random symbols. Then I know it’s time to change the encoding.&lt;/p&gt;
+
+&lt;p&gt;The most common unicode encoding is UTF-8, but there are many. For example, we use Big-5 for Chinese characters.&lt;/p&gt;
+
+&lt;p&gt;Our favourite &lt;a href=&quot;https://emojipedia.org/&quot;&gt;emojis&lt;/a&gt; 💖😃🧸 are mostly added in 2014, and there will be more coming.&lt;/p&gt;
+
+&lt;h2 id=&quot;bidirectional-characters&quot;&gt;Bidirectional ‮characters&lt;/h2&gt;
+
+&lt;p&gt;Since unicode are designed to handle all writing system, and some writing systems (like Arabic and Hebrew) are reading and writing form right to left, oppose to left to right, what we English speakers are used to, there needs to be a way to tell the computer to “read” and display the characters from right to left. That way, is a set of “invisible” characters that indicate the directions of the text - Bidirectional characters.&lt;/p&gt;
+
+&lt;p&gt;Using bidirectional characters where it is not suppose to be, like codes, then it is not just weird, but it can cause more harm than that.&lt;/p&gt;
+
+&lt;h2 id=&quot;trojan-source-code&quot;&gt;Trojan Source Code&lt;/h2&gt;
+
+&lt;p&gt;We all know the story about the Trojan Horse, hiding solders in a huge horse that was suppose to be the gift. This is what Trojan Source Code is like, hiding in the source code. In the paper the researchers listed 3 types of Trojan Source Code:&lt;/p&gt;
+
+&lt;h4 id=&quot;1-early-returns&quot;&gt;1) Early returns&lt;/h4&gt;
+
+&lt;p&gt;By hiding the bidirectional characters and &lt;code class=&quot;highlighter-rouge&quot;&gt;return&lt;/code&gt; statement in the comment, what appear to be harmless comment can force a function end early and leave out codes that needed to be executed.&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&quot;/assets/images/trojan-source-early-returns.png&quot; alt=&quot;Early returns example&quot; /&gt;&lt;/p&gt;
+
+&lt;h4 id=&quot;2-commenting-out&quot;&gt;2) Commenting-out&lt;/h4&gt;
+
+&lt;p&gt;It is common to have comments alongside the code to help readability. By strategically adding bidirectional characters, what appear to be code that are executable will actually be a part of the comment when executed. Using this can make the code behave not as expected.&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&quot;/assets/images/trojan-source-commenting-out.png&quot; alt=&quot;Commenting-out example&quot; /&gt;&lt;/p&gt;
+
+&lt;h4 id=&quot;3-stretched-strings&quot;&gt;3) Stretched strings&lt;/h4&gt;
+
+&lt;p&gt;Similar to commenting-out, what appear to be not included in a string can be “put” inside the string with bidirectional characters and “change” the behaviour of the code.&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&quot;/assets/images/trojan-source-stretched-string.png&quot; alt=&quot;Stretched strings example&quot; /&gt;&lt;/p&gt;
+
+&lt;hr /&gt;
+
+&lt;p&gt;Besides there Trojan Source Code there are also similar exploitation with unicode:&lt;/p&gt;
+
+&lt;h4 id=&quot;1-invisible-character&quot;&gt;1) Invisible character&lt;/h4&gt;
+
+&lt;p&gt;Hiding invisible characters can be easily used to change behaviour of the code. Like replacing variable names or strings etc.&lt;/p&gt;
+
+&lt;h4 id=&quot;2-homoglyphs&quot;&gt;2) Homoglyphs&lt;/h4&gt;
+
+&lt;p&gt;Similarly, homoglyphs (which means characters that looks the same but aren’t the same) can be used to replace function names so the unexpected one will be executed instead.&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&quot;/assets/images/trojan-source-homoglyphs.png&quot; alt=&quot;Homoglyphs example&quot; /&gt;&lt;/p&gt;
+
+&lt;h2 id=&quot;should-we-be-worried&quot;&gt;Should we be worried?&lt;/h2&gt;
+
+&lt;p&gt;For the list of what works in Python you can see &lt;a href=&quot;https://github.com/nickboucher/trojan-source/tree/main/Python&quot;&gt;here at the GitHub repo&lt;/a&gt;. You are welcome to try those Trojan Source Code and see if they works on newer versions of Python.&lt;/p&gt;
+
+&lt;p&gt;For my personal opinion, the piece of advice I would give to other Pythonistas is that, use a editor with good syntax highlight or that will warn you if there’s hidden characters (&lt;a href=&quot;https://github.blog/changelog/2021-10-31-warning-about-bidirectional-unicode-text/&quot;&gt;GitHub will give you a warning&lt;/a&gt; if the code file contains bidirectional characters). Keep a good habit of linting your code (&lt;a href=&quot;https://pypi.org/project/pylint/&quot;&gt;Pylint&lt;/a&gt; is a good choice, it will also give you warning if it “sees” hidden characters) and double check before running any code, especially those that copy and paste form the internet.&lt;/p&gt;
+
+&lt;h2 id=&quot;thats-only-the-beginning&quot;&gt;That’s only the beginning&lt;/h2&gt;
+
+&lt;p&gt;As someone who works in open-source, I am always aware of the security of our work. We don’t want to accidentally spread malicious code and that harm the trust on the open-source software as a whole. There are more security issue that people keep finding and warning others, and we should all be aware.&lt;/p&gt;
+
+&lt;p&gt;I would like to thank the researchers who publish their findings. If you would like to know more, make sure you check out their website: &lt;a href=&quot;https://trojansource.codes/&quot;&gt;https://trojansource.codes/&lt;/a&gt;&lt;/p&gt;
+
+&lt;p&gt;Here is my presentation slides:&lt;/p&gt;
+
+&lt;iframe src=&quot;https://slides.com/cheukting_ho/trojan-source/embed?style=transparent&amp;amp;share=hidden&quot; width=&quot;576&quot; height=&quot;420&quot; title=&quot;Trojan Source&quot; scrolling=&quot;no&quot; frameborder=&quot;0&quot; webkitallowfullscreen=&quot;&quot; mozallowfullscreen=&quot;&quot; allowfullscreen=&quot;&quot;&gt;&lt;/iframe&gt;
+</description>
+        <pubDate>Mon, 06 Jun 2022 00:00:00 +0000</pubDate>
+        <link>https://cheuk.dev/2022/06/06/trojan-source/</link>
+        <guid isPermaLink="true">https://cheuk.dev/2022/06/06/trojan-source/</guid>
+        
+        <category>Python</category>
+        
+        <category>Open-source</category>
+        
+        <category>Unicode</category>
+        
+        <category>GitHub</category>
+        
+        
+      </item>
     
       <item>
         <title>What happened when your CI is stopping you from releasing?</title>
