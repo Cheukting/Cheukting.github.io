@@ -1,3 +1,35 @@
+- title: Trojan Source Malware - Can we trust open-source anymore?
+  vid: cm5lI5u9-eE
+  tags: PyConDE
+  description: |
+    Recently, a paper is published to demonstrate how a visibly valid contribution can contain malicious code by exporting the Unicode control characters. Some of these attacks has been tested on Python and it works. Shall the Python and open-source communities be concerned?
+  date: 2022-05-12
+  author: Cheuk Ting Ho
+
+- title: From Zero to Hero, My Python journey to the West
+  vid: r8P4aQPsFZU
+  tags: PyConHK
+  description: |
+    I left Hong Kong, the place that I was born and lived for 30 years, 5 years ago with no technical experience. (Except for a few programming experience in University time, mainly serves my research studies) Moving to London, a city where technology is in high demand, opens a lot of doors for me. Here I know about open-source and Python. I learnt Python, been to lots of meet-ups and made lots of friends. I was welcomed by the community with open arms, in here I have met smart people, dedicated people, fun and nerdy people, and all of them are lovely. I am not joking if I say Python gave me this new life. I am so proud to be a Pythonistas, grateful about where I am now that I would like to share my journey with you. I hope everyone will find their journey in this amazing community.
+  date: 2022-01-28
+  author: Cheuk Ting Ho
+
+- title: Developing a tap and target for Singer.io - Open Source ETL
+  vid: SPMlbPsqa_k
+  tags: PyConAPAC
+  description: |
+    With lot's of databases and data products out there, pulling data from one and piping it into another is a common task. With Singer.io taps and targets you can create your own pipeline easily. I will show you how to develop them in Python to work with a graph database.
+  date: 2022-01-28
+  author: Cheuk Ting Ho
+
+- title: Turning Pandas DataFrames to Semantic Knowledge Graph
+  vid: OJx-lQHH-JY
+  tags: PyData
+  description: |
+    Storing data in tables has its limitations. Usually joining and aggregations are required to represent more complicated datasets and extract desirable data. Storing data in a semantic graph may be the solution and I am showing you how to programmatically switching from pandas to the knowledge graph.
+  date: 2022-01-20
+  author: Cheuk Ting Ho
+
 - title: Getting Started with the TerminusDB - Lesson 6 - Version control, time travel, branch, and rebase
   vid: aooqmigtwK8
   tags: TerminusDB
