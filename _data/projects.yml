@@ -48,3 +48,14 @@
      TerminusDB is a database built for data people. Terminus is a model driven graph database designed specifically for the web-age.
 
      The result is unified, well-structured & refined data - the jet fuel of future business. TerminusDB greatly reduces the time and effort required to build any application that shares, manipulates or edits data.
+
+- layout: inline-logo
+  name: Hypothesis
+  link: https://hypothesis.readthedocs.io/
+  github: HypothesisWorks/hypothesis
+  twitter:
+  logo: /images/hypothesis.svg
+  quote: >
+
+  description: | # this will include new lines to allow paragraphs
+     Hypothesis is a Python library for creating unit tests which are simpler to write and more powerful when run, finding edge cases in your code you wouldn’t have thought to look for. It is stable, powerful and easy to add to any existing test suite.
