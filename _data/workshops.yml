@@ -1,4 +1,13 @@
 - layout: top-middle-link
+  name: Picking What to Watch Next - build a recommendation system
+  link: https://github.com/Cheukting/knn_recommender
+  dates:
+  qualification:
+  quote: >
+    Recommendation algorithms are the driving force of many businesses: e-commerce, personalized advertisement, on-demand entertainment. Computer algorithms know what you like and present you with things that are customized for you. Here we will explore how to do that by building a system ourselves.
+  description: | # this will include new lines to allow paragraphs
+
+- layout: top-middle-link
   name: Knowledge graph data modelling with TerminusDB
   link: https://www.credly.com/org/terminusdb/badge/certified-knowledge-graph-data-modeler.1
   dates:
