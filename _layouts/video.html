@@ -86,26 +86,30 @@ layout: default
       <div class="related__container">
       {% for relatedTag in page.tags %}
         {% for video in site.data.videos %}
-        {% if video.title !=  page.title and video.tags == page.tags %}
-          <article class="related__post">
-            <a class="related__link" href="{{ post.url | absolute_url }}">
-              <figure class="related__img">
-                <img src="http://img.youtube.com/vi/{{ video.vid }}/0.jpg" alt="{{ video.title }}"/>
-              </figure>
-              <div>
-                <h2 class="related__text">{{ video.title }}</h2>
-              </div>
-            </a>
-          </article>
-        {% assign relatedCount = relatedCount | plus: 1 %}
-        {% endif %}
+          {% if video.title !=  page.title %}
+            {% for vTag in video.tags %}
+              {% if vTag == relatedTag %}
+                <article class="related__post">
+                  <a class="related__link" href="{{ post.url | absolute_url }}">
+                    <figure class="related__img">
+                      <img src="http://img.youtube.com/vi/{{ video.vid }}/0.jpg" alt="{{ video.title }}"/>
+                    </figure>
+                    <div>
+                      <h2 class="related__text">{{ video.title }}</h2>
+                    </div>
+                  </a>
+                </article>
+              {% assign relatedCount = relatedCount | plus: 1 %}
+              {% endif %}
+            {% endfor %}
+          {% endif %}
+          {% if relatedCount == 3 %}
+            {% break %}
+          {% endif %}
+        {% endfor %}
         {% if relatedCount == 3 %}
           {% break %}
         {% endif %}
-        {% endfor %}
-      {% if relatedCount == 3 %}
-        {% break %}
-      {% endif %}
       {% endfor %}
       {% if relatedCount == 0 %}
       <div class="related__text">There are no related posts.</div>
