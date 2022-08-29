@@ -1,3 +1,43 @@
+- title: Trojan Source Code - Can we trust open-source anymore?
+  vid: OiA84akH8ic
+  tags: PyConLT
+  description: |
+    Recently, a paper is published to demonstrate how a visibly valid contribution can contain malicious code by exporting the Unicode control characters. Some of these attacks has been tested on Python and it works. Shall the Python and open-source communities be concerned?
+  date: 2022-08-23
+  author: Cheuk Ting Ho
+
+- title: Picking What to Watch Next - Build a Recommendation System
+  vid: JYZxiBcmL-s
+  tags: PyData
+  description: |
+    Recommendation algorithms are the driving force of many businesses: e-commerce, personalized advertisement, on-demand entertainment. Computer algorithms know what you like and present you with things that are customized for you. Here we will explore how to do that by building a system ourselves.
+  date: 2022-07-06
+  author: Cheuk Ting Ho
+
+- title: Why AI Industry needs a Revision Control Graph Database
+  vid: EoiI7qxWp2s
+  tags: BelPy
+  description: |
+    Data is the driving force for ML&AI. As technology advances, we are dealing with bigger and more complicated data. Through use cases, Cheuk will show you how a graph database with revision control would provide a logical way of storing data and provide data ops like branch, merge and rollback.
+  date: 2022-07-03
+  author: Cheuk Ting Ho
+
+- title: Knowledge graph data modelling with TerminusDB
+  vid: nHTm-2YvSp8
+  tags: PyConUS
+  description: |
+    You will have learnt a new skill set that may assist you in your project in data science or research. You will have a new tool that you can better model your data and collaborate with others. Also, you gain all the prerequisites to use WOQL - a query language for knowledge graphs and the TerminusDB Python client to manage, manipulate and visualize data in your knowledge graph.
+  date: 2022-06-27
+  author: Cheuk Ting Ho
+
+- title: Better Data Governance with Revision Control Workflows
+  vid: _EwCkq96ppI
+  tags: Meetup
+  description: |
+    Revisional control ecosystems like git and GitHub makes revolutions in open-source software development. So what’s next? Why is revisional control still not a more common practice in data management? In this talk, we will explore the possibility of better data governance.
+  date: 2022-05-26
+  author: Cheuk Ting Ho
+
 - title: Trojan Source Malware - Can we trust open-source anymore?
   vid: cm5lI5u9-eE
   tags: PyConDE
