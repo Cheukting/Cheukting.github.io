@@ -6,8 +6,8 @@
 </description>
     <link>https://cheuk.dev</link>
     <atom:link href="https://cheuk.dev/feed.xml" rel="self" type="application/rss+xml"/>
-    <pubDate>Mon, 29 Aug 2022 14:47:20 +0000</pubDate>
-    <lastBuildDate>Mon, 29 Aug 2022 14:47:20 +0000</lastBuildDate>
+    <pubDate>Mon, 29 Aug 2022 14:59:18 +0000</pubDate>
+    <lastBuildDate>Mon, 29 Aug 2022 14:59:18 +0000</lastBuildDate>
     <generator>Jekyll v3.8.7</generator>
     
       <item>
@@ -108,11 +108,9 @@
         
         <category>Python</category>
         
-        <category>Open-source</category>
+        <category>OSS</category>
         
         <category>Unicode</category>
-        
-        <category>GitHub</category>
         
         
       </item>
@@ -150,12 +148,6 @@
         <pubDate>Mon, 12 Apr 2021 00:00:00 +0000</pubDate>
         <link>https://cheuk.dev/2021/04/12/CIbroken/</link>
         <guid isPermaLink="true">https://cheuk.dev/2021/04/12/CIbroken/</guid>
-        
-        <category>Python</category>
-        
-        <category>Open-source</category>
-        
-        <category>PyPI</category>
         
         <category>GitHub</category>
         
@@ -195,13 +187,7 @@
         <link>https://cheuk.dev/2020/07/27/europython2020/</link>
         <guid isPermaLink="true">https://cheuk.dev/2020/07/27/europython2020/</guid>
         
-        <category>Python</category>
-        
-        <category>Community</category>
-        
         <category>Conference</category>
-        
-        <category>EuroPython</category>
         
         
       </item>
@@ -423,8 +409,6 @@
         
         <category>JavaScript</category>
         
-        <category>Jupyter notebook</category>
-        
         
       </item>
     
@@ -464,11 +448,7 @@
         <link>https://cheuk.dev/2020/03/20/how-to-be-pythonic/</link>
         <guid isPermaLink="true">https://cheuk.dev/2020/03/20/how-to-be-pythonic/</guid>
         
-        <category>Talk</category>
-        
         <category>Python</category>
-        
-        <category>Query Language</category>
         
         <category>TerminusDB</category>
         
@@ -496,14 +476,6 @@
         <pubDate>Fri, 20 Mar 2020 00:00:00 +0000</pubDate>
         <link>https://cheuk.dev/2020/03/20/oot-recruit/</link>
         <guid isPermaLink="true">https://cheuk.dev/2020/03/20/oot-recruit/</guid>
-        
-        <category>Recruitment</category>
-        
-        <category>Online Harassments</category>
-        
-        <category>UX Designer</category>
-        
-        <category>User Research</category>
         
         <category>Opt Out Tools</category>
         
@@ -560,14 +532,6 @@
         <link>https://cheuk.dev/2020/03/18/remote-working-tools/</link>
         <guid isPermaLink="true">https://cheuk.dev/2020/03/18/remote-working-tools/</guid>
         
-        <category>Meeting</category>
-        
-        <category>Remote</category>
-        
-        <category>Tools</category>
-        
-        <category>Management</category>
-        
         <category>Work From Home</category>
         
         
@@ -595,13 +559,7 @@
         <link>https://cheuk.dev/2020/03/15/indie-webmention/</link>
         <guid isPermaLink="true">https://cheuk.dev/2020/03/15/indie-webmention/</guid>
         
-        <category>Indie Web</category>
-        
-        <category>Webmention</category>
-        
-        <category>Indie Web Camp</category>
-        
-        <category>Trial</category>
+        <category>Meetup</category>
         
         <category>Web</category>
         
@@ -648,15 +606,7 @@
         <link>https://cheuk.dev/2020/01/31/first-oot-meetup/</link>
         <guid isPermaLink="true">https://cheuk.dev/2020/01/31/first-oot-meetup/</guid>
         
-        <category>AI</category>
-        
-        <category>Non Profit Organization</category>
-        
         <category>Meetup</category>
-        
-        <category>Technology</category>
-        
-        <category>Internet</category>
         
         <category>Opt Out Tools</category>
         
@@ -711,12 +661,6 @@ but you have brought a cool domain like I am. GitHub will let you use your own, 
         <guid isPermaLink="true">https://cheuk.dev/2019/12/13/gh-page-hosting/</guid>
         
         <category>GitHub</category>
-        
-        <category>webdev</category>
-        
-        <category>Jekyll</category>
-        
-        <category>Hosting</category>
         
         <category>Web</category>
         
@@ -787,15 +731,7 @@ https://git-scm.com/book/en/v2/Git-Internals-Git-Objects&lt;/p&gt;
         <link>https://cheuk.dev/2019/11/05/git-terminusdb/</link>
         <guid isPermaLink="true">https://cheuk.dev/2019/11/05/git-terminusdb/</guid>
         
-        <category>Database</category>
-        
         <category>TerminusDB</category>
-        
-        <category>Git</category>
-        
-        <category>Newtech</category>
-        
-        <category>AI</category>
         
         
       </item>
@@ -950,10 +886,6 @@ I would also like to point out that, using an API key like what we did is not a 
         <guid isPermaLink="true">https://cheuk.dev/2019/10/15/ably-tf/</guid>
         
         <category>JavaScript</category>
-        
-        <category>Frontend</category>
-        
-        <category>Websocket</category>
         
         <category>Web</category>
         
