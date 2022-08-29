@@ -6,10 +6,7 @@ description: "I would like to add webmention to my blog. And I am testing it out
 image: /assets/images/indiewebcamp-london-20200315.png
 author: Cheuk Ting Ho
 tags:
-  - Indie Web
-  - Webmention
-  - Indie Web Camp
-  - Trial
+  - Meetup
   - Web
 ---
 I would like to add webmention to my blog. And I am testing it out now!

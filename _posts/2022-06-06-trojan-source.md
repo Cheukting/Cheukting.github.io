@@ -7,9 +7,8 @@ image: /assets/images/trojan-horse.png
 author: Cheuk Ting Ho
 tags:
   - Python
-  - Open-source
+  - OSS
   - Unicode
-  - GitHub
 
 ---
 

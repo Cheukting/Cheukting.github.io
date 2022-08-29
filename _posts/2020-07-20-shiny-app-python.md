@@ -9,7 +9,6 @@ tags:
   - Python
   - Data Science
   - JavaScript
-  - Jupyter notebook
 
 ---
 

@@ -6,10 +6,6 @@ description: "Summary of the discussion at Remote Woking Club"
 image: /assets/images/daria-nepriakhina-zoCDWPuiRuA-unsplash.jpg
 author: Cheuk Ting Ho
 tags:
-  - Meeting
-  - Remote
-  - Tools
-  - Management
   - Work From Home
 ---
 

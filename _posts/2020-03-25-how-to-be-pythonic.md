@@ -6,9 +6,7 @@ description: "I gave a talk at PyAmsterdam to find out how to be Pythonic"
 image: /assets/images/cover_of_how_to_be_pythonic.png
 author: Cheuk Ting Ho
 tags:
-  - Talk
   - Python
-  - Query Language
   - TerminusDB
 
 ---

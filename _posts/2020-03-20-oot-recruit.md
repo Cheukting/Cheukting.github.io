@@ -6,10 +6,6 @@ description: "Summary of the discussion at Remote Woking Club"
 image: /assets/images/jason-leung-F2WX4BTIkpQ-unsplash.jpg
 author: Cheuk Ting Ho
 tags:
-  - Recruitment
-  - Online Harassments
-  - UX Designer
-  - User Research
   - Opt Out Tools
 
 ---

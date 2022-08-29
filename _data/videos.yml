@@ -1,6 +1,8 @@
 - title: Trojan Source Code - Can we trust open-source anymore?
   vid: OiA84akH8ic
-  tags: PyConLT
+  tags:
+    - PyConLT
+    - OSS
   description: |
     Recently, a paper is published to demonstrate how a visibly valid contribution can contain malicious code by exporting the Unicode control characters. Some of these attacks has been tested on Python and it works. Shall the Python and open-source communities be concerned?
   date: 2022-08-23
@@ -8,7 +10,10 @@
 
 - title: Picking What to Watch Next - Build a Recommendation System
   vid: JYZxiBcmL-s
-  tags: PyData
+  tags:
+    - PyData
+    - OSS
+    - Tutorial
   description: |
     Recommendation algorithms are the driving force of many businesses: e-commerce, personalized advertisement, on-demand entertainment. Computer algorithms know what you like and present you with things that are customized for you. Here we will explore how to do that by building a system ourselves.
   date: 2022-07-06
@@ -16,7 +21,9 @@
 
 - title: Why AI Industry needs a Revision Control Graph Database
   vid: EoiI7qxWp2s
-  tags: BelPy
+  tags:
+    - BelPy
+    - TerminusDB
   description: |
     Data is the driving force for ML&AI. As technology advances, we are dealing with bigger and more complicated data. Through use cases, Cheuk will show you how a graph database with revision control would provide a logical way of storing data and provide data ops like branch, merge and rollback.
   date: 2022-07-03
@@ -24,7 +31,10 @@
 
 - title: Knowledge graph data modelling with TerminusDB
   vid: nHTm-2YvSp8
-  tags: PyConUS
+  tags:
+    - PyConUS
+    - TerminusDB
+    - Tutorial
   description: |
     You will have learnt a new skill set that may assist you in your project in data science or research. You will have a new tool that you can better model your data and collaborate with others. Also, you gain all the prerequisites to use WOQL - a query language for knowledge graphs and the TerminusDB Python client to manage, manipulate and visualize data in your knowledge graph.
   date: 2022-06-27
@@ -32,7 +42,9 @@
 
 - title: Better Data Governance with Revision Control Workflows
   vid: _EwCkq96ppI
-  tags: Meetup
+  tags:
+    - Meetup
+    - TerminusDB
   description: |
     Revisional control ecosystems like git and GitHub makes revolutions in open-source software development. So what’s next? Why is revisional control still not a more common practice in data management? In this talk, we will explore the possibility of better data governance.
   date: 2022-05-26
@@ -40,7 +52,9 @@
 
 - title: Trojan Source Malware - Can we trust open-source anymore?
   vid: cm5lI5u9-eE
-  tags: PyConDE
+  tags:
+    - PyConDE
+    - OSS
   description: |
     Recently, a paper is published to demonstrate how a visibly valid contribution can contain malicious code by exporting the Unicode control characters. Some of these attacks has been tested on Python and it works. Shall the Python and open-source communities be concerned?
   date: 2022-05-12
@@ -48,7 +62,9 @@
 
 - title: From Zero to Hero, My Python journey to the West
   vid: r8P4aQPsFZU
-  tags: PyConHK
+  tags:
+    - PyConHK
+    - Community
   description: |
     I left Hong Kong, the place that I was born and lived for 30 years, 5 years ago with no technical experience. (Except for a few programming experience in University time, mainly serves my research studies) Moving to London, a city where technology is in high demand, opens a lot of doors for me. Here I know about open-source and Python. I learnt Python, been to lots of meet-ups and made lots of friends. I was welcomed by the community with open arms, in here I have met smart people, dedicated people, fun and nerdy people, and all of them are lovely. I am not joking if I say Python gave me this new life. I am so proud to be a Pythonistas, grateful about where I am now that I would like to share my journey with you. I hope everyone will find their journey in this amazing community.
   date: 2022-01-28
@@ -56,7 +72,9 @@
 
 - title: Developing a tap and target for Singer.io - Open Source ETL
   vid: SPMlbPsqa_k
-  tags: PyConAPAC
+  tags:
+    - PyConAPAC
+    - TerminusDB
   description: |
     With lot's of databases and data products out there, pulling data from one and piping it into another is a common task. With Singer.io taps and targets you can create your own pipeline easily. I will show you how to develop them in Python to work with a graph database.
   date: 2022-01-28
@@ -64,7 +82,9 @@
 
 - title: Turning Pandas DataFrames to Semantic Knowledge Graph
   vid: OJx-lQHH-JY
-  tags: PyData
+  tags:
+    - PyData
+    - TerminusDB
   description: |
     Storing data in tables has its limitations. Usually joining and aggregations are required to represent more complicated datasets and extract desirable data. Storing data in a semantic graph may be the solution and I am showing you how to programmatically switching from pandas to the knowledge graph.
   date: 2022-01-20
