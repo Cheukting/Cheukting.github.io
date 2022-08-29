@@ -76,24 +76,28 @@ layout: default
       <div class="related__container">
       {% for relatedTag in page.tags %}
         {% for post in site.tags[relatedTag] %}
-        {% if post.title !=  page.title%}
-          <article class="related__post">
-            <a class="related__link" href="{{ post.url | absolute_url }}">
-              {% if post.image %}
-                <figure class="related__img">
-                  <img src="{{ post.image }}" alt="{{ post.title }}"/>
-                </figure>
+          {% if post.title !=  page.title%}
+            {% for pTag in post.tags %}
+              {% if pTag == relatedTag %}
+                <article class="related__post">
+                  <a class="related__link" href="{{ post.url | absolute_url }}">
+                    {% if post.image %}
+                      <figure class="related__img">
+                        <img src="{{ post.image }}" alt="{{ post.title }}"/>
+                      </figure>
+                    {% endif %}
+                    <div>
+                      <h2 class="related__text">{{ post.title }}</h2>
+                    </div>
+                  </a>
+                </article>
+                {% assign relatedCount = relatedCount | plus: 1 %}
               {% endif %}
-              <div>
-                <h2 class="related__text">{{ post.title }}</h2>
-              </div>
-            </a>
-          </article>
-        {% assign relatedCount = relatedCount | plus: 1 %}
-        {% endif %}
-        {% if relatedCount == 3 %}
-          {% break %}
-        {% endif %}
+            {% endfor %}
+          {% endif %}
+          {% if relatedCount == 3 %}
+            {% break %}
+          {% endif %}
         {% endfor %}
       {% if relatedCount == 3 %}
         {% break %}
