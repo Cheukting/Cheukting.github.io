@@ -23,7 +23,6 @@
   import networkx as nx
   import d3
   import js
-  from js import js_ticked
 
   from pyodide import create_proxy, to_js
 
@@ -67,7 +66,7 @@
       .style("fill", "#69b3a2")
   )
 
-  def ticked(*args,**kwargs):
+  def ticked():
       (link
         .attr("x1", create_proxy(lambda d, *_:d.source.x))
         .attr("y1", create_proxy(lambda d, *_:d.source.y))
@@ -80,20 +79,13 @@
       )
   ticked_fn = create_proxy(ticked)
 
-  def temp():
-      pass
-
-  proxy = create_proxy(temp)
-
-  js.console.log(ticked_fn)
-
   id_fn = create_proxy(lambda d, *_:d["id"])
 
   simulation = (d3.forceSimulation(nodes_js)
     .force("link", d3.forceLink().id(id_fn).links(edges_js))
     .force("charge", d3.forceManyBody().strength(-400))
     .force("center", d3.forceCenter(width / 2, max_height / 2))
-    .on("end", js_ticked)
+    .on("end", ticked_fn)
     )
 
 </py-script>
