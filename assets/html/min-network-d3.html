@@ -1,0 +1,84 @@
+
+<html>
+  <head>
+    <title>Minimal network graph</title>
+    <meta charset="utf-8">
+    <link rel="stylesheet" href="https://pyscript.net/alpha/pyscript.css" />
+    <script defer src="https://pyscript.net/alpha/pyscript.js"></script>
+    </head>
+    <body>
+      <div id="viz"></div>
+
+<script type="importmap">
+{
+  "imports": {
+    "d3": "https://cdn.skypack.dev/d3@7"
+  }
+}
+</script>
+<py-script output="viz">
+  import d3
+  import js
+
+  from pyodide import create_proxy, to_js
+
+  viz = d3.select("#viz")
+  viz.select(".loading").remove()
+
+  svg = (viz
+    .append("svg")
+      .attr("width", 400)
+      .attr("height", 600)
+    .append("g")
+      .attr("transform",f"translate(20,20)")
+    )
+
+  node_list = [{"id":0}, {"id":1}]
+  edge_list = [{"source":0, "target":1}]
+
+  nodes_js = to_js(node_list)
+  edges_js = to_js(edge_list, dict_converter=js.Object.fromEntries)
+
+  link = (svg
+    .selectAll("line")
+    .data(edges_js)
+    .enter()
+    .append("line")
+      .style("stroke", "#aaa")
+  )
+
+  node = (svg
+    .selectAll("circle")
+    .data(nodes_js)
+    .enter()
+    .append("circle")
+      .attr("r", 20)
+      .style("fill", "#69b3a2")
+  )
+
+  def ticked():
+      (link
+        .attr("x1", create_proxy(lambda d, *_:d.source.x))
+        .attr("y1", create_proxy(lambda d, *_:d.source.y))
+        .attr("x2", create_proxy(lambda d, *_:d.target.x))
+        .attr("y2", create_proxy(lambda d, *_:d.target.y))
+      )
+      (node
+        .attr("cx", create_proxy(lambda d, *_:d.x+6))
+        .attr("cy", create_proxy(lambda d, *_:d.y-6))
+      )
+  ticked_fn = create_proxy(ticked)
+
+  id_fn = create_proxy(lambda d, *_:d["id"])
+
+  simulation = (d3.forceSimulation(nodes_js)
+    .force("link", d3.forceLink().id(id_fn).links(edges_js))
+    .force("charge", d3.forceManyBody())
+    .force("center", d3.forceCenter(200, 300))
+    .on("end", ticked_fn)
+    )
+
+</py-script>
+
+    </body>
+</html>
