@@ -6,9 +6,52 @@
 </description>
     <link>https://cheuk.dev</link>
     <atom:link href="https://cheuk.dev/feed.xml" rel="self" type="application/rss+xml"/>
-    <pubDate>Wed, 07 Sep 2022 12:19:05 +0000</pubDate>
-    <lastBuildDate>Wed, 07 Sep 2022 12:19:05 +0000</lastBuildDate>
+    <pubDate>Wed, 07 Sep 2022 12:59:06 +0000</pubDate>
+    <lastBuildDate>Wed, 07 Sep 2022 12:59:06 +0000</lastBuildDate>
     <generator>Jekyll v3.8.7</generator>
+    
+      <item>
+        <title>EuroSciPy 2022</title>
+        <description>&lt;p&gt;What happened when we do Okotoberfest in PyLadies Munich 2022&lt;/p&gt;
+
+&lt;h2 id=&quot;pyladies-munich-oktoberfest&quot;&gt;PyLadies Munich Oktoberfest&lt;/h2&gt;
+
+&lt;p&gt;I know it seems way too early to do Oktoberfest (a month earlier!) But when I was invited to PyLadies Munich, my good friend Laysa, the organiser of PyLadies Munich said that we gonna do Oktoberfest. So there we go!&lt;/p&gt;
+
+&lt;blockquote class=&quot;twitter-tweet&quot; data-conversation=&quot;none&quot;&gt;&lt;p lang=&quot;en&quot; dir=&quot;ltr&quot;&gt;We&amp;#39;re back and so happy to be here! 🥨 💫🐍 &lt;br /&gt;&lt;br /&gt;Follow us here: &lt;a href=&quot;https://t.co/VqPS0KW3uz&quot;&gt;https://t.co/VqPS0KW3uz&lt;/a&gt;&lt;a href=&quot;https://twitter.com/hashtag/Python?src=hash&amp;amp;ref_src=twsrc%5Etfw&quot;&gt;#Python&lt;/a&gt; &lt;a href=&quot;https://twitter.com/hashtag/munich?src=hash&amp;amp;ref_src=twsrc%5Etfw&quot;&gt;#munich&lt;/a&gt; &lt;a href=&quot;https://twitter.com/hashtag/Oktoberfest?src=hash&amp;amp;ref_src=twsrc%5Etfw&quot;&gt;#Oktoberfest&lt;/a&gt; &lt;a href=&quot;https://t.co/nySz9ZDAs7&quot;&gt;pic.twitter.com/nySz9ZDAs7&lt;/a&gt;&lt;/p&gt;&amp;mdash; PyLadies Munich (@pyladiesmunich) &lt;a href=&quot;https://twitter.com/pyladiesmunich/status/1567202868544868353?ref_src=twsrc%5Etfw&quot;&gt;September 6, 2022&lt;/a&gt;&lt;/blockquote&gt;
+&lt;script async=&quot;&quot; src=&quot;https://platform.twitter.com/widgets.js&quot; charset=&quot;utf-8&quot;&gt;&lt;/script&gt;
+
+&lt;p&gt;My friends are all dressed up in traditional Bavaria dresses, I am so jealous. Next time I will also dress up to appreciate this beautiful city.&lt;/p&gt;
+
+&lt;p&gt;We start with my talk, which is about Hypothesis. I hope it would be useful for anyone who hates writing tests. Look at my beautiful Anaconda T-shirt!!!&lt;/p&gt;
+
+&lt;blockquote class=&quot;twitter-tweet&quot; data-conversation=&quot;none&quot;&gt;&lt;p lang=&quot;en&quot; dir=&quot;ltr&quot;&gt;I hate writing tests, that&amp;#39;s why I use Hypothesis ✨ by &lt;a href=&quot;https://twitter.com/cheukting_ho?ref_src=twsrc%5Etfw&quot;&gt;@cheukting_ho&lt;/a&gt; &lt;br /&gt;&lt;br /&gt;👻✍️ &lt;a href=&quot;https://t.co/Ias2GZkCoc&quot;&gt;pic.twitter.com/Ias2GZkCoc&lt;/a&gt;&lt;/p&gt;&amp;mdash; PyLadies Munich (@pyladiesmunich) &lt;a href=&quot;https://twitter.com/pyladiesmunich/status/1567203273945321473?ref_src=twsrc%5Etfw&quot;&gt;September 6, 2022&lt;/a&gt;&lt;/blockquote&gt;
+&lt;script async=&quot;&quot; src=&quot;https://platform.twitter.com/widgets.js&quot; charset=&quot;utf-8&quot;&gt;&lt;/script&gt;
+
+&lt;p&gt;Then we have an interesting talk about running Cloud Run after the break. There were lots of cute doggie pictures involved.&lt;/p&gt;
+
+&lt;blockquote class=&quot;twitter-tweet&quot; data-conversation=&quot;none&quot;&gt;&lt;p lang=&quot;es&quot; dir=&quot;ltr&quot;&gt;Run Cloud Run by Alejandra Bolaños 🌩️🏃🏃‍♀ &lt;a href=&quot;https://t.co/TgnhXUBMmm&quot;&gt;pic.twitter.com/TgnhXUBMmm&lt;/a&gt;&lt;/p&gt;&amp;mdash; PyLadies Munich (@pyladiesmunich) &lt;a href=&quot;https://twitter.com/pyladiesmunich/status/1567211921383866378?ref_src=twsrc%5Etfw&quot;&gt;September 6, 2022&lt;/a&gt;&lt;/blockquote&gt;
+&lt;script async=&quot;&quot; src=&quot;https://platform.twitter.com/widgets.js&quot; charset=&quot;utf-8&quot;&gt;&lt;/script&gt;
+
+&lt;p&gt;After that we have the talk about redirecting old URI to new ones, I can feel the pain doing so, but it’a a fun talk.&lt;/p&gt;
+
+&lt;blockquote class=&quot;twitter-tweet&quot; data-conversation=&quot;none&quot;&gt;&lt;p lang=&quot;en&quot; dir=&quot;ltr&quot;&gt;When 404 becomes 302 by &lt;a href=&quot;https://twitter.com/lorinkoz?ref_src=twsrc%5Etfw&quot;&gt;@lorinkoz&lt;/a&gt; from &lt;a href=&quot;https://twitter.com/tech_alasco?ref_src=twsrc%5Etfw&quot;&gt;@tech_alasco&lt;/a&gt; 💙 Our last speaker for tonight!! &lt;a href=&quot;https://t.co/MDS4S0lCjY&quot;&gt;pic.twitter.com/MDS4S0lCjY&lt;/a&gt;&lt;/p&gt;&amp;mdash; PyLadies Munich (@pyladiesmunich) &lt;a href=&quot;https://twitter.com/pyladiesmunich/status/1567216965130850307?ref_src=twsrc%5Etfw&quot;&gt;September 6, 2022&lt;/a&gt;&lt;/blockquote&gt;
+&lt;script async=&quot;&quot; src=&quot;https://platform.twitter.com/widgets.js&quot; charset=&quot;utf-8&quot;&gt;&lt;/script&gt;
+
+&lt;p&gt;After that, I got a chance to talk to everyone. New faces that I have never met before and old faces that I have met in PyCon DE. All of them are very nice. I love the community here it’s such a good place.&lt;/p&gt;
+
+&lt;blockquote class=&quot;twitter-tweet&quot;&gt;&lt;p lang=&quot;en&quot; dir=&quot;ltr&quot;&gt;My happy face due to partnership with &lt;a href=&quot;https://twitter.com/pyladiesmunich?ref_src=twsrc%5Etfw&quot;&gt;@pyladiesmunich&lt;/a&gt; and &lt;a href=&quot;https://twitter.com/laysauchoa?ref_src=twsrc%5Etfw&quot;&gt;@laysauchoa&lt;/a&gt; to kick the on-site &lt;a href=&quot;https://twitter.com/hashtag/community?src=hash&amp;amp;ref_src=twsrc%5Etfw&quot;&gt;#community&lt;/a&gt; experience off and finally meet in person 🥨🥳🙌🚀🍻&lt;a href=&quot;https://twitter.com/hashtag/sharingiscaring?src=hash&amp;amp;ref_src=twsrc%5Etfw&quot;&gt;#sharingiscaring&lt;/a&gt; &lt;a href=&quot;https://twitter.com/hashtag/python?src=hash&amp;amp;ref_src=twsrc%5Etfw&quot;&gt;#python&lt;/a&gt; &lt;a href=&quot;https://t.co/22thh0YbJb&quot;&gt;pic.twitter.com/22thh0YbJb&lt;/a&gt;&lt;/p&gt;&amp;mdash; Uliana Andriieshyna (@uliana_munich) &lt;a href=&quot;https://twitter.com/uliana_munich/status/1567245315698315270?ref_src=twsrc%5Etfw&quot;&gt;September 6, 2022&lt;/a&gt;&lt;/blockquote&gt;
+&lt;script async=&quot;&quot; src=&quot;https://platform.twitter.com/widgets.js&quot; charset=&quot;utf-8&quot;&gt;&lt;/script&gt;
+
+</description>
+        <pubDate>Tue, 06 Sep 2022 00:00:00 +0000</pubDate>
+        <link>https://cheuk.dev/2022/09/06/pyladies_munich_2022/</link>
+        <guid isPermaLink="true">https://cheuk.dev/2022/09/06/pyladies_munich_2022/</guid>
+        
+        <category>Meetup</category>
+        
+        
+      </item>
     
       <item>
         <title>EuroSciPy 2022</title>
