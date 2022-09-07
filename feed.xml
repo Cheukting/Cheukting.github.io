@@ -6,9 +6,104 @@
 </description>
     <link>https://cheuk.dev</link>
     <atom:link href="https://cheuk.dev/feed.xml" rel="self" type="application/rss+xml"/>
-    <pubDate>Fri, 02 Sep 2022 08:29:29 +0000</pubDate>
-    <lastBuildDate>Fri, 02 Sep 2022 08:29:29 +0000</lastBuildDate>
+    <pubDate>Wed, 07 Sep 2022 12:19:05 +0000</pubDate>
+    <lastBuildDate>Wed, 07 Sep 2022 12:19:05 +0000</lastBuildDate>
     <generator>Jekyll v3.8.7</generator>
+    
+      <item>
+        <title>EuroSciPy 2022</title>
+        <description>&lt;p&gt;Just a little blog post about what I see and what I do in EuroSciPy 2022&lt;/p&gt;
+
+&lt;h2 id=&quot;day-1---arriving-basel-tutorial-day-1&quot;&gt;Day 1 - Arriving Basel, tutorial day 1&lt;/h2&gt;
+
+&lt;p&gt;After a long trip from London, I finally arriving Basel. Arrived just in time for lunch on the first tutorial day. After chatting with the organizers, who are very nice and welcoming. I greet my friends who also just arrived. During lunch, I also chat with the Scikit Learn maintainers who lived in France.&lt;/p&gt;
+
+&lt;blockquote class=&quot;twitter-tweet&quot;&gt;&lt;p lang=&quot;en&quot; dir=&quot;ltr&quot;&gt;well deserved break after gripping tutorials about &lt;a href=&quot;https://twitter.com/hashtag/PyTorch?src=hash&amp;amp;ref_src=twsrc%5Etfw&quot;&gt;#PyTorch&lt;/a&gt; &lt;a href=&quot;https://twitter.com/hashtag/SciPy?src=hash&amp;amp;ref_src=twsrc%5Etfw&quot;&gt;#SciPy&lt;/a&gt; &lt;a href=&quot;https://twitter.com/hashtag/scikit?src=hash&amp;amp;ref_src=twsrc%5Etfw&quot;&gt;#scikit&lt;/a&gt;-learn and &lt;a href=&quot;https://twitter.com/hashtag/GeoPandas?src=hash&amp;amp;ref_src=twsrc%5Etfw&quot;&gt;#GeoPandas&lt;/a&gt;&lt;a href=&quot;https://twitter.com/hashtag/EuroSciPy2022?src=hash&amp;amp;ref_src=twsrc%5Etfw&quot;&gt;#EuroSciPy2022&lt;/a&gt; &lt;a href=&quot;https://twitter.com/hashtag/EuroSciPy?src=hash&amp;amp;ref_src=twsrc%5Etfw&quot;&gt;#EuroSciPy&lt;/a&gt; &lt;a href=&quot;https://twitter.com/hashtag/Python?src=hash&amp;amp;ref_src=twsrc%5Etfw&quot;&gt;#Python&lt;/a&gt; &lt;a href=&quot;https://twitter.com/hashtag/Basel?src=hash&amp;amp;ref_src=twsrc%5Etfw&quot;&gt;#Basel&lt;/a&gt; &lt;a href=&quot;https://t.co/PivCAAwxPJ&quot;&gt;pic.twitter.com/PivCAAwxPJ&lt;/a&gt;&lt;/p&gt;&amp;mdash; EuroSciPy (@EuroSciPy) &lt;a href=&quot;https://twitter.com/EuroSciPy/status/1564605837506740225?ref_src=twsrc%5Etfw&quot;&gt;August 30, 2022&lt;/a&gt;&lt;/blockquote&gt;
+&lt;script async=&quot;&quot; src=&quot;https://platform.twitter.com/widgets.js&quot; charset=&quot;utf-8&quot;&gt;&lt;/script&gt;
+
+&lt;p&gt;After lunch, I join the tutorial by the SciKit Learn team: &lt;strong&gt;Evaluating your machine learning models&lt;/strong&gt; which is &lt;a href=&quot;https://github.com/Cheukting?tab=stars#:~:text=ArturoAmorQ%20/%20euroscipy_2022_evaluation&quot;&gt;very informative&lt;/a&gt; and is showing an academic approach to measuring and comparing models with “better” metrics.&lt;/p&gt;
+
+&lt;p&gt;Next is a tutorial about ASR &lt;strong&gt;Introduction to Audio &amp;amp; Speech Recognition&lt;/strong&gt; it’s fun but the workshop requires some prior knowledge and seems not all audiences are so there are a lot of questions and the tutorial quickly runs out of time. &lt;a href=&quot;https://github.com/Cheukting?tab=stars#:~:text=Vaibhavs10%20/%20how%2Dto%2Dasr&quot;&gt;The material&lt;/a&gt; is very detailed though. It may be worth going through them when have time.&lt;/p&gt;
+
+&lt;p&gt;In the evening, a big group of us had a drink and food &lt;a href=&quot;https://maps.app.goo.gl/y5ZEfQuyFHwEd7WVA&quot;&gt;near the river&lt;/a&gt;, which is very relaxing.&lt;/p&gt;
+
+&lt;blockquote class=&quot;twitter-tweet&quot;&gt;&lt;p lang=&quot;en&quot; dir=&quot;ltr&quot;&gt;Good software is good peopleware. Somewhere on the banks of the Rhine...&lt;br /&gt;EuroSciPy 2022, Basel, Switzerland. &lt;br /&gt;Photo credit: &lt;a href=&quot;https://twitter.com/GaelVaroquaux?ref_src=twsrc%5Etfw&quot;&gt;@GaelVaroquaux&lt;/a&gt; &lt;a href=&quot;https://t.co/8ZTkYkoZzR&quot;&gt;pic.twitter.com/8ZTkYkoZzR&lt;/a&gt;&lt;/p&gt;&amp;mdash; scikit-learn (@scikit_learn) &lt;a href=&quot;https://twitter.com/scikit_learn/status/1564595155151323136?ref_src=twsrc%5Etfw&quot;&gt;August 30, 2022&lt;/a&gt;&lt;/blockquote&gt;
+&lt;script async=&quot;&quot; src=&quot;https://platform.twitter.com/widgets.js&quot; charset=&quot;utf-8&quot;&gt;&lt;/script&gt;
+
+&lt;h2 id=&quot;day-2---tutorial-day-2&quot;&gt;Day 2 - Tutorial day 2&lt;/h2&gt;
+
+&lt;p&gt;In the morning we have &lt;a href=&quot;https://github.com/leriomaggio/euroscipy22-pytorch&quot;&gt;tutorial&lt;/a&gt; by my colleague Valerio about &lt;strong&gt;PyTouch&lt;/strong&gt;, it has been a while since I do any deep learning thing so it is interesting to know PyTouch is getting more popular now.&lt;/p&gt;
+
+&lt;blockquote class=&quot;twitter-tweet&quot;&gt;&lt;p lang=&quot;en&quot; dir=&quot;ltr&quot;&gt;Our developer advocate 🥑 &lt;a href=&quot;https://twitter.com/leriomaggio?ref_src=twsrc%5Etfw&quot;&gt;@leriomaggio&lt;/a&gt; &lt;a href=&quot;https://twitter.com/anacondainc?ref_src=twsrc%5Etfw&quot;&gt;@anacondainc&lt;/a&gt; is giving a tutorial &lt;a href=&quot;https://twitter.com/EuroSciPy?ref_src=twsrc%5Etfw&quot;&gt;@EuroSciPy&lt;/a&gt; &lt;a href=&quot;https://t.co/Jr3uvYBdH9&quot;&gt;pic.twitter.com/Jr3uvYBdH9&lt;/a&gt;&lt;/p&gt;&amp;mdash; Cheuk Ting Ho 💙💛 (@cheukting_ho) &lt;a href=&quot;https://twitter.com/cheukting_ho/status/1564505323452375046?ref_src=twsrc%5Etfw&quot;&gt;August 30, 2022&lt;/a&gt;&lt;/blockquote&gt;
+&lt;script async=&quot;&quot; src=&quot;https://platform.twitter.com/widgets.js&quot; charset=&quot;utf-8&quot;&gt;&lt;/script&gt;
+
+&lt;p&gt;Then I spend some time finalizing my demo and presentation.&lt;/p&gt;
+
+&lt;p&gt;After lunch, we had a walk and have ice cream. I usually bookmark ice cream places that I like and it’s coming in handy now.&lt;/p&gt;
+
+&lt;p&gt;In the afternoon I took a break from the tutorials and caught up with some work and meetings.&lt;/p&gt;
+
+&lt;p&gt;Colleague Jannis from the Conda team join us for the evening and we talk a lot, including about what community work we can do.&lt;/p&gt;
+
+&lt;h2 id=&quot;day-3---conference-day-1&quot;&gt;Day 3 - Conference day 1&lt;/h2&gt;
+
+&lt;blockquote class=&quot;twitter-tweet&quot;&gt;&lt;p lang=&quot;en&quot; dir=&quot;ltr&quot;&gt;Yay EuroSciPy opening session, so good to be back in person 🚀🤗 &lt;a href=&quot;https://t.co/IQrI9TmR6T&quot;&gt;pic.twitter.com/IQrI9TmR6T&lt;/a&gt;&lt;/p&gt;&amp;mdash; EuroSciPy (@EuroSciPy) &lt;a href=&quot;https://twitter.com/EuroSciPy/status/1564872173059293184?ref_src=twsrc%5Etfw&quot;&gt;August 31, 2022&lt;/a&gt;&lt;/blockquote&gt;
+&lt;script async=&quot;&quot; src=&quot;https://platform.twitter.com/widgets.js&quot; charset=&quot;utf-8&quot;&gt;&lt;/script&gt;
+
+&lt;p&gt;We have two very interesting keynotes in the morning, especially the one by Emmanuelle Gouillart about &lt;strong&gt;&lt;a href=&quot;https://dash.gallery/Portal/&quot;&gt;scikit image in plotly&lt;/a&gt;&lt;/strong&gt;. You can auto annotate tumours by squiggling on the picture. I got inspired by this talk a lot and have a new idea of what I can try next (which I am not telling yet)&lt;/p&gt;
+
+&lt;blockquote class=&quot;twitter-tweet&quot;&gt;&lt;p lang=&quot;en&quot; dir=&quot;ltr&quot;&gt;Interactive image annotation with plotly and dash&lt;br /&gt; presented by &lt;a href=&quot;https://twitter.com/EGouillart?ref_src=twsrc%5Etfw&quot;&gt;@EGouillart&lt;/a&gt; at &lt;a href=&quot;https://twitter.com/hashtag/euroscipy?src=hash&amp;amp;ref_src=twsrc%5Etfw&quot;&gt;#euroscipy&lt;/a&gt;. I wonder how easy it would be to make the annotations created on &lt;a href=&quot;https://t.co/SNfEiblWJI&quot;&gt;https://t.co/SNfEiblWJI&lt;/a&gt; &lt;a href=&quot;https://twitter.com/hashtag/IIIF?src=hash&amp;amp;ref_src=twsrc%5Etfw&quot;&gt;#IIIF&lt;/a&gt; / Web Annotation compliant? :) &lt;a href=&quot;https://twitter.com/EuroSciPy?ref_src=twsrc%5Etfw&quot;&gt;@EuroSciPy&lt;/a&gt; &lt;a href=&quot;https://t.co/VCGZXWUHEL&quot;&gt;https://t.co/VCGZXWUHEL&lt;/a&gt;&lt;/p&gt;&amp;mdash; Julien A. Raemy (@julsraemy) &lt;a href=&quot;https://twitter.com/julsraemy/status/1564897924752019457?ref_src=twsrc%5Etfw&quot;&gt;August 31, 2022&lt;/a&gt;&lt;/blockquote&gt;
+&lt;script async=&quot;&quot; src=&quot;https://platform.twitter.com/widgets.js&quot; charset=&quot;utf-8&quot;&gt;&lt;/script&gt;
+
+&lt;p&gt;Then there is the &lt;strong&gt;conda-forge&lt;/strong&gt; talk by 3 speakers from different companies, Jannis is one of them.&lt;/p&gt;
+
+&lt;blockquote class=&quot;twitter-tweet&quot;&gt;&lt;p lang=&quot;en&quot; dir=&quot;ltr&quot;&gt;Wonderful community collaboration example &lt;a href=&quot;https://twitter.com/EuroSciPy?ref_src=twsrc%5Etfw&quot;&gt;@EuroSciPy&lt;/a&gt; by &lt;a href=&quot;https://twitter.com/jaime_rgp?ref_src=twsrc%5Etfw&quot;&gt;@jaime_rgp&lt;/a&gt; &lt;a href=&quot;https://twitter.com/quansightai?ref_src=twsrc%5Etfw&quot;&gt;@quansightai&lt;/a&gt; ➕ &lt;a href=&quot;https://twitter.com/wuoulf?ref_src=twsrc%5Etfw&quot;&gt;@wuoulf&lt;/a&gt; @QuantStackand &amp;amp; the one and only &lt;a href=&quot;https://twitter.com/jezdez?ref_src=twsrc%5Etfw&quot;&gt;@jezdez&lt;/a&gt; &lt;a href=&quot;https://twitter.com/anacondainc?ref_src=twsrc%5Etfw&quot;&gt;@anacondainc&lt;/a&gt; talking about &lt;a href=&quot;https://twitter.com/condaforge?ref_src=twsrc%5Etfw&quot;&gt;@condaforge&lt;/a&gt; 👏🏻👏🏻✨ &lt;a href=&quot;https://t.co/gcqqmG0RWK&quot;&gt;pic.twitter.com/gcqqmG0RWK&lt;/a&gt;&lt;/p&gt;&amp;mdash; (((Valerio Maggio))) 🇺🇦 (@leriomaggio) &lt;a href=&quot;https://twitter.com/leriomaggio/status/1564913412064399362?ref_src=twsrc%5Etfw&quot;&gt;August 31, 2022&lt;/a&gt;&lt;/blockquote&gt;
+&lt;script async=&quot;&quot; src=&quot;https://platform.twitter.com/widgets.js&quot; charset=&quot;utf-8&quot;&gt;&lt;/script&gt;
+
+&lt;p&gt;At lunch there is a &lt;strong&gt;Pyladies lunch&lt;/strong&gt;, we all sit together with many ladies including the organisers of PyLadies Paris and PyLadies Berlin. We also talked about what we did recently that we feel happy about and everyone is just so amazing!&lt;/p&gt;
+
+&lt;blockquote class=&quot;twitter-tweet&quot;&gt;&lt;p lang=&quot;en&quot; dir=&quot;ltr&quot;&gt;If you are at &lt;a href=&quot;https://twitter.com/EuroSciPy?ref_src=twsrc%5Etfw&quot;&gt;@EuroSciPy&lt;/a&gt; come and join us for &lt;a href=&quot;https://twitter.com/pyladies?ref_src=twsrc%5Etfw&quot;&gt;@pyladies&lt;/a&gt; lunch. Wednesday, 31.08 room 028.&lt;br /&gt;Everyone welcome! &lt;a href=&quot;https://t.co/4bhz4js8zH&quot;&gt;pic.twitter.com/4bhz4js8zH&lt;/a&gt;&lt;/p&gt;&amp;mdash; PyLadies Paris (@PyLadiesParis) &lt;a href=&quot;https://twitter.com/PyLadiesParis/status/1564608220483682312?ref_src=twsrc%5Etfw&quot;&gt;August 30, 2022&lt;/a&gt;&lt;/blockquote&gt;
+&lt;script async=&quot;&quot; src=&quot;https://platform.twitter.com/widgets.js&quot; charset=&quot;utf-8&quot;&gt;&lt;/script&gt;
+
+&lt;p&gt;After lunch, there are a lot of talks about various libraries, including updates and technical stuff. I spent some time catching up on some work.&lt;/p&gt;
+
+&lt;p&gt;In the evening it is the social event! It’s a bit far from the city centre and we all have a good time.&lt;/p&gt;
+
+&lt;blockquote class=&quot;twitter-tweet&quot;&gt;&lt;p lang=&quot;en&quot; dir=&quot;ltr&quot;&gt;Yesterday, our conference’s social event took place in the &lt;a href=&quot;https://twitter.com/hashtag/Sandoase?src=hash&amp;amp;ref_src=twsrc%5Etfw&quot;&gt;#Sandoase&lt;/a&gt; at the &lt;a href=&quot;https://twitter.com/hashtag/Dreil%C3%A4ndereck?src=hash&amp;amp;ref_src=twsrc%5Etfw&quot;&gt;#Dreiländereck&lt;/a&gt; We hope all the attendants enjoyed it as much as we did!&lt;a href=&quot;https://twitter.com/hashtag/EuroSciPy2022?src=hash&amp;amp;ref_src=twsrc%5Etfw&quot;&gt;#EuroSciPy2022&lt;/a&gt; &lt;a href=&quot;https://twitter.com/hashtag/Basel?src=hash&amp;amp;ref_src=twsrc%5Etfw&quot;&gt;#Basel&lt;/a&gt; &lt;a href=&quot;https://t.co/UaNtyJfRRa&quot;&gt;pic.twitter.com/UaNtyJfRRa&lt;/a&gt;&lt;/p&gt;&amp;mdash; EuroSciPy (@EuroSciPy) &lt;a href=&quot;https://twitter.com/EuroSciPy/status/1565309047498313732?ref_src=twsrc%5Etfw&quot;&gt;September 1, 2022&lt;/a&gt;&lt;/blockquote&gt;
+&lt;script async=&quot;&quot; src=&quot;https://platform.twitter.com/widgets.js&quot; charset=&quot;utf-8&quot;&gt;&lt;/script&gt;
+
+&lt;h2 id=&quot;day-4---conference-day-2&quot;&gt;Day 4 - Conference day 2&lt;/h2&gt;
+
+&lt;p&gt;The last conference day started with the interesting keynote about &lt;strong&gt;data privacy&lt;/strong&gt; by Kathrine Jarmul. Then again there are talks. Some of them are more academic-focused.&lt;/p&gt;
+
+&lt;blockquote class=&quot;twitter-tweet&quot;&gt;&lt;p lang=&quot;en&quot; dir=&quot;ltr&quot;&gt;Great start of the conference day listening to the second keynote on ‘Supercharging Open Data with Open Privacy’ by Katharine Jarmul &lt;a href=&quot;https://twitter.com/kjam?ref_src=twsrc%5Etfw&quot;&gt;@kjam&lt;/a&gt;&lt;a href=&quot;https://twitter.com/hashtag/EuroSciPy2022?src=hash&amp;amp;ref_src=twsrc%5Etfw&quot;&gt;#EuroSciPy2022&lt;/a&gt; &lt;a href=&quot;https://twitter.com/hashtag/Basel?src=hash&amp;amp;ref_src=twsrc%5Etfw&quot;&gt;#Basel&lt;/a&gt; &lt;a href=&quot;https://twitter.com/hashtag/OpenData?src=hash&amp;amp;ref_src=twsrc%5Etfw&quot;&gt;#OpenData&lt;/a&gt; &lt;a href=&quot;https://twitter.com/hashtag/OpenPrivacy?src=hash&amp;amp;ref_src=twsrc%5Etfw&quot;&gt;#OpenPrivacy&lt;/a&gt; &lt;a href=&quot;https://twitter.com/hashtag/Python?src=hash&amp;amp;ref_src=twsrc%5Etfw&quot;&gt;#Python&lt;/a&gt; &lt;a href=&quot;https://t.co/HW2AzWEtja&quot;&gt;pic.twitter.com/HW2AzWEtja&lt;/a&gt;&lt;/p&gt;&amp;mdash; EuroSciPy (@EuroSciPy) &lt;a href=&quot;https://twitter.com/EuroSciPy/status/1565260989938933761?ref_src=twsrc%5Etfw&quot;&gt;September 1, 2022&lt;/a&gt;&lt;/blockquote&gt;
+&lt;script async=&quot;&quot; src=&quot;https://platform.twitter.com/widgets.js&quot; charset=&quot;utf-8&quot;&gt;&lt;/script&gt;
+
+&lt;p&gt;After lunch there is a lineup of talks about running Python in browsers: Presentation about &lt;strong&gt;Pyodide&lt;/strong&gt;, &lt;strong&gt;JupyterLite&lt;/strong&gt; and &lt;strong&gt;PyScript&lt;/strong&gt; (my talk). I think we are in an era where we are going through a revolution!&lt;/p&gt;
+
+&lt;blockquote class=&quot;twitter-tweet&quot;&gt;&lt;p lang=&quot;en&quot; dir=&quot;ltr&quot;&gt;Do you know &lt;a href=&quot;https://twitter.com/hashtag/PyScript?src=hash&amp;amp;ref_src=twsrc%5Etfw&quot;&gt;#PyScript&lt;/a&gt;? &lt;a href=&quot;https://twitter.com/cheukting_ho?ref_src=twsrc%5Etfw&quot;&gt;@cheukting_ho&lt;/a&gt; is showing &lt;a href=&quot;https://twitter.com/hashtag/dataviz?src=hash&amp;amp;ref_src=twsrc%5Etfw&quot;&gt;#dataviz&lt;/a&gt; with &lt;a href=&quot;https://twitter.com/pyscript_dev?ref_src=twsrc%5Etfw&quot;&gt;@pyscript_dev&lt;/a&gt; at &lt;a href=&quot;https://twitter.com/EuroSciPy?ref_src=twsrc%5Etfw&quot;&gt;@EuroSciPy&lt;/a&gt; now! &lt;a href=&quot;https://twitter.com/hashtag/EuroSciPy2022?src=hash&amp;amp;ref_src=twsrc%5Etfw&quot;&gt;#EuroSciPy2022&lt;/a&gt; &lt;a href=&quot;https://t.co/2Bbb8JphTE&quot;&gt;pic.twitter.com/2Bbb8JphTE&lt;/a&gt;&lt;/p&gt;&amp;mdash; Astra Stefania Delprete (@astrastefania) &lt;a href=&quot;https://twitter.com/astrastefania/status/1565325878300639235?ref_src=twsrc%5Etfw&quot;&gt;September 1, 2022&lt;/a&gt;&lt;/blockquote&gt;
+&lt;script async=&quot;&quot; src=&quot;https://platform.twitter.com/widgets.js&quot; charset=&quot;utf-8&quot;&gt;&lt;/script&gt;
+
+&lt;p&gt;In the evening we have networking drinks at Klara, and some people join us after swimming in the river. I am so jealous and wish I can do that too one day.&lt;/p&gt;
+
+&lt;blockquote class=&quot;twitter-tweet&quot;&gt;&lt;p lang=&quot;en&quot; dir=&quot;ltr&quot;&gt;Good bye &lt;a href=&quot;https://twitter.com/EuroSciPy?ref_src=twsrc%5Etfw&quot;&gt;@EuroSciPy&lt;/a&gt; and thank you for the great conference. I am staying for the best part which is the sprint! &lt;a href=&quot;https://t.co/bHZJSia6Uk&quot;&gt;pic.twitter.com/bHZJSia6Uk&lt;/a&gt;&lt;/p&gt;&amp;mdash; Cheuk Ting Ho 💙💛 (@cheukting_ho) &lt;a href=&quot;https://twitter.com/cheukting_ho/status/1565350980996431874?ref_src=twsrc%5Etfw&quot;&gt;September 1, 2022&lt;/a&gt;&lt;/blockquote&gt;
+&lt;script async=&quot;&quot; src=&quot;https://platform.twitter.com/widgets.js&quot; charset=&quot;utf-8&quot;&gt;&lt;/script&gt;
+
+&lt;h2 id=&quot;day-5---sprint-days&quot;&gt;Day 5 - Sprint days&lt;/h2&gt;
+
+&lt;blockquote class=&quot;twitter-tweet&quot;&gt;&lt;p lang=&quot;en&quot; dir=&quot;ltr&quot;&gt;On the first hours of the sprint, close to 70 EuroSciPy attendees are deep in discussions and programming. Amazing to see so many people come together to contribute to the open source libraries. &lt;a href=&quot;https://twitter.com/hashtag/EuroSciPy2022?src=hash&amp;amp;ref_src=twsrc%5Etfw&quot;&gt;#EuroSciPy2022&lt;/a&gt; &lt;a href=&quot;https://twitter.com/hashtag/Basel?src=hash&amp;amp;ref_src=twsrc%5Etfw&quot;&gt;#Basel&lt;/a&gt; &lt;a href=&quot;https://twitter.com/UniBasel_en?ref_src=twsrc%5Etfw&quot;&gt;@UniBasel_en&lt;/a&gt; &lt;a href=&quot;https://t.co/JSgwZCou4P&quot;&gt;pic.twitter.com/JSgwZCou4P&lt;/a&gt;&lt;/p&gt;&amp;mdash; EuroSciPy (@EuroSciPy) &lt;a href=&quot;https://twitter.com/EuroSciPy/status/1565624047123275776?ref_src=twsrc%5Etfw&quot;&gt;September 2, 2022&lt;/a&gt;&lt;/blockquote&gt;
+&lt;script async=&quot;&quot; src=&quot;https://platform.twitter.com/widgets.js&quot; charset=&quot;utf-8&quot;&gt;&lt;/script&gt;
+
+&lt;p&gt;As someone who loves open-source and believes the best part of the conference is the sprint, I of cause stay for the sprint. I am quite surprised to see there are so many people thinking the same - we have two rooms full of sprinters contributing to various open-source projects.&lt;/p&gt;
+</description>
+        <pubDate>Fri, 02 Sep 2022 00:00:00 +0000</pubDate>
+        <link>https://cheuk.dev/2022/09/02/euroscipy_2022/</link>
+        <guid isPermaLink="true">https://cheuk.dev/2022/09/02/euroscipy_2022/</guid>
+        
+        <category>Conference</category>
+        
+        
+      </item>
     
       <item>
         <title>Trojan Source Code (Can we trust open-source anymore?)</title>
