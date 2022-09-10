@@ -1,3 +1,14 @@
+- title: I hate writing tests, that's why I use Hypothesis
+  vid: etupZeYKvH8
+  tags:
+    - PyLadies Munich
+    - OSS
+    - Meetup
+  description: |
+    In this talk, we will explore what is property-based testing and why it can do a lot of heavy lifting in writing tests for us. As a contributor, I will introduce Hypothesis, a Python library that can help perform property-based tests with ease.
+  date: 2022-09-06
+  author: Cheuk Ting Ho
+
 - title: Trojan Source Code - Can we trust open-source anymore?
   vid: OiA84akH8ic
   tags:
