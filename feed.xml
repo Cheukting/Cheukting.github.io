@@ -6,9 +6,85 @@
 </description>
     <link>https://cheuk.dev</link>
     <atom:link href="https://cheuk.dev/feed.xml" rel="self" type="application/rss+xml"/>
-    <pubDate>Sat, 10 Sep 2022 11:45:33 +0000</pubDate>
-    <lastBuildDate>Sat, 10 Sep 2022 11:45:33 +0000</lastBuildDate>
+    <pubDate>Mon, 12 Sep 2022 15:05:28 +0000</pubDate>
+    <lastBuildDate>Mon, 12 Sep 2022 15:05:28 +0000</lastBuildDate>
     <generator>Jekyll v3.8.7</generator>
+    
+      <item>
+        <title>EuroSciPy 2022</title>
+        <description>&lt;p&gt;This is the first time I have been to PyCon SK and I am impressed.&lt;/p&gt;
+
+&lt;h2 id=&quot;pycon-sk-2022---day-1&quot;&gt;PyCon SK 2022 - Day 1&lt;/h2&gt;
+
+&lt;p&gt;I arrived in the city late due to the delayed flights, just in time to catch Miro’s talk about encoding in Python (and how it messes up his name all the time)&lt;/p&gt;
+
+&lt;p&gt;Also, I am lucky enough to sign up and gave a lightning talk.&lt;/p&gt;
+
+&lt;blockquote class=&quot;twitter-tweet&quot;&gt;&lt;p lang=&quot;en&quot; dir=&quot;ltr&quot;&gt;Great lightning talk by &lt;a href=&quot;https://twitter.com/cheukting_ho?ref_src=twsrc%5Etfw&quot;&gt;@cheukting_ho&lt;/a&gt; at &lt;a href=&quot;https://twitter.com/pyconsk?ref_src=twsrc%5Etfw&quot;&gt;@pyconsk&lt;/a&gt; !&lt;a href=&quot;https://twitter.com/hashtag/pyconsk2022?src=hash&amp;amp;ref_src=twsrc%5Etfw&quot;&gt;#pyconsk2022&lt;/a&gt; &lt;a href=&quot;https://twitter.com/hashtag/pyscript?src=hash&amp;amp;ref_src=twsrc%5Etfw&quot;&gt;#pyscript&lt;/a&gt; &lt;a href=&quot;https://t.co/WdfX4KVoxd&quot;&gt;pic.twitter.com/WdfX4KVoxd&lt;/a&gt;&lt;/p&gt;&amp;mdash; Denny Biasiolli (@DennyBiasiolli) &lt;a href=&quot;https://twitter.com/DennyBiasiolli/status/1568262884601241601?ref_src=twsrc%5Etfw&quot;&gt;September 9, 2022&lt;/a&gt;&lt;/blockquote&gt;
+&lt;script async=&quot;&quot; src=&quot;https://platform.twitter.com/widgets.js&quot; charset=&quot;utf-8&quot;&gt;&lt;/script&gt;
+
+&lt;p&gt;In the evening we went out for food and drinks. Here is where all the ideas between various communities around the world started. I pitched the idea of PyScript Dojo to the organisers in Berlin and hopefully, we will have an event soon.&lt;/p&gt;
+
+&lt;h2 id=&quot;pycon-sk-2022---day-2&quot;&gt;PyCon SK 2022 - Day 2&lt;/h2&gt;
+
+&lt;p&gt;In the morning I had a walk around town then I head to the venue. The venue is in the university but there are a few theatre rooms and a good hallway so perfect for a medium size conference. It is hall track for me in the morning and I slowly get back into the conference again.&lt;/p&gt;
+
+&lt;blockquote class=&quot;twitter-tweet&quot;&gt;&lt;p lang=&quot;en&quot; dir=&quot;ltr&quot;&gt;The hall track of &lt;a href=&quot;https://twitter.com/pyconsk?ref_src=twsrc%5Etfw&quot;&gt;@pyconsk&lt;/a&gt; is amazing! &lt;a href=&quot;https://t.co/Y9nLEMiX9y&quot;&gt;pic.twitter.com/Y9nLEMiX9y&lt;/a&gt;&lt;/p&gt;&amp;mdash; Cheuk Ting Ho 💙💛 (@cheukting_ho) &lt;a href=&quot;https://twitter.com/cheukting_ho/status/1568528586818076673?ref_src=twsrc%5Etfw&quot;&gt;September 10, 2022&lt;/a&gt;&lt;/blockquote&gt;
+&lt;script async=&quot;&quot; src=&quot;https://platform.twitter.com/widgets.js&quot; charset=&quot;utf-8&quot;&gt;&lt;/script&gt;
+
+&lt;p&gt;After lunch, I went to &lt;a href=&quot;https://2022.pycon.sk/en/speakers/Tom%20Dyson.html&quot;&gt;Tom Dyson’s talk&lt;/a&gt; about how Python can help us in a world full of depressing stuff.&lt;/p&gt;
+
+&lt;blockquote class=&quot;twitter-tweet&quot;&gt;&lt;p lang=&quot;en&quot; dir=&quot;ltr&quot;&gt;Tom Dyson talks about how to find happiness in Python… even though we have too many scary stuff in the world. &lt;a href=&quot;https://twitter.com/pyconsk?ref_src=twsrc%5Etfw&quot;&gt;@pyconsk&lt;/a&gt; &lt;a href=&quot;https://t.co/afdjcO9ibF&quot;&gt;pic.twitter.com/afdjcO9ibF&lt;/a&gt;&lt;/p&gt;&amp;mdash; Cheuk Ting Ho 💙💛 (@cheukting_ho) &lt;a href=&quot;https://twitter.com/cheukting_ho/status/1568564661657767936?ref_src=twsrc%5Etfw&quot;&gt;September 10, 2022&lt;/a&gt;&lt;/blockquote&gt;
+&lt;script async=&quot;&quot; src=&quot;https://platform.twitter.com/widgets.js&quot; charset=&quot;utf-8&quot;&gt;&lt;/script&gt;
+
+&lt;p&gt;Then I do some final preparation for my talk.&lt;/p&gt;
+
+&lt;p&gt;My talk is about PyScript and I am glad that there are so many good questions asked after the talk and people are interested to try it out themselves.&lt;/p&gt;
+
+&lt;blockquote class=&quot;twitter-tweet&quot;&gt;&lt;p lang=&quot;en&quot; dir=&quot;ltr&quot;&gt;Thank you &lt;a href=&quot;https://twitter.com/cheukting_ho?ref_src=twsrc%5Etfw&quot;&gt;@cheukting_ho&lt;/a&gt; for great presentation on PyScript. &amp;quot;import d3&amp;quot; seems like dream came true for many people. &lt;a href=&quot;https://twitter.com/hashtag/pyconsk?src=hash&amp;amp;ref_src=twsrc%5Etfw&quot;&gt;#pyconsk&lt;/a&gt; &lt;a href=&quot;https://t.co/FHermQSduO&quot;&gt;pic.twitter.com/FHermQSduO&lt;/a&gt;&lt;/p&gt;&amp;mdash; Jarmil M. Beruska (@jarmil_berushka) &lt;a href=&quot;https://twitter.com/jarmil_berushka/status/1568608315986296833?ref_src=twsrc%5Etfw&quot;&gt;September 10, 2022&lt;/a&gt;&lt;/blockquote&gt;
+&lt;script async=&quot;&quot; src=&quot;https://platform.twitter.com/widgets.js&quot; charset=&quot;utf-8&quot;&gt;&lt;/script&gt;
+
+&lt;p&gt;There is a Python quiz which is very exciting and fun. I did not get into the podium but still got the 9th which wins me a gadget that is useful for my future travel.&lt;/p&gt;
+
+&lt;blockquote class=&quot;twitter-tweet&quot;&gt;&lt;p lang=&quot;en&quot; dir=&quot;ltr&quot;&gt;Thank you &lt;a href=&quot;https://twitter.com/pyconsk?ref_src=twsrc%5Etfw&quot;&gt;@pyconsk&lt;/a&gt; for the fun quiz and now I have something that doesn’t hurt my ears during long flights &lt;a href=&quot;https://t.co/HEMVMjfecu&quot;&gt;pic.twitter.com/HEMVMjfecu&lt;/a&gt;&lt;/p&gt;&amp;mdash; Cheuk Ting Ho 💙💛 (@cheukting_ho) &lt;a href=&quot;https://twitter.com/cheukting_ho/status/1568626131808436224?ref_src=twsrc%5Etfw&quot;&gt;September 10, 2022&lt;/a&gt;&lt;/blockquote&gt;
+&lt;script async=&quot;&quot; src=&quot;https://platform.twitter.com/widgets.js&quot; charset=&quot;utf-8&quot;&gt;&lt;/script&gt;
+
+&lt;p&gt;In the evening there is the conference dinner. We talk about all sorts of things including the plans for future events in the community.&lt;/p&gt;
+
+&lt;blockquote class=&quot;twitter-tweet&quot;&gt;&lt;p lang=&quot;en&quot; dir=&quot;ltr&quot;&gt;Conference dinner &lt;a href=&quot;https://twitter.com/pyconsk?ref_src=twsrc%5Etfw&quot;&gt;@pyconsk&lt;/a&gt; &lt;a href=&quot;https://t.co/KdTuMjXxoi&quot;&gt;pic.twitter.com/KdTuMjXxoi&lt;/a&gt;&lt;/p&gt;&amp;mdash; Cheuk Ting Ho 💙💛 (@cheukting_ho) &lt;a href=&quot;https://twitter.com/cheukting_ho/status/1568669323798929414?ref_src=twsrc%5Etfw&quot;&gt;September 10, 2022&lt;/a&gt;&lt;/blockquote&gt;
+&lt;script async=&quot;&quot; src=&quot;https://platform.twitter.com/widgets.js&quot; charset=&quot;utf-8&quot;&gt;&lt;/script&gt;
+
+&lt;h2 id=&quot;pycon-sk-2022---day-3&quot;&gt;PyCon SK 2022 - Day 3&lt;/h2&gt;
+
+&lt;p&gt;Today is also the day I will go back home, I had a walk in the morning in the botanical garden next to the conference.&lt;/p&gt;
+
+&lt;p&gt;I manage to join the conference for half a day. I spent most of the time talking to people before I head to the airport. It is good to be able to talk to someone who may find Python in the browser useful in their &lt;a href=&quot;http://forestwiki.com/&quot;&gt;educational tool&lt;/a&gt;. I think this will be a good connection for the PyScript team.&lt;/p&gt;
+
+&lt;blockquote class=&quot;twitter-tweet&quot;&gt;&lt;p lang=&quot;en&quot; dir=&quot;ltr&quot;&gt;So many people here &lt;a href=&quot;https://twitter.com/pyconsk?ref_src=twsrc%5Etfw&quot;&gt;@pyconsk&lt;/a&gt; &lt;a href=&quot;https://t.co/TbsMUCmfNw&quot;&gt;pic.twitter.com/TbsMUCmfNw&lt;/a&gt;&lt;/p&gt;&amp;mdash; Cheuk Ting Ho 💙💛 (@cheukting_ho) &lt;a href=&quot;https://twitter.com/cheukting_ho/status/1568549482161127426?ref_src=twsrc%5Etfw&quot;&gt;September 10, 2022&lt;/a&gt;&lt;/blockquote&gt;
+&lt;script async=&quot;&quot; src=&quot;https://platform.twitter.com/widgets.js&quot; charset=&quot;utf-8&quot;&gt;&lt;/script&gt;
+
+&lt;h2 id=&quot;conclusions&quot;&gt;Conclusions&lt;/h2&gt;
+
+&lt;p&gt;I am quite impressed by PyCon SK, the local Python community here is bigger than I thought. Many sponsors are startups in this part of the world that treasure the Python community and see the opportunities in PyCon here.&lt;/p&gt;
+
+&lt;blockquote class=&quot;twitter-tweet&quot;&gt;&lt;p lang=&quot;en&quot; dir=&quot;ltr&quot;&gt;Swag swap with &lt;a href=&quot;https://twitter.com/gingy_love?ref_src=twsrc%5Etfw&quot;&gt;@gingy_love&lt;/a&gt; thank you for the &lt;a href=&quot;https://twitter.com/codekiwicom?ref_src=twsrc%5Etfw&quot;&gt;@codekiwicom&lt;/a&gt; socks &lt;a href=&quot;https://twitter.com/pyconsk?ref_src=twsrc%5Etfw&quot;&gt;@pyconsk&lt;/a&gt; &lt;a href=&quot;https://t.co/vJrqt1s5Y7&quot;&gt;pic.twitter.com/vJrqt1s5Y7&lt;/a&gt;&lt;/p&gt;&amp;mdash; Cheuk Ting Ho 💙💛 (@cheukting_ho) &lt;a href=&quot;https://twitter.com/cheukting_ho/status/1568563981006082049?ref_src=twsrc%5Etfw&quot;&gt;September 10, 2022&lt;/a&gt;&lt;/blockquote&gt;
+&lt;script async=&quot;&quot; src=&quot;https://platform.twitter.com/widgets.js&quot; charset=&quot;utf-8&quot;&gt;&lt;/script&gt;
+
+&lt;p&gt;There is also an education focus in this PyCon. There is an educational track and there are workshops that some teenagers attend. Some of them are so talented that they have won a coding competition using micro:bit.&lt;/p&gt;
+
+&lt;blockquote class=&quot;twitter-tweet&quot;&gt;&lt;p lang=&quot;en&quot; dir=&quot;ltr&quot;&gt;Kids are so smart here &lt;a href=&quot;https://twitter.com/pyconsk?ref_src=twsrc%5Etfw&quot;&gt;@pyconsk&lt;/a&gt; Coding in &lt;a href=&quot;https://twitter.com/hashtag/Python?src=hash&amp;amp;ref_src=twsrc%5Etfw&quot;&gt;#Python&lt;/a&gt; and creat something with &lt;a href=&quot;https://twitter.com/microbit_edu?ref_src=twsrc%5Etfw&quot;&gt;@microbit_edu&lt;/a&gt; &lt;a href=&quot;https://t.co/nUHoOxFeO0&quot;&gt;pic.twitter.com/nUHoOxFeO0&lt;/a&gt;&lt;/p&gt;&amp;mdash; Cheuk Ting Ho 💙💛 (@cheukting_ho) &lt;a href=&quot;https://twitter.com/cheukting_ho/status/1568567079908872195?ref_src=twsrc%5Etfw&quot;&gt;September 10, 2022&lt;/a&gt;&lt;/blockquote&gt;
+&lt;script async=&quot;&quot; src=&quot;https://platform.twitter.com/widgets.js&quot; charset=&quot;utf-8&quot;&gt;&lt;/script&gt;
+
+&lt;p&gt;I got good opportunities to talk to a few people who have their work related to Education, and both of them show interest in PyScript. I think it will be useful for my work in the future.&lt;/p&gt;
+</description>
+        <pubDate>Sun, 11 Sep 2022 00:00:00 +0000</pubDate>
+        <link>https://cheuk.dev/2022/09/11/pyconsk_2022/</link>
+        <guid isPermaLink="true">https://cheuk.dev/2022/09/11/pyconsk_2022/</guid>
+        
+        <category>Conference</category>
+        
+        
+      </item>
     
       <item>
         <title>EuroSciPy 2022</title>
