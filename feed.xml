@@ -6,9 +6,72 @@
 </description>
     <link>https://cheuk.dev</link>
     <atom:link href="https://cheuk.dev/feed.xml" rel="self" type="application/rss+xml"/>
-    <pubDate>Tue, 13 Sep 2022 14:22:22 +0000</pubDate>
-    <lastBuildDate>Tue, 13 Sep 2022 14:22:22 +0000</lastBuildDate>
+    <pubDate>Thu, 15 Sep 2022 18:22:41 +0000</pubDate>
+    <lastBuildDate>Thu, 15 Sep 2022 18:22:41 +0000</lastBuildDate>
     <generator>Jekyll v3.8.7</generator>
+    
+      <item>
+        <title>Uptime Conference 2022</title>
+        <description>&lt;p&gt;I was invited to Uptime Conference back in May this year. It is a conference organised by Aivan.io&lt;/p&gt;
+
+&lt;h2 id=&quot;arrival-and-speakers-dinner&quot;&gt;Arrival and Speakers Dinner&lt;/h2&gt;
+
+&lt;p&gt;The organisers are very kind to organise all my travel and accommodation for me. There is minor trouble with EasyJet but I arrived in the airport, got picked up and transfer to the very nice hotel next to the venue.&lt;/p&gt;
+
+&lt;blockquote class=&quot;twitter-tweet&quot;&gt;&lt;p lang=&quot;en&quot; dir=&quot;ltr&quot;&gt;Setting up is complete - it’s time for Uptime &lt;a href=&quot;https://twitter.com/uptimecon?ref_src=twsrc%5Etfw&quot;&gt;@uptimecon&lt;/a&gt; - everything about &lt;a href=&quot;https://twitter.com/hashtag/opensource?src=hash&amp;amp;ref_src=twsrc%5Etfw&quot;&gt;#opensource&lt;/a&gt; data technologies (and great coffee and Stroopwaffles!) - if you’re local to Amsterdam and would like to drop by, send a DM! &lt;a href=&quot;https://t.co/buR3WQX9EF&quot;&gt;pic.twitter.com/buR3WQX9EF&lt;/a&gt;&lt;/p&gt;&amp;mdash; James Arlen (@myrcurial) &lt;a href=&quot;https://twitter.com/myrcurial/status/1569936271044378624?ref_src=twsrc%5Etfw&quot;&gt;September 14, 2022&lt;/a&gt;&lt;/blockquote&gt;
+&lt;script async=&quot;&quot; src=&quot;https://platform.twitter.com/widgets.js&quot; charset=&quot;utf-8&quot;&gt;&lt;/script&gt;
+
+&lt;p&gt;After a short rest, we went for the speakers’ dinner. It’s great to be able to chat with some industry leaders and other developer advocates.&lt;/p&gt;
+
+&lt;h2 id=&quot;uptime-conf-2022---day-1&quot;&gt;Uptime Conf 2022 - Day 1&lt;/h2&gt;
+
+&lt;blockquote class=&quot;twitter-tweet&quot;&gt;&lt;p lang=&quot;en&quot; dir=&quot;ltr&quot;&gt;&lt;a href=&quot;https://twitter.com/lornajane?ref_src=twsrc%5Etfw&quot;&gt;@lornajane&lt;/a&gt; is opening &lt;a href=&quot;https://twitter.com/uptimecon?ref_src=twsrc%5Etfw&quot;&gt;@uptimecon&lt;/a&gt; and start by the most important information - WiFi details oh no actually it is CoC &lt;a href=&quot;https://t.co/mIDUt5pLug&quot;&gt;pic.twitter.com/mIDUt5pLug&lt;/a&gt;&lt;/p&gt;&amp;mdash; Cheuk Ting Ho at #uptime2022 (@cheukting_ho) &lt;a href=&quot;https://twitter.com/cheukting_ho/status/1569960484798873600?ref_src=twsrc%5Etfw&quot;&gt;September 14, 2022&lt;/a&gt;&lt;/blockquote&gt;
+&lt;script async=&quot;&quot; src=&quot;https://platform.twitter.com/widgets.js&quot; charset=&quot;utf-8&quot;&gt;&lt;/script&gt;
+
+&lt;p&gt;After the tech rehearsal, we chill in the speakers’ green room. Talk to more speakers. Then there’s the conference opening and keynote. It is a keynote by Jason who I chat to yesterday at the speaker dinner. The talk is about the SSPL licenses that create a storm in the OSS community for both MongoDB and Elastic. He explains what freedom in open source truly means.&lt;/p&gt;
+
+&lt;p&gt;I make use of the time at lunch to talk to various developers and conference attendees. They all have different backgrounds and some of them are not using Python mainly. I think it is a rare opportunity for me to talk to developers that Python is not their main language.&lt;/p&gt;
+
+&lt;p&gt;My talk is in the afternoon. It is about an open-source project that I have been involved in the past.&lt;/p&gt;
+
+&lt;blockquote class=&quot;twitter-tweet&quot;&gt;&lt;p lang=&quot;en&quot; dir=&quot;ltr&quot;&gt;Revision control and databases?! &lt;a href=&quot;https://twitter.com/cheukting_ho?ref_src=twsrc%5Etfw&quot;&gt;@cheukting_ho&lt;/a&gt; up next “Better data governance with revision control workflows” 🧵&lt;a href=&quot;https://twitter.com/hashtag/uptime2022?src=hash&amp;amp;ref_src=twsrc%5Etfw&quot;&gt;#uptime2022&lt;/a&gt; &lt;a href=&quot;https://t.co/6An1VY67aU&quot;&gt;pic.twitter.com/6An1VY67aU&lt;/a&gt;&lt;/p&gt;&amp;mdash; Jenny Wong 🐝 (@miss_jwo) &lt;a href=&quot;https://twitter.com/miss_jwo/status/1570045087069138950?ref_src=twsrc%5Etfw&quot;&gt;September 14, 2022&lt;/a&gt;&lt;/blockquote&gt;
+&lt;script async=&quot;&quot; src=&quot;https://platform.twitter.com/widgets.js&quot; charset=&quot;utf-8&quot;&gt;&lt;/script&gt;
+
+&lt;p&gt;In the evening we have an after party on a boat. It is an extraordinary experience. I got the chance to talk to other developer advocates and it feels like a mini DevRelCon is happening.&lt;/p&gt;
+
+&lt;blockquote class=&quot;twitter-tweet&quot;&gt;&lt;p lang=&quot;en&quot; dir=&quot;ltr&quot;&gt;Thank you &lt;a href=&quot;https://twitter.com/aiven_io?ref_src=twsrc%5Etfw&quot;&gt;@aiven_io&lt;/a&gt; for the nice after party &lt;a href=&quot;https://twitter.com/uptimecon?ref_src=twsrc%5Etfw&quot;&gt;@uptimecon&lt;/a&gt; &lt;a href=&quot;https://t.co/L9y0XkhgjB&quot;&gt;pic.twitter.com/L9y0XkhgjB&lt;/a&gt;&lt;/p&gt;&amp;mdash; Cheuk Ting Ho at #PyConUK (@cheukting_ho) &lt;a href=&quot;https://twitter.com/cheukting_ho/status/1570131851359961090?ref_src=twsrc%5Etfw&quot;&gt;September 14, 2022&lt;/a&gt;&lt;/blockquote&gt;
+&lt;script async=&quot;&quot; src=&quot;https://platform.twitter.com/widgets.js&quot; charset=&quot;utf-8&quot;&gt;&lt;/script&gt;
+
+&lt;h2 id=&quot;uptime-conf-2022---day-2&quot;&gt;Uptime Conf 2022 - Day 2&lt;/h2&gt;
+
+&lt;p&gt;The second day is a slow start for me, I have to save myself for the PyCon UK coming up the next day and catch up with work. But I got a chance to talk to folks at the conference. Including engineering managers alike.&lt;/p&gt;
+
+&lt;p&gt;Time flies and that’s the last keynote by the founder of the Apache Software Foundation.&lt;/p&gt;
+
+&lt;blockquote class=&quot;twitter-tweet&quot;&gt;&lt;p lang=&quot;en&quot; dir=&quot;ltr&quot;&gt;Last Keynote of &lt;a href=&quot;https://twitter.com/uptimecon?ref_src=twsrc%5Etfw&quot;&gt;@uptimecon&lt;/a&gt; 👀 see when open is more important than scaling up fast &lt;a href=&quot;https://t.co/EyC0KKnPuH&quot;&gt;pic.twitter.com/EyC0KKnPuH&lt;/a&gt;&lt;/p&gt;&amp;mdash; Cheuk Ting Ho at #PyConUK (@cheukting_ho) &lt;a href=&quot;https://twitter.com/cheukting_ho/status/1570419657043066887?ref_src=twsrc%5Etfw&quot;&gt;September 15, 2022&lt;/a&gt;&lt;/blockquote&gt;
+&lt;script async=&quot;&quot; src=&quot;https://platform.twitter.com/widgets.js&quot; charset=&quot;utf-8&quot;&gt;&lt;/script&gt;
+
+&lt;p&gt;Then it’s the closing. Originally I don’t expect to have so much fun and make so many great connections as it is not a Python conference which I am very used to. Everyone I met at the conference are nice and the organisers are very welcoming. Overall it is a great experience.&lt;/p&gt;
+
+&lt;blockquote class=&quot;twitter-tweet&quot;&gt;&lt;p lang=&quot;en&quot; dir=&quot;ltr&quot;&gt;Closing note &lt;a href=&quot;https://twitter.com/uptimecon?ref_src=twsrc%5Etfw&quot;&gt;@uptimecon&lt;/a&gt; by &lt;a href=&quot;https://twitter.com/lornajane?ref_src=twsrc%5Etfw&quot;&gt;@lornajane&lt;/a&gt; &lt;a href=&quot;https://t.co/JC1aPQfL7B&quot;&gt;pic.twitter.com/JC1aPQfL7B&lt;/a&gt;&lt;/p&gt;&amp;mdash; Cheuk Ting Ho at #PyConUK (@cheukting_ho) &lt;a href=&quot;https://twitter.com/cheukting_ho/status/1570428286777409538?ref_src=twsrc%5Etfw&quot;&gt;September 15, 2022&lt;/a&gt;&lt;/blockquote&gt;
+&lt;script async=&quot;&quot; src=&quot;https://platform.twitter.com/widgets.js&quot; charset=&quot;utf-8&quot;&gt;&lt;/script&gt;
+
+&lt;h2 id=&quot;one-more-thing&quot;&gt;One more thing&lt;/h2&gt;
+
+&lt;p&gt;They have real time STT (done by professional real people) thought out the whole conference. The other conference that I have seen it are PyCon UK and PyCon Ireland and I think it is a great feature to be inclusive.&lt;/p&gt;
+
+&lt;blockquote class=&quot;twitter-tweet&quot;&gt;&lt;p lang=&quot;en&quot; dir=&quot;ltr&quot;&gt;Wow, kudos to &lt;a href=&quot;https://twitter.com/uptimecon?ref_src=twsrc%5Etfw&quot;&gt;@uptimecon&lt;/a&gt; for having live closed captions during the conference talks. Great job, first time I&amp;#39;m seeing this 👍. &lt;a href=&quot;https://t.co/JgU0Q5QKjk&quot;&gt;pic.twitter.com/JgU0Q5QKjk&lt;/a&gt;&lt;/p&gt;&amp;mdash; Gunnar Morling 🌍 (@gunnarmorling) &lt;a href=&quot;https://twitter.com/gunnarmorling/status/1569979343752892422?ref_src=twsrc%5Etfw&quot;&gt;September 14, 2022&lt;/a&gt;&lt;/blockquote&gt;
+&lt;script async=&quot;&quot; src=&quot;https://platform.twitter.com/widgets.js&quot; charset=&quot;utf-8&quot;&gt;&lt;/script&gt;
+
+</description>
+        <pubDate>Thu, 15 Sep 2022 00:00:00 +0000</pubDate>
+        <link>https://cheuk.dev/2022/09/15/uptimecon_2022/</link>
+        <guid isPermaLink="true">https://cheuk.dev/2022/09/15/uptimecon_2022/</guid>
+        
+        <category>Conference</category>
+        
+        
+      </item>
     
       <item>
         <title>PyConSK 2022</title>
