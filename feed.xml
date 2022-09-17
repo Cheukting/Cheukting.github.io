@@ -6,8 +6,8 @@
 </description>
     <link>https://cheuk.dev</link>
     <atom:link href="https://cheuk.dev/feed.xml" rel="self" type="application/rss+xml"/>
-    <pubDate>Thu, 15 Sep 2022 18:22:41 +0000</pubDate>
-    <lastBuildDate>Thu, 15 Sep 2022 18:22:41 +0000</lastBuildDate>
+    <pubDate>Sat, 17 Sep 2022 08:44:04 +0000</pubDate>
+    <lastBuildDate>Sat, 17 Sep 2022 08:44:04 +0000</lastBuildDate>
     <generator>Jekyll v3.8.7</generator>
     
       <item>
@@ -150,7 +150,7 @@
       </item>
     
       <item>
-        <title>EuroSciPy 2022</title>
+        <title>PyLadies Munich 2022</title>
         <description>&lt;p&gt;What happened when we do Okotoberfest in PyLadies Munich 2022&lt;/p&gt;
 
 &lt;h2 id=&quot;pyladies-munich-oktoberfest&quot;&gt;PyLadies Munich Oktoberfest&lt;/h2&gt;
