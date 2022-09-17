@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "EuroSciPy 2022"
+title: "PyLadies Munich 2022"
 date: 2022-09-06
 description: "What happened in PyLadies Munich 2022"
 image: /assets/images/pyladies_munich22.jpg
