@@ -1,4 +1,25 @@
 - title: I hate writing tests, that's why I use Hypothesis
+  vid: A_Ow-XdmyLU
+  tags:
+    - PyConUK
+    - OSS
+  description: |
+    Ok, I lied, I still write tests. But instead of the example-based tests that we normally write, have you heard of property-based testing? By using Hypothesis, instead of thinking about what data I should test it for, it will generate test data, including boundary cases, for you.
+  date: 2022-09-17
+  author: Cheuk Ting Ho
+
+- title: Revolutionize Data Visulization with PyScript
+  vid: figPq-gSb4A
+  tags:
+    - PyConSK
+    - OSS
+    - PyScript
+  description: |
+    Since the announcement of PyScript, it has gained lots of attention and imagination about how we can run applications of Python in the browser. Out of everything that I have come across, most of the use cases are data visualisation. Let’s see how we can up our data viz game with PyScript.
+  date: 2022-09-14
+  author: Cheuk Ting Ho
+
+- title: I hate writing tests, that's why I use Hypothesis
   vid: etupZeYKvH8
   tags:
     - PyLadies Munich
