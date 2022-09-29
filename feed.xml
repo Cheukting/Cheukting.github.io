@@ -6,9 +6,142 @@
 </description>
     <link>https://cheuk.dev</link>
     <atom:link href="https://cheuk.dev/feed.xml" rel="self" type="application/rss+xml"/>
-    <pubDate>Mon, 19 Sep 2022 11:09:54 +0000</pubDate>
-    <lastBuildDate>Mon, 19 Sep 2022 11:09:54 +0000</lastBuildDate>
+    <pubDate>Thu, 29 Sep 2022 21:45:50 +0000</pubDate>
+    <lastBuildDate>Thu, 29 Sep 2022 21:45:50 +0000</lastBuildDate>
     <generator>Jekyll v3.8.7</generator>
+    
+      <item>
+        <title>Django Con Europe 2022</title>
+        <description>&lt;p&gt;I am so excited to be going to Porto for DjangoCon Europe and PyCon PT. It will be my first time in the city and the event. And it will be the first ever PyCon PT too. I have heard so many good things about Porto and Django Con so I think it will be great!&lt;/p&gt;
+
+&lt;h2 id=&quot;arrival---day-0&quot;&gt;Arrival - Day 0&lt;/h2&gt;
+
+&lt;p&gt;I was greeted by the nice weather in Porto. After meeting other conference attendees on the metro, I arrived at the city centre.&lt;/p&gt;
+
+&lt;blockquote class=&quot;twitter-tweet&quot;&gt;&lt;p lang=&quot;en&quot; dir=&quot;ltr&quot;&gt;In Porto, on a train towards my hotel. It&amp;#39;s been a LONG travel day. Coming up on 24 hours without sleep. But I found &lt;a href=&quot;https://twitter.com/m_holtermann?ref_src=twsrc%5Etfw&quot;&gt;@m_holtermann&lt;/a&gt; &amp;amp; &lt;a href=&quot;https://twitter.com/fapolloner?ref_src=twsrc%5Etfw&quot;&gt;@fapolloner&lt;/a&gt; in the airport! We&amp;#39;ll, Markus found me.&lt;/p&gt;&amp;mdash; Kojo 🤔😴🤔 Idrissa (@KojoIdrissa) &lt;a href=&quot;https://twitter.com/KojoIdrissa/status/1572188774997848064?ref_src=twsrc%5Etfw&quot;&gt;September 20, 2022&lt;/a&gt;&lt;/blockquote&gt;
+&lt;script async=&quot;&quot; src=&quot;https://platform.twitter.com/widgets.js&quot; charset=&quot;utf-8&quot;&gt;&lt;/script&gt;
+
+&lt;p&gt;I got lost because Google points me down a street under construction. Luckily (or unluckily) the worker opens the gate for me and I walk down it along the temporary wooden planks. Finally, get to the end of it and I broke through the gate on the other end to get to the hotel.&lt;/p&gt;
+
+&lt;p&gt;After settling downtown at the hotel and a few meetings, I head out and have a look at the city.&lt;/p&gt;
+
+&lt;blockquote class=&quot;twitter-tweet&quot;&gt;&lt;p lang=&quot;en&quot; dir=&quot;ltr&quot;&gt;Already felt in love with Porto because they have cute trams like we do in HK where I grew up. May love it more when &lt;a href=&quot;https://twitter.com/DjangoConEurope?ref_src=twsrc%5Etfw&quot;&gt;@DjangoConEurope&lt;/a&gt; kick start tomorrow &lt;a href=&quot;https://t.co/wRNBnom4vI&quot;&gt;pic.twitter.com/wRNBnom4vI&lt;/a&gt;&lt;/p&gt;&amp;mdash; Cheuk Ting Ho at #PyConES (@cheukting_ho) &lt;a href=&quot;https://twitter.com/cheukting_ho/status/1572269779213246469?ref_src=twsrc%5Etfw&quot;&gt;September 20, 2022&lt;/a&gt;&lt;/blockquote&gt;
+&lt;script async=&quot;&quot; src=&quot;https://platform.twitter.com/widgets.js&quot; charset=&quot;utf-8&quot;&gt;&lt;/script&gt;
+
+&lt;p&gt;Then I head to the venue to meet up with other conference attendees for dinner.&lt;/p&gt;
+
+&lt;blockquote class=&quot;twitter-tweet&quot;&gt;&lt;p lang=&quot;en&quot; dir=&quot;ltr&quot;&gt;The first evening in &lt;a href=&quot;https://twitter.com/hashtag/Portugal?src=hash&amp;amp;ref_src=twsrc%5Etfw&quot;&gt;#Portugal&lt;/a&gt; was great 🎉&lt;br /&gt;We had dinner together with other participants of &lt;a href=&quot;https://twitter.com/hashtag/DjangoConEurope?src=hash&amp;amp;ref_src=twsrc%5Etfw&quot;&gt;#DjangoConEurope&lt;/a&gt; in the center of# Porto and then we had the nightcap before going to sleep 🍻 Thanks to &lt;a href=&quot;https://twitter.com/jvzammit?ref_src=twsrc%5Etfw&quot;&gt;@jvzammit&lt;/a&gt; for taking the photo 🙏&lt;br /&gt;CC &lt;a href=&quot;https://twitter.com/KatiaNakamura?ref_src=twsrc%5Etfw&quot;&gt;@KatiaNakamura&lt;/a&gt; &lt;a href=&quot;https://twitter.com/glasnt?ref_src=twsrc%5Etfw&quot;&gt;@glasnt&lt;/a&gt; &lt;a href=&quot;https://twitter.com/m_holtermann?ref_src=twsrc%5Etfw&quot;&gt;@m_holtermann&lt;/a&gt; &lt;a href=&quot;https://t.co/pj3qbMTO2n&quot;&gt;pic.twitter.com/pj3qbMTO2n&lt;/a&gt;&lt;/p&gt;&amp;mdash; Paolo Melchiorre 🐍 (@pauloxnet) &lt;a href=&quot;https://twitter.com/pauloxnet/status/1572359981856395265?ref_src=twsrc%5Etfw&quot;&gt;September 20, 2022&lt;/a&gt;&lt;/blockquote&gt;
+&lt;script async=&quot;&quot; src=&quot;https://platform.twitter.com/widgets.js&quot; charset=&quot;utf-8&quot;&gt;&lt;/script&gt;
+
+&lt;h2 id=&quot;django-con-europe---day-1&quot;&gt;Django Con Europe - Day 1&lt;/h2&gt;
+
+&lt;p&gt;The conference opens with a keynote by Kojo. He talked about how to be inclusive in contributions. I cannot agree more.&lt;/p&gt;
+
+&lt;blockquote class=&quot;twitter-tweet&quot;&gt;&lt;p lang=&quot;en&quot; dir=&quot;ltr&quot;&gt;&lt;a href=&quot;https://twitter.com/KojoIdrissa?ref_src=twsrc%5Etfw&quot;&gt;@KojoIdrissa&lt;/a&gt; is talking about improving contributor experience &lt;a href=&quot;https://t.co/LV08NiWXI7&quot;&gt;pic.twitter.com/LV08NiWXI7&lt;/a&gt;&lt;/p&gt;&amp;mdash; Cheuk Ting Ho at #PyConES (@cheukting_ho) &lt;a href=&quot;https://twitter.com/cheukting_ho/status/1572505118108712964?ref_src=twsrc%5Etfw&quot;&gt;September 21, 2022&lt;/a&gt;&lt;/blockquote&gt;
+&lt;script async=&quot;&quot; src=&quot;https://platform.twitter.com/widgets.js&quot; charset=&quot;utf-8&quot;&gt;&lt;/script&gt;
+
+&lt;p&gt;Then I spend some time with other EuroPython organisers and check out the venue (as they have been interested in hosting EuroPython).&lt;/p&gt;
+
+&lt;blockquote class=&quot;twitter-tweet&quot;&gt;&lt;p lang=&quot;en&quot; dir=&quot;ltr&quot;&gt;&lt;a href=&quot;https://twitter.com/europython?ref_src=twsrc%5Etfw&quot;&gt;@europython&lt;/a&gt; team at &lt;a href=&quot;https://twitter.com/DjangoConEurope?ref_src=twsrc%5Etfw&quot;&gt;@DjangoConEurope&lt;/a&gt; ❤️ (&lt;a href=&quot;https://twitter.com/patrick91?ref_src=twsrc%5Etfw&quot;&gt;@patrick91&lt;/a&gt; is preparing his workshop unfortunately) &lt;a href=&quot;https://t.co/rF6dNlBSn6&quot;&gt;pic.twitter.com/rF6dNlBSn6&lt;/a&gt;&lt;/p&gt;&amp;mdash; Cheuk Ting Ho at #PyConES (@cheukting_ho) &lt;a href=&quot;https://twitter.com/cheukting_ho/status/1572544640993329153?ref_src=twsrc%5Etfw&quot;&gt;September 21, 2022&lt;/a&gt;&lt;/blockquote&gt;
+&lt;script async=&quot;&quot; src=&quot;https://platform.twitter.com/widgets.js&quot; charset=&quot;utf-8&quot;&gt;&lt;/script&gt;
+
+&lt;p&gt;After lunch, I spent most of my time chatting with people and finishing my demonstration for my talk.&lt;/p&gt;
+
+&lt;p&gt;I also gave a lightning talk promoting Pyjamas Conf.&lt;/p&gt;
+
+&lt;p&gt;In the evening we have the speaker dinner, but before, we had an Ice Cream Sprint.&lt;/p&gt;
+
+&lt;blockquote class=&quot;twitter-tweet&quot;&gt;&lt;p lang=&quot;en&quot; dir=&quot;ltr&quot;&gt;Welcome to the &lt;a href=&quot;https://twitter.com/DjangoConEurope?ref_src=twsrc%5Etfw&quot;&gt;@DjangoConEurope&lt;/a&gt; &lt;a href=&quot;https://twitter.com/hashtag/IceCreamSprint?src=hash&amp;amp;ref_src=twsrc%5Etfw&quot;&gt;#IceCreamSprint&lt;/a&gt; &lt;a href=&quot;https://t.co/D7QpYDH6bl&quot;&gt;pic.twitter.com/D7QpYDH6bl&lt;/a&gt;&lt;/p&gt;&amp;mdash; Cheuk Ting Ho at #PyConES (@cheukting_ho) &lt;a href=&quot;https://twitter.com/cheukting_ho/status/1572651111005257731?ref_src=twsrc%5Etfw&quot;&gt;September 21, 2022&lt;/a&gt;&lt;/blockquote&gt;
+&lt;script async=&quot;&quot; src=&quot;https://platform.twitter.com/widgets.js&quot; charset=&quot;utf-8&quot;&gt;&lt;/script&gt;
+
+&lt;p&gt;The speaker dinner is a blast, we have so many people there and we are having the most iconic food in Proto - Francesinha.&lt;/p&gt;
+
+&lt;blockquote class=&quot;twitter-tweet&quot;&gt;&lt;p lang=&quot;en&quot; dir=&quot;ltr&quot;&gt;Attending the &lt;a href=&quot;https://twitter.com/hashtag/Speakers?src=hash&amp;amp;ref_src=twsrc%5Etfw&quot;&gt;#Speakers&lt;/a&gt; and &lt;a href=&quot;https://twitter.com/hashtag/Volunteers?src=hash&amp;amp;ref_src=twsrc%5Etfw&quot;&gt;#Volunteers&lt;/a&gt; Dinner at &lt;a href=&quot;https://twitter.com/hashtag/DjangoConEurope?src=hash&amp;amp;ref_src=twsrc%5Etfw&quot;&gt;#DjangoConEurope&lt;/a&gt; 2022 was a very great experience. 👍&lt;br /&gt;I met people from different countries all together working to let this conference to be so great.&lt;br /&gt;CC &lt;a href=&quot;https://twitter.com/DjangoConEurope?ref_src=twsrc%5Etfw&quot;&gt;@DjangoConEurope&lt;/a&gt; &lt;a href=&quot;https://t.co/xoXRsHEkfw&quot;&gt;pic.twitter.com/xoXRsHEkfw&lt;/a&gt;&lt;/p&gt;&amp;mdash; Paolo Melchiorre 🐍 (@pauloxnet) &lt;a href=&quot;https://twitter.com/pauloxnet/status/1572722824049225728?ref_src=twsrc%5Etfw&quot;&gt;September 21, 2022&lt;/a&gt;&lt;/blockquote&gt;
+&lt;script async=&quot;&quot; src=&quot;https://platform.twitter.com/widgets.js&quot; charset=&quot;utf-8&quot;&gt;&lt;/script&gt;
+
+&lt;h2 id=&quot;django-con-europe---day-2&quot;&gt;Django Con Europe - Day 2&lt;/h2&gt;
+
+&lt;p&gt;On the second day, I attend the keynote by Katie about what Django developers should be worried about. Then I gave my talk about PyScirpt.&lt;/p&gt;
+
+&lt;blockquote class=&quot;twitter-tweet&quot;&gt;&lt;p lang=&quot;en&quot; dir=&quot;ltr&quot;&gt;Cheuk Ting Ho &lt;a href=&quot;https://twitter.com/cheukting_ho?ref_src=twsrc%5Etfw&quot;&gt;@cheukting_ho&lt;/a&gt; from &lt;a href=&quot;https://twitter.com/anacondainc?ref_src=twsrc%5Etfw&quot;&gt;@anacondainc&lt;/a&gt; is presenting the talk &amp;quot;Will PyScript replace Django? - What PyScript is and is not&amp;quot; at &lt;a href=&quot;https://twitter.com/hashtag/DjangoConEurope?src=hash&amp;amp;ref_src=twsrc%5Etfw&quot;&gt;#DjangoConEurope&lt;/a&gt; 2022 in &lt;a href=&quot;https://twitter.com/hashtag/Porto?src=hash&amp;amp;ref_src=twsrc%5Etfw&quot;&gt;#Porto&lt;/a&gt; 🇵🇹&lt;br /&gt;CC &lt;a href=&quot;https://twitter.com/DjangoConEurope?ref_src=twsrc%5Etfw&quot;&gt;@DjangoConEurope&lt;/a&gt; &lt;a href=&quot;https://twitter.com/pyscript_dev?ref_src=twsrc%5Etfw&quot;&gt;@pyscript_dev&lt;/a&gt; &lt;a href=&quot;https://t.co/NdHJWr7aCi&quot;&gt;pic.twitter.com/NdHJWr7aCi&lt;/a&gt;&lt;/p&gt;&amp;mdash; Paolo Melchiorre 🐍 (@pauloxnet) &lt;a href=&quot;https://twitter.com/pauloxnet/status/1572877494675537921?ref_src=twsrc%5Etfw&quot;&gt;September 22, 2022&lt;/a&gt;&lt;/blockquote&gt;
+&lt;script async=&quot;&quot; src=&quot;https://platform.twitter.com/widgets.js&quot; charset=&quot;utf-8&quot;&gt;&lt;/script&gt;
+
+&lt;p&gt;After that, I need a break from the conference and went to a popular Mc Donalds in the city centre.&lt;/p&gt;
+
+&lt;blockquote class=&quot;twitter-tweet&quot;&gt;&lt;p lang=&quot;en&quot; dir=&quot;ltr&quot;&gt;Took a break from &lt;a href=&quot;https://twitter.com/DjangoConEurope?ref_src=twsrc%5Etfw&quot;&gt;@DjangoConEurope&lt;/a&gt; and went to the posh McDonald’s with &lt;a href=&quot;https://twitter.com/judy2k?ref_src=twsrc%5Etfw&quot;&gt;@judy2k&lt;/a&gt; &lt;a href=&quot;https://t.co/vk6y6x5xrU&quot;&gt;pic.twitter.com/vk6y6x5xrU&lt;/a&gt;&lt;/p&gt;&amp;mdash; Cheuk Ting Ho at #PyConES (@cheukting_ho) &lt;a href=&quot;https://twitter.com/cheukting_ho/status/1572894101808488450?ref_src=twsrc%5Etfw&quot;&gt;September 22, 2022&lt;/a&gt;&lt;/blockquote&gt;
+&lt;script async=&quot;&quot; src=&quot;https://platform.twitter.com/widgets.js&quot; charset=&quot;utf-8&quot;&gt;&lt;/script&gt;
+
+&lt;p&gt;After, I went back to the conference to socialise during lunchtime. Follow by meetings back at the hotel.&lt;/p&gt;
+
+&lt;p&gt;In the evening, I went on the boat trip, it is a very nice evening and the sunset is amazing. We had a good view of the city from the river.&lt;/p&gt;
+
+&lt;blockquote class=&quot;twitter-tweet&quot;&gt;&lt;p lang=&quot;en&quot; dir=&quot;ltr&quot;&gt;Last night&amp;#39;s boat cruise on the &lt;a href=&quot;https://twitter.com/hashtag/Duoro?src=hash&amp;amp;ref_src=twsrc%5Etfw&quot;&gt;#Duoro&lt;/a&gt; river in &lt;a href=&quot;https://twitter.com/hashtag/Porto?src=hash&amp;amp;ref_src=twsrc%5Etfw&quot;&gt;#Porto&lt;/a&gt; was a wonderful experience. ⛵&lt;br /&gt;Even more beautiful was doing it in the company of the other &lt;a href=&quot;https://twitter.com/hashtag/DjangoConEurope?src=hash&amp;amp;ref_src=twsrc%5Etfw&quot;&gt;#DjangoConEurope&lt;/a&gt; participants 😀 Thanks &lt;a href=&quot;https://twitter.com/DjangoConEurope?ref_src=twsrc%5Etfw&quot;&gt;@DjangoConEurope&lt;/a&gt; for organizing it and &lt;a href=&quot;https://twitter.com/kolofordjango?ref_src=twsrc%5Etfw&quot;&gt;@kolofordjango&lt;/a&gt; for sponsoring it 🙏&lt;a href=&quot;https://twitter.com/hashtag/bridges?src=hash&amp;amp;ref_src=twsrc%5Etfw&quot;&gt;#bridges&lt;/a&gt; &lt;a href=&quot;https://twitter.com/hashtag/river?src=hash&amp;amp;ref_src=twsrc%5Etfw&quot;&gt;#river&lt;/a&gt; &lt;a href=&quot;https://t.co/G62jNpa5U2&quot;&gt;pic.twitter.com/G62jNpa5U2&lt;/a&gt;&lt;/p&gt;&amp;mdash; Paolo Melchiorre 🐍 (@pauloxnet) &lt;a href=&quot;https://twitter.com/pauloxnet/status/1573228378014257152?ref_src=twsrc%5Etfw&quot;&gt;September 23, 2022&lt;/a&gt;&lt;/blockquote&gt;
+&lt;script async=&quot;&quot; src=&quot;https://platform.twitter.com/widgets.js&quot; charset=&quot;utf-8&quot;&gt;&lt;/script&gt;
+
+&lt;p&gt;After dinner, we had a social event. However, I went back early to conserve energy for the upcoming events.&lt;/p&gt;
+
+&lt;h2 id=&quot;django-con-europe---day-3&quot;&gt;Django Con Europe - Day 3&lt;/h2&gt;
+
+&lt;p&gt;It’s the last day of the main conference. It opens with an interesting keynote about async in Django.&lt;/p&gt;
+
+&lt;blockquote class=&quot;twitter-tweet&quot;&gt;&lt;p lang=&quot;en&quot; dir=&quot;ltr&quot;&gt;&lt;a href=&quot;https://twitter.com/carltongibson?ref_src=twsrc%5Etfw&quot;&gt;@carltongibson&lt;/a&gt; is still very awake and give the morning keynote for &lt;a href=&quot;https://twitter.com/DjangoConEurope?ref_src=twsrc%5Etfw&quot;&gt;@DjangoConEurope&lt;/a&gt; after the social drink night! Let’s take a look at async Django &lt;a href=&quot;https://t.co/nbdRMxVVdy&quot;&gt;pic.twitter.com/nbdRMxVVdy&lt;/a&gt;&lt;/p&gt;&amp;mdash; Cheuk Ting Ho at #PyConES (@cheukting_ho) &lt;a href=&quot;https://twitter.com/cheukting_ho/status/1573237965869940742?ref_src=twsrc%5Etfw&quot;&gt;September 23, 2022&lt;/a&gt;&lt;/blockquote&gt;
+&lt;script async=&quot;&quot; src=&quot;https://platform.twitter.com/widgets.js&quot; charset=&quot;utf-8&quot;&gt;&lt;/script&gt;
+
+&lt;p&gt;Then I got a chance to talk to many people. The community is so nice and I feel like we can always have good chats with people from different parts of the world. Some people keep coming to talk to me about my PyScript talk and got a lot of useful feedback from them.&lt;/p&gt;
+
+&lt;p&gt;There are quite some good talks in the afternoon including a talk by Felipe, the developer advocate at Snowflake. We got a chance to meet in person and I am sure there will be an opportunity to collaborate in the future.&lt;/p&gt;
+
+&lt;blockquote class=&quot;twitter-tweet&quot;&gt;&lt;p lang=&quot;en&quot; dir=&quot;ltr&quot;&gt;&lt;a href=&quot;https://twitter.com/felipehoffa?ref_src=twsrc%5Etfw&quot;&gt;@felipehoffa&lt;/a&gt; is talking about using &lt;a href=&quot;https://twitter.com/SnowflakeDB?ref_src=twsrc%5Etfw&quot;&gt;@SnowflakeDB&lt;/a&gt; for Django backend &lt;a href=&quot;https://twitter.com/DjangoConEurope?ref_src=twsrc%5Etfw&quot;&gt;@DjangoConEurope&lt;/a&gt; &lt;a href=&quot;https://t.co/EJe6D86MnU&quot;&gt;pic.twitter.com/EJe6D86MnU&lt;/a&gt;&lt;/p&gt;&amp;mdash; Cheuk Ting Ho at #PyConES (@cheukting_ho) &lt;a href=&quot;https://twitter.com/cheukting_ho/status/1573328129896087552?ref_src=twsrc%5Etfw&quot;&gt;September 23, 2022&lt;/a&gt;&lt;/blockquote&gt;
+&lt;script async=&quot;&quot; src=&quot;https://platform.twitter.com/widgets.js&quot; charset=&quot;utf-8&quot;&gt;&lt;/script&gt;
+
+&lt;p&gt;After the closing, I took some time to explore the other side of the river and have some wine and food there.&lt;/p&gt;
+
+&lt;h2 id=&quot;pycon-pt---the-first-one-ever&quot;&gt;PyCon PT - the first one ever&lt;/h2&gt;
+
+&lt;p&gt;After  DjangoCon, it is followed by the first even PyCon PT. Both PyCon PT and DjangoCon sprints are located at Porto University.&lt;/p&gt;
+
+&lt;blockquote class=&quot;twitter-tweet&quot;&gt;&lt;p lang=&quot;en&quot; dir=&quot;ltr&quot;&gt;The first ever &lt;a href=&quot;https://twitter.com/PyConPT?ref_src=twsrc%5Etfw&quot;&gt;@PyConPT&lt;/a&gt; is starting now!!!!! &lt;a href=&quot;https://t.co/uJBjJ3TVwv&quot;&gt;pic.twitter.com/uJBjJ3TVwv&lt;/a&gt;&lt;/p&gt;&amp;mdash; Cheuk Ting Ho at #PyConES (@cheukting_ho) &lt;a href=&quot;https://twitter.com/cheukting_ho/status/1573594390647504896?ref_src=twsrc%5Etfw&quot;&gt;September 24, 2022&lt;/a&gt;&lt;/blockquote&gt;
+&lt;script async=&quot;&quot; src=&quot;https://platform.twitter.com/widgets.js&quot; charset=&quot;utf-8&quot;&gt;&lt;/script&gt;
+
+&lt;p&gt;After a slight delay due to technical difficulties, the first ever PyCon PT is starting and followed by the first-ever Keynote by Daniele.&lt;/p&gt;
+
+&lt;blockquote class=&quot;twitter-tweet&quot;&gt;&lt;p lang=&quot;en&quot; dir=&quot;ltr&quot;&gt;The first ever &lt;a href=&quot;https://twitter.com/PyConPT?ref_src=twsrc%5Etfw&quot;&gt;@PyConPT&lt;/a&gt; keynote speaker &lt;a href=&quot;https://twitter.com/evildmp?ref_src=twsrc%5Etfw&quot;&gt;@evildmp&lt;/a&gt; &lt;a href=&quot;https://t.co/S4GMJHb23r&quot;&gt;pic.twitter.com/S4GMJHb23r&lt;/a&gt;&lt;/p&gt;&amp;mdash; Cheuk Ting Ho at #PyConES (@cheukting_ho) &lt;a href=&quot;https://twitter.com/cheukting_ho/status/1573596435286720512?ref_src=twsrc%5Etfw&quot;&gt;September 24, 2022&lt;/a&gt;&lt;/blockquote&gt;
+&lt;script async=&quot;&quot; src=&quot;https://platform.twitter.com/widgets.js&quot; charset=&quot;utf-8&quot;&gt;&lt;/script&gt;
+
+&lt;p&gt;There is also the Django Girls workshop in the building, so many events happening all at once.&lt;/p&gt;
+
+&lt;blockquote class=&quot;twitter-tweet&quot;&gt;&lt;p lang=&quot;en&quot; dir=&quot;ltr&quot;&gt;Kicked off the &lt;a href=&quot;https://twitter.com/djangogirls?ref_src=twsrc%5Etfw&quot;&gt;@djangogirls&lt;/a&gt; workshop in &lt;a href=&quot;https://twitter.com/DjangoConEurope?ref_src=twsrc%5Etfw&quot;&gt;@DjangoConEurope&lt;/a&gt;! It is also the first &lt;a href=&quot;https://twitter.com/hashtag/djangogirls?src=hash&amp;amp;ref_src=twsrc%5Etfw&quot;&gt;#djangogirls&lt;/a&gt; workshop in Porto. We are all working hard with the tutorial! A big shout out to &lt;a href=&quot;https://twitter.com/KatiaNakamura?ref_src=twsrc%5Etfw&quot;&gt;@KatiaNakamura&lt;/a&gt; and all the volunteers for making it happen! &lt;a href=&quot;https://t.co/MqHLAhgXeL&quot;&gt;pic.twitter.com/MqHLAhgXeL&lt;/a&gt;&lt;/p&gt;&amp;mdash; Çağıl Uluşahin (@cagilulusahin) &lt;a href=&quot;https://twitter.com/cagilulusahin/status/1573620717664468992?ref_src=twsrc%5Etfw&quot;&gt;September 24, 2022&lt;/a&gt;&lt;/blockquote&gt;
+&lt;script async=&quot;&quot; src=&quot;https://platform.twitter.com/widgets.js&quot; charset=&quot;utf-8&quot;&gt;&lt;/script&gt;
+
+&lt;p&gt;I managed to pop in for Dash’s workshop for a bit.&lt;/p&gt;
+
+&lt;blockquote class=&quot;twitter-tweet&quot;&gt;&lt;p lang=&quot;en&quot; dir=&quot;ltr&quot;&gt;&lt;a href=&quot;https://twitter.com/iamontheinet?ref_src=twsrc%5Etfw&quot;&gt;@iamontheinet&lt;/a&gt; from &lt;a href=&quot;https://twitter.com/SnowflakeDB?ref_src=twsrc%5Etfw&quot;&gt;@SnowflakeDB&lt;/a&gt; is giving a workshop &lt;a href=&quot;https://twitter.com/PyConPT?ref_src=twsrc%5Etfw&quot;&gt;@PyConPT&lt;/a&gt; &lt;a href=&quot;https://t.co/37dY8mkIaK&quot;&gt;pic.twitter.com/37dY8mkIaK&lt;/a&gt;&lt;/p&gt;&amp;mdash; Cheuk Ting Ho at #PyConES (@cheukting_ho) &lt;a href=&quot;https://twitter.com/cheukting_ho/status/1573631722897506306?ref_src=twsrc%5Etfw&quot;&gt;September 24, 2022&lt;/a&gt;&lt;/blockquote&gt;
+&lt;script async=&quot;&quot; src=&quot;https://platform.twitter.com/widgets.js&quot; charset=&quot;utf-8&quot;&gt;&lt;/script&gt;
+
+&lt;p&gt;After lunch, I am finishing some work and prepare for my workshop.&lt;/p&gt;
+
+&lt;blockquote class=&quot;twitter-tweet&quot;&gt;&lt;p lang=&quot;en&quot; dir=&quot;ltr&quot;&gt;So glad to be presenting &lt;a href=&quot;https://twitter.com/PyConPT?ref_src=twsrc%5Etfw&quot;&gt;@PyConPT&lt;/a&gt; &lt;a href=&quot;https://t.co/sQ5PTp01JP&quot;&gt;pic.twitter.com/sQ5PTp01JP&lt;/a&gt;&lt;/p&gt;&amp;mdash; Cheuk Ting Ho at #PyConES (@cheukting_ho) &lt;a href=&quot;https://twitter.com/cheukting_ho/status/1573707488658169860?ref_src=twsrc%5Etfw&quot;&gt;September 24, 2022&lt;/a&gt;&lt;/blockquote&gt;
+&lt;script async=&quot;&quot; src=&quot;https://platform.twitter.com/widgets.js&quot; charset=&quot;utf-8&quot;&gt;&lt;/script&gt;
+
+&lt;p&gt;After that, there are lightning talks. There was a talk about Using PyScript to deploy Django to the front end… I guess it’s the front end as a server?&lt;/p&gt;
+
+&lt;blockquote class=&quot;twitter-tweet&quot;&gt;&lt;p lang=&quot;en&quot; dir=&quot;ltr&quot;&gt;Following &lt;a href=&quot;https://twitter.com/pyscript_dev?ref_src=twsrc%5Etfw&quot;&gt;@pyscript_dev&lt;/a&gt; Python in the browser someone make Django in the browser &lt;a href=&quot;https://twitter.com/PyConPT?ref_src=twsrc%5Etfw&quot;&gt;@PyConPT&lt;/a&gt; lightning talk &lt;a href=&quot;https://t.co/s93gC6pvM1&quot;&gt;pic.twitter.com/s93gC6pvM1&lt;/a&gt;&lt;/p&gt;&amp;mdash; Cheuk Ting Ho at #PyConES (@cheukting_ho) &lt;a href=&quot;https://twitter.com/cheukting_ho/status/1573715723335213062?ref_src=twsrc%5Etfw&quot;&gt;September 24, 2022&lt;/a&gt;&lt;/blockquote&gt;
+&lt;script async=&quot;&quot; src=&quot;https://platform.twitter.com/widgets.js&quot; charset=&quot;utf-8&quot;&gt;&lt;/script&gt;
+
+&lt;p&gt;After closing, we all have a party outside. I had dinner with some friends and get ready for the trip ahead of me.&lt;/p&gt;
+
+&lt;blockquote class=&quot;twitter-tweet&quot;&gt;&lt;p lang=&quot;en&quot; dir=&quot;ltr&quot;&gt;And now it&amp;#39;s time for a well deserved relaxing time! Just chillin&amp;#39;n chatting!&lt;br /&gt;Pycon Portugal 2022 is about to end &amp;amp; we promise to come back in 2023, better &amp;amp; better, in a new location.&lt;br /&gt;Be sure to stay tuned! Please, help us volunteering, sponsoring or presenting.&lt;a href=&quot;https://twitter.com/hashtag/pyconportugal?src=hash&amp;amp;ref_src=twsrc%5Etfw&quot;&gt;#pyconportugal&lt;/a&gt; &lt;a href=&quot;https://t.co/jEXYjMiIlG&quot;&gt;pic.twitter.com/jEXYjMiIlG&lt;/a&gt;&lt;/p&gt;&amp;mdash; PyCon Portugal (@PyConPT) &lt;a href=&quot;https://twitter.com/PyConPT/status/1573724143048089602?ref_src=twsrc%5Etfw&quot;&gt;September 24, 2022&lt;/a&gt;&lt;/blockquote&gt;
+&lt;script async=&quot;&quot; src=&quot;https://platform.twitter.com/widgets.js&quot; charset=&quot;utf-8&quot;&gt;&lt;/script&gt;
+
+</description>
+        <pubDate>Sun, 25 Sep 2022 00:00:00 +0000</pubDate>
+        <link>https://cheuk.dev/2022/09/25/djangoconeu_2022/</link>
+        <guid isPermaLink="true">https://cheuk.dev/2022/09/25/djangoconeu_2022/</guid>
+        
+        <category>Conference</category>
+        
+        
+      </item>
     
       <item>
         <title>PyCon UK 2022</title>
