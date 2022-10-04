@@ -6,9 +6,96 @@
 </description>
     <link>https://cheuk.dev</link>
     <atom:link href="https://cheuk.dev/feed.xml" rel="self" type="application/rss+xml"/>
-    <pubDate>Thu, 29 Sep 2022 21:45:50 +0000</pubDate>
-    <lastBuildDate>Thu, 29 Sep 2022 21:45:50 +0000</lastBuildDate>
+    <pubDate>Tue, 04 Oct 2022 11:15:31 +0000</pubDate>
+    <lastBuildDate>Tue, 04 Oct 2022 11:15:31 +0000</lastBuildDate>
     <generator>Jekyll v3.8.7</generator>
+    
+      <item>
+        <title>PyCon ES 2022</title>
+        <description>&lt;p&gt;After having my talk (in English) accepted, I was told that PyCon Spain will be in Spanish… I start learning the language a few months back and see if I can survive… and I did!!!&lt;/p&gt;
+
+&lt;h2 id=&quot;day-0---arrival&quot;&gt;Day 0 - Arrival&lt;/h2&gt;
+
+&lt;p&gt;Just before flying to Granada for the conference, I was on a Camino and was just passed the border and spent the night in a small village called Oía. So I already have an understanding that I cannot expect everyone to speak English. I am in the mood of trying to speak Spanish at any chance, and it was fun.&lt;/p&gt;
+
+&lt;blockquote class=&quot;twitter-tweet&quot;&gt;&lt;p lang=&quot;es&quot; dir=&quot;ltr&quot;&gt;Disfruto churros aquí &lt;a href=&quot;https://twitter.com/PyConES?ref_src=twsrc%5Etfw&quot;&gt;@PyConES&lt;/a&gt; &lt;a href=&quot;https://t.co/ahLFgcyJV1&quot;&gt;pic.twitter.com/ahLFgcyJV1&lt;/a&gt;&lt;/p&gt;&amp;mdash; Cheuk Ting Ho at #PyConES (@cheukting_ho) &lt;a href=&quot;https://twitter.com/cheukting_ho/status/1575792923928567812?ref_src=twsrc%5Etfw&quot;&gt;September 30, 2022&lt;/a&gt;&lt;/blockquote&gt;
+&lt;script async=&quot;&quot; src=&quot;https://platform.twitter.com/widgets.js&quot; charset=&quot;utf-8&quot;&gt;&lt;/script&gt;
+
+&lt;p&gt;I met up with a few people including the organiser of the conference. We had tapas and I was mind blown by the amount of food that we were given.&lt;/p&gt;
+
+&lt;blockquote class=&quot;twitter-tweet&quot;&gt;&lt;p lang=&quot;es&quot; dir=&quot;ltr&quot;&gt;Y ustedes ¿cómo llevan la &lt;a href=&quot;https://twitter.com/PyConES?ref_src=twsrc%5Etfw&quot;&gt;@PyConES&lt;/a&gt;? &lt;a href=&quot;https://twitter.com/hashtag/PyConES22?src=hash&amp;amp;ref_src=twsrc%5Etfw&quot;&gt;#PyConES22&lt;/a&gt; nos vemos mañana! &lt;a href=&quot;https://t.co/wjYKRA5piu&quot;&gt;pic.twitter.com/wjYKRA5piu&lt;/a&gt;&lt;/p&gt;&amp;mdash; 「Cristián」 (@cmaureir) &lt;a href=&quot;https://twitter.com/cmaureir/status/1575567296822550530?ref_src=twsrc%5Etfw&quot;&gt;September 29, 2022&lt;/a&gt;&lt;/blockquote&gt;
+&lt;script async=&quot;&quot; src=&quot;https://platform.twitter.com/widgets.js&quot; charset=&quot;utf-8&quot;&gt;&lt;/script&gt;
+
+&lt;h2 id=&quot;day-1---workshops&quot;&gt;Day 1 - Workshops&lt;/h2&gt;
+
+&lt;p&gt;The first day of the conference is workshop day and for people to pick up the badges. The sponsors already have the tables ready. I mainly spend time staying in the “hall track”. I tried to speak with some people. Some of them are happy to speak English with me but what I love the most is trying to speak to people who do not speak English and I have to try my Spanish hard.&lt;/p&gt;
+
+&lt;p&gt;After picking up my badge, I spend some time working and finished working on my talk.&lt;/p&gt;
+
+&lt;blockquote class=&quot;twitter-tweet&quot;&gt;&lt;p lang=&quot;es&quot; dir=&quot;ltr&quot;&gt;&lt;a href=&quot;https://twitter.com/PyConES?ref_src=twsrc%5Etfw&quot;&gt;@PyConES&lt;/a&gt; comienza ahora! &lt;a href=&quot;https://t.co/S6nzG6ovbX&quot;&gt;pic.twitter.com/S6nzG6ovbX&lt;/a&gt;&lt;/p&gt;&amp;mdash; Cheuk Ting Ho at #PyConES (@cheukting_ho) &lt;a href=&quot;https://twitter.com/cheukting_ho/status/1575850345904963584?ref_src=twsrc%5Etfw&quot;&gt;September 30, 2022&lt;/a&gt;&lt;/blockquote&gt;
+&lt;script async=&quot;&quot; src=&quot;https://platform.twitter.com/widgets.js&quot; charset=&quot;utf-8&quot;&gt;&lt;/script&gt;
+
+&lt;p&gt;We also have the dinner for the minorities (PyLadies plus other communities that support minorities in the Python community). I would say the vibe is super nice, I got a chance to talk to different people (in English and Spanish). People asked about my work and I can tell them about Anaconda and PyScirpt.&lt;/p&gt;
+
+&lt;p&gt;The dinner starts and ends quite late (especially for me who is from the part of the world where we have dinner around 6 pm), by the time I get to bed it’s already passed 1 am.&lt;/p&gt;
+
+&lt;h2 id=&quot;day-2---conference&quot;&gt;Day 2 - Conference&lt;/h2&gt;
+
+&lt;p&gt;Despite the lack of sleep, I arrived at the conference on time for the opening and the keynote.&lt;/p&gt;
+
+&lt;p&gt;After a brief coffee break, I have giving my talk. The audiences are very interested in the topic and maybe we will see PyCon ES having sprints in the future.&lt;/p&gt;
+
+&lt;blockquote class=&quot;twitter-tweet&quot;&gt;&lt;p lang=&quot;es&quot; dir=&quot;ltr&quot;&gt;Muy 🔝 las primeras charlas del día en esta nuestra &lt;a href=&quot;https://twitter.com/hashtag/PyConES22?src=hash&amp;amp;ref_src=twsrc%5Etfw&quot;&gt;#PyConES22&lt;/a&gt;.&lt;br /&gt;Un saludo a las personas que están de chair de sesión y que van a tirar tizas ante cualquier “más que una pregunta tengo un comentario”. &lt;a href=&quot;https://t.co/qpjOiNiQ3u&quot;&gt;pic.twitter.com/qpjOiNiQ3u&lt;/a&gt;&lt;/p&gt;&amp;mdash; PyCon España (@PyConES) &lt;a href=&quot;https://twitter.com/PyConES/status/1576138579712933889?ref_src=twsrc%5Etfw&quot;&gt;October 1, 2022&lt;/a&gt;&lt;/blockquote&gt;
+&lt;script async=&quot;&quot; src=&quot;https://platform.twitter.com/widgets.js&quot; charset=&quot;utf-8&quot;&gt;&lt;/script&gt;
+
+&lt;p&gt;Then I went to a very interesting talk. From the technical point of view, it is about using MicroPython to control a mortar to vibrate. I would say the open-mind-ness and diversity of PyCon ES is one of the best in all the PyCon that I have ever been to.&lt;/p&gt;
+
+&lt;blockquote class=&quot;twitter-tweet&quot;&gt;&lt;p lang=&quot;es&quot; dir=&quot;ltr&quot;&gt;quizás la charla más esperada &lt;a href=&quot;https://twitter.com/PyConES?ref_src=twsrc%5Etfw&quot;&gt;@PyConES&lt;/a&gt; &lt;a href=&quot;https://t.co/FPlnk5cht3&quot;&gt;https://t.co/FPlnk5cht3&lt;/a&gt; &lt;a href=&quot;https://t.co/ahRNoRhe0x&quot;&gt;pic.twitter.com/ahRNoRhe0x&lt;/a&gt;&lt;/p&gt;&amp;mdash; Cheuk Ting Ho at #PyConES (@cheukting_ho) &lt;a href=&quot;https://twitter.com/cheukting_ho/status/1576165855565873152?ref_src=twsrc%5Etfw&quot;&gt;October 1, 2022&lt;/a&gt;&lt;/blockquote&gt;
+&lt;script async=&quot;&quot; src=&quot;https://platform.twitter.com/widgets.js&quot; charset=&quot;utf-8&quot;&gt;&lt;/script&gt;
+
+&lt;p&gt;After lunch, there is entertainment - a band is doing 90s anime and movie covers (I was told the performers are scholars in the university)&lt;/p&gt;
+
+&lt;blockquote class=&quot;twitter-tweet&quot;&gt;&lt;p lang=&quot;en&quot; dir=&quot;ltr&quot;&gt;Sailor moon!!!!! &lt;a href=&quot;https://twitter.com/PyConES?ref_src=twsrc%5Etfw&quot;&gt;@PyConES&lt;/a&gt; &lt;a href=&quot;https://t.co/N46LpPpPF9&quot;&gt;pic.twitter.com/N46LpPpPF9&lt;/a&gt;&lt;/p&gt;&amp;mdash; Cheuk Ting Ho at #PyConES (@cheukting_ho) &lt;a href=&quot;https://twitter.com/cheukting_ho/status/1576192308860817413?ref_src=twsrc%5Etfw&quot;&gt;October 1, 2022&lt;/a&gt;&lt;/blockquote&gt;
+&lt;script async=&quot;&quot; src=&quot;https://platform.twitter.com/widgets.js&quot; charset=&quot;utf-8&quot;&gt;&lt;/script&gt;
+
+&lt;p&gt;Then, I took a break from the conference and then prepare my first ever lightning talk in Spanish… I would say it is my light talk of the year.&lt;/p&gt;
+
+&lt;blockquote class=&quot;twitter-tweet&quot; data-conversation=&quot;none&quot;&gt;&lt;p lang=&quot;en&quot; dir=&quot;ltr&quot;&gt;&lt;a href=&quot;https://twitter.com/cheukting_ho?ref_src=twsrc%5Etfw&quot;&gt;@cheukting_ho&lt;/a&gt; learnt Spanish to ask for submissions in Spanish for the &lt;a href=&quot;https://twitter.com/PyjamasConf?ref_src=twsrc%5Etfw&quot;&gt;@PyjamasConf&lt;/a&gt; so please apply now!!!! &lt;a href=&quot;https://t.co/5bG5t225cA&quot;&gt;pic.twitter.com/5bG5t225cA&lt;/a&gt;&lt;/p&gt;&amp;mdash; PyCon España (@PyConES) &lt;a href=&quot;https://twitter.com/PyConES/status/1576261214639824896?ref_src=twsrc%5Etfw&quot;&gt;October 1, 2022&lt;/a&gt;&lt;/blockquote&gt;
+&lt;script async=&quot;&quot; src=&quot;https://platform.twitter.com/widgets.js&quot; charset=&quot;utf-8&quot;&gt;&lt;/script&gt;
+
+&lt;p&gt;After the conference, I attended the speaker and organiser dinner in a fancy dinner reception. I feel my artier for tech conferences are totally under-dress on that occasion. But the food is good and now everyone is so keen to teach me Spanish and that makes me very happy.&lt;/p&gt;
+
+&lt;blockquote class=&quot;twitter-tweet&quot;&gt;&lt;p lang=&quot;es&quot; dir=&quot;ltr&quot;&gt;Foto grupal de la organización de la &lt;a href=&quot;https://twitter.com/hashtag/PyConES22?src=hash&amp;amp;ref_src=twsrc%5Etfw&quot;&gt;#PyConES22&lt;/a&gt; de anoche. Qué decir más que está siendo una experiencia maravillosa y que, en palabras de &lt;a href=&quot;https://twitter.com/fergunet?ref_src=twsrc%5Etfw&quot;&gt;@fergunet&lt;/a&gt;, “esto no se acaba hasta que brindemos todes y digamos JUMANJI!!!”. &lt;a href=&quot;https://t.co/ZLPFs3wAQ3&quot;&gt;pic.twitter.com/ZLPFs3wAQ3&lt;/a&gt;&lt;/p&gt;&amp;mdash; PyCon España (@PyConES) &lt;a href=&quot;https://twitter.com/PyConES/status/1576527460140998657?ref_src=twsrc%5Etfw&quot;&gt;October 2, 2022&lt;/a&gt;&lt;/blockquote&gt;
+&lt;script async=&quot;&quot; src=&quot;https://platform.twitter.com/widgets.js&quot; charset=&quot;utf-8&quot;&gt;&lt;/script&gt;
+
+&lt;h2 id=&quot;day-3---conference&quot;&gt;Day 3 - Conference&lt;/h2&gt;
+
+&lt;p&gt;The last day of the conference is always challenging after all the socials every night. But I keep my discipline and be at the conference for the keynote in the morning. After that, I retrieved into the quiet room to do some organising work.&lt;/p&gt;
+
+&lt;p&gt;Then I went to a few talks after lunch, I try my very best to understand them and depending on the slides I can understand 10-30% of them even though it is in Spanish.&lt;/p&gt;
+
+&lt;blockquote class=&quot;twitter-tweet&quot;&gt;&lt;p lang=&quot;fr&quot; dir=&quot;ltr&quot;&gt;Una charla sobre Python y &lt;a href=&quot;https://twitter.com/SnowflakeDB?ref_src=twsrc%5Etfw&quot;&gt;@SnowflakeDB&lt;/a&gt; en &lt;a href=&quot;https://twitter.com/PyConES?ref_src=twsrc%5Etfw&quot;&gt;@PyConES&lt;/a&gt; &lt;a href=&quot;https://t.co/tW41tzhwXP&quot;&gt;pic.twitter.com/tW41tzhwXP&lt;/a&gt;&lt;/p&gt;&amp;mdash; Cheuk Ting Ho at #PyConES (@cheukting_ho) &lt;a href=&quot;https://twitter.com/cheukting_ho/status/1576526039626285058?ref_src=twsrc%5Etfw&quot;&gt;October 2, 2022&lt;/a&gt;&lt;/blockquote&gt;
+&lt;script async=&quot;&quot; src=&quot;https://platform.twitter.com/widgets.js&quot; charset=&quot;utf-8&quot;&gt;&lt;/script&gt;
+
+&lt;p&gt;So, it comes to the end. People starts leaving after the closing and after some emotional goodbyes, they all went home. (There was a small drama for people taking the train to Madrid but I a not affected as I am flying)&lt;/p&gt;
+
+&lt;blockquote class=&quot;twitter-tweet&quot;&gt;&lt;p lang=&quot;es&quot; dir=&quot;ltr&quot;&gt;Cierre de la &lt;a href=&quot;https://twitter.com/PyConES?ref_src=twsrc%5Etfw&quot;&gt;@PyConES&lt;/a&gt; Mucho gracias 😊 &lt;a href=&quot;https://t.co/FZoRotOoE2&quot;&gt;pic.twitter.com/FZoRotOoE2&lt;/a&gt;&lt;/p&gt;&amp;mdash; Cheuk Ting Ho at #PyConES (@cheukting_ho) &lt;a href=&quot;https://twitter.com/cheukting_ho/status/1576597110618992640?ref_src=twsrc%5Etfw&quot;&gt;October 2, 2022&lt;/a&gt;&lt;/blockquote&gt;
+&lt;script async=&quot;&quot; src=&quot;https://platform.twitter.com/widgets.js&quot; charset=&quot;utf-8&quot;&gt;&lt;/script&gt;
+
+&lt;h2 id=&quot;conclusions&quot;&gt;Conclusions&lt;/h2&gt;
+
+&lt;p&gt;I am impressed by the conference and so far there is a huge Spanish-speaking community (they sold out 800 tickets, and it is only in Spain) that I have not been in touch with much yet. They are also contributors and active users in Python (there’s a translation project for translating the official Python documentation to Spanish) and I wish I can discover and learn more about this part of the Python community.&lt;/p&gt;
+
+&lt;p&gt;I am glad that I started learning Spanish and they welcome me who still cannot speak their language good enough to have a conversation. I will keep learning and hopefully, I will go to another Spanish-speaking conference (maybe in Latin America) one day.&lt;/p&gt;
+</description>
+        <pubDate>Sun, 02 Oct 2022 00:00:00 +0000</pubDate>
+        <link>https://cheuk.dev/2022/10/02/pycones_2022/</link>
+        <guid isPermaLink="true">https://cheuk.dev/2022/10/02/pycones_2022/</guid>
+        
+        <category>Conference</category>
+        
+        
+      </item>
     
       <item>
         <title>Django Con Europe 2022</title>
