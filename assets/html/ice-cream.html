@@ -3,12 +3,13 @@
   <head>
     <title>Ice Cream Picker</title>
     <meta charset="utf-8">
-    <link rel="stylesheet" href="https://pyscript.net/alpha/pyscript.css" />
-    <script defer src="https://pyscript.net/alpha/pyscript.js"></script>
-    <py-env>
-      - pandas
-      - matplotlib
-    </py-env>
+    <link rel="stylesheet" href="https://pyscript.net/latest/pyscript.css" />
+    <script defer src="https://pyscript.net/latest/pyscript.js"></script>
+    <py-config type="json">
+      {
+        "packages": ["pandas", "matplotlib"]
+      }
+    </py-config>
     </head>
     <body>
       <div id="input" style="margin: 20px;">

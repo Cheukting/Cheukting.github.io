@@ -3,12 +3,13 @@
   <head>
     <title>Ice Cream Picker</title>
     <meta charset="utf-8">
-    <link rel="stylesheet" href="https://pyscript.net/alpha/pyscript.css" />
-    <script defer src="https://pyscript.net/alpha/pyscript.js"></script>
-    <py-env>
-      - pandas
-      - matplotlib
-    </py-env>
+    <link rel="stylesheet" href="https://pyscript.net/latest/pyscript.css" />
+    <script defer src="https://pyscript.net/latest/pyscript.js"></script>
+    <py-config type="json">
+      {
+        "packages": ["pandas"]
+      }
+    </py-config>
     </head>
     <body>
       <div id="input" style="margin: 20px;">
@@ -31,17 +32,22 @@
 <script type="importmap">
 {
   "imports": {
-    "d3": "https://cdn.skypack.dev/d3@7"
+    "d3": "https://cdn.skypack.dev/pin/d3@v7.6.1-1Q0NZ0WZnbYeSjDusJT3/mode=imports,min/optimized/d3.js"
   }
 }
 </script>
+
+<script type="module">
+import * as d3 from "https://cdn.skypack.dev/pin/d3@v7.6.1-1Q0NZ0WZnbYeSjDusJT3/mode=imports,min/optimized/d3.js";
+</script>
+
 <py-script output="viz">
 import pandas as pd
 
 import d3
 
 from pyodide.http import open_url
-from pyodide import create_proxy, to_js
+from pyodide.ffi import create_proxy, to_js
 
 url = (
     "https://raw.githubusercontent.com/Cheukting/pyscript-ice-cream/main/bj-products.csv"
