@@ -1,3 +1,13 @@
+- title: Came for the Conference, Stayed for the Sprint
+  vid: c_HoP_V1gj0
+  tags:
+    - Conference
+    - Community
+  description: |
+    Many Python conferences have "sprints" included in their conference schedule. In this talk, we will explain what is it for the newcomers, why is it important to the open-source community, and as an organizer and maintainer how can you help this "sprints" movement.
+  date: 2022-10-22
+  author: Cheuk Ting Ho
+
 - title: PyData Südwest - Revolutionize Data Visulization with PyScript
   vid: hwR2taWOINM
   tags:
