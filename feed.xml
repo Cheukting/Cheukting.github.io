@@ -6,9 +6,94 @@
 </description>
     <link>https://cheuk.dev</link>
     <atom:link href="https://cheuk.dev/feed.xml" rel="self" type="application/rss+xml"/>
-    <pubDate>Tue, 18 Oct 2022 14:24:44 +0000</pubDate>
-    <lastBuildDate>Tue, 18 Oct 2022 14:24:44 +0000</lastBuildDate>
+    <pubDate>Mon, 24 Oct 2022 10:58:16 +0000</pubDate>
+    <lastBuildDate>Mon, 24 Oct 2022 10:58:16 +0000</lastBuildDate>
     <generator>Jekyll v3.8.7</generator>
+    
+      <item>
+        <title>PyLadies, PyData and Friends</title>
+        <description>&lt;p&gt;It is a very rare opportunity to be doing a France-Germany tour of speaking at various meetups. The original plan was to speak at PyLadies in Paris, then to the PyData Südwest in Germany then to Berlin to give a half-day PyScript workshop. Since the workshop is cancelled. I will be joining the PyLadies Berlin event and visiting our Berlin office instead. What a trip!&lt;/p&gt;
+
+&lt;h2 id=&quot;day-1---pyladies-paris&quot;&gt;Day 1 - Pyladies Paris&lt;/h2&gt;
+
+&lt;p&gt;I arrived in Paris in the morning, the first thing is to go to a shared office to work. Unfortunately, the one that I picked to go to is closed and the system has not been updated… so I have to head to the other one, by the time I finally got settled and work it is already 11 am. However, I managed to get some good work done.&lt;/p&gt;
+
+&lt;p&gt;After lunch I checked in at the hotel, freshen up and work from there instead. I prepared my talk as PyScript has now graduated from the alpha version and the demo needs to be updated.&lt;/p&gt;
+
+&lt;p&gt;Unfortunately, I messed up and the demo that I updated is for tomorrow. But since I arrived at the meetup venue early, I managed to update the demo I need very quickly.&lt;/p&gt;
+
+&lt;blockquote class=&quot;twitter-tweet&quot;&gt;&lt;p lang=&quot;en&quot; dir=&quot;ltr&quot;&gt;Thank you to our speakers &lt;a href=&quot;https://twitter.com/cheukting_ho?ref_src=twsrc%5Etfw&quot;&gt;@cheukting_ho&lt;/a&gt; and Elias Dorneles for amazing talk tonight &lt;a href=&quot;https://twitter.com/hashtag/talent_io?src=hash&amp;amp;ref_src=twsrc%5Etfw&quot;&gt;#talent_io&lt;/a&gt; &lt;a href=&quot;https://t.co/kcCUun9d5z&quot;&gt;pic.twitter.com/kcCUun9d5z&lt;/a&gt;&lt;/p&gt;&amp;mdash; mojdeh rastgoo (@RastgooMojdeh) &lt;a href=&quot;https://twitter.com/RastgooMojdeh/status/1582437058735648770?ref_src=twsrc%5Etfw&quot;&gt;October 18, 2022&lt;/a&gt;&lt;/blockquote&gt;
+&lt;script async=&quot;&quot; src=&quot;https://platform.twitter.com/widgets.js&quot; charset=&quot;utf-8&quot;&gt;&lt;/script&gt;
+
+&lt;p&gt;After a brief introduction and a few words from the host, I gave my talk. We also got online streaming set up so people can also watch it on YouTube. I got a few questions as folks seem interested and once again someone as if the Python package needed can be cached in the browser. I am sure the PyScript team is considering that.&lt;/p&gt;
+
+&lt;blockquote class=&quot;twitter-tweet&quot;&gt;&lt;p lang=&quot;en&quot; dir=&quot;ltr&quot;&gt;We&amp;#39;re so happy to at &lt;a href=&quot;https://twitter.com/talent_io?ref_src=twsrc%5Etfw&quot;&gt;@talent_io&lt;/a&gt; for another meetup, where &lt;a href=&quot;https://twitter.com/cheukting_ho?ref_src=twsrc%5Etfw&quot;&gt;@cheukting_ho&lt;/a&gt; is talking about PyScript: Will PyScript replace Django? &lt;a href=&quot;https://twitter.com/hashtag/python?src=hash&amp;amp;ref_src=twsrc%5Etfw&quot;&gt;#python&lt;/a&gt; &lt;a href=&quot;https://twitter.com/hashtag/pyscript?src=hash&amp;amp;ref_src=twsrc%5Etfw&quot;&gt;#pyscript&lt;/a&gt; &lt;a href=&quot;https://t.co/NVNzLRWIAM&quot;&gt;pic.twitter.com/NVNzLRWIAM&lt;/a&gt;&lt;/p&gt;&amp;mdash; PyLadies Paris (@PyLadiesParis) &lt;a href=&quot;https://twitter.com/PyLadiesParis/status/1582425701214728192?ref_src=twsrc%5Etfw&quot;&gt;October 18, 2022&lt;/a&gt;&lt;/blockquote&gt;
+&lt;script async=&quot;&quot; src=&quot;https://platform.twitter.com/widgets.js&quot; charset=&quot;utf-8&quot;&gt;&lt;/script&gt;
+
+&lt;p&gt;After that, it’s the talk by another speaker Elias, who is an engineer from Brazil. Get a chance to chat with him after this talk he has also contributed to BeeWare in the past. He said it is good that Anaconda is now supporting BeeWare.&lt;/p&gt;
+
+&lt;blockquote class=&quot;twitter-tweet&quot;&gt;&lt;p lang=&quot;en&quot; dir=&quot;ltr&quot;&gt;Talk of Elias Dorneles begins now. Check it out at &lt;a href=&quot;https://t.co/sFzPM2ZuUG&quot;&gt;https://t.co/sFzPM2ZuUG&lt;/a&gt;&lt;a href=&quot;https://twitter.com/talent_io?ref_src=twsrc%5Etfw&quot;&gt;@talent_io&lt;/a&gt; with &lt;a href=&quot;https://twitter.com/pyladies?ref_src=twsrc%5Etfw&quot;&gt;@pyladies&lt;/a&gt; 💚 &lt;a href=&quot;https://t.co/bbof97QSoV&quot;&gt;pic.twitter.com/bbof97QSoV&lt;/a&gt;&lt;/p&gt;&amp;mdash; PyLadies Paris (@PyLadiesParis) &lt;a href=&quot;https://twitter.com/PyLadiesParis/status/1582429966624444416?ref_src=twsrc%5Etfw&quot;&gt;October 18, 2022&lt;/a&gt;&lt;/blockquote&gt;
+&lt;script async=&quot;&quot; src=&quot;https://platform.twitter.com/widgets.js&quot; charset=&quot;utf-8&quot;&gt;&lt;/script&gt;
+
+&lt;p&gt;The meetup ends before 10 pm, which is great as I need to get some rest after the overnight flight from Ghana and the early train ride to Paris.&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;&lt;a href=&quot;https://cheuk.dev/videos/MqctbU9lMTU/&quot;&gt;See the PyLadies Paris meetup video recording&lt;/a&gt;&lt;/strong&gt;&lt;/p&gt;
+
+&lt;h2 id=&quot;day-2---pydata-südwest&quot;&gt;Day 2 - PyData Südwest&lt;/h2&gt;
+
+&lt;p&gt;I am so glad that I don’t have to travel early in the morning again. I work up and stay at the hotel to work a bit before checking out. After that, I had lunch and headed to the Gare d’Est for my train to Germany. The first leg of the journey is to get to Karlsruhe HBF, I managed to work a bit on the train even though the internet connection is not stable. I have been told that my connection to Heidelberg has been cancelled and will have to find a detour to get there. Fortunately, my friend, Alexander, who is also the organiser of PyData Südwest arranged for his colleague, Florian who will make the same journey from Karlsruhe to Heidelberg, to pick me up and lead the way. It’s funny that in Germany face mask is mandatory on transport so once we crossed the border someone came and remind me to put the mask on. Luckily I always have one with me.&lt;/p&gt;
+
+&lt;p&gt;I continue my journey with Florian and another lady. We took the train to Mannheim (where I plan to stay) and then connect to Heidelberg which is only 15 mins train ride away. I can now see why PyData Südwest covers all these cities as they are super connected and close to each other.&lt;/p&gt;
+
+&lt;blockquote class=&quot;twitter-tweet&quot;&gt;&lt;p lang=&quot;en&quot; dir=&quot;ltr&quot;&gt;Welcome to &lt;a href=&quot;https://twitter.com/PyDataSW?ref_src=twsrc%5Etfw&quot;&gt;@PyDataSW&lt;/a&gt; when will I go to all the PyData? &lt;a href=&quot;https://t.co/4Ew06wzD14&quot;&gt;pic.twitter.com/4Ew06wzD14&lt;/a&gt;&lt;/p&gt;&amp;mdash; Cheuk Ting Ho (@cheukting_ho) &lt;a href=&quot;https://twitter.com/cheukting_ho/status/1582772135860539392?ref_src=twsrc%5Etfw&quot;&gt;October 19, 2022&lt;/a&gt;&lt;/blockquote&gt;
+&lt;script async=&quot;&quot; src=&quot;https://platform.twitter.com/widgets.js&quot; charset=&quot;utf-8&quot;&gt;&lt;/script&gt;
+
+&lt;p&gt;The meetup was great! I gave a talk about PyScript and people are interested and want to try it out. I also got people coming to me and saying they love Anaconda. They said they have used it since they were in school and I am so glad to find fans of Anaconda and be able to meet them.&lt;/p&gt;
+
+&lt;blockquote class=&quot;twitter-tweet&quot;&gt;&lt;p lang=&quot;en&quot; dir=&quot;ltr&quot;&gt;So happy to have ⁦&lt;a href=&quot;https://twitter.com/cheukting_ho?ref_src=twsrc%5Etfw&quot;&gt;@cheukting_ho&lt;/a&gt;⁩ speaking at ⁦&lt;a href=&quot;https://twitter.com/PyDataSW?ref_src=twsrc%5Etfw&quot;&gt;@PyDataSW&lt;/a&gt;⁩ tonight about PyScript 🚀⁦&lt;a href=&quot;https://twitter.com/anacondainc?ref_src=twsrc%5Etfw&quot;&gt;@anacondainc&lt;/a&gt;⁩ &lt;a href=&quot;https://t.co/QYH7keDi4w&quot;&gt;pic.twitter.com/QYH7keDi4w&lt;/a&gt;&lt;/p&gt;&amp;mdash; PyData Südwest (@PyDataSW) &lt;a href=&quot;https://twitter.com/PyDataSW/status/1582775238693355520?ref_src=twsrc%5Etfw&quot;&gt;October 19, 2022&lt;/a&gt;&lt;/blockquote&gt;
+&lt;script async=&quot;&quot; src=&quot;https://platform.twitter.com/widgets.js&quot; charset=&quot;utf-8&quot;&gt;&lt;/script&gt;
+
+&lt;p&gt;&lt;strong&gt;&lt;a href=&quot;https://cheuk.dev/videos/hwR2taWOINM/&quot;&gt;See the PyData Südwest meetup video recording&lt;/a&gt;&lt;/strong&gt;&lt;/p&gt;
+
+&lt;h2 id=&quot;day-3---pyladies-berlin&quot;&gt;Day 3 - PyLadies Berlin&lt;/h2&gt;
+
+&lt;p&gt;In the morning, I use the hotel room as an office before checking out. Then I join Alexander for lunch, where we will have spaghetti ice cream for lunch (Why not?). He keep mentioning that the spaghetti ice cream is invited in his city and said I need to try it when I drop by for years so today is the day. I would say, it is very creative and looks very interesting. It tastes just like a strawberry sundae so I would say it is more for Instagram than my taste buds. But Alexander and I were having a good time catching up and talking about the upcoming community events.&lt;/p&gt;
+
+&lt;blockquote class=&quot;twitter-tweet&quot;&gt;&lt;p lang=&quot;en&quot; dir=&quot;ltr&quot;&gt;🍝🍦Some of the best parts coming to ⁦&lt;a href=&quot;https://twitter.com/PyDataSW?ref_src=twsrc%5Etfw&quot;&gt;@PyDataSW&lt;/a&gt;⁩ is getting original spaghetti ice cream on the way &lt;a href=&quot;https://t.co/lhTCnWHJeC&quot;&gt;pic.twitter.com/lhTCnWHJeC&lt;/a&gt;&lt;/p&gt;&amp;mdash; Alexander CS Hendorf 🏳️‍🌈🇪🇺💙💛 (@hendorf) &lt;a href=&quot;https://twitter.com/hendorf/status/1583036814428082177?ref_src=twsrc%5Etfw&quot;&gt;October 20, 2022&lt;/a&gt;&lt;/blockquote&gt;
+&lt;script async=&quot;&quot; src=&quot;https://platform.twitter.com/widgets.js&quot; charset=&quot;utf-8&quot;&gt;&lt;/script&gt;
+
+&lt;p&gt;After that, I took the 4 hours+ train to Berlin. The train was quite busy and overall not a great experience. I managed to work a bit and sleep a bit but by the time I get to Berlin my legs were numb.&lt;/p&gt;
+
+&lt;p&gt;I used to go to Berlin a few times per year so I am ok navigating the city. I arrived at the PyLadies open hack event.&lt;/p&gt;
+
+&lt;blockquote class=&quot;twitter-tweet&quot;&gt;&lt;p lang=&quot;en&quot; dir=&quot;ltr&quot;&gt;I made it! &lt;a href=&quot;https://twitter.com/PyLadiesBer?ref_src=twsrc%5Etfw&quot;&gt;@PyLadiesBer&lt;/a&gt; hack night ❤️ &lt;a href=&quot;https://t.co/yXBcg33FSE&quot;&gt;pic.twitter.com/yXBcg33FSE&lt;/a&gt;&lt;/p&gt;&amp;mdash; Cheuk Ting Ho (@cheukting_ho) &lt;a href=&quot;https://twitter.com/cheukting_ho/status/1583145856529682433?ref_src=twsrc%5Etfw&quot;&gt;October 20, 2022&lt;/a&gt;&lt;/blockquote&gt;
+&lt;script async=&quot;&quot; src=&quot;https://platform.twitter.com/widgets.js&quot; charset=&quot;utf-8&quot;&gt;&lt;/script&gt;
+
+&lt;p&gt;At the event, I am so glad to meet friends. Including Jessica who’s the PyCon Namibia organiser. I have not met her since the pandemic and I am so glad that I don’t have to wait till PyCon Namibia to see her. She is currently working at a University in Berlin on a short project. She is such an amazing woman. We talk a bit about my plan to bring Humble Data to Namibia, and my experience in PyCon Ghana. I am looking forward to being in Windhoek again.&lt;/p&gt;
+
+&lt;blockquote class=&quot;twitter-tweet&quot;&gt;&lt;p lang=&quot;en&quot; dir=&quot;ltr&quot;&gt;Having a great time at our &lt;a href=&quot;https://twitter.com/hashtag/Hacktoberfest?src=hash&amp;amp;ref_src=twsrc%5Etfw&quot;&gt;#Hacktoberfest&lt;/a&gt; open source hack night special! 👩🏾‍💻👨🏾‍💻👩🏼‍💻 A big thank you to our sponsor &lt;a href=&quot;https://twitter.com/saucelabs?ref_src=twsrc%5Etfw&quot;&gt;@saucelabs&lt;/a&gt;! 👏 &lt;a href=&quot;https://twitter.com/hashtag/pyladies?src=hash&amp;amp;ref_src=twsrc%5Etfw&quot;&gt;#pyladies&lt;/a&gt; &lt;a href=&quot;https://twitter.com/hashtag/opensource?src=hash&amp;amp;ref_src=twsrc%5Etfw&quot;&gt;#opensource&lt;/a&gt; &lt;a href=&quot;https://twitter.com/hashtag/WomenInSTEM?src=hash&amp;amp;ref_src=twsrc%5Etfw&quot;&gt;#WomenInSTEM&lt;/a&gt; &lt;a href=&quot;https://twitter.com/hashtag/womenintech?src=hash&amp;amp;ref_src=twsrc%5Etfw&quot;&gt;#womenintech&lt;/a&gt; &lt;a href=&quot;https://t.co/JrWtgelwIo&quot;&gt;pic.twitter.com/JrWtgelwIo&lt;/a&gt;&lt;/p&gt;&amp;mdash; PyLadies Berlin (@PyLadiesBer) &lt;a href=&quot;https://twitter.com/PyLadiesBer/status/1583156448237801472?ref_src=twsrc%5Etfw&quot;&gt;October 20, 2022&lt;/a&gt;&lt;/blockquote&gt;
+&lt;script async=&quot;&quot; src=&quot;https://platform.twitter.com/widgets.js&quot; charset=&quot;utf-8&quot;&gt;&lt;/script&gt;
+
+&lt;h2 id=&quot;day-4---meeting-the-anaconda-team&quot;&gt;Day 4 - Meeting the Anaconda Team&lt;/h2&gt;
+
+&lt;blockquote class=&quot;twitter-tweet&quot;&gt;&lt;p lang=&quot;en&quot; dir=&quot;ltr&quot;&gt;I am half a year too early for &lt;a href=&quot;https://twitter.com/PyConDE?ref_src=twsrc%5Etfw&quot;&gt;@PyConDE&lt;/a&gt; oops 😅 &lt;a href=&quot;https://t.co/Cs4YxngkXe&quot;&gt;pic.twitter.com/Cs4YxngkXe&lt;/a&gt;&lt;/p&gt;&amp;mdash; Cheuk Ting Ho (@cheukting_ho) &lt;a href=&quot;https://twitter.com/cheukting_ho/status/1583354637742399488?ref_src=twsrc%5Etfw&quot;&gt;October 21, 2022&lt;/a&gt;&lt;/blockquote&gt;
+&lt;script async=&quot;&quot; src=&quot;https://platform.twitter.com/widgets.js&quot; charset=&quot;utf-8&quot;&gt;&lt;/script&gt;
+
+&lt;p&gt;The next day I went to the office in Berlin where most Anaconda people go. Since it is Friday the office is quite chill. I got a chance to have lunch with my colleagues, we went to a burger place nearby.&lt;/p&gt;
+
+&lt;blockquote class=&quot;twitter-tweet&quot;&gt;&lt;p lang=&quot;en&quot; dir=&quot;ltr&quot;&gt;Glad to meet some of my amazing &lt;a href=&quot;https://twitter.com/anacondainc?ref_src=twsrc%5Etfw&quot;&gt;@anacondainc&lt;/a&gt; colleagues in &lt;a href=&quot;https://twitter.com/hashtag/Berlin?src=hash&amp;amp;ref_src=twsrc%5Etfw&quot;&gt;#Berlin&lt;/a&gt; &lt;a href=&quot;https://t.co/3FQVNZZOiL&quot;&gt;pic.twitter.com/3FQVNZZOiL&lt;/a&gt;&lt;/p&gt;&amp;mdash; Cheuk Ting Ho (@cheukting_ho) &lt;a href=&quot;https://twitter.com/cheukting_ho/status/1583424797954183169?ref_src=twsrc%5Etfw&quot;&gt;October 21, 2022&lt;/a&gt;&lt;/blockquote&gt;
+&lt;script async=&quot;&quot; src=&quot;https://platform.twitter.com/widgets.js&quot; charset=&quot;utf-8&quot;&gt;&lt;/script&gt;
+
+&lt;p&gt;After a long work day, I head back to the hotel for a good night’s sleep and is ready to head home the next day.&lt;/p&gt;
+</description>
+        <pubDate>Fri, 21 Oct 2022 00:00:00 +0000</pubDate>
+        <link>https://cheuk.dev/2022/10/21/pyladies-and-friends/</link>
+        <guid isPermaLink="true">https://cheuk.dev/2022/10/21/pyladies-and-friends/</guid>
+        
+        <category>Meetup</category>
+        
+        
+      </item>
     
       <item>
         <title>PyCon Ghana 2022</title>
