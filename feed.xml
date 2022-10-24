@@ -6,8 +6,8 @@
 </description>
     <link>https://cheuk.dev</link>
     <atom:link href="https://cheuk.dev/feed.xml" rel="self" type="application/rss+xml"/>
-    <pubDate>Mon, 24 Oct 2022 10:58:16 +0000</pubDate>
-    <lastBuildDate>Mon, 24 Oct 2022 10:58:16 +0000</lastBuildDate>
+    <pubDate>Mon, 24 Oct 2022 14:12:57 +0000</pubDate>
+    <lastBuildDate>Mon, 24 Oct 2022 14:12:57 +0000</lastBuildDate>
     <generator>Jekyll v3.8.7</generator>
     
       <item>
@@ -244,6 +244,8 @@
 
 &lt;blockquote class=&quot;twitter-tweet&quot;&gt;&lt;p lang=&quot;es&quot; dir=&quot;ltr&quot;&gt;Muy 🔝 las primeras charlas del día en esta nuestra &lt;a href=&quot;https://twitter.com/hashtag/PyConES22?src=hash&amp;amp;ref_src=twsrc%5Etfw&quot;&gt;#PyConES22&lt;/a&gt;.&lt;br /&gt;Un saludo a las personas que están de chair de sesión y que van a tirar tizas ante cualquier “más que una pregunta tengo un comentario”. &lt;a href=&quot;https://t.co/qpjOiNiQ3u&quot;&gt;pic.twitter.com/qpjOiNiQ3u&lt;/a&gt;&lt;/p&gt;&amp;mdash; PyCon España (@PyConES) &lt;a href=&quot;https://twitter.com/PyConES/status/1576138579712933889?ref_src=twsrc%5Etfw&quot;&gt;October 1, 2022&lt;/a&gt;&lt;/blockquote&gt;
 &lt;script async=&quot;&quot; src=&quot;https://platform.twitter.com/widgets.js&quot; charset=&quot;utf-8&quot;&gt;&lt;/script&gt;
+
+&lt;p&gt;&lt;strong&gt;&lt;a href=&quot;https://cheuk.dev/videos/c_hop_v1gj0/&quot;&gt;See my talk video recording&lt;/a&gt;&lt;/strong&gt;&lt;/p&gt;
 
 &lt;p&gt;Then I went to a very interesting talk. From the technical point of view, it is about using MicroPython to control a mortar to vibrate. I would say the open-mind-ness and diversity of PyCon ES is one of the best in all the PyCon that I have ever been to.&lt;/p&gt;
 
