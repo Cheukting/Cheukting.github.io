@@ -6,9 +6,33 @@
 </description>
     <link>https://cheuk.dev</link>
     <atom:link href="https://cheuk.dev/feed.xml" rel="self" type="application/rss+xml"/>
-    <pubDate>Mon, 24 Oct 2022 14:12:57 +0000</pubDate>
-    <lastBuildDate>Mon, 24 Oct 2022 14:12:57 +0000</lastBuildDate>
+    <pubDate>Tue, 01 Nov 2022 13:07:00 +0000</pubDate>
+    <lastBuildDate>Tue, 01 Nov 2022 13:07:00 +0000</lastBuildDate>
     <generator>Jekyll v3.8.7</generator>
+    
+      <item>
+        <title>PyScript Dojo at PyLadies London</title>
+        <description>&lt;p&gt;After having this idea for a while. We finally have our 1st PyScript Dojo where people can learn Python and have fun at the same time. As PyScript is still very new, we are not ambitious to ask for creative projects but to get people interested and start writing PyScript for the first time.&lt;/p&gt;
+
+&lt;p&gt;Thankfully, we have Anna, organiser of PyLadies London, organising this evernt for us. She is very professional and makes sure everything goes smoothly and everyone is happy at the event. We are also very glad to have Infinity work hosting us at their beautiful office which transform into a theatre during the event.&lt;/p&gt;
+
+&lt;p&gt;The event starts with people networking and having a bit. Then after a brief introduction by Anna, my colleague Nicholas gives out the background information and some technical knowledge about PyScript. Because he is such a good teacher, even though the details of PyScript can be very technical, he can explain in a way that even kids can understand.&lt;/p&gt;
+
+&lt;blockquote class=&quot;twitter-tweet&quot;&gt;&lt;p lang=&quot;en&quot; dir=&quot;ltr&quot;&gt;Our first &lt;a href=&quot;https://twitter.com/pyscript_dev?ref_src=twsrc%5Etfw&quot;&gt;@pyscript_dev&lt;/a&gt; dojo &lt;a href=&quot;https://t.co/Oq1X5OoUob&quot;&gt;pic.twitter.com/Oq1X5OoUob&lt;/a&gt;&lt;/p&gt;&amp;mdash; Cheuk Ting Ho (@cheukting_ho) &lt;a href=&quot;https://twitter.com/cheukting_ho/status/1584979288142807041?ref_src=twsrc%5Etfw&quot;&gt;October 25, 2022&lt;/a&gt;&lt;/blockquote&gt;
+&lt;script async=&quot;&quot; src=&quot;https://platform.twitter.com/widgets.js&quot; charset=&quot;utf-8&quot;&gt;&lt;/script&gt;
+
+&lt;p&gt;Then I point the participants to try our PyScript by visiting the workshop materials I prepared and the official website of PyScript where they can check out the documentation and examples of what PyScript can do. I am so glad that people are working in small groups and most of them can finish the workshop materials. They also raise some very interesting questions and that helps me to understand from a learner’s perspective what is not clear enough and needs clearer instruction and better explanation.&lt;/p&gt;
+
+&lt;p&gt;Overall, it is a great event and there are plans to have another in Berlin next month. I hope it will be great as well.&lt;/p&gt;
+</description>
+        <pubDate>Tue, 25 Oct 2022 00:00:00 +0000</pubDate>
+        <link>https://cheuk.dev/2022/10/25/pyladiesldn-pyscirptdojo/</link>
+        <guid isPermaLink="true">https://cheuk.dev/2022/10/25/pyladiesldn-pyscirptdojo/</guid>
+        
+        <category>Meetup</category>
+        
+        
+      </item>
     
       <item>
         <title>PyLadies, PyData and Friends</title>
@@ -579,6 +603,92 @@
         <guid isPermaLink="true">https://cheuk.dev/2022/09/15/uptimecon_2022/</guid>
         
         <category>Conference</category>
+        
+        
+      </item>
+    
+      <item>
+        <title>I Have to Confess I Still Love Pandas 🐼</title>
+        <description>&lt;p&gt;A few year ago, I was still a Data Scientist, Pandas was a tool that I have to use everyday. Soon time passes and I have used Pandas without googling and seems to forget the struggle I had when I was using Pandas for the first time.&lt;/p&gt;
+
+&lt;p&gt;I hope someone can tell me a little bit more when I start using Pandas so I can have a better understanding of it. So here are few things that I will tell my previous self and those of you who are starting to use Pandas.&lt;/p&gt;
+
+&lt;h2 id=&quot;what-about-large-datasets&quot;&gt;What about Large Datasets&lt;/h2&gt;
+
+&lt;p&gt;We all know that Pandas (and Python) is using in memory, and handeling large amount of data is not what it does best. To minimise the problem, we can try a few tricks.&lt;/p&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;If you know the type of the csv, try using &lt;code class=&quot;highlighter-rouge&quot;&gt;dtype&lt;/code&gt; optionl:&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;div class=&quot;language-python highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;&lt;span class=&quot;n&quot;&gt;pd&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;read_csv&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;os&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;path&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;join&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;bp&quot;&gt;self&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;path_movies&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;),&lt;/span&gt;
+            &lt;span class=&quot;n&quot;&gt;usecols&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;=&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;[&lt;/span&gt;&lt;span class=&quot;s&quot;&gt;'movieId'&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;,&lt;/span&gt; &lt;span class=&quot;s&quot;&gt;'title'&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;],&lt;/span&gt;
+            &lt;span class=&quot;n&quot;&gt;dtype&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;=&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;{&lt;/span&gt;&lt;span class=&quot;s&quot;&gt;'movieId'&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;:&lt;/span&gt; &lt;span class=&quot;s&quot;&gt;'int32'&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;,&lt;/span&gt; &lt;span class=&quot;s&quot;&gt;'title'&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;:&lt;/span&gt; &lt;span class=&quot;s&quot;&gt;'str'&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;})&lt;/span&gt;
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;
+
+&lt;p&gt;Because we don’t need &lt;code class=&quot;highlighter-rouge&quot;&gt;float64&lt;/code&gt; or &lt;code class=&quot;highlighter-rouge&quot;&gt;int64&lt;/code&gt; (which are the defaults) all the time. This can also minimise the guessing and errors that may follow if the type of the column is input wrongly.&lt;/p&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;If it possible, processing in chunks:&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;div class=&quot;language-python highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;&lt;span class=&quot;n&quot;&gt;chunksize&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;=&lt;/span&gt; &lt;span class=&quot;mi&quot;&gt;10&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;**&lt;/span&gt; &lt;span class=&quot;mi&quot;&gt;6&lt;/span&gt;
+&lt;span class=&quot;k&quot;&gt;with&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;pd&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;read_csv&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;filename&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;,&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;chunksize&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;=&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;chunksize&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;)&lt;/span&gt; &lt;span class=&quot;k&quot;&gt;as&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;reader&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;:&lt;/span&gt;
+    &lt;span class=&quot;k&quot;&gt;for&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;chunk&lt;/span&gt; &lt;span class=&quot;ow&quot;&gt;in&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;reader&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;:&lt;/span&gt;
+        &lt;span class=&quot;n&quot;&gt;process&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;chunk&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;)&lt;/span&gt;
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;
+
+&lt;p&gt;This can make the io to databases and/or disk better. If you need speed, this can also be converted as concurrent operations, but we are not diving into details here.&lt;/p&gt;
+
+&lt;h2 id=&quot;what-about-apis-that-are-similar-or-do-the-exact-same-things&quot;&gt;What about APIs that are similar or do the exact same things?&lt;/h2&gt;
+
+&lt;p&gt;One thing about APIs in Pandas is that, there are multiple ways of doing things, like:&lt;/p&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;Getting a column: &lt;code class=&quot;highlighter-rouge&quot;&gt;df.user&lt;/code&gt; vs &lt;code class=&quot;highlighter-rouge&quot;&gt;df['user']&lt;/code&gt;&lt;/li&gt;
+  &lt;li&gt;Sum, min, max etc: &lt;code class=&quot;highlighter-rouge&quot;&gt;sum(df)&lt;/code&gt; vs &lt;code class=&quot;highlighter-rouge&quot;&gt;df.sum()&lt;/code&gt;&lt;/li&gt;
+  &lt;li&gt;Missing values: &lt;code class=&quot;highlighter-rouge&quot;&gt;isnull&lt;/code&gt; vs &lt;code class=&quot;highlighter-rouge&quot;&gt;isna&lt;/code&gt;&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;The questions is: Which one is better? which one should I use?&lt;/p&gt;
+
+&lt;p&gt;Here is my answer (and it is a personal opnion) - For the cases above, I will choose the later over the former. Why? There are reasons:&lt;/p&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;Using square brackets (&lt;code class=&quot;highlighter-rouge&quot;&gt;[]&lt;/code&gt;) to reference a column because there are column names that have spaces in it and it will not work for the &lt;code class=&quot;highlighter-rouge&quot;&gt;.&lt;/code&gt;&lt;/li&gt;
+  &lt;li&gt;
+    &lt;p&gt;using the numpy defined operation function orver the general Python build in fuction because it is optimise for that task&lt;/p&gt;
+  &lt;/li&gt;
+  &lt;li&gt;using the more commonly used method instead of the less popular ones (or old one) to advoid funciton being depricated&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;This requires some understanding of the ecosystem of Pandas to make the decision.&lt;/p&gt;
+
+&lt;h2 id=&quot;what-about-the-nested-indexes&quot;&gt;What about the nested indexes&lt;/h2&gt;
+
+&lt;p&gt;Nested indexes is a double edge sward in Pandas in my opnion. In some cases it is good that we can have multiple layers of index and columns but most of the time it just make data science operations more complicated.&lt;/p&gt;
+
+&lt;p&gt;As for beginners, some time they maybe taken by supprise that after some operations (like groupby, aggrations and pivot_table etc) will end up with nested columns.&lt;/p&gt;
+
+&lt;p&gt;One key thing to remember is, use &lt;code class=&quot;highlighter-rouge&quot;&gt;reset_index()&lt;/code&gt; after those operations. Then nested structures will be flattened and columns will be renamed with the…&lt;/p&gt;
+
+&lt;h2 id=&quot;how-about-quick-data-manipulation&quot;&gt;How about quick data manipulation&lt;/h2&gt;
+
+&lt;p&gt;Pandas offers ways to use SQL queries to manipulate the DataFrame, which can be very handy for those who are used to SQL queries and this can also be used to preview what you will get if you have a small sample of a huge data in database as a DataFrame.&lt;/p&gt;
+
+&lt;p&gt;Here is my presentation slides:&lt;/p&gt;
+
+&lt;iframe src=&quot;https://slides.com/cheukting_ho/trojan-source/embed?style=transparent&amp;amp;share=hidden&quot; width=&quot;576&quot; height=&quot;420&quot; title=&quot;Trojan Source&quot; scrolling=&quot;no&quot; frameborder=&quot;0&quot; webkitallowfullscreen=&quot;&quot; mozallowfullscreen=&quot;&quot; allowfullscreen=&quot;&quot;&gt;&lt;/iframe&gt;
+</description>
+        <pubDate>Mon, 12 Sep 2022 00:00:00 +0000</pubDate>
+        <link>https://cheuk.dev/2022/09/12/love-pandas/</link>
+        <guid isPermaLink="true">https://cheuk.dev/2022/09/12/love-pandas/</guid>
+        
+        <category>Python</category>
+        
+        <category>OSS</category>
+        
+        <category>DataScience</category>
         
         
       </item>

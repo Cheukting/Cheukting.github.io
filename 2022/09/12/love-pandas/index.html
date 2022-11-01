@@ -6,22 +6,22 @@
 
   <title>Cheuk Ting Ho | Building the Open-source Community</title><!-- Begin Jekyll SEO tag v2.8.0 -->
 <meta name="generator" content="Jekyll v3.8.7" />
-<meta property="og:title" content="Trojan Source Code (Can we trust open-source anymore?)" />
+<meta property="og:title" content="I Have to Confess I Still Love Pandas 🐼" />
 <meta name="author" content="Cheuk Ting Ho" />
 <meta property="og:locale" content="en_US" />
-<meta name="description" content="Trojan Source Code in a nutshell, in Python perspective" />
-<meta property="og:description" content="Trojan Source Code in a nutshell, in Python perspective" />
-<link rel="canonical" href="https://cheuk.dev/2022/06/06/trojan-source/" />
-<meta property="og:url" content="https://cheuk.dev/2022/06/06/trojan-source/" />
+<meta name="description" content="About my love hate relationship with Pandas" />
+<meta property="og:description" content="About my love hate relationship with Pandas" />
+<link rel="canonical" href="https://cheuk.dev/2022/09/12/love-pandas/" />
+<meta property="og:url" content="https://cheuk.dev/2022/09/12/love-pandas/" />
 <meta property="og:site_name" content="Building the Open-source Community" />
 <meta property="og:image" content="https://cheuk.dev/assets/images/trojan-horse.png" />
 <meta property="og:type" content="article" />
-<meta property="article:published_time" content="2022-06-06T00:00:00+00:00" />
+<meta property="article:published_time" content="2022-09-12T00:00:00+00:00" />
 <meta name="twitter:card" content="summary_large_image" />
 <meta property="twitter:image" content="https://cheuk.dev/assets/images/trojan-horse.png" />
-<meta property="twitter:title" content="Trojan Source Code (Can we trust open-source anymore?)" />
+<meta property="twitter:title" content="I Have to Confess I Still Love Pandas 🐼" />
 <script type="application/ld+json">
-{"@context":"https://schema.org","@type":"BlogPosting","author":{"@type":"Person","name":"Cheuk Ting Ho"},"dateModified":"2022-06-06T00:00:00+00:00","datePublished":"2022-06-06T00:00:00+00:00","description":"Trojan Source Code in a nutshell, in Python perspective","headline":"Trojan Source Code (Can we trust open-source anymore?)","image":"https://cheuk.dev/assets/images/trojan-horse.png","mainEntityOfPage":{"@type":"WebPage","@id":"https://cheuk.dev/2022/06/06/trojan-source/"},"url":"https://cheuk.dev/2022/06/06/trojan-source/"}</script>
+{"@context":"https://schema.org","@type":"BlogPosting","author":{"@type":"Person","name":"Cheuk Ting Ho"},"dateModified":"2022-09-12T00:00:00+00:00","datePublished":"2022-09-12T00:00:00+00:00","description":"About my love hate relationship with Pandas","headline":"I Have to Confess I Still Love Pandas 🐼","image":"https://cheuk.dev/assets/images/trojan-horse.png","mainEntityOfPage":{"@type":"WebPage","@id":"https://cheuk.dev/2022/09/12/love-pandas/"},"url":"https://cheuk.dev/2022/09/12/love-pandas/"}</script>
 <!-- End Jekyll SEO tag -->
 <link rel="stylesheet" href="/assets/css/app.min.css" />
 
@@ -117,9 +117,9 @@
   <article itemprop="blogPost" itemscope itemtype="http://schema.org/BlogPosting" class="h-entry">
     <div class="post__header section-padding">
       <div class="grid-large">
-        <h2 itemprop="name headline" class="p-name">Trojan Source Code (Can we trust open-source anymore?)</h2>
+        <h2 itemprop="name headline" class="p-name">I Have to Confess I Still Love Pandas 🐼</h2>
 
-        <time class="post__date dt-published" datetime="2022-06-06T00:00:00+00:00" itemprop="datePublished">6 Jun 2022</time>
+        <time class="post__date dt-published" datetime="2022-09-12T00:00:00+00:00" itemprop="datePublished">12 Sep 2022</time>
       </div>
     </div>
 
@@ -134,91 +134,72 @@
     <div class="post__content section-padding">
       <div class="grid-large">
         <div id="markdown" itemprop="articleBody" class="e-content">
-          <p>Last year, I overheard my boyfriend listening to <a href="https://twit.tv/shows/security-now">a podcast</a> that talks about the <a href="https://trojansource.codes/">Trojan Source Code</a>. I got interested and read <a href="https://trojansource.codes/trojan-source.pdf">the paper</a>. Here is a beginner friendly explanation if you don’t want to read it (but I cannot see why).</p>
+          <p>A few year ago, I was still a Data Scientist, Pandas was a tool that I have to use everyday. Soon time passes and I have used Pandas without googling and seems to forget the struggle I had when I was using Pandas for the first time.</p>
 
-<h2 id="first-lets-have-some-fun">First, let’s have some fun!</h2>
+<p>I hope someone can tell me a little bit more when I start using Pandas so I can have a better understanding of it. So here are few things that I will tell my previous self and those of you who are starting to use Pandas.</p>
 
-<p>Open the <a href="https://app.codingrooms.com/compiler?language=python3">online Python console here</a> and try running the following code:</p>
+<h2 id="what-about-large-datasets">What about Large Datasets</h2>
 
-<div class="language-python highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="n">hello</span> <span class="o">=</span> <span class="s">"Hello world"</span>
-<span class="n">world</span> <span class="o">=</span> <span class="n">hello</span>
-<span class="k">print</span><span class="p">(</span><span class="n">world</span><span class="p">)</span>
+<p>We all know that Pandas (and Python) is using in memory, and handeling large amount of data is not what it does best. To minimise the problem, we can try a few tricks.</p>
+
+<ul>
+  <li>If you know the type of the csv, try using <code class="highlighter-rouge">dtype</code> optionl:</li>
+</ul>
+
+<div class="language-python highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="n">pd</span><span class="p">.</span><span class="n">read_csv</span><span class="p">(</span><span class="n">os</span><span class="p">.</span><span class="n">path</span><span class="p">.</span><span class="n">join</span><span class="p">(</span><span class="bp">self</span><span class="p">.</span><span class="n">path_movies</span><span class="p">),</span>
+            <span class="n">usecols</span><span class="o">=</span><span class="p">[</span><span class="s">'movieId'</span><span class="p">,</span> <span class="s">'title'</span><span class="p">],</span>
+            <span class="n">dtype</span><span class="o">=</span><span class="p">{</span><span class="s">'movieId'</span><span class="p">:</span> <span class="s">'int32'</span><span class="p">,</span> <span class="s">'title'</span><span class="p">:</span> <span class="s">'str'</span><span class="p">})</span>
 </code></pre></div></div>
 
-<p>It is a standard “Hello world” right? How about this:</p>
+<p>Because we don’t need <code class="highlighter-rouge">float64</code> or <code class="highlighter-rouge">int64</code> (which are the defaults) all the time. This can also minimise the guessing and errors that may follow if the type of the column is input wrongly.</p>
 
-<div class="language-python highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="n">hello</span> <span class="o">=</span> <span class="s">"Hello world"</span>
-<span class="n">world</span> <span class="o">=</span> <span class="n">hell</span><span class="err">‮</span><span class="n">o</span>
-<span class="k">print</span><span class="p">(</span><span class="n">world</span><span class="p">)</span>
+<ul>
+  <li>If it possible, processing in chunks:</li>
+</ul>
+
+<div class="language-python highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="n">chunksize</span> <span class="o">=</span> <span class="mi">10</span> <span class="o">**</span> <span class="mi">6</span>
+<span class="k">with</span> <span class="n">pd</span><span class="p">.</span><span class="n">read_csv</span><span class="p">(</span><span class="n">filename</span><span class="p">,</span> <span class="n">chunksize</span><span class="o">=</span><span class="n">chunksize</span><span class="p">)</span> <span class="k">as</span> <span class="n">reader</span><span class="p">:</span>
+    <span class="k">for</span> <span class="n">chunk</span> <span class="ow">in</span> <span class="n">reader</span><span class="p">:</span>
+        <span class="n">process</span><span class="p">(</span><span class="n">chunk</span><span class="p">)</span>
 </code></pre></div></div>
 
-<p>Wait! They LOOK the same!</p>
+<p>This can make the io to databases and/or disk better. If you need speed, this can also be converted as concurrent operations, but we are not diving into details here.</p>
 
-<p>Yes my friend, you are right. They look the same but are NOT the same.</p>
+<h2 id="what-about-apis-that-are-similar-or-do-the-exact-same-things">What about APIs that are similar or do the exact same things?</h2>
 
-<h2 id="unicode-uηicσժe-ⓤⓝⓘⓒⓞⓓⓔ">Unicode! Uηicσժe!! Ⓤⓝⓘⓒⓞⓓⓔ!!!</h2>
+<p>One thing about APIs in Pandas is that, there are multiple ways of doing things, like:</p>
 
-<p>We all know unicode is a bit wacky. But can you imagine a world that does not support unicode?</p>
+<ul>
+  <li>Getting a column: <code class="highlighter-rouge">df.user</code> vs <code class="highlighter-rouge">df['user']</code></li>
+  <li>Sum, min, max etc: <code class="highlighter-rouge">sum(df)</code> vs <code class="highlighter-rouge">df.sum()</code></li>
+  <li>Missing values: <code class="highlighter-rouge">isnull</code> vs <code class="highlighter-rouge">isna</code></li>
+</ul>
 
-<p>Unicode started as an attempt to make computer characters display all writing systems in the world. I benefit from it when I was a kid, learning how to use a computer at school. Like all “good kids” I will secretly open Netscape to browse websites. At that time, no one really care about the encoding when designing website. Sometimes, I would browse a website in Chinese but was displayed in random symbols. Then I know it’s time to change the encoding.</p>
+<p>The questions is: Which one is better? which one should I use?</p>
 
-<p>The most common unicode encoding is UTF-8, but there are many. For example, we use Big-5 for Chinese characters.</p>
+<p>Here is my answer (and it is a personal opnion) - For the cases above, I will choose the later over the former. Why? There are reasons:</p>
 
-<p>Our favourite <a href="https://emojipedia.org/">emojis</a> 💖😃🧸 are mostly added in 2014, and there will be more coming.</p>
+<ul>
+  <li>Using square brackets (<code class="highlighter-rouge">[]</code>) to reference a column because there are column names that have spaces in it and it will not work for the <code class="highlighter-rouge">.</code></li>
+  <li>
+    <p>using the numpy defined operation function orver the general Python build in fuction because it is optimise for that task</p>
+  </li>
+  <li>using the more commonly used method instead of the less popular ones (or old one) to advoid funciton being depricated</li>
+</ul>
 
-<h2 id="bidirectional-characters">Bidirectional ‮characters</h2>
+<p>This requires some understanding of the ecosystem of Pandas to make the decision.</p>
 
-<p>Since unicode are designed to handle all writing system, and some writing systems (like Arabic and Hebrew) are reading and writing form right to left, oppose to left to right, what we English speakers are used to, there needs to be a way to tell the computer to “read” and display the characters from right to left. That way, is a set of “invisible” characters that indicate the directions of the text - Bidirectional characters.</p>
+<h2 id="what-about-the-nested-indexes">What about the nested indexes</h2>
 
-<p>Using bidirectional characters where it is not suppose to be, like codes, then it is not just weird, but it can cause more harm than that.</p>
+<p>Nested indexes is a double edge sward in Pandas in my opnion. In some cases it is good that we can have multiple layers of index and columns but most of the time it just make data science operations more complicated.</p>
 
-<h2 id="trojan-source-code">Trojan Source Code</h2>
+<p>As for beginners, some time they maybe taken by supprise that after some operations (like groupby, aggrations and pivot_table etc) will end up with nested columns.</p>
 
-<p>We all know the story about the Trojan Horse, hiding solders in a huge horse that was suppose to be the gift. This is what Trojan Source Code is like, hiding in the source code. In the paper the researchers listed 3 types of Trojan Source Code:</p>
+<p>One key thing to remember is, use <code class="highlighter-rouge">reset_index()</code> after those operations. Then nested structures will be flattened and columns will be renamed with the…</p>
 
-<h4 id="1-early-returns">1) Early returns</h4>
+<h2 id="how-about-quick-data-manipulation">How about quick data manipulation</h2>
 
-<p>By hiding the bidirectional characters and <code class="highlighter-rouge">return</code> statement in the comment, what appear to be harmless comment can force a function end early and leave out codes that needed to be executed.</p>
-
-<p><img src="/assets/images/trojan-source-early-returns.png" alt="Early returns example" /></p>
-
-<h4 id="2-commenting-out">2) Commenting-out</h4>
-
-<p>It is common to have comments alongside the code to help readability. By strategically adding bidirectional characters, what appear to be code that are executable will actually be a part of the comment when executed. Using this can make the code behave not as expected.</p>
-
-<p><img src="/assets/images/trojan-source-commenting-out.png" alt="Commenting-out example" /></p>
-
-<h4 id="3-stretched-strings">3) Stretched strings</h4>
-
-<p>Similar to commenting-out, what appear to be not included in a string can be “put” inside the string with bidirectional characters and “change” the behaviour of the code.</p>
-
-<p><img src="/assets/images/trojan-source-stretched-string.png" alt="Stretched strings example" /></p>
-
-<hr />
-
-<p>Besides there Trojan Source Code there are also similar exploitation with unicode:</p>
-
-<h4 id="1-invisible-character">1) Invisible character</h4>
-
-<p>Hiding invisible characters can be easily used to change behaviour of the code. Like replacing variable names or strings etc.</p>
-
-<h4 id="2-homoglyphs">2) Homoglyphs</h4>
-
-<p>Similarly, homoglyphs (which means characters that looks the same but aren’t the same) can be used to replace function names so the unexpected one will be executed instead.</p>
-
-<p><img src="/assets/images/trojan-source-homoglyphs.png" alt="Homoglyphs example" /></p>
-
-<h2 id="should-we-be-worried">Should we be worried?</h2>
-
-<p>For the list of what works in Python you can see <a href="https://github.com/nickboucher/trojan-source/tree/main/Python">here at the GitHub repo</a>. You are welcome to try those Trojan Source Code and see if they works on newer versions of Python.</p>
-
-<p>For my personal opinion, the piece of advice I would give to other Pythonistas is that, use a editor with good syntax highlight or that will warn you if there’s hidden characters (<a href="https://github.blog/changelog/2021-10-31-warning-about-bidirectional-unicode-text/">GitHub will give you a warning</a> if the code file contains bidirectional characters). Keep a good habit of linting your code (<a href="https://pypi.org/project/pylint/">Pylint</a> is a good choice, it will also give you warning if it “sees” hidden characters) and double check before running any code, especially those that copy and paste form the internet.</p>
-
-<h2 id="thats-only-the-beginning">That’s only the beginning</h2>
-
-<p>As someone who works in open-source, I am always aware of the security of our work. We don’t want to accidentally spread malicious code and that harm the trust on the open-source software as a whole. There are more security issue that people keep finding and warning others, and we should all be aware.</p>
-
-<p>I would like to thank the researchers who publish their findings. If you would like to know more, make sure you check out their website: <a href="https://trojansource.codes/">https://trojansource.codes/</a></p>
+<p>Pandas offers ways to use SQL queries to manipulate the DataFrame, which can be very handy for those who are used to SQL queries and this can also be used to preview what you will get if you have a small sample of a huge data in database as a DataFrame.</p>
 
 <p>Here is my presentation slides:</p>
 
@@ -229,20 +210,20 @@
         <br /><br />
 <h2 class="post__social">Share this article</h2>
 <ul class="post__social">
-  <li><a href="https://www.facebook.com/sharer/sharer.php?u=https://cheuk.dev/2022/06/06/trojan-source/" target="_blank"><i class="fa fa-facebook"></i></a></li>
-  <li><a href="https://twitter.com/intent/tweet?&text=Trojan Source Code (Can we trust open-source anymore?)+https://cheuk.dev/2022/06/06/trojan-source/+by+Cheuk Ting Ho" target="_blank"><i class="fa fa-twitter"></i></a></li>
+  <li><a href="https://www.facebook.com/sharer/sharer.php?u=https://cheuk.dev/2022/09/12/love-pandas/" target="_blank"><i class="fa fa-facebook"></i></a></li>
+  <li><a href="https://twitter.com/intent/tweet?&text=I Have to Confess I Still Love Pandas 🐼+https://cheuk.dev/2022/09/12/love-pandas/+by+Cheuk Ting Ho" target="_blank"><i class="fa fa-twitter"></i></a></li>
   <!------
-  <li><a href="https://plus.google.com/share?url=https://cheuk.dev/2022/06/06/trojan-source/" target="_blank"><i class="fa fa-google-plus"></i></a></li>
+  <li><a href="https://plus.google.com/share?url=https://cheuk.dev/2022/09/12/love-pandas/" target="_blank"><i class="fa fa-google-plus"></i></a></li>
   ------->
-  <li><a href="https://www.linkedin.com/shareArticle?mini=true&source=Trojan Source Code (Can we trust open-source anymore?)&summary=Trojan Source Code in a nutshell, in Python perspective&url=https://cheuk.dev/2022/06/06/trojan-source/" target="_blank"><i class="fa fa-linkedin"></i></a></li>
+  <li><a href="https://www.linkedin.com/shareArticle?mini=true&source=I Have to Confess I Still Love Pandas 🐼&summary=About my love hate relationship with Pandas&url=https://cheuk.dev/2022/09/12/love-pandas/" target="_blank"><i class="fa fa-linkedin"></i></a></li>
   <!------
-  <li><a href="https://www.stumbleupon.com/badge/?url=https://cheuk.dev/2022/06/06/trojan-source/" target="_blank"><i class="fa fa-stumbleupon"></i></a></li>
+  <li><a href="https://www.stumbleupon.com/badge/?url=https://cheuk.dev/2022/09/12/love-pandas/" target="_blank"><i class="fa fa-stumbleupon"></i></a></li>
   ------->
-  <li><a href="https://www.reddit.com/submit?url=https://cheuk.dev/2022/06/06/trojan-source/" target="_blank"><i class="fa fa-reddit-alien"></i></a></li>
-  <li><a href="https://www.tumblr.com/share/link?url=https://cheuk.dev/2022/06/06/trojan-source/" target="_blank"><i class="fa fa-tumblr"></i></a></li>
-  <li><a href="https://www.pinterest.com/pin/create/link/?description=Trojan Source Code in a nutshell, in Python perspective&media=https://cheuk.dev/assets/images/trojan-horse.png&url=https://cheuk.dev/2022/06/06/trojan-source/" target="_blank"><i class="fa fa-pinterest"></i></a></li>
+  <li><a href="https://www.reddit.com/submit?url=https://cheuk.dev/2022/09/12/love-pandas/" target="_blank"><i class="fa fa-reddit-alien"></i></a></li>
+  <li><a href="https://www.tumblr.com/share/link?url=https://cheuk.dev/2022/09/12/love-pandas/" target="_blank"><i class="fa fa-tumblr"></i></a></li>
+  <li><a href="https://www.pinterest.com/pin/create/link/?description=About my love hate relationship with Pandas&media=https://cheuk.dev/assets/images/trojan-horse.png&url=https://cheuk.dev/2022/09/12/love-pandas/" target="_blank"><i class="fa fa-pinterest"></i></a></li>
 </ul>
-<a href="https://cheuk.dev/2022/06/06/trojan-source/" class="post__social u-url">https://cheuk.dev/2022/06/06/trojan-source/</a>
+<a href="https://cheuk.dev/2022/09/12/love-pandas/" class="post__social u-url">https://cheuk.dev/2022/09/12/love-pandas/</a>
 
       </div>
     </div>
@@ -287,8 +268,8 @@ should be replaced with your own Disqus site-id.
     <div id="disqus_thread"></div>
     <script>
       var disqus_config = function () {
-        this.page.url = 'https://cheuk.dev/2022/06/06/trojan-source/';
-        this.page.identifier = 'https://cheuk.dev/2022/06/06/trojan-source/';
+        this.page.url = 'https://cheuk.dev/2022/09/12/love-pandas/';
+        this.page.identifier = 'https://cheuk.dev/2022/09/12/love-pandas/';
       };
       (function() {
         var d = document, s = d.createElement('script');
@@ -315,17 +296,20 @@ should be replaced with your own Disqus site-id.
       
         
           
+          
+        
+          
             
               
                 <article class="related__post">
-                  <a class="related__link" href="https://cheuk.dev/2022/09/12/love-pandas/">
+                  <a class="related__link" href="https://cheuk.dev/2022/06/06/trojan-source/">
                     
                       <figure class="related__img">
-                        <img src="/assets/images/trojan-horse.png" alt="I Have to Confess I Still Love Pandas 🐼"/>
+                        <img src="/assets/images/trojan-horse.png" alt="Trojan Source Code (Can we trust open-source anymore?)"/>
                       </figure>
                     
                     <div>
-                      <h2 class="related__text">I Have to Confess I Still Love Pandas 🐼</h2>
+                      <h2 class="related__text">Trojan Source Code (Can we trust open-source anymore?)</h2>
                     </div>
                   </a>
                 </article>
@@ -336,9 +320,6 @@ should be replaced with your own Disqus site-id.
             
               
             
-          
-          
-        
           
           
         
