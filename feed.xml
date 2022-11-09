@@ -6,9 +6,116 @@
 </description>
     <link>https://cheuk.dev</link>
     <atom:link href="https://cheuk.dev/feed.xml" rel="self" type="application/rss+xml"/>
-    <pubDate>Tue, 01 Nov 2022 13:07:00 +0000</pubDate>
-    <lastBuildDate>Tue, 01 Nov 2022 13:07:00 +0000</lastBuildDate>
+    <pubDate>Wed, 09 Nov 2022 12:22:56 +0000</pubDate>
+    <lastBuildDate>Wed, 09 Nov 2022 12:22:56 +0000</lastBuildDate>
     <generator>Jekyll v3.8.7</generator>
+    
+      <item>
+        <title>PyCon SE and PyCon PL</title>
+        <description>&lt;p&gt;It is another time that I went to multiple events at a time! I started with PyCon Sweden in Stockholm and end up being in Gliwice for PyCon Poland.&lt;/p&gt;
+
+&lt;h2 id=&quot;day-0---arriving-in-stockholm&quot;&gt;Day 0 - Arriving in Stockholm&lt;/h2&gt;
+
+&lt;p&gt;I took an early flight from London and so happened that Nicholas is on the same flight, we were even on the same row! But we didn’t chat much on the flight as it was super early and I just doze off.&lt;/p&gt;
+
+&lt;p&gt;After we arrived, Nicholas was waiting to be picked up by his friend Kushal and I head on to take the train to the city. The connection from the Alanda Airport to the City is great! It is so fast and in a blink of an eye, I am in Central station.&lt;/p&gt;
+
+&lt;blockquote class=&quot;twitter-tweet&quot;&gt;&lt;p lang=&quot;en&quot; dir=&quot;ltr&quot;&gt;Good morning &lt;a href=&quot;https://twitter.com/pyconse?ref_src=twsrc%5Etfw&quot;&gt;@pyconse&lt;/a&gt; &lt;a href=&quot;https://twitter.com/hashtag/Stockholm?src=hash&amp;amp;ref_src=twsrc%5Etfw&quot;&gt;#Stockholm&lt;/a&gt; &lt;a href=&quot;https://t.co/lnyLQMW0i6&quot;&gt;pic.twitter.com/lnyLQMW0i6&lt;/a&gt;&lt;/p&gt;&amp;mdash; Kushal Das (@kushaldas) &lt;a href=&quot;https://twitter.com/kushaldas/status/1588049038254940161?ref_src=twsrc%5Etfw&quot;&gt;November 3, 2022&lt;/a&gt;&lt;/blockquote&gt;
+&lt;script async=&quot;&quot; src=&quot;https://platform.twitter.com/widgets.js&quot; charset=&quot;utf-8&quot;&gt;&lt;/script&gt;
+
+&lt;p&gt;After a short walk, I arrived at Gamla Stan, the old town area. This is a tourist area and got many museums. I had lunch and still got a bit of time before check-in so I went to the Nobel Price museum.&lt;/p&gt;
+
+&lt;p&gt;After that, I check in at the hotel. Have a few meetings and work a bit. Then I went to the conference venue, which is the same location as the hotel, to say hi to the organisers and help pack the swags for the attendees the next day.&lt;/p&gt;
+
+&lt;blockquote class=&quot;twitter-tweet&quot;&gt;&lt;p lang=&quot;en&quot; dir=&quot;ltr&quot;&gt;We are ready for &lt;a href=&quot;https://twitter.com/pyconse?ref_src=twsrc%5Etfw&quot;&gt;@pyconse&lt;/a&gt; &lt;a href=&quot;https://t.co/uD3n0cumCf&quot;&gt;pic.twitter.com/uD3n0cumCf&lt;/a&gt;&lt;/p&gt;&amp;mdash; Kushal Das (@kushaldas) &lt;a href=&quot;https://twitter.com/kushaldas/status/1588063394548142080?ref_src=twsrc%5Etfw&quot;&gt;November 3, 2022&lt;/a&gt;&lt;/blockquote&gt;
+&lt;script async=&quot;&quot; src=&quot;https://platform.twitter.com/widgets.js&quot; charset=&quot;utf-8&quot;&gt;&lt;/script&gt;
+
+&lt;p&gt;Later in the day, Mahe and Valerio arrived and it was so great to meet other colleagues. We went to a Swedish restaurant for dinner and had a good chat.&lt;/p&gt;
+
+&lt;h2 id=&quot;day-1---pycon-sweden&quot;&gt;Day 1 - PyCon Sweden&lt;/h2&gt;
+
+&lt;p&gt;The next day the conference started, after picking up my badge, I had breakfast before the opening of the conference. I am impressed that they have to pull up a full-size conference in a short time and congratulate the team who made it happen.&lt;/p&gt;
+
+&lt;blockquote class=&quot;twitter-tweet&quot;&gt;&lt;p lang=&quot;en&quot; dir=&quot;ltr&quot;&gt;Our chairwomen kicks of the &lt;a href=&quot;https://twitter.com/pyconse?ref_src=twsrc%5Etfw&quot;&gt;@pyconse&lt;/a&gt; &lt;a href=&quot;https://twitter.com/hashtag/community?src=hash&amp;amp;ref_src=twsrc%5Etfw&quot;&gt;#community&lt;/a&gt; &lt;a href=&quot;https://twitter.com/ThePSF?ref_src=twsrc%5Etfw&quot;&gt;@ThePSF&lt;/a&gt; &lt;a href=&quot;https://twitter.com/pyladies?ref_src=twsrc%5Etfw&quot;&gt;@pyladies&lt;/a&gt; &lt;a href=&quot;https://twitter.com/helioloureiro?ref_src=twsrc%5Etfw&quot;&gt;@helioloureiro&lt;/a&gt; &lt;a href=&quot;https://twitter.com/kushaldas?ref_src=twsrc%5Etfw&quot;&gt;@kushaldas&lt;/a&gt; &lt;a href=&quot;https://t.co/xviHlGr5z5&quot;&gt;pic.twitter.com/xviHlGr5z5&lt;/a&gt;&lt;/p&gt;&amp;mdash; Anwesha Das (@anweshasrkr) &lt;a href=&quot;https://twitter.com/anweshasrkr/status/1588081067415797762?ref_src=twsrc%5Etfw&quot;&gt;November 3, 2022&lt;/a&gt;&lt;/blockquote&gt;
+&lt;script async=&quot;&quot; src=&quot;https://platform.twitter.com/widgets.js&quot; charset=&quot;utf-8&quot;&gt;&lt;/script&gt;
+
+&lt;p&gt;We have our first keynote. Julien Simon from Hugging face is talking about how using the transformer on Hugging face can be very easy and accessible for coders who are not machine learning experts. He demonstrates object recognition for Swedish meatballs and tries to improve it by auto-train with more pictures of Swedish meatballs. The way he got the pictures of Swedish meatballs is not by scraping from the internet but by Stable Diffusion, an image generative model. Turns out Swedish meatballs are quite hard to generate.&lt;/p&gt;
+
+&lt;blockquote class=&quot;twitter-tweet&quot;&gt;&lt;p lang=&quot;en&quot; dir=&quot;ltr&quot;&gt;First keynote is about hugging face &lt;a href=&quot;https://twitter.com/pyconse?ref_src=twsrc%5Etfw&quot;&gt;@pyconse&lt;/a&gt; &lt;a href=&quot;https://t.co/MRrtOVv7rc&quot;&gt;pic.twitter.com/MRrtOVv7rc&lt;/a&gt;&lt;/p&gt;&amp;mdash; Cheuk Ting Ho at #PyDataNYC (@cheukting_ho) &lt;a href=&quot;https://twitter.com/cheukting_ho/status/1588087167850512385?ref_src=twsrc%5Etfw&quot;&gt;November 3, 2022&lt;/a&gt;&lt;/blockquote&gt;
+&lt;script async=&quot;&quot; src=&quot;https://platform.twitter.com/widgets.js&quot; charset=&quot;utf-8&quot;&gt;&lt;/script&gt;
+
+&lt;p&gt;After the keynote, it’s my talk. Since I have delivered this talk more than a few times now I am confident about it and it was done quite smoothly.&lt;/p&gt;
+
+&lt;blockquote class=&quot;twitter-tweet&quot;&gt;&lt;p lang=&quot;en&quot; dir=&quot;ltr&quot;&gt;Back to testing and hypothesis testing with &lt;a href=&quot;https://twitter.com/cheukting_ho?ref_src=twsrc%5Etfw&quot;&gt;@cheukting_ho&lt;/a&gt; at &lt;a href=&quot;https://twitter.com/hashtag/pyconse?src=hash&amp;amp;ref_src=twsrc%5Etfw&quot;&gt;#pyconse&lt;/a&gt; &lt;a href=&quot;https://twitter.com/hashtag/python?src=hash&amp;amp;ref_src=twsrc%5Etfw&quot;&gt;#python&lt;/a&gt; &lt;a href=&quot;https://t.co/hjfjDpURQo&quot;&gt;pic.twitter.com/hjfjDpURQo&lt;/a&gt;&lt;/p&gt;&amp;mdash; Vasyl Dizhak (@rootart) &lt;a href=&quot;https://twitter.com/rootart/status/1588113028242984966?ref_src=twsrc%5Etfw&quot;&gt;November 3, 2022&lt;/a&gt;&lt;/blockquote&gt;
+&lt;script async=&quot;&quot; src=&quot;https://platform.twitter.com/widgets.js&quot; charset=&quot;utf-8&quot;&gt;&lt;/script&gt;
+
+&lt;p&gt;Then I went back to my hotel room to prepare my new talk for PyCon Poland. I head back around lunchtime and forgot about the speaker photos that I am supposed to take with all the speakers at lunch. Turns out all of us forgot and no one from Anaconda remembers to be there for the speaker photos. Oops.&lt;/p&gt;
+
+&lt;iframe src=&quot;https://www.linkedin.com/embed/feed/update/urn:li:share:6994063411810562048&quot; height=&quot;740&quot; width=&quot;504&quot; frameborder=&quot;0&quot; allowfullscreen=&quot;&quot; title=&quot;Embedded post&quot;&gt;&lt;/iframe&gt;
+
+&lt;p&gt;After lunch, I chat with some people and then head back to the hotel room for more meetings. It is a busy week! After that, the Anaconda team regroup for dinner. We went for the recommendation from the reception and went to a traditional Swedish pub next door. It’s the only day that all the folks from Anaconda at PyCon Sweden sit together for dinner and we have some good chats and some &lt;strong&gt;secret&lt;/strong&gt; ideas for April Fool’s day.&lt;/p&gt;
+
+&lt;h2 id=&quot;day-2---goodbye-stockholm-hello-gliwice&quot;&gt;Day 2 - Goodbye Stockholm, Hello Gliwice&lt;/h2&gt;
+
+&lt;p&gt;On the second day of PyCon Sweden, we start with a sponsored keynote. I also got the chance to finish up my new talk at PyCon Poland. I stay in the hall and chat with people after the keynote then head back to my hotel room to pack up and check out. Unfortunately, I have to leave early for Poland and miss all the great talks and workshops by the Anaconda team.&lt;/p&gt;
+
+&lt;blockquote class=&quot;twitter-tweet&quot;&gt;&lt;p lang=&quot;en&quot; dir=&quot;ltr&quot;&gt;Our next speaker is ntoll talking about &lt;a href=&quot;https://twitter.com/pyscript_dev?ref_src=twsrc%5Etfw&quot;&gt;@pyscript_dev&lt;/a&gt; and introduced by Py. &lt;a href=&quot;https://twitter.com/pyconse?ref_src=twsrc%5Etfw&quot;&gt;@pyconse&lt;/a&gt; &lt;a href=&quot;https://twitter.com/ThePSF?ref_src=twsrc%5Etfw&quot;&gt;@ThePSF&lt;/a&gt; &lt;a href=&quot;https://twitter.com/anacondainc?ref_src=twsrc%5Etfw&quot;&gt;@anacondainc&lt;/a&gt; &lt;a href=&quot;https://t.co/hRJnuKlBZT&quot;&gt;pic.twitter.com/hRJnuKlBZT&lt;/a&gt;&lt;/p&gt;&amp;mdash; Kushal Das (@kushaldas) &lt;a href=&quot;https://twitter.com/kushaldas/status/1588542493003780096?ref_src=twsrc%5Etfw&quot;&gt;November 4, 2022&lt;/a&gt;&lt;/blockquote&gt;
+&lt;script async=&quot;&quot; src=&quot;https://platform.twitter.com/widgets.js&quot; charset=&quot;utf-8&quot;&gt;&lt;/script&gt;
+
+&lt;p&gt;The travel to the airport and the airport experience has been great! Thanks to the very nice public transpiration in Stockholm. I am afraid things won’t be that easy for Poland.&lt;/p&gt;
+
+&lt;p&gt;I have a bit more than an hour waiting at the gate, so I had lunch at the airport. I am starting to feel a bit under the weather so I sit down and rest before my flight. Luckily the flight is on time and I arrived at Krakow airport in time to catch the only bus that go directly from Krakow airport to Gliwice.&lt;/p&gt;
+
+&lt;p&gt;After waiting for a bit and learnt that Polish bus drivers are not people you want to mess with. I get on the right bus and started the almost 2 hours bus ride to Gliwice. When I arrived, I took a short walk to the hotel that the organisers provide and checked in. As I am still a bit unwell, I don’t feel like socialising for that night and need some rest. I went for a quick dinner nearby and head back to the hotel for more rest.&lt;/p&gt;
+
+&lt;h2 id=&quot;day-3---pycon-poland&quot;&gt;Day 3 - PyCon Poland&lt;/h2&gt;
+
+&lt;p&gt;At breakfast, I met some familiar faces, Laysa from Munich and Maho who we met at PyCon FR years ago.&lt;/p&gt;
+
+&lt;blockquote class=&quot;twitter-tweet&quot;&gt;&lt;p lang=&quot;en&quot; dir=&quot;ltr&quot;&gt;LOOK who I found at &lt;a href=&quot;https://twitter.com/pyconpl?ref_src=twsrc%5Etfw&quot;&gt;@pyconpl&lt;/a&gt; 2022!&lt;br /&gt;&lt;br /&gt; Happy to meet with &lt;a href=&quot;https://twitter.com/cheukting_ho?ref_src=twsrc%5Etfw&quot;&gt;@cheukting_ho&lt;/a&gt; ☺️ &lt;a href=&quot;https://t.co/NPh00tAc0O&quot;&gt;pic.twitter.com/NPh00tAc0O&lt;/a&gt;&lt;/p&gt;&amp;mdash; laysauchoa (@laysauchoa) &lt;a href=&quot;https://twitter.com/laysauchoa/status/1589161219260551169?ref_src=twsrc%5Etfw&quot;&gt;November 6, 2022&lt;/a&gt;&lt;/blockquote&gt;
+&lt;script async=&quot;&quot; src=&quot;https://platform.twitter.com/widgets.js&quot; charset=&quot;utf-8&quot;&gt;&lt;/script&gt;
+
+&lt;p&gt;PyCon Poland already started 2 days ago so I join on day 3 of the conference. The vibe of the conference is so different from that of Sweden. It’s in a university building and people are super chill. Sponsors got a lot of swag to give away which is a huge contract to the sponsor booths from PyCon Sweden.&lt;/p&gt;
+
+&lt;blockquote class=&quot;twitter-tweet&quot;&gt;&lt;p lang=&quot;en&quot; dir=&quot;ltr&quot;&gt;If you are at &lt;a href=&quot;https://twitter.com/hashtag/pyconpl?src=hash&amp;amp;ref_src=twsrc%5Etfw&quot;&gt;#pyconpl&lt;/a&gt; 2022, come say Hi 👋 to our sponsors!&lt;a href=&quot;https://twitter.com/RevolutApp?ref_src=twsrc%5Etfw&quot;&gt;@RevolutApp&lt;/a&gt;&lt;br /&gt; scalosoft .com &lt;a href=&quot;https://t.co/VQFVkjymrR&quot;&gt;pic.twitter.com/VQFVkjymrR&lt;/a&gt;&lt;/p&gt;&amp;mdash; PyCon PL (@pyconpl) &lt;a href=&quot;https://twitter.com/pyconpl/status/1588535120411389952?ref_src=twsrc%5Etfw&quot;&gt;November 4, 2022&lt;/a&gt;&lt;/blockquote&gt;
+&lt;script async=&quot;&quot; src=&quot;https://platform.twitter.com/widgets.js&quot; charset=&quot;utf-8&quot;&gt;&lt;/script&gt;
+
+&lt;p&gt;I got my badge and sit in the hall to work on my workshop for PyData next week. Then I chat with Filipe who is the main organiser of the conference. Later we had lunch when Laysa join me and also I met Tonis who is one of the organisers of PyCon Estonia.&lt;/p&gt;
+
+&lt;blockquote class=&quot;twitter-tweet&quot;&gt;&lt;p lang=&quot;en&quot; dir=&quot;ltr&quot;&gt;Coffee break &lt;a href=&quot;https://twitter.com/pyconpl?ref_src=twsrc%5Etfw&quot;&gt;@pyconpl&lt;/a&gt; &lt;a href=&quot;https://t.co/57bKPNQZAi&quot;&gt;pic.twitter.com/57bKPNQZAi&lt;/a&gt;&lt;/p&gt;&amp;mdash; Cheuk Ting Ho at #PyDataNYC (@cheukting_ho) &lt;a href=&quot;https://twitter.com/cheukting_ho/status/1588851178540265473?ref_src=twsrc%5Etfw&quot;&gt;November 5, 2022&lt;/a&gt;&lt;/blockquote&gt;
+&lt;script async=&quot;&quot; src=&quot;https://platform.twitter.com/widgets.js&quot; charset=&quot;utf-8&quot;&gt;&lt;/script&gt;
+
+&lt;p&gt;I gave my talk in the afternoon. It is a new talk and Artur (my friend from EuroPython) later told me that I got typos in the slides (Oops.. which is quite common for new talks) and people are interested in the topic of no GIL and making Python fast.&lt;/p&gt;
+
+&lt;p&gt;After my talk, I sit and chat with two Armenians and you rarely meet someone in tech from Armenia. We talk about a lot of stuff including the harsh topic of global politics.&lt;/p&gt;
+
+&lt;blockquote class=&quot;twitter-tweet&quot;&gt;&lt;p lang=&quot;pl&quot; dir=&quot;ltr&quot;&gt;Dzień dobry! Good morning! &lt;a href=&quot;https://twitter.com/hashtag/pyconpl?src=hash&amp;amp;ref_src=twsrc%5Etfw&quot;&gt;#pyconpl&lt;/a&gt; 2022 &lt;a href=&quot;https://t.co/edIIZR7sN1&quot;&gt;https://t.co/edIIZR7sN1&lt;/a&gt;&lt;/p&gt;&amp;mdash; PyCon PL (@pyconpl) &lt;a href=&quot;https://twitter.com/pyconpl/status/1589222751696736256?ref_src=twsrc%5Etfw&quot;&gt;November 6, 2022&lt;/a&gt;&lt;/blockquote&gt;
+&lt;script async=&quot;&quot; src=&quot;https://platform.twitter.com/widgets.js&quot; charset=&quot;utf-8&quot;&gt;&lt;/script&gt;
+
+&lt;p&gt;Before the end of the day for the conference. I need some food (I only had soup at lunch). So I went with Laysa and Tonis for food and drinks. Later, we go to the social event venue and there are board games. Laysa brought her own game and she play it with Tonis and some other friends. I prefer to chat with Artur and his friends at the conference. We talk about what PyCon Poland was and could be in the future and the horrible Polish trains.&lt;/p&gt;
+
+&lt;blockquote class=&quot;twitter-tweet&quot;&gt;&lt;p lang=&quot;en&quot; dir=&quot;ltr&quot;&gt;Social event for &lt;a href=&quot;https://twitter.com/hashtag/pyconpl?src=hash&amp;amp;ref_src=twsrc%5Etfw&quot;&gt;#pyconpl&lt;/a&gt; 2022 is happening now! Who is up for some boarding games?! &lt;br /&gt;&lt;br /&gt;🤪 &lt;a href=&quot;https://t.co/pN3m3cztZm&quot;&gt;pic.twitter.com/pN3m3cztZm&lt;/a&gt;&lt;/p&gt;&amp;mdash; PyCon PL (@pyconpl) &lt;a href=&quot;https://twitter.com/pyconpl/status/1588983943319068672?ref_src=twsrc%5Etfw&quot;&gt;November 5, 2022&lt;/a&gt;&lt;/blockquote&gt;
+&lt;script async=&quot;&quot; src=&quot;https://platform.twitter.com/widgets.js&quot; charset=&quot;utf-8&quot;&gt;&lt;/script&gt;
+
+&lt;h2 id=&quot;day-4---closing-of-pycon-poland&quot;&gt;Day 4 - Closing of PyCon Poland&lt;/h2&gt;
+
+&lt;p&gt;The last day of PyCon Poland started with my talk. I am speaking twice in PyCon Poland this year. It’s about PyScript and I got a lot of people, including Maho interested in the topic and he was curious about the development of Python in the browser.&lt;/p&gt;
+
+&lt;p&gt;After my talk, I am more or less done with the conference and since the weather is super nice. I took a walk with Artur at the park and back to the conference for lighting talks. Most people already left as it is Sunday and the conference is only half a day. Since I have a flight to catch, after the closing and saying goodbye to the organisers, I had a quick lunch and headed to the airport.&lt;/p&gt;
+
+&lt;blockquote class=&quot;twitter-tweet&quot;&gt;&lt;p lang=&quot;en&quot; dir=&quot;ltr&quot;&gt;Thank you &lt;a href=&quot;https://twitter.com/pyconpl?ref_src=twsrc%5Etfw&quot;&gt;@pyconpl&lt;/a&gt; and mark down 29th June to 2nd July for the next one &lt;a href=&quot;https://t.co/itDxEFglj9&quot;&gt;pic.twitter.com/itDxEFglj9&lt;/a&gt;&lt;/p&gt;&amp;mdash; Cheuk Ting Ho at #PyDataNYC (@cheukting_ho) &lt;a href=&quot;https://twitter.com/cheukting_ho/status/1589250358953807875?ref_src=twsrc%5Etfw&quot;&gt;November 6, 2022&lt;/a&gt;&lt;/blockquote&gt;
+&lt;script async=&quot;&quot; src=&quot;https://platform.twitter.com/widgets.js&quot; charset=&quot;utf-8&quot;&gt;&lt;/script&gt;
+
+&lt;p&gt;Back home, I need some rest before heading to PyData New York in 2 days.&lt;/p&gt;
+</description>
+        <pubDate>Sun, 06 Nov 2022 00:00:00 +0000</pubDate>
+        <link>https://cheuk.dev/2022/11/06/pyconse-pyconpl/</link>
+        <guid isPermaLink="true">https://cheuk.dev/2022/11/06/pyconse-pyconpl/</guid>
+        
+        <category>Conference</category>
+        
+        
+      </item>
     
       <item>
         <title>PyScript Dojo at PyLadies London</title>
