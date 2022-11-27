@@ -86,7 +86,7 @@ In the afternoon I mostly talk with folks in the hallway. I got a lot of insight
 
 I end the first day of the conference by giving a Lightning talk about Humble Data at PyCon Ghana. Many people come to talk to me after about that and the feedback is positive.
 
-## Day 4 - PyCon Ireland Day 2
+## Day 5 - PyCon Ireland Day 2
 
 On day 2, I overslept a bit as the jet lag of coming back from New York is still in effect. I got my talk ready and then have lunch sitting with a girl from Argentina who just moved to Dublin. Dublin is a tech hub that attracts tech talents around the world.
 
