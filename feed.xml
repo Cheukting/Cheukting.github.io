@@ -6,9 +6,120 @@
 </description>
     <link>https://cheuk.dev</link>
     <atom:link href="https://cheuk.dev/feed.xml" rel="self" type="application/rss+xml"/>
-    <pubDate>Sun, 27 Nov 2022 01:26:24 +0000</pubDate>
-    <lastBuildDate>Sun, 27 Nov 2022 01:26:24 +0000</lastBuildDate>
+    <pubDate>Fri, 02 Dec 2022 17:22:17 +0000</pubDate>
+    <lastBuildDate>Fri, 02 Dec 2022 17:22:17 +0000</lastBuildDate>
     <generator>Jekyll v3.8.7</generator>
+    
+      <item>
+        <title>PyBerlin and PyDay BCN</title>
+        <description>&lt;p&gt;I was thinking about what I have in common in visiting Berlin and Barcelona (besides both cities’ name starts with B). I figured something. In Berlin, I gave a talk about Numba and run a PyScript workshop. In Barcelona, I give a Numba workshop and convinced some people to try PyScript. So can this be a Numba + PyScript trip?&lt;/p&gt;
+
+&lt;h2 id=&quot;day-1---pyberlin-day-1&quot;&gt;Day 1 - PyBerlin Day 1&lt;/h2&gt;
+
+&lt;p&gt;After my early flight to Berlin, I arrived at the office. I checked in and stay on the 1st floor where I prepared for my talk in the evening. I do not mix with colleagues on the 3rd as I am still a bit unwell and afraid I may spread the cold to others. I also skip lunch gathering and head to check in to the hotel early to get a bit of rest before the meetup in the evening.&lt;/p&gt;
+
+&lt;p&gt;In the evening I took the S-bahn to the venue. It is in a very nice and chill part of the city. After the opening and a talk by the sponsor. I gave my talk about Numba. The recording is available.&lt;/p&gt;
+
+&lt;blockquote class=&quot;twitter-tweet&quot;&gt;&lt;p lang=&quot;en&quot; dir=&quot;ltr&quot;&gt;Super excited for &lt;a href=&quot;https://twitter.com/cheukting_ho?ref_src=twsrc%5Etfw&quot;&gt;@cheukting_ho&lt;/a&gt; speaking about &lt;a href=&quot;https://twitter.com/hashtag/numba?src=hash&amp;amp;ref_src=twsrc%5Etfw&quot;&gt;#numba&lt;/a&gt; at &lt;a href=&quot;https://twitter.com/PyBerlinPython?ref_src=twsrc%5Etfw&quot;&gt;@PyBerlinPython&lt;/a&gt;! &lt;a href=&quot;https://twitter.com/hashtag/python?src=hash&amp;amp;ref_src=twsrc%5Etfw&quot;&gt;#python&lt;/a&gt; &lt;a href=&quot;https://t.co/i4CrOj9kuB&quot;&gt;pic.twitter.com/i4CrOj9kuB&lt;/a&gt;&lt;/p&gt;&amp;mdash; daniel ❤️😍😏😏😏 (@misterrios) &lt;a href=&quot;https://twitter.com/misterrios/status/1595479577828245510?ref_src=twsrc%5Etfw&quot;&gt;November 23, 2022&lt;/a&gt;&lt;/blockquote&gt;
+&lt;script async=&quot;&quot; src=&quot;https://platform.twitter.com/widgets.js&quot; charset=&quot;utf-8&quot;&gt;&lt;/script&gt;
+
+&lt;p&gt;Next, we have a small break and we attempt to connect with PyMunich it’s great to see some familiar faces on the screen. I like the community in Germany as they are all very connected instead of individual meetups in different cities.&lt;/p&gt;
+
+&lt;blockquote class=&quot;twitter-tweet&quot; data-conversation=&quot;none&quot;&gt;&lt;p lang=&quot;en&quot; dir=&quot;ltr&quot;&gt;Hello &lt;a href=&quot;https://twitter.com/PyMunich?ref_src=twsrc%5Etfw&quot;&gt;@PyMunich&lt;/a&gt; ! &lt;a href=&quot;https://twitter.com/laysauchoa?ref_src=twsrc%5Etfw&quot;&gt;@laysauchoa&lt;/a&gt; I saw you &lt;a href=&quot;https://t.co/bm8HDNj8Jx&quot;&gt;pic.twitter.com/bm8HDNj8Jx&lt;/a&gt;&lt;/p&gt;&amp;mdash; Cheuk Ting Ho (@cheukting_ho) &lt;a href=&quot;https://twitter.com/cheukting_ho/status/1595475088316538881?ref_src=twsrc%5Etfw&quot;&gt;November 23, 2022&lt;/a&gt;&lt;/blockquote&gt;
+&lt;script async=&quot;&quot; src=&quot;https://platform.twitter.com/widgets.js&quot; charset=&quot;utf-8&quot;&gt;&lt;/script&gt;
+
+&lt;p&gt;Then there are other talks. I got a chance to meet a few people that I know and met at PyCon DE. It’s nice being there but I didn’t stay for too long as I have to head back to the hotel and get the rest I needed. It will be a long week.&lt;/p&gt;
+
+&lt;h2 id=&quot;day-2---pyberlin-day-2&quot;&gt;Day 2 - PyBerlin Day 2&lt;/h2&gt;
+
+&lt;p&gt;Today is event number 2. Originally I plan to go to the office but I am still not feeling 100% and also there’s a lot of work to do. I opted to stay in the hotel and get my video rendered. I also have a final check with the material that we are using at the PyScript workshop at night.&lt;/p&gt;
+
+&lt;p&gt;I head to the meetup place, which is located at a different place than event number 1. It is in the south of where I stay. I took the U-bahn to get there.&lt;/p&gt;
+
+&lt;blockquote class=&quot;twitter-tweet&quot;&gt;&lt;p lang=&quot;en&quot; dir=&quot;ltr&quot;&gt;Welcome to &lt;a href=&quot;https://twitter.com/PyBerlinPython?ref_src=twsrc%5Etfw&quot;&gt;@PyBerlinPython&lt;/a&gt; again! Day 2… now it is similar to a conference &lt;a href=&quot;https://t.co/T8fL1YSgn7&quot;&gt;pic.twitter.com/T8fL1YSgn7&lt;/a&gt;&lt;/p&gt;&amp;mdash; Cheuk Ting Ho (@cheukting_ho) &lt;a href=&quot;https://twitter.com/cheukting_ho/status/1595834508611358725?ref_src=twsrc%5Etfw&quot;&gt;November 24, 2022&lt;/a&gt;&lt;/blockquote&gt;
+&lt;script async=&quot;&quot; src=&quot;https://platform.twitter.com/widgets.js&quot; charset=&quot;utf-8&quot;&gt;&lt;/script&gt;
+
+&lt;p&gt;At the meetup, it is like a classroom setting where people got a tiny desks to work. We start with an introductory talk by Antonio my colleague who is in the PyScript team. Then we introduce the hands-on workshop. People can work either on their own or in groups.&lt;/p&gt;
+
+&lt;blockquote class=&quot;twitter-tweet&quot;&gt;&lt;p lang=&quot;en&quot; dir=&quot;ltr&quot;&gt;PyScript workshop is already in progress 🎙️🐍✨ Thank you &lt;a href=&quot;https://twitter.com/antocuni?ref_src=twsrc%5Etfw&quot;&gt;@antocuni&lt;/a&gt; and &lt;a href=&quot;https://twitter.com/cheukting_ho?ref_src=twsrc%5Etfw&quot;&gt;@cheukting_ho&lt;/a&gt; &lt;a href=&quot;https://t.co/iPwJO90mQN&quot;&gt;pic.twitter.com/iPwJO90mQN&lt;/a&gt;&lt;/p&gt;&amp;mdash; PyBerlin (@PyBerlinPython) &lt;a href=&quot;https://twitter.com/PyBerlinPython/status/1595848395490746368?ref_src=twsrc%5Etfw&quot;&gt;November 24, 2022&lt;/a&gt;&lt;/blockquote&gt;
+&lt;script async=&quot;&quot; src=&quot;https://platform.twitter.com/widgets.js&quot; charset=&quot;utf-8&quot;&gt;&lt;/script&gt;
+
+&lt;p&gt;The meetup is very chill. My friends are also there so we had a good time chatting about the future event and conference plans, work to be done within the community etc.&lt;/p&gt;
+
+&lt;h2 id=&quot;day-3---barcelona-here-we-go&quot;&gt;Day 3 - Barcelona here we go&lt;/h2&gt;
+
+&lt;p&gt;It is a travel day! So I pack up and check out on time to head to the airport. The experience at the new Berlin airport is now bad and I got to Barcelona on time. It is my first time in the city. The first thing I notice is that I do not recognise any words at the airport. Then I realise that the words on the first row are Catalan and the second is Spanish, then English. In Barcelona, their first language is Catalan.&lt;/p&gt;
+
+&lt;p&gt;Another thing is, most people here speak English. So they speak at least 3 languages - Catalan, Spanish and English. It reminds me of back home in Hong Kong where people speak 3 different languages at various levels.&lt;/p&gt;
+
+&lt;p&gt;I follow Google’s advice and get an airport shuttle bus to the city. Then I took a metro to the hotel I am in. I am staying close to the PyDay venue instead of the city centre which I think it’s a good decision.&lt;/p&gt;
+
+&lt;p&gt;After checking in. I spend most of the time planning on Pyjamas Conf which is happening the next day. I am a bit nervous as I have to run both an online conference and give a workshop at the same time the next day. I am glad that I have friends to help and they are so reliable that I can trust them with many things.&lt;/p&gt;
+
+&lt;h2 id=&quot;day-4---pyday-bcn-and-pyjamas-conf&quot;&gt;Day 4 - PyDay BCN and Pyjamas Conf&lt;/h2&gt;
+
+&lt;p&gt;It’s the big day! In the morning, I wake up early, have breakfast then prepare to start Pyjamas Conf. After the opening and a technical issue with the first speaker. I entrust most of the operation with my friend Martin and Cristián. Then I head to the PyDay venue which is only 15 mins walk from the hotel.&lt;/p&gt;
+
+&lt;blockquote class=&quot;twitter-tweet&quot;&gt;&lt;p lang=&quot;en&quot; dir=&quot;ltr&quot;&gt;&lt;a href=&quot;https://twitter.com/PyjamasConf?ref_src=twsrc%5Etfw&quot;&gt;@PyjamasConf&lt;/a&gt; 😀Great topics and great insights!!! &lt;a href=&quot;https://t.co/nh5G7DKTvy&quot;&gt;pic.twitter.com/nh5G7DKTvy&lt;/a&gt;&lt;/p&gt;&amp;mdash; Samantha Haak (@samyhaak) &lt;a href=&quot;https://twitter.com/samyhaak/status/1596486121542012928?ref_src=twsrc%5Etfw&quot;&gt;November 26, 2022&lt;/a&gt;&lt;/blockquote&gt;
+&lt;script async=&quot;&quot; src=&quot;https://platform.twitter.com/widgets.js&quot; charset=&quot;utf-8&quot;&gt;&lt;/script&gt;
+
+&lt;p&gt;I went to the venue. After introducing myself to the organisers. I have a look around. It is a very interesting place. It is inside a tiny stadium that has been repurposed. But they still have a big terrace that we can use to take group pictures and socialise.&lt;/p&gt;
+
+&lt;blockquote class=&quot;twitter-tweet&quot; data-conversation=&quot;none&quot;&gt;&lt;p lang=&quot;en&quot; dir=&quot;ltr&quot;&gt;Thank you all for attending the &lt;a href=&quot;https://twitter.com/hashtag/PyDayBCN?src=hash&amp;amp;ref_src=twsrc%5Etfw&quot;&gt;#PyDayBCN&lt;/a&gt;!! 🥰 &lt;a href=&quot;https://t.co/aJYf3L9TVZ&quot;&gt;pic.twitter.com/aJYf3L9TVZ&lt;/a&gt;&lt;/p&gt;&amp;mdash; Python Barcelona (@PyBCN) &lt;a href=&quot;https://twitter.com/PyBCN/status/1596567778798014466?ref_src=twsrc%5Etfw&quot;&gt;November 26, 2022&lt;/a&gt;&lt;/blockquote&gt;
+&lt;script async=&quot;&quot; src=&quot;https://platform.twitter.com/widgets.js&quot; charset=&quot;utf-8&quot;&gt;&lt;/script&gt;
+
+&lt;p&gt;Then I sit down and pull out my laptop. I try to keep an eye on Pyjamas Conf’s live stream while socialising with people when I have a chance. I also want to practice my Spanish a bit.&lt;/p&gt;
+
+&lt;blockquote class=&quot;twitter-tweet&quot; data-conversation=&quot;none&quot;&gt;&lt;p lang=&quot;en&quot; dir=&quot;ltr&quot;&gt;Had a great lunch! 🍴 &lt;a href=&quot;https://t.co/BYCIaGN2vw&quot;&gt;pic.twitter.com/BYCIaGN2vw&lt;/a&gt;&lt;/p&gt;&amp;mdash; Python Barcelona (@PyBCN) &lt;a href=&quot;https://twitter.com/PyBCN/status/1596494809623326720?ref_src=twsrc%5Etfw&quot;&gt;November 26, 2022&lt;/a&gt;&lt;/blockquote&gt;
+&lt;script async=&quot;&quot; src=&quot;https://platform.twitter.com/widgets.js&quot; charset=&quot;utf-8&quot;&gt;&lt;/script&gt;
+
+&lt;p&gt;When it’s time for my talk. I give my full attention to it. It’s again Numba. But this time it’s a workshop so people have time to work on it and ask questions.&lt;/p&gt;
+
+&lt;blockquote class=&quot;twitter-tweet&quot;&gt;&lt;p lang=&quot;es&quot; dir=&quot;ltr&quot;&gt;Cómo puede ser que &lt;a href=&quot;https://twitter.com/cheukting_ho?ref_src=twsrc%5Etfw&quot;&gt;@cheukting_ho&lt;/a&gt; tan guay!&lt;br /&gt;Hoy se divide entre el &lt;a href=&quot;https://twitter.com/hashtag/pyday?src=hash&amp;amp;ref_src=twsrc%5Etfw&quot;&gt;#pyday&lt;/a&gt; y la &lt;a href=&quot;https://twitter.com/PyjamasConf?ref_src=twsrc%5Etfw&quot;&gt;@PyjamasConf&lt;/a&gt; y además nos enseña a hacer Python más rápido 👏🏻👏🏻 &lt;a href=&quot;https://t.co/KeivgIocVF&quot;&gt;pic.twitter.com/KeivgIocVF&lt;/a&gt;&lt;/p&gt;&amp;mdash; Jimena (@Jimena_y_yo) &lt;a href=&quot;https://twitter.com/Jimena_y_yo/status/1596543834414256129?ref_src=twsrc%5Etfw&quot;&gt;November 26, 2022&lt;/a&gt;&lt;/blockquote&gt;
+&lt;script async=&quot;&quot; src=&quot;https://platform.twitter.com/widgets.js&quot; charset=&quot;utf-8&quot;&gt;&lt;/script&gt;
+
+&lt;p&gt;After that, I attended the lighting talk session and the closing. It ended with a fun quiz. After the conference, the organisers invited me for a drink later in the evening. Since it is near the hotel I plan to attend after checking if Pyjamas Conf is streaming fine at the hotel.&lt;/p&gt;
+
+&lt;blockquote class=&quot;twitter-tweet&quot;&gt;&lt;p lang=&quot;en&quot; dir=&quot;ltr&quot;&gt;Congratulations to the quiz winner. Thank you so much for &lt;a href=&quot;https://twitter.com/hashtag/PyDayBCN?src=hash&amp;amp;ref_src=twsrc%5Etfw&quot;&gt;#PyDayBCN&lt;/a&gt; &lt;a href=&quot;https://twitter.com/PyBCN?ref_src=twsrc%5Etfw&quot;&gt;@PyBCN&lt;/a&gt; &lt;a href=&quot;https://t.co/UBhrcbWy35&quot;&gt;pic.twitter.com/UBhrcbWy35&lt;/a&gt;&lt;/p&gt;&amp;mdash; Cheuk Ting Ho (@cheukting_ho) &lt;a href=&quot;https://twitter.com/cheukting_ho/status/1596551527434518530?ref_src=twsrc%5Etfw&quot;&gt;November 26, 2022&lt;/a&gt;&lt;/blockquote&gt;
+&lt;script async=&quot;&quot; src=&quot;https://platform.twitter.com/widgets.js&quot; charset=&quot;utf-8&quot;&gt;&lt;/script&gt;
+
+&lt;p&gt;After checking with Cristián that he can handle it while I am away, I have a few beers with the organisers. They are super nice and because I am there, they have to say everything twice - in Spanish and then in English. But I do like hanging out with them I try to speak a bit of Spanish but I am still not good enough to have a conversation with them. However, I managed to speak about PyScript to a few organisers and they know that we have passed the alpha stage and are excited to give it a try soon.&lt;/p&gt;
+
+&lt;blockquote class=&quot;twitter-tweet&quot;&gt;&lt;p lang=&quot;en&quot; dir=&quot;ltr&quot;&gt;We love &lt;a href=&quot;https://twitter.com/cmaureir?ref_src=twsrc%5Etfw&quot;&gt;@cmaureir&lt;/a&gt; because is hosting our sessions 🙈💖💖 &lt;a href=&quot;https://twitter.com/hashtag/pyjamas?src=hash&amp;amp;ref_src=twsrc%5Etfw&quot;&gt;#pyjamas&lt;/a&gt; &lt;a href=&quot;https://twitter.com/cheukting_ho?ref_src=twsrc%5Etfw&quot;&gt;@cheukting_ho&lt;/a&gt; 🍻 &lt;a href=&quot;https://t.co/1B6eehPvla&quot;&gt;pic.twitter.com/1B6eehPvla&lt;/a&gt;&lt;/p&gt;&amp;mdash; Jimena (@Jimena_y_yo) &lt;a href=&quot;https://twitter.com/Jimena_y_yo/status/1596652402387865600?ref_src=twsrc%5Etfw&quot;&gt;November 26, 2022&lt;/a&gt;&lt;/blockquote&gt;
+&lt;script async=&quot;&quot; src=&quot;https://platform.twitter.com/widgets.js&quot; charset=&quot;utf-8&quot;&gt;&lt;/script&gt;
+
+&lt;p&gt;After that, I head back to the hotel to “drive” Pyjamas Conf till Cristián woke up again in the morning. With help of volunteer hosts, it is not too hard to stay awake and monitor the situation. Except that we had one speaker missing everything was fine. We have a backup for that which is good.&lt;/p&gt;
+
+&lt;h2 id=&quot;day-5---recover-from-pyjamas-conf&quot;&gt;Day 5 - Recover from Pyjamas Conf&lt;/h2&gt;
+
+&lt;p&gt;I carried on till the next day. I managed to get a tiny nap when we have a technical break between streams but things get much easier when Cristián arrived. I bit he was tired too but he insisted to help. Then when all is done, I gave the closing and now it’s time for a good rest.&lt;/p&gt;
+
+&lt;blockquote class=&quot;twitter-tweet&quot;&gt;&lt;p lang=&quot;en&quot; dir=&quot;ltr&quot;&gt;Good morning! nothing better than waking up really early to continue following &lt;a href=&quot;https://twitter.com/PyjamasConf?ref_src=twsrc%5Etfw&quot;&gt;@PyjamasConf&lt;/a&gt; ! if you are still around, or opening your eyes, drop by the stream! &lt;a href=&quot;https://t.co/QY72HWLBBj&quot;&gt;https://t.co/QY72HWLBBj&lt;/a&gt; &lt;a href=&quot;https://twitter.com/hashtag/pyjamas?src=hash&amp;amp;ref_src=twsrc%5Etfw&quot;&gt;#pyjamas&lt;/a&gt; &lt;a href=&quot;https://twitter.com/hashtag/python?src=hash&amp;amp;ref_src=twsrc%5Etfw&quot;&gt;#python&lt;/a&gt; &lt;a href=&quot;https://twitter.com/hashtag/community?src=hash&amp;amp;ref_src=twsrc%5Etfw&quot;&gt;#community&lt;/a&gt;&lt;/p&gt;&amp;mdash; 「Cristián」 (@cmaureir) &lt;a href=&quot;https://twitter.com/cmaureir/status/1596739529578545152?ref_src=twsrc%5Etfw&quot;&gt;November 27, 2022&lt;/a&gt;&lt;/blockquote&gt;
+&lt;script async=&quot;&quot; src=&quot;https://platform.twitter.com/widgets.js&quot; charset=&quot;utf-8&quot;&gt;&lt;/script&gt;
+
+&lt;p&gt;When I woke up in the afternoon, I need to treat myself so I went to the city centre and have a bubble tea. It is not planned but I happened to see my favourite bubble tea chain in Barcelona and I cannot resists getting one there.&lt;/p&gt;
+
+&lt;blockquote class=&quot;twitter-tweet&quot;&gt;&lt;p lang=&quot;en&quot; dir=&quot;ltr&quot;&gt;My treat after the 24-HR &lt;a href=&quot;https://twitter.com/PyjamasConf?ref_src=twsrc%5Etfw&quot;&gt;@PyjamasConf&lt;/a&gt; &lt;a href=&quot;https://t.co/DTfT1MIT0l&quot;&gt;pic.twitter.com/DTfT1MIT0l&lt;/a&gt;&lt;/p&gt;&amp;mdash; Cheuk Ting Ho (@cheukting_ho) &lt;a href=&quot;https://twitter.com/cheukting_ho/status/1596857978660876288?ref_src=twsrc%5Etfw&quot;&gt;November 27, 2022&lt;/a&gt;&lt;/blockquote&gt;
+&lt;script async=&quot;&quot; src=&quot;https://platform.twitter.com/widgets.js&quot; charset=&quot;utf-8&quot;&gt;&lt;/script&gt;
+
+&lt;p&gt;I also got a chance to check out the city and have dinner. I like it, especially the beautiful buildings by Antoni Gaudí, it looks so out of this world. I decided to get a ticket to visit one of his most famous buildings La Sagrada Familia before flying back home the next day.&lt;/p&gt;
+
+&lt;h2 id=&quot;day-6---going-home&quot;&gt;Day 6 - Going home&lt;/h2&gt;
+
+&lt;p&gt;Before flying home in the afternoon. I went to see La Sagrada Familia in the morning. Fun fact, it is still unfinished! The project has been started more than 100 years ago. I have seen many magnificent buildings before and most of them are centuries old. This is the first time I visit a magnificent building of our time. Imagine after a few generations, when people visited it and were blown away by it like I was blown away by Hagia Sophia. I hope I will get another chance to visit it again when it is finished.&lt;/p&gt;
+
+&lt;p&gt;After the visit, I am prepared to go home and get ready for the next event.&lt;/p&gt;
+</description>
+        <pubDate>Mon, 28 Nov 2022 00:00:00 +0000</pubDate>
+        <link>https://cheuk.dev/2022/11/28/pyberlin-pydaybcn/</link>
+        <guid isPermaLink="true">https://cheuk.dev/2022/11/28/pyberlin-pydaybcn/</guid>
+        
+        <category>Conference</category>
+        
+        <category>Meetup</category>
+        
+        
+      </item>
     
       <item>
         <title>PyData NYC and PyCon IE</title>
