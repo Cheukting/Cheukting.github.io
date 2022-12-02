@@ -1,3 +1,24 @@
+- title: PyBerlin 36 - 🍁🍁 Special autumn event. Day 1 🍁🍁
+  vid: bY96j3fZ6WY
+  tags:
+    - Meetup
+    - OSS
+  description: |
+    Using Numba Effectively Today // Cheuk Ting Ho
+    Numba is syntactically easy to use - just add a decorator, but actually very hard to use effectively. The reason being it is difficult to understand what Numba does to speed up the numeric operation. This talk will provide all the basic knowledge that you need to make Numba works for you.
+  date: 2022-11-23
+  author: Cheuk Ting Ho
+
+- title: I have to Confess, I still Love Pandas - presented by Cheuk Ting Ho
+  vid: 48coa6Ry6wY
+  tags:
+    - Conference
+    - OSS
+  description: |
+    In this talk, Cheuk will reapproach Pandas as someone who is a fluent user of the library. Cheuk will review why Pandas is useful to work with data and what advantage it has over the alternatives methods. As Pandas has many functionalities, Cheuk will dissect the discussion on the potential usage of Pandas in day-to-day data science workflow: data inspection, data cleaning, feature engineering etc.
+  date: 2022-08-18
+  author: Cheuk Ting Ho
+
 - title: Came for the Conference, Stayed for the Sprint
   vid: c_HoP_V1gj0
   tags:
