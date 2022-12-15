@@ -6,9 +6,108 @@
 </description>
     <link>https://cheuk.dev</link>
     <atom:link href="https://cheuk.dev/feed.xml" rel="self" type="application/rss+xml"/>
-    <pubDate>Sat, 10 Dec 2022 00:21:04 +0000</pubDate>
-    <lastBuildDate>Sat, 10 Dec 2022 00:21:04 +0000</lastBuildDate>
+    <pubDate>Thu, 15 Dec 2022 15:18:07 +0000</pubDate>
+    <lastBuildDate>Thu, 15 Dec 2022 15:18:07 +0000</lastBuildDate>
     <generator>Jekyll v3.8.7</generator>
+    
+      <item>
+        <title>PyData Tel Aviv 2022</title>
+        <description>&lt;p&gt;2022 has been a good year of events! After we have the first PyCon PL back in September, now we have the first PyData Tel Aviv. I am so happy about the friendliness of the people here and their hospitality.&lt;/p&gt;
+
+&lt;h2 id=&quot;arrival-and-speaker-dinner&quot;&gt;Arrival and Speaker Dinner&lt;/h2&gt;
+
+&lt;p&gt;I was excited to go to Tel Aviv as London was having a bit of a snowstorm, however, due to the same snowstorm, my flight is delayed for 3 hours. All passengers were waiting to take off on the plane but we have to sit and wait. The wait goes from 30 mins to 1 hour, then 2 hours and finally it took us almost 3 hours till we finally got a slot to safely took off. After all this stress, I was glad that the flight was not cancelled and I was heading to Tel Aviv.&lt;/p&gt;
+
+&lt;p&gt;After another 5 hours, by this time I am already spending the whole day on the plane which is not equipped for long-haul flights. I was super nervous as the organisers of the conference already arranged my pick up from the airport, and the airport was super busy. After getting lost and not about to find the staff member who was supposed to pick me up. I was nervous. But luckily, they finally come to get me and we are heading to the city. Since I was late, my plan to check in to the hotel and refresh before the speaker dinner is now out of the window, I am heading straight to the speaker dinner.&lt;/p&gt;
+
+&lt;blockquote class=&quot;twitter-tweet&quot;&gt;&lt;p lang=&quot;en&quot; dir=&quot;ltr&quot;&gt;Shout out for the organisers of &lt;a href=&quot;https://twitter.com/PyDataTLV?ref_src=twsrc%5Etfw&quot;&gt;@PyDataTLV&lt;/a&gt; they help me to get through the busy airport fast after the stressful delayed flight! Thank you so much 😊 &lt;a href=&quot;https://t.co/sJe9eu24k9&quot;&gt;pic.twitter.com/sJe9eu24k9&lt;/a&gt;&lt;/p&gt;&amp;mdash; Cheuk Ting Ho at #PyDataTelAviv (@cheukting_ho) &lt;a href=&quot;https://twitter.com/cheukting_ho/status/1602355106774753281?ref_src=twsrc%5Etfw&quot;&gt;December 12, 2022&lt;/a&gt;&lt;/blockquote&gt;
+&lt;script async=&quot;&quot; src=&quot;https://platform.twitter.com/widgets.js&quot; charset=&quot;utf-8&quot;&gt;&lt;/script&gt;
+
+&lt;p&gt;Even though I was tired out from the journey, the warm welcome of the organisers and other speakers makes me feel energised again and I was glad that I can talk to so many amazing people. People will come and talk to me and introduce themselves. Sitting next to me was another speaker Aleksander who lived in Tel Aviv but is from Poland. He was super friendly and we talked a lot about the business and living there. Sitting opposite me were a few organisers and volunteers and when I said that I work for Anaconda, they are super happy and they were very interested in PyScript.&lt;/p&gt;
+
+&lt;p&gt;Overall, I had a great evening and after that, I finally got checked in to the hotel and rested after a long day.&lt;/p&gt;
+
+&lt;h2 id=&quot;pydata-tel-aviv&quot;&gt;PyData Tel Aviv&lt;/h2&gt;
+
+&lt;p&gt;I work up early the next morning, feeling refreshed after a good sleep at the hotel. I was so glad that the weather is so nice in Tel Aviv and the venue is in a convention centre park that got quite some greenery. When I step into the venue, I entered from the wrong entrance but the organisers guided me to the registration and I got my badge very quickly.&lt;/p&gt;
+
+&lt;blockquote class=&quot;twitter-tweet&quot;&gt;&lt;p lang=&quot;en&quot; dir=&quot;ltr&quot;&gt;Good morning! We are having fun here &lt;a href=&quot;https://twitter.com/PyDataTLV?ref_src=twsrc%5Etfw&quot;&gt;@PyDataTLV&lt;/a&gt; before it starts &lt;a href=&quot;https://t.co/kMLurERtAF&quot;&gt;pic.twitter.com/kMLurERtAF&lt;/a&gt;&lt;/p&gt;&amp;mdash; Cheuk Ting Ho at #PyDataTelAviv (@cheukting_ho) &lt;a href=&quot;https://twitter.com/cheukting_ho/status/1602559572581011457?ref_src=twsrc%5Etfw&quot;&gt;December 13, 2022&lt;/a&gt;&lt;/blockquote&gt;
+&lt;script async=&quot;&quot; src=&quot;https://platform.twitter.com/widgets.js&quot; charset=&quot;utf-8&quot;&gt;&lt;/script&gt;
+
+&lt;p&gt;In the hallway, the sponsors already have their booth ready and were playing games with the attendees, giving out swags. There are snacks and coffee to give us energy before the conference begins.&lt;/p&gt;
+
+&lt;blockquote class=&quot;twitter-tweet&quot;&gt;&lt;p lang=&quot;en&quot; dir=&quot;ltr&quot;&gt;So excited! 1st &lt;a href=&quot;https://twitter.com/PyDataTLV?ref_src=twsrc%5Etfw&quot;&gt;@PyDataTLV&lt;/a&gt; for the 3rd largest PyData community ❤️ let’s go! &lt;a href=&quot;https://t.co/KHBVWSBeYX&quot;&gt;pic.twitter.com/KHBVWSBeYX&lt;/a&gt;&lt;/p&gt;&amp;mdash; Cheuk Ting Ho at #PyDataTelAviv (@cheukting_ho) &lt;a href=&quot;https://twitter.com/cheukting_ho/status/1602560796009054210?ref_src=twsrc%5Etfw&quot;&gt;December 13, 2022&lt;/a&gt;&lt;/blockquote&gt;
+&lt;script async=&quot;&quot; src=&quot;https://platform.twitter.com/widgets.js&quot; charset=&quot;utf-8&quot;&gt;&lt;/script&gt;
+
+&lt;p&gt;Finally, the conference begins. After a quick opening, the first speaker is a keynote by Raymond Hettinger who is from Austin! As a CPython core developer, He teaches us a lot about how the math in Python works under the hood. It is very educational and interesting.&lt;/p&gt;
+
+&lt;blockquote class=&quot;twitter-tweet&quot;&gt;&lt;p lang=&quot;en&quot; dir=&quot;ltr&quot;&gt;Welcome keynote speaker &lt;a href=&quot;https://twitter.com/raymondh?ref_src=twsrc%5Etfw&quot;&gt;@raymondh&lt;/a&gt; 🎉 &lt;a href=&quot;https://twitter.com/PyDataTLV?ref_src=twsrc%5Etfw&quot;&gt;@PyDataTLV&lt;/a&gt; &lt;a href=&quot;https://t.co/zY63KZodea&quot;&gt;pic.twitter.com/zY63KZodea&lt;/a&gt;&lt;/p&gt;&amp;mdash; Cheuk Ting Ho at #PyDataTelAviv (@cheukting_ho) &lt;a href=&quot;https://twitter.com/cheukting_ho/status/1602562881098244096?ref_src=twsrc%5Etfw&quot;&gt;December 13, 2022&lt;/a&gt;&lt;/blockquote&gt;
+&lt;script async=&quot;&quot; src=&quot;https://platform.twitter.com/widgets.js&quot; charset=&quot;utf-8&quot;&gt;&lt;/script&gt;
+
+&lt;p&gt;Then the conference is split into two tracks. One is mainly in Hebrew and one is in English. Because of my limitation in language ability. I attend mostly English talks.&lt;/p&gt;
+
+&lt;p&gt;First, we have a talk by Rachel Shalom about incorporating GAN in business analytics.&lt;/p&gt;
+
+&lt;blockquote class=&quot;twitter-tweet&quot;&gt;&lt;p lang=&quot;en&quot; dir=&quot;ltr&quot;&gt;&lt;a href=&quot;https://twitter.com/PyDataTLV?ref_src=twsrc%5Etfw&quot;&gt;@PyDataTLV&lt;/a&gt; Talk about GAN in business by new mom and senior data scientist Rachel Shalom at &lt;a href=&quot;https://twitter.com/Dell?ref_src=twsrc%5Etfw&quot;&gt;@Dell&lt;/a&gt; &lt;a href=&quot;https://t.co/jnAXXBkA82&quot;&gt;pic.twitter.com/jnAXXBkA82&lt;/a&gt;&lt;/p&gt;&amp;mdash; Cheuk Ting Ho at #PyDataTelAviv (@cheukting_ho) &lt;a href=&quot;https://twitter.com/cheukting_ho/status/1602582713390825476?ref_src=twsrc%5Etfw&quot;&gt;December 13, 2022&lt;/a&gt;&lt;/blockquote&gt;
+&lt;script async=&quot;&quot; src=&quot;https://platform.twitter.com/widgets.js&quot; charset=&quot;utf-8&quot;&gt;&lt;/script&gt;
+
+&lt;p&gt;Then it’s a talk by Liron about sensitive data.&lt;/p&gt;
+
+&lt;blockquote class=&quot;twitter-tweet&quot;&gt;&lt;p lang=&quot;en&quot; dir=&quot;ltr&quot;&gt;How to keep our sensitive data safe? Liron is going to teach us &lt;a href=&quot;https://twitter.com/PyDataTLV?ref_src=twsrc%5Etfw&quot;&gt;@PyDataTLV&lt;/a&gt; &lt;a href=&quot;https://t.co/MeZcX65YDO&quot;&gt;pic.twitter.com/MeZcX65YDO&lt;/a&gt;&lt;/p&gt;&amp;mdash; Cheuk Ting Ho at #PyDataTelAviv (@cheukting_ho) &lt;a href=&quot;https://twitter.com/cheukting_ho/status/1602595097308184576?ref_src=twsrc%5Etfw&quot;&gt;December 13, 2022&lt;/a&gt;&lt;/blockquote&gt;
+&lt;script async=&quot;&quot; src=&quot;https://platform.twitter.com/widgets.js&quot; charset=&quot;utf-8&quot;&gt;&lt;/script&gt;
+
+&lt;p&gt;After, the next speaker Hilla, who is a researcher, talked about vaccine effectiveness.&lt;/p&gt;
+
+&lt;blockquote class=&quot;twitter-tweet&quot;&gt;&lt;p lang=&quot;en&quot; dir=&quot;ltr&quot;&gt;Glad to see how Hilla who did Physics 🙌🏻 at Trento taking about the effectiveness of vaccines &lt;a href=&quot;https://twitter.com/PyDataTLV?ref_src=twsrc%5Etfw&quot;&gt;@PyDataTLV&lt;/a&gt; &lt;a href=&quot;https://t.co/JXAdZOzmLl&quot;&gt;pic.twitter.com/JXAdZOzmLl&lt;/a&gt;&lt;/p&gt;&amp;mdash; Cheuk Ting Ho at #PyDataTelAviv (@cheukting_ho) &lt;a href=&quot;https://twitter.com/cheukting_ho/status/1602605393624137728?ref_src=twsrc%5Etfw&quot;&gt;December 13, 2022&lt;/a&gt;&lt;/blockquote&gt;
+&lt;script async=&quot;&quot; src=&quot;https://platform.twitter.com/widgets.js&quot; charset=&quot;utf-8&quot;&gt;&lt;/script&gt;
+
+&lt;p&gt;Then it’s lunchtime. I got a lot of opportunities to talk to people in between talks as the conference allow 15 mins break between talks. I think it’s a really good buffer and let people have time to refresh and switch room for the next talk. I have talked to Tal, who is volunteering for the conference and he told me that he loves Anaconda. I have also talked to Rueven who has attended EuroPython before and as a trainer himself, he is very interested in the education aspect that Anaconda is doing.&lt;/p&gt;
+
+&lt;blockquote class=&quot;twitter-tweet&quot; data-conversation=&quot;none&quot;&gt;&lt;p lang=&quot;en&quot; dir=&quot;ltr&quot;&gt;I would say this is the most sociable &lt;a href=&quot;https://twitter.com/hashtag/PyData?src=hash&amp;amp;ref_src=twsrc%5Etfw&quot;&gt;#PyData&lt;/a&gt; conference. 15 mins for changing tracks and talk to friendly people between talks! &lt;a href=&quot;https://t.co/GJtTNE7Hfi&quot;&gt;pic.twitter.com/GJtTNE7Hfi&lt;/a&gt;&lt;/p&gt;&amp;mdash; Cheuk Ting Ho at #PyDataTelAviv (@cheukting_ho) &lt;a href=&quot;https://twitter.com/cheukting_ho/status/1602561973060870144?ref_src=twsrc%5Etfw&quot;&gt;December 13, 2022&lt;/a&gt;&lt;/blockquote&gt;
+&lt;script async=&quot;&quot; src=&quot;https://platform.twitter.com/widgets.js&quot; charset=&quot;utf-8&quot;&gt;&lt;/script&gt;
+
+&lt;p&gt;After a quick lunch, I have to check the projector connected to my laptop as I will be speaking right after. However, after trying, I was told that the projector would not work with the newer model of Macbook, which is what I had. So one of the organisers was kind enough to let me use his computer for presenting. I was blessed with a full room of audience and they are all very responsive. I got quite a lot of questions after the talk.&lt;/p&gt;
+
+&lt;blockquote class=&quot;twitter-tweet&quot;&gt;&lt;p lang=&quot;en&quot; dir=&quot;ltr&quot;&gt;&lt;a href=&quot;https://twitter.com/cheukting_ho?ref_src=twsrc%5Etfw&quot;&gt;@cheukting_ho&lt;/a&gt; hates writing tests. And you? &lt;a href=&quot;https://t.co/hmVN32fLin&quot;&gt;pic.twitter.com/hmVN32fLin&lt;/a&gt;&lt;/p&gt;&amp;mdash; PyData Tel Aviv (@PyDataTLV) &lt;a href=&quot;https://twitter.com/PyDataTLV/status/1602629815517216771?ref_src=twsrc%5Etfw&quot;&gt;December 13, 2022&lt;/a&gt;&lt;/blockquote&gt;
+&lt;script async=&quot;&quot; src=&quot;https://platform.twitter.com/widgets.js&quot; charset=&quot;utf-8&quot;&gt;&lt;/script&gt;
+
+&lt;p&gt;Then Nir from DogsHub is speaking after me. He talked about how to integrate Jupyter notebook into the production process.&lt;/p&gt;
+
+&lt;blockquote class=&quot;twitter-tweet&quot;&gt;&lt;p lang=&quot;en&quot; dir=&quot;ltr&quot;&gt;Next is &lt;a href=&quot;https://twitter.com/barazida?ref_src=twsrc%5Etfw&quot;&gt;@barazida&lt;/a&gt; talking about our favorite tool &lt;a href=&quot;https://twitter.com/hashtag/Jupyter?src=hash&amp;amp;ref_src=twsrc%5Etfw&quot;&gt;#Jupyter&lt;/a&gt; notebook &lt;a href=&quot;https://twitter.com/PyDataTLV?ref_src=twsrc%5Etfw&quot;&gt;@PyDataTLV&lt;/a&gt; &lt;a href=&quot;https://t.co/mE6ocSH8Ou&quot;&gt;pic.twitter.com/mE6ocSH8Ou&lt;/a&gt;&lt;/p&gt;&amp;mdash; Cheuk Ting Ho at #PyDataTelAviv (@cheukting_ho) &lt;a href=&quot;https://twitter.com/cheukting_ho/status/1602639345692860416?ref_src=twsrc%5Etfw&quot;&gt;December 13, 2022&lt;/a&gt;&lt;/blockquote&gt;
+&lt;script async=&quot;&quot; src=&quot;https://platform.twitter.com/widgets.js&quot; charset=&quot;utf-8&quot;&gt;&lt;/script&gt;
+
+&lt;p&gt;After that, there is a talk about data models for online harm. It is very interesting to see how a model distinguishes say, a video of someone cutting a tomato from a video involving violence.&lt;/p&gt;
+
+&lt;blockquote class=&quot;twitter-tweet&quot;&gt;&lt;p lang=&quot;en&quot; dir=&quot;ltr&quot;&gt;Next up &lt;a href=&quot;https://twitter.com/PyDataTLV?ref_src=twsrc%5Etfw&quot;&gt;@PyDataTLV&lt;/a&gt; we have Matar and Noam talk about model for online harm &lt;a href=&quot;https://t.co/YHEKbTd2ar&quot;&gt;pic.twitter.com/YHEKbTd2ar&lt;/a&gt;&lt;/p&gt;&amp;mdash; Cheuk Ting Ho at #PyDataTelAviv (@cheukting_ho) &lt;a href=&quot;https://twitter.com/cheukting_ho/status/1602650584317935619?ref_src=twsrc%5Etfw&quot;&gt;December 13, 2022&lt;/a&gt;&lt;/blockquote&gt;
+&lt;script async=&quot;&quot; src=&quot;https://platform.twitter.com/widgets.js&quot; charset=&quot;utf-8&quot;&gt;&lt;/script&gt;
+
+&lt;p&gt;Next, Dimitry Vanger talked about Extreme Value Analysis.&lt;/p&gt;
+
+&lt;blockquote class=&quot;twitter-tweet&quot;&gt;&lt;p lang=&quot;en&quot; dir=&quot;ltr&quot;&gt;Next &lt;a href=&quot;https://twitter.com/PyDataTLV?ref_src=twsrc%5Etfw&quot;&gt;@PyDataTLV&lt;/a&gt; is a talk about EVA - extreme value analysis, by Dimitry Venger &lt;a href=&quot;https://t.co/zP4tpjCCVx&quot;&gt;pic.twitter.com/zP4tpjCCVx&lt;/a&gt;&lt;/p&gt;&amp;mdash; Cheuk Ting Ho at #PyDataTelAviv (@cheukting_ho) &lt;a href=&quot;https://twitter.com/cheukting_ho/status/1602661511415173120?ref_src=twsrc%5Etfw&quot;&gt;December 13, 2022&lt;/a&gt;&lt;/blockquote&gt;
+&lt;script async=&quot;&quot; src=&quot;https://platform.twitter.com/widgets.js&quot; charset=&quot;utf-8&quot;&gt;&lt;/script&gt;
+
+&lt;p&gt;At the end of the conference, there are lightning talks. In this conference, the lightning talks are pre-selected and approved and act like mini-talks that is selected from the proposal, which is very new for me. But I guess new speakers would appreciate and have less stress by having more time to prepare for their mini-talk rather than being spontaneous and be decided on the day.&lt;/p&gt;
+
+&lt;blockquote class=&quot;twitter-tweet&quot;&gt;&lt;p lang=&quot;en&quot; dir=&quot;ltr&quot;&gt;&lt;a href=&quot;https://twitter.com/PyDataTLV?ref_src=twsrc%5Etfw&quot;&gt;@PyDataTLV&lt;/a&gt; lighting talk time ⚡️ &lt;a href=&quot;https://t.co/adLJHDBAt1&quot;&gt;pic.twitter.com/adLJHDBAt1&lt;/a&gt;&lt;/p&gt;&amp;mdash; Cheuk Ting Ho at #PyDataTelAviv (@cheukting_ho) &lt;a href=&quot;https://twitter.com/cheukting_ho/status/1602676150743998464?ref_src=twsrc%5Etfw&quot;&gt;December 13, 2022&lt;/a&gt;&lt;/blockquote&gt;
+&lt;script async=&quot;&quot; src=&quot;https://platform.twitter.com/widgets.js&quot; charset=&quot;utf-8&quot;&gt;&lt;/script&gt;
+
+&lt;p&gt;And soon after, it’s the end of the conference. I enjoy the experience and I think all the organisers and volunteers for making such a great conference.&lt;/p&gt;
+
+&lt;blockquote class=&quot;twitter-tweet&quot;&gt;&lt;p lang=&quot;en&quot; dir=&quot;ltr&quot;&gt;Thank you for a great &lt;a href=&quot;https://twitter.com/PyDataTLV?ref_src=twsrc%5Etfw&quot;&gt;@PyDataTLV&lt;/a&gt; conference! I really enjoyed it 🥰 &lt;a href=&quot;https://t.co/X1NJ3AnXTt&quot;&gt;pic.twitter.com/X1NJ3AnXTt&lt;/a&gt;&lt;/p&gt;&amp;mdash; Cheuk Ting Ho at #PyDataTelAviv (@cheukting_ho) &lt;a href=&quot;https://twitter.com/cheukting_ho/status/1602684010551201793?ref_src=twsrc%5Etfw&quot;&gt;December 13, 2022&lt;/a&gt;&lt;/blockquote&gt;
+&lt;script async=&quot;&quot; src=&quot;https://platform.twitter.com/widgets.js&quot; charset=&quot;utf-8&quot;&gt;&lt;/script&gt;
+
+&lt;p&gt;Before I go, there are drinks reception outside. So I get a chance and talk to more people. I met Jacob Barhak who took over the Python Austin meetup from Peter who founded it. Being in Israel now he said he could only organise a remote meetup for Python Austin at the moment and I think maybe we can help to find him a co-organiser in Austin. I also met a lady, Inbal, who organises open-source and C++ events in Israel. She is so friendly and I would love to introduce her event to our open-source teams in the future.&lt;/p&gt;
+
+&lt;p&gt;And here is PyData TelAviv. I love the community here and so far it has been a successful trip.&lt;/p&gt;
+</description>
+        <pubDate>Thu, 15 Dec 2022 00:00:00 +0000</pubDate>
+        <link>https://cheuk.dev/2022/12/15/pydatatelaviv/</link>
+        <guid isPermaLink="true">https://cheuk.dev/2022/12/15/pydatatelaviv/</guid>
+        
+        <category>Conference</category>
+        
+        
+      </item>
     
       <item>
         <title>DevRelCon 2022</title>
