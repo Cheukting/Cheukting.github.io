@@ -2,7 +2,7 @@
 layout: post
 title: "PyData Tel Aviv 2022"
 date: 2022-12-15
-description: "2022 has been a good year of event! After we have the first PyCon PL back in September, now we have the first PyData Tel Aviv"
+description: "2022 has been a good year of event! After we have the first PyCon PT back in September, now we have the first PyData Tel Aviv"
 image: /assets/images/telaviv2022.jpg
 author: Cheuk Ting Ho
 tags:
@@ -10,7 +10,7 @@ tags:
 
 ---
 
-2022 has been a good year of events! After we have the first PyCon PL back in September, now we have the first PyData Tel Aviv. I am so happy about the friendliness of the people here and their hospitality.
+2022 has been a good year of events! After we have the first PyCon PT back in September, now we have the first PyData Tel Aviv. I am so happy about the friendliness of the people here and their hospitality.
 
 
 ## Arrival and Speaker Dinner
