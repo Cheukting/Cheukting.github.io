@@ -115,6 +115,16 @@
   date: 2022-07-30
   author: Cheuk Ting Ho
 
+- title: Trojan Source - Can we trust open-source anymore?
+  vid: OuXxWYPBxW4
+  tags:
+    - PyConIT
+    - OSS
+  description: |
+    Recently, a paper is published to demonstrate how a visibly valid contribution can contain malicious code by exporting the Unicode control characters. Some of these attacks has been tested on Python and it works. Shall the Python and open-source communities be concerned?
+  date: 2022-07-23
+  author: Cheuk Ting Ho
+
 - title: Picking What to Watch Next - Build a Recommendation System
   vid: JYZxiBcmL-s
   tags:
