@@ -11,6 +11,10 @@ tags:
 
 ---
 
+*[Haga clic aquí para la versión en español](/2022/12/21/how-to-finaid-es/)*
+
+---
+
 Going to conferences is exciting and it is a good learning experience, however, it could be very expensive to travel. Some conferences offer travel grants or financial aid programs but if you are new to applying, you may find it difficult. Here are a few tips to plan your travel and an explanation to help you apply for travel grants
 
 ## Budget it well
