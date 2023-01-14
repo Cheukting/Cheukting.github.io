@@ -6,9 +6,67 @@
 </description>
     <link>https://cheuk.dev</link>
     <atom:link href="https://cheuk.dev/feed.xml" rel="self" type="application/rss+xml"/>
-    <pubDate>Wed, 04 Jan 2023 17:40:35 +0000</pubDate>
-    <lastBuildDate>Wed, 04 Jan 2023 17:40:35 +0000</lastBuildDate>
+    <pubDate>Sat, 14 Jan 2023 12:23:34 +0000</pubDate>
+    <lastBuildDate>Sat, 14 Jan 2023 12:23:34 +0000</lastBuildDate>
     <generator>Jekyll v3.8.7</generator>
+    
+      <item>
+        <title>First event of 2023 - PyData Bristol</title>
+        <description>&lt;p&gt;My first event speaking live in 2023 is at the PyData Bristol meetup, which is also my first PyData Bristol. I am so excited and here is what I see and do there.&lt;/p&gt;
+
+&lt;h2 id=&quot;getting-there&quot;&gt;Getting there&lt;/h2&gt;
+
+&lt;p&gt;In the morning, I got notified that my train to Bristol has been cancelled. Recently we have train strikes in the UK so I am not surprised that something will go wrong with my train. Luckily it was not a last-minute thing. I decided to get on the train before it and arrive at Bristol a bit earlier than planned.&lt;/p&gt;
+
+&lt;p&gt;After boarding the train, I realised that the reason why the train was cancelled is that the region near Bristol was flooded so the trains are disrupted. Now I just hope that the train going home will be fine.&lt;/p&gt;
+
+&lt;p&gt;I ended up not arriving at Bristol much earlier than planned due to the train that I was on was also delayed. However, it didn’t matter as I was on time for the meetup.&lt;/p&gt;
+
+&lt;h2 id=&quot;pydata-bristol&quot;&gt;PyData Bristol&lt;/h2&gt;
+
+&lt;p&gt;When I arrived at the venue, the first person that I saw was my colleague Valerio. It is always good to see familiar faces in a new place. Then, another organiser of the meetup come and greet me, with their help, I tested the computer setup and we are good to go.&lt;/p&gt;
+
+&lt;p&gt;As my talk is in the second half after the pizza break I got a chance to chat with the organisers a bit before the meetup. I was also spotting who would I be interviewing during the break.&lt;/p&gt;
+
+&lt;p&gt;Then the meetup started, it is so exciting. The organisers made a very good introduction and I like the “ChatGPT nonsense of the month” session.&lt;/p&gt;
+
+&lt;blockquote class=&quot;twitter-tweet&quot;&gt;&lt;p lang=&quot;en&quot; dir=&quot;ltr&quot;&gt;Welcome to &lt;a href=&quot;https://twitter.com/PyDataBristol?ref_src=twsrc%5Etfw&quot;&gt;@PyDataBristol&lt;/a&gt; I finally made it here 🎉 &lt;a href=&quot;https://t.co/zmUl3SBibn&quot;&gt;pic.twitter.com/zmUl3SBibn&lt;/a&gt;&lt;/p&gt;&amp;mdash; Cheuk Ting Ho (@cheukting_ho) &lt;a href=&quot;https://twitter.com/cheukting_ho/status/1613604442082770979?ref_src=twsrc%5Etfw&quot;&gt;January 12, 2023&lt;/a&gt;&lt;/blockquote&gt;
+&lt;script async=&quot;&quot; src=&quot;https://platform.twitter.com/widgets.js&quot; charset=&quot;utf-8&quot;&gt;&lt;/script&gt;
+
+&lt;p&gt;The first talk is quite interesting, we all learnt a bit about how computer chips are made with plasma and unsupervised learning from the talk by Greg.&lt;/p&gt;
+
+&lt;blockquote class=&quot;twitter-tweet&quot;&gt;&lt;p lang=&quot;en&quot; dir=&quot;ltr&quot;&gt;First talk &lt;a href=&quot;https://twitter.com/PyDataBristol?ref_src=twsrc%5Etfw&quot;&gt;@PyDataBristol&lt;/a&gt; is by Greygwho is a Physicist from University of Exeter talking about unsupervised learning in plasma physics &lt;a href=&quot;https://t.co/w9wXMqlZ0o&quot;&gt;pic.twitter.com/w9wXMqlZ0o&lt;/a&gt;&lt;/p&gt;&amp;mdash; Cheuk Ting Ho (@cheukting_ho) &lt;a href=&quot;https://twitter.com/cheukting_ho/status/1613608643408035874?ref_src=twsrc%5Etfw&quot;&gt;January 12, 2023&lt;/a&gt;&lt;/blockquote&gt;
+&lt;script async=&quot;&quot; src=&quot;https://platform.twitter.com/widgets.js&quot; charset=&quot;utf-8&quot;&gt;&lt;/script&gt;
+
+&lt;p&gt;Nest we have a lightning talk about federated learning, I am very impressed by the speaker Akiko, I think it would be great if she gives a full talk next time.&lt;/p&gt;
+
+&lt;blockquote class=&quot;twitter-tweet&quot;&gt;&lt;p lang=&quot;en&quot; dir=&quot;ltr&quot;&gt;Next up &lt;a href=&quot;https://twitter.com/PyDataBristol?ref_src=twsrc%5Etfw&quot;&gt;@PyDataBristol&lt;/a&gt; we have Akiko giving a lightning talk about federated learning &lt;a href=&quot;https://t.co/G26zcmAQ6a&quot;&gt;pic.twitter.com/G26zcmAQ6a&lt;/a&gt;&lt;/p&gt;&amp;mdash; Cheuk Ting Ho (@cheukting_ho) &lt;a href=&quot;https://twitter.com/cheukting_ho/status/1613615346245636103?ref_src=twsrc%5Etfw&quot;&gt;January 12, 2023&lt;/a&gt;&lt;/blockquote&gt;
+&lt;script async=&quot;&quot; src=&quot;https://platform.twitter.com/widgets.js&quot; charset=&quot;utf-8&quot;&gt;&lt;/script&gt;
+
+&lt;p&gt;Then it is the pizza break. I also use this chance to set up my presentation, and record and interview some people I met at the conference.&lt;/p&gt;
+
+&lt;iframe width=&quot;560&quot; height=&quot;315&quot; src=&quot;https://www.youtube.com/embed/3phw8o96ZY4&quot; title=&quot;YouTube video player&quot; frameborder=&quot;0&quot; allow=&quot;accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture&quot; allowfullscreen=&quot;&quot;&gt;&lt;/iframe&gt;
+
+&lt;p&gt;Then I gave my talk. I was so excited to be giving a talk again. I think I am a bit addicted to it.&lt;/p&gt;
+
+&lt;p&gt;After my talk, it’s a lighting talk about NBFire, a cloud service to host your notebook on the cloud and run it on schedule. I think the idea is quite cool. I think our cloud notebook should have a run-on-schedule function as well.&lt;/p&gt;
+
+&lt;p&gt;And that is the end of the meetup. Some people will head to the pub for the after party, sadly I have to catch a train home. I would have spent the night in Bristol and joined the pub but I also miss my bed at home. It’s always a difficult choice for me as I enjoy chatting with the folks at PyData Bristol. I wish I can go to the meetup again soon.&lt;/p&gt;
+
+&lt;hr /&gt;
+
+&lt;p&gt;You can also catch up on my talk online:&lt;/p&gt;
+
+&lt;iframe width=&quot;560&quot; height=&quot;315&quot; src=&quot;https://www.youtube.com/embed/yYlkurfCaxQ&quot; title=&quot;YouTube video player&quot; frameborder=&quot;0&quot; allow=&quot;accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture&quot; allowfullscreen=&quot;&quot;&gt;&lt;/iframe&gt;
+</description>
+        <pubDate>Thu, 12 Jan 2023 00:00:00 +0000</pubDate>
+        <link>https://cheuk.dev/2023/01/12/pydata-bristol/</link>
+        <guid isPermaLink="true">https://cheuk.dev/2023/01/12/pydata-bristol/</guid>
+        
+        <category>Meetup</category>
+        
+        
+      </item>
     
       <item>
         <title>How to apply for Travel Grant/ Financial Aid from conferences?</title>
