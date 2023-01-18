@@ -3,8 +3,8 @@
   <head>
     <title>Ice Cream Picker</title>
     <meta charset="utf-8">
-    <link rel="stylesheet" href="https://pyscript.net/latest/pyscript.css" />
-    <script defer src="https://pyscript.net/latest/pyscript.js"></script>
+    <link rel="stylesheet" href="https://pyscript.net/releases/2022.09.1/pyscript.css" />
+    <script defer src="https://pyscript.net/releases/2022.09.1/pyscript.js"></script>
     <py-config type="json">
       {
         "packages": ["pandas", "matplotlib"]
@@ -35,13 +35,12 @@ import matplotlib.pyplot as plt
 plt.rcParams["figure.figsize"] = (20,30)
 
 from pyodide.http import open_url
-from pyodide import create_proxy
+from pyodide.ffi import create_proxy
 
 url = (
     "https://raw.githubusercontent.com/Cheukting/pyscript-ice-cream/main/bj-products.csv"
 )
 ice_data = pd.read_csv(open_url(url))
-current_selected = []
 flavour_elements = document.getElementsByName("flavour")
 
 def plot(data):
@@ -65,9 +64,6 @@ def select_flavour(event):
 ele_proxy = create_proxy(select_flavour)
 
 for ele in flavour_elements:
-    if ele.value == "ALL":
-      ele.checked = True
-      current_selected = ele.value
     ele.addEventListener("change", ele_proxy)
 
 plot(ice_data)

@@ -3,24 +3,17 @@
   <head>
     <title>Minimal network graph</title>
     <meta charset="utf-8">
-    <link rel="stylesheet" href="https://pyscript.net/alpha/pyscript.css" />
-    <script defer src="https://pyscript.net/alpha/pyscript.js"></script>
+    <link rel="stylesheet" href="https://pyscript.net/releases/2022.12.1/pyscript.css" />
+    <script defer src="https://pyscript.net/releases/2022.12.1/pyscript.js"></script>
     </head>
     <body>
       <div id="viz"></div>
 
-<script type="importmap">
-{
-  "imports": {
-    "d3": "https://cdn.skypack.dev/d3@7"
-  }
-}
-</script>
-<py-script output="viz">
-  import d3
-  import js
+<script src="https://d3js.org/d3.v7.min.js"></script>
+<py-script>
+  from js import d3
 
-  from pyodide import create_proxy, to_js
+  from pyodide.ffi import create_proxy, to_js
 
   viz = d3.select("#viz")
   viz.select(".loading").remove()
