@@ -43,6 +43,7 @@
 
   node_num = len(node_list)
   radius = max_height / 2
+  highlight_node = None
   nodes_js = to_js(node_list)
   edges_js = to_js(edge_list, dict_converter=js.Object.fromEntries)
   id_fn = create_proxy(lambda d, *_:d["id"])
@@ -56,10 +57,11 @@
   )
 
   def clicked(event, d):
+    global highlight_node
+    highlight_node = d["id"]
+    simulation.restart().on("tick", ticked_fn)
+    js.console.log(highlight_node)
     js.console.log(event)
-    js.console.log(dir(event))
-    d3.select(self).style("fill", "#F88B73")
-
 
   clicked_proxy = create_proxy(clicked)
 
@@ -79,6 +81,13 @@
       rad = 2 * math.pi * (id / node_num)
       return radius * math.sin(rad) + width / 2, radius * math.cos(rad) + max_height / 2
 
+  def highlight(d, *_):
+      id = d["id"]
+      if highlight_node is None or id != highlight_node:
+          return "#000"
+      else:
+          return "#f00"
+
   def ticked():
       (link
         .transition().duration(1000)
@@ -90,6 +99,7 @@
       (node
         .transition().duration(1000)
         .attr("transform", create_proxy(lambda d, *_:f"translate{get_cir_coor(d['id'])}"))
+        .attr("fill", create_proxy(highlight))
       )
 
   ticked_fn = create_proxy(ticked)
