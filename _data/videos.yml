@@ -1,3 +1,17 @@
+- title: PyData Bristol Meetup
+  vid: yYlkurfCaxQ
+  tags:
+    - Meetup
+    - OSS
+  description: |
+    Using Numba Effectively Today - Cheuk Ting Ho
+
+    Have you ever heard of Numba? It is (mainly) a JIT (Just-In-Time) compiler to make your math-heavy Python code run faster under certain conditions. Most people found all of it is like a mystery - It sounds like magic, but how does it work? Under what conditions does it work? And because of it, new users found it hard to start using it and it requires a steep learning curve to get the hang of it.
+
+    This talk requires no prior experience. Through demos, we will explore in what situation Numba works, when it does not and the reason why. We will also look at some cases where we can make Numba works by changing a few things in your code. Hopefully, by the end of the talk, you will have a better understanding of how Numba works before you even start using it. This knowledge can save you some time on try and error, making your experience in using it better.
+  date: 2023-01-12
+  author: Cheuk Ting Ho
+
 - title: PyBerlin 36 - 🍁🍁 Special autumn event. Day 1 🍁🍁
   vid: bY96j3fZ6WY
   tags:
