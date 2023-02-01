@@ -1,4 +1,13 @@
 - layout: top-middle-link
+  name: PyScript Tutorial
+  link: https://github.com/anaconda/pyscript-tutorial
+  dates:
+  qualification:
+  quote: >
+    This workshop consists of 3 chapters. In each chapter, by walking through hands-on exercises, we can use PyScirpt to create data visualisations and deploy Sci-Kit learn models, which are some of the most common tasks in data sciences.
+  description: | # this will include new lines to allow paragraphs
+
+- layout: top-middle-link
   name: Using Numba Effectively
   link: https://github.com/Cheukting/using-numba
   dates:
