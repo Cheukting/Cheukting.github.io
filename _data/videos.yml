@@ -1,3 +1,19 @@
+- title: Will PyScript replace Django? - What PyScript is and is not
+  vid: 2rm_tyl7iGI
+  tags:
+    - Conference
+    - OSS
+  description: |
+    In this talk, through some examples and demos of PyScript, we will see how to use it - just include the CDN URL, understand that it is a frontend-only Python that runs on the browser and learn the fact that it can work with javascript in conjunction.
+
+    After that, we will look at what is under the hood - Pyodide - which is a Python distribution for the browser. It is what is essential to power PyScript. We will discover what is the difference between using PyScript and Pyodide.
+
+    Finally, we will conclude what is already available in PyScirpt like which library you can run on PyScript and which ones are still yet to come. In the end, we will answer the question - Will PyScript replace Django?
+
+    This talk is for those who are curious about PyScript and the idea of running Python in the browser in general. We will assume no piror knowledge about it.
+  date: 2023-02-05
+  author: Cheuk Ting Ho
+
 - title: PyData Bristol Meetup
   vid: yYlkurfCaxQ
   tags:
