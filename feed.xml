@@ -6,9 +6,113 @@
 </description>
     <link>https://cheuk.dev</link>
     <atom:link href="https://cheuk.dev/feed.xml" rel="self" type="application/rss+xml"/>
-    <pubDate>Fri, 10 Feb 2023 17:36:44 +0000</pubDate>
-    <lastBuildDate>Fri, 10 Feb 2023 17:36:44 +0000</lastBuildDate>
+    <pubDate>Mon, 20 Feb 2023 08:31:15 +0000</pubDate>
+    <lastBuildDate>Mon, 20 Feb 2023 08:31:15 +0000</lastBuildDate>
     <generator>Jekyll v3.8.7</generator>
+    
+      <item>
+        <title>PyCon France 2023</title>
+        <description>&lt;p&gt;It has been 4 years since I gave a keynote at PyCon France, they are welcome to be back with open arms!&lt;/p&gt;
+
+&lt;h2 id=&quot;day-1---sprint&quot;&gt;Day 1 - Sprint&lt;/h2&gt;
+
+&lt;p&gt;I took the first flight in the morning and arrived around 10 am, the orientation of the sprint has already started. All projects are giving presentations and many of them are trying to speak in both French and English. I appreciated that. After the presentation, we all break out into different rooms to work. But before that, I got some coffee - the organisers gave us light refreshments and coffee. Seems they know I need coffee to function!&lt;/p&gt;
+
+&lt;blockquote class=&quot;twitter-tweet&quot;&gt;&lt;p lang=&quot;en&quot; dir=&quot;ltr&quot;&gt;&lt;a href=&quot;https://twitter.com/pyconfr?ref_src=twsrc%5Etfw&quot;&gt;@pyconfr&lt;/a&gt; sprint orientation, half of it is in French… I am not good enough at French to understand so I got a “I speak English” flag. Will get better next year! &lt;a href=&quot;https://t.co/6akFc0OyRw&quot;&gt;pic.twitter.com/6akFc0OyRw&lt;/a&gt;&lt;/p&gt;&amp;mdash; Cheuk Ting Ho (@cheukting_ho) &lt;a href=&quot;https://twitter.com/cheukting_ho/status/1626151610941317121?ref_src=twsrc%5Etfw&quot;&gt;February 16, 2023&lt;/a&gt;&lt;/blockquote&gt;
+&lt;script async=&quot;&quot; src=&quot;https://platform.twitter.com/widgets.js&quot; charset=&quot;utf-8&quot;&gt;&lt;/script&gt;
+
+&lt;p&gt;However, as I still got work to do, after chatting with some friends and maintainers, I have to sit down in a corner to catch up on some work. But I managed to grab lunch with some folks that are sprinting and we sit outside to enjoy lunch and the nice weather - I do not miss London regarding the weather.&lt;/p&gt;
+
+&lt;p&gt;After lunch, I did a bit more work and then went to check in at the hotel. I took a nap as I woke up at 3 am to catch my flight. After my Zoom meeting later that day, I head out to meet up with my colleague and friends for drinks and dinner. It was fun.&lt;/p&gt;
+
+&lt;blockquote class=&quot;twitter-tweet&quot;&gt;&lt;p lang=&quot;en&quot; dir=&quot;ltr&quot;&gt;Had a blast yesterday for a drink with the folks &lt;a href=&quot;https://twitter.com/pyconfr?ref_src=twsrc%5Etfw&quot;&gt;@pyconfr&lt;/a&gt; &lt;a href=&quot;https://t.co/ZDdrdIg78P&quot;&gt;pic.twitter.com/ZDdrdIg78P&lt;/a&gt;&lt;/p&gt;&amp;mdash; Cheuk Ting Ho (@cheukting_ho) &lt;a href=&quot;https://twitter.com/cheukting_ho/status/1626490235122077696?ref_src=twsrc%5Etfw&quot;&gt;February 17, 2023&lt;/a&gt;&lt;/blockquote&gt;
+&lt;script async=&quot;&quot; src=&quot;https://platform.twitter.com/widgets.js&quot; charset=&quot;utf-8&quot;&gt;&lt;/script&gt;
+
+&lt;h2 id=&quot;day-2---more-sprinting&quot;&gt;Day 2 - More sprinting&lt;/h2&gt;
+
+&lt;p&gt;I tried to wake up early but when I arrived at the venue, it was already 10 am when I got there. But people are still chilling at the breakfast table, so I guess I was not late.&lt;/p&gt;
+
+&lt;blockquote class=&quot;twitter-tweet&quot;&gt;&lt;p lang=&quot;en&quot; dir=&quot;ltr&quot;&gt;&lt;a href=&quot;https://twitter.com/pyconfr?ref_src=twsrc%5Etfw&quot;&gt;@pyconfr&lt;/a&gt; was so nice to give us light breakfast and bottomless coffee for the sprinters ❤️ &lt;a href=&quot;https://t.co/ytRAKPQYTS&quot;&gt;pic.twitter.com/ytRAKPQYTS&lt;/a&gt;&lt;/p&gt;&amp;mdash; Cheuk Ting Ho (@cheukting_ho) &lt;a href=&quot;https://twitter.com/cheukting_ho/status/1626587497928224768?ref_src=twsrc%5Etfw&quot;&gt;February 17, 2023&lt;/a&gt;&lt;/blockquote&gt;
+&lt;script async=&quot;&quot; src=&quot;https://platform.twitter.com/widgets.js&quot; charset=&quot;utf-8&quot;&gt;&lt;/script&gt;
+
+&lt;p&gt;After that, I went back to the sprint rooms to work. But then I met Victor again! But he is busy helping the sprint with translating the official Python documentation to French. So he went there. I tried to finish as much work as I can then I headed to the city centre for lunch. This is my second time in Bordeaux but I have never seen the city in daylight! So I grab this chance to have lunch there and have a walk in the city.&lt;/p&gt;
+
+&lt;blockquote class=&quot;twitter-tweet&quot;&gt;&lt;p lang=&quot;fr&quot; dir=&quot;ltr&quot;&gt;Les esprits bouillonnent à la PyConFR ! &lt;a href=&quot;https://t.co/zyRfaDTbq6&quot;&gt;pic.twitter.com/zyRfaDTbq6&lt;/a&gt;&lt;/p&gt;&amp;mdash; PyConFr (@pyconfr) &lt;a href=&quot;https://twitter.com/pyconfr/status/1626256119797583875?ref_src=twsrc%5Etfw&quot;&gt;February 16, 2023&lt;/a&gt;&lt;/blockquote&gt;
+&lt;script async=&quot;&quot; src=&quot;https://platform.twitter.com/widgets.js&quot; charset=&quot;utf-8&quot;&gt;&lt;/script&gt;
+
+&lt;p&gt;In the evening, my colleague Sophia and I were having dinner together. It’s nice to hang out with your team once in a while.&lt;/p&gt;
+
+&lt;h2 id=&quot;day-3---conference-day-1&quot;&gt;Day 3 - Conference day 1&lt;/h2&gt;
+
+&lt;p&gt;It’s a very sunny day! After arriving and bag check, the opening is starting. Although I do not understand a word, the room was full of energy and people are hyped about the start of the conference.&lt;/p&gt;
+
+&lt;blockquote class=&quot;twitter-tweet&quot;&gt;&lt;p lang=&quot;en&quot; dir=&quot;ltr&quot;&gt;&lt;a href=&quot;https://twitter.com/pyconfr?ref_src=twsrc%5Etfw&quot;&gt;@pyconfr&lt;/a&gt; is starting 🤩 &lt;a href=&quot;https://t.co/zS0j9mfZL3&quot;&gt;pic.twitter.com/zS0j9mfZL3&lt;/a&gt;&lt;/p&gt;&amp;mdash; Cheuk Ting Ho (@cheukting_ho) &lt;a href=&quot;https://twitter.com/cheukting_ho/status/1626858493775908864?ref_src=twsrc%5Etfw&quot;&gt;February 18, 2023&lt;/a&gt;&lt;/blockquote&gt;
+&lt;script async=&quot;&quot; src=&quot;https://platform.twitter.com/widgets.js&quot; charset=&quot;utf-8&quot;&gt;&lt;/script&gt;
+
+&lt;p&gt;After the opening, I do not have too much time to hang around as I have to give my talk in another room. The unfortunate thing is that the presentation stream setup is not done properly yet and we have a 15 mins delay due to technical difficulties. (I should sing a song while they are setting it up)&lt;/p&gt;
+
+&lt;blockquote class=&quot;twitter-tweet&quot;&gt;&lt;p lang=&quot;en&quot; dir=&quot;ltr&quot;&gt;.&lt;a href=&quot;https://twitter.com/cheukting_ho?ref_src=twsrc%5Etfw&quot;&gt;@cheukting_ho&lt;/a&gt; presenting Python memory profiling at &lt;a href=&quot;https://twitter.com/pyconfr?ref_src=twsrc%5Etfw&quot;&gt;@pyconfr&lt;/a&gt; 🙌 &lt;a href=&quot;https://t.co/AUzJX6orGO&quot;&gt;pic.twitter.com/AUzJX6orGO&lt;/a&gt;&lt;/p&gt;&amp;mdash; Sophia Yang (@sophiamyang) &lt;a href=&quot;https://twitter.com/sophiamyang/status/1626873560303124480?ref_src=twsrc%5Etfw&quot;&gt;February 18, 2023&lt;/a&gt;&lt;/blockquote&gt;
+&lt;script async=&quot;&quot; src=&quot;https://platform.twitter.com/widgets.js&quot; charset=&quot;utf-8&quot;&gt;&lt;/script&gt;
+
+&lt;p&gt;After my talk, I met a few friends outside and we chat with some organisers in France. The weather was so nice we went out to grab a gallette - a savoury crepe. I associate this food with PyCon France as in 2019 that’s what I had for lunch every day.&lt;/p&gt;
+
+&lt;blockquote class=&quot;twitter-tweet&quot;&gt;&lt;p lang=&quot;en&quot; dir=&quot;ltr&quot;&gt;Will I have another galette today? &lt;a href=&quot;https://twitter.com/pyconfr?ref_src=twsrc%5Etfw&quot;&gt;@pyconfr&lt;/a&gt; &lt;a href=&quot;https://t.co/AB3nFcAByB&quot;&gt;pic.twitter.com/AB3nFcAByB&lt;/a&gt;&lt;/p&gt;&amp;mdash; Cheuk Ting Ho (@cheukting_ho) &lt;a href=&quot;https://twitter.com/cheukting_ho/status/1627233572573655040?ref_src=twsrc%5Etfw&quot;&gt;February 19, 2023&lt;/a&gt;&lt;/blockquote&gt;
+&lt;script async=&quot;&quot; src=&quot;https://platform.twitter.com/widgets.js&quot; charset=&quot;utf-8&quot;&gt;&lt;/script&gt;
+
+&lt;p&gt;Then it’s Sophia’s talk, it’s about PyScript.&lt;/p&gt;
+
+&lt;blockquote class=&quot;twitter-tweet&quot;&gt;&lt;p lang=&quot;en&quot; dir=&quot;ltr&quot;&gt;After lunch &lt;a href=&quot;https://twitter.com/pyconfr?ref_src=twsrc%5Etfw&quot;&gt;@pyconfr&lt;/a&gt; &lt;a href=&quot;https://twitter.com/sophiamyang?ref_src=twsrc%5Etfw&quot;&gt;@sophiamyang&lt;/a&gt; is giving a talk about &lt;a href=&quot;https://twitter.com/pyscript_dev?ref_src=twsrc%5Etfw&quot;&gt;@pyscript_dev&lt;/a&gt; &lt;a href=&quot;https://t.co/g3czDVkQeP&quot;&gt;pic.twitter.com/g3czDVkQeP&lt;/a&gt;&lt;/p&gt;&amp;mdash; Cheuk Ting Ho (@cheukting_ho) &lt;a href=&quot;https://twitter.com/cheukting_ho/status/1626930164847312898?ref_src=twsrc%5Etfw&quot;&gt;February 18, 2023&lt;/a&gt;&lt;/blockquote&gt;
+&lt;script async=&quot;&quot; src=&quot;https://platform.twitter.com/widgets.js&quot; charset=&quot;utf-8&quot;&gt;&lt;/script&gt;
+
+&lt;p&gt;After that, I went to Max’s talk - he is from the UK but he is trying very hard to speak French there.&lt;/p&gt;
+
+&lt;p&gt;By the time the wrap-up session of the day, I am already tired. So I went back to the hotel to lie down for a bit before the social event.&lt;/p&gt;
+
+&lt;blockquote class=&quot;twitter-tweet&quot;&gt;&lt;p lang=&quot;en&quot; dir=&quot;ltr&quot;&gt;&lt;a href=&quot;https://twitter.com/europython?ref_src=twsrc%5Etfw&quot;&gt;@europython&lt;/a&gt; announcement at &lt;a href=&quot;https://twitter.com/pyconfr?ref_src=twsrc%5Etfw&quot;&gt;@pyconfr&lt;/a&gt; &lt;a href=&quot;https://twitter.com/hashtag/CfP?src=hash&amp;amp;ref_src=twsrc%5Etfw&quot;&gt;#CfP&lt;/a&gt; and &lt;a href=&quot;https://twitter.com/hashtag/FinAid?src=hash&amp;amp;ref_src=twsrc%5Etfw&quot;&gt;#FinAid&lt;/a&gt; open on 6th March - there are also speaker mentorship program available ❤️ &lt;a href=&quot;https://t.co/OvTufRZVqm&quot;&gt;pic.twitter.com/OvTufRZVqm&lt;/a&gt;&lt;/p&gt;&amp;mdash; Cheuk Ting Ho (@cheukting_ho) &lt;a href=&quot;https://twitter.com/cheukting_ho/status/1626982299114799106?ref_src=twsrc%5Etfw&quot;&gt;February 18, 2023&lt;/a&gt;&lt;/blockquote&gt;
+&lt;script async=&quot;&quot; src=&quot;https://platform.twitter.com/widgets.js&quot; charset=&quot;utf-8&quot;&gt;&lt;/script&gt;
+
+&lt;p&gt;I was a bit lost when I tried to find the place for the social event, and when I got there, it was already packed with people. I was told that the catering company workers are striking so that explained why the organisers were serving the food themselves.&lt;/p&gt;
+
+&lt;blockquote class=&quot;twitter-tweet&quot;&gt;&lt;p lang=&quot;en&quot; dir=&quot;ltr&quot;&gt;Social event &lt;a href=&quot;https://twitter.com/pyconfr?ref_src=twsrc%5Etfw&quot;&gt;@pyconfr&lt;/a&gt; with nice wine and food - the organisers were serving the food themselves - thank you so much &lt;a href=&quot;https://t.co/UxlFUfbR03&quot;&gt;pic.twitter.com/UxlFUfbR03&lt;/a&gt;&lt;/p&gt;&amp;mdash; Cheuk Ting Ho (@cheukting_ho) &lt;a href=&quot;https://twitter.com/cheukting_ho/status/1627216035613908995?ref_src=twsrc%5Etfw&quot;&gt;February 19, 2023&lt;/a&gt;&lt;/blockquote&gt;
+&lt;script async=&quot;&quot; src=&quot;https://platform.twitter.com/widgets.js&quot; charset=&quot;utf-8&quot;&gt;&lt;/script&gt;
+
+&lt;p&gt;The social event was great! I had many nice conversations with organisers from the Czech Republic and other local conference attendees. Only a few people do not speak French but at the end of the day, it does not matter, we all had a good time.&lt;/p&gt;
+
+&lt;h2 id=&quot;day-4---conference-day-2&quot;&gt;Day 4 - Conference day 2&lt;/h2&gt;
+
+&lt;p&gt;In the morning it was the annual meeting of the L’Association Francophone Python so I do not need to attend (it will be in french anyway). So I aim to be at the venue at 10 am. I arrived a bit early and had a chat with Marine of Taipy and she was so nice to offer me some Canelés which is the local delicacy. I hope I will be able to grab some to bring home later.&lt;/p&gt;
+
+&lt;blockquote class=&quot;twitter-tweet&quot;&gt;&lt;p lang=&quot;en&quot; dir=&quot;ltr&quot;&gt;Back to London from &lt;a href=&quot;https://twitter.com/pyconfr?ref_src=twsrc%5Etfw&quot;&gt;@pyconfr&lt;/a&gt; Managed to get some Canelés home ❤️ the trip ended on a high note &lt;a href=&quot;https://t.co/tgRL1JWFTP&quot;&gt;pic.twitter.com/tgRL1JWFTP&lt;/a&gt;&lt;/p&gt;&amp;mdash; Cheuk Ting Ho (@cheukting_ho) &lt;a href=&quot;https://twitter.com/cheukting_ho/status/1627446847131320320?ref_src=twsrc%5Etfw&quot;&gt;February 19, 2023&lt;/a&gt;&lt;/blockquote&gt;
+&lt;script async=&quot;&quot; src=&quot;https://platform.twitter.com/widgets.js&quot; charset=&quot;utf-8&quot;&gt;&lt;/script&gt;
+
+&lt;p&gt;In the morning I gave my talk and also attend Raphaël’s talk about version control - the talk is in French so I was there to give moral support.&lt;/p&gt;
+
+&lt;blockquote class=&quot;twitter-tweet&quot;&gt;&lt;p lang=&quot;en&quot; dir=&quot;ltr&quot;&gt;Maybe the only French talk I attend this year - talk by Raphaël &lt;a href=&quot;https://twitter.com/pyconfr?ref_src=twsrc%5Etfw&quot;&gt;@pyconfr&lt;/a&gt; &lt;a href=&quot;https://t.co/9jeMgkDmGi&quot;&gt;pic.twitter.com/9jeMgkDmGi&lt;/a&gt;&lt;/p&gt;&amp;mdash; Cheuk Ting Ho (@cheukting_ho) &lt;a href=&quot;https://twitter.com/cheukting_ho/status/1627248150263070721?ref_src=twsrc%5Etfw&quot;&gt;February 19, 2023&lt;/a&gt;&lt;/blockquote&gt;
+&lt;script async=&quot;&quot; src=&quot;https://platform.twitter.com/widgets.js&quot; charset=&quot;utf-8&quot;&gt;&lt;/script&gt;
+
+&lt;p&gt;Then I grab some lunch at the food truck with Autur, a board member of the EuroPython Society, we spent some time in the after talking about ideas for EuroPython. I also managed to interview some organisers of PyCon France.&lt;/p&gt;
+
+&lt;blockquote class=&quot;twitter-tweet&quot;&gt;&lt;p lang=&quot;en&quot; dir=&quot;ltr&quot;&gt;Closing session - Did you had a good time &lt;a href=&quot;https://twitter.com/pyconfr?ref_src=twsrc%5Etfw&quot;&gt;@pyconfr&lt;/a&gt;? &lt;a href=&quot;https://t.co/kgSdkenlp1&quot;&gt;pic.twitter.com/kgSdkenlp1&lt;/a&gt;&lt;/p&gt;&amp;mdash; Cheuk Ting Ho (@cheukting_ho) &lt;a href=&quot;https://twitter.com/cheukting_ho/status/1627318201078906880?ref_src=twsrc%5Etfw&quot;&gt;February 19, 2023&lt;/a&gt;&lt;/blockquote&gt;
+&lt;script async=&quot;&quot; src=&quot;https://platform.twitter.com/widgets.js&quot; charset=&quot;utf-8&quot;&gt;&lt;/script&gt;
+
+&lt;p&gt;The last day of the conference is shorter and we had a closing session at around 3 pm. Everyone seems to enjoy the conference. Congratulation and thank you to the organising team of PyCon France.&lt;/p&gt;
+
+&lt;hr /&gt;
+
+&lt;p&gt;See some people that I met at PyCon France:&lt;/p&gt;
+
+&lt;iframe width=&quot;560&quot; height=&quot;315&quot; src=&quot;https://www.youtube.com/embed/oPWRlEagg7k&quot; title=&quot;YouTube video player&quot; frameborder=&quot;0&quot; allow=&quot;accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture&quot; allowfullscreen=&quot;&quot;&gt;&lt;/iframe&gt;
+</description>
+        <pubDate>Mon, 20 Feb 2023 00:00:00 +0000</pubDate>
+        <link>https://cheuk.dev/2023/02/20/pyconfr23/</link>
+        <guid isPermaLink="true">https://cheuk.dev/2023/02/20/pyconfr23/</guid>
+        
+        <category>Conference</category>
+        
+        <category>PyConFR</category>
+        
+        
+      </item>
     
       <item>
         <title>State of Open Con 2023</title>
