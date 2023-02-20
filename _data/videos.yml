@@ -1,3 +1,16 @@
+- title: Better Data Governance with Revision Control Workflows
+  vid: IycYAl-U9v4
+  tags:
+    - Conference
+  description: |
+    At the beginning of the talk, we will explore the role of revision control in promoting open-source software development. Cheuk will talk about how open-source software contribution is made possible with tools like git and GitHub. Next Cheuk will review how most database is lacking this revision control feature. She will also talk about why that is a problem and how we can improve.
+
+    In this talk, Cheuk may demo some Python code with the use of TerminusDB, which is an open-source graph database. However, no Python knowledge will be needed to understand the topic and discussion in this talk.
+
+    This talk is for those who work with data within a team and is seeking a better solution to collaborate and share data, making the data pipeline more efficient and benefiting data science teams in their productivity.
+  date: 2023-02-17
+  author: Cheuk Ting Ho
+
 - title: Will PyScript replace Django? - What PyScript is and is not
   vid: 2rm_tyl7iGI
   tags:
