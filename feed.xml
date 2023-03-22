@@ -6,9 +6,101 @@
 </description>
     <link>https://cheuk.dev</link>
     <atom:link href="https://cheuk.dev/feed.xml" rel="self" type="application/rss+xml"/>
-    <pubDate>Sat, 18 Mar 2023 18:24:39 +0000</pubDate>
-    <lastBuildDate>Sat, 18 Mar 2023 18:24:39 +0000</lastBuildDate>
+    <pubDate>Wed, 22 Mar 2023 16:24:01 +0000</pubDate>
+    <lastBuildDate>Wed, 22 Mar 2023 16:24:01 +0000</lastBuildDate>
     <generator>Jekyll v3.8.7</generator>
+    
+      <item>
+        <title>PyCascade 2023</title>
+        <description>&lt;p&gt;PyCascade is not as huge in number as other conferences, but there’s something special about it. Let’s find out!&lt;/p&gt;
+
+&lt;p&gt;The day I arrived, it is the day before the conference. One of the sponsors, Microsoft, was so nice to host the pre-conference social for all the attendees. It also doubles as an early check-in for the conference. I was glad that I check-in early as the proof of vaccination is required to be within a year… as someone from the UK and not in a vulnerable group, I was not offered a vaccination against COVID since 2021. (And going private was not an option last time I checked). So the only option is to get a certified RAPID test, which another British speaker and I managed to get from a nearby hotel (they sent everyone there, business must be good for them that day lol). Later one of the organisers explained why they have that policy in place, I think it’s fair, for me it is more like a cultural shock. In the UK most of us already forgot the impact of COVID on people, which I don’t know if it’s a good thing or not. We remained masked for most of the conference as well, which is fine by me, I spent a week in Japan before so it’s natural for me to wear a mask all the time.&lt;/p&gt;
+
+&lt;blockquote class=&quot;twitter-tweet&quot;&gt;&lt;p lang=&quot;en&quot; dir=&quot;ltr&quot;&gt;behind the scenes setup the night before PyCascades 2023 Conference 👋 &lt;a href=&quot;https://t.co/4nH3TYRXol&quot;&gt;pic.twitter.com/4nH3TYRXol&lt;/a&gt;&lt;/p&gt;&amp;mdash; Thx for joining us at PyCascades 2023!!!! 🥳🎊🍃🌄 (@pycascades) &lt;a href=&quot;https://twitter.com/pycascades/status/1636910186005774336?ref_src=twsrc%5Etfw&quot;&gt;March 18, 2023&lt;/a&gt;&lt;/blockquote&gt;
+&lt;script async=&quot;&quot; src=&quot;https://platform.twitter.com/widgets.js&quot; charset=&quot;utf-8&quot;&gt;&lt;/script&gt;
+
+&lt;p&gt;In the social we have Mexican food, for me, it tastes good. I had a good chat with a few of the attendees. Some celebrities in the community, such as Guido, are also among the attendees. Since it is not the first time I met Guido at Python conferences so I was not too surprised. Not the same case for some attendees who have attended a Python conference in the US for the first time, they usually go up to him and greet him. Guido said it is funny that everyone knows him but he does not know everybody, I agree that is it quite an awkward feeling being famous. But he treats everyone equally and seems he has not had much trouble blending in after a while. We even have a nice discussion about quantum computers and other sci-fi-like topics.&lt;/p&gt;
+
+&lt;h2 id=&quot;day-1&quot;&gt;Day 1&lt;/h2&gt;
+
+&lt;p&gt;I arrived on time for the conference on the first day. There is coffee ready for the attendees. The conference offered refreshments during breaks but for lunch, we have to go out to have it on our own, which is not a problem as we form lunch outing groups on our own.&lt;/p&gt;
+
+&lt;blockquote class=&quot;twitter-tweet&quot;&gt;&lt;p lang=&quot;en&quot; dir=&quot;ltr&quot;&gt;Coffee and registration ready at &lt;a href=&quot;https://twitter.com/pycascades?ref_src=twsrc%5Etfw&quot;&gt;@pycascades&lt;/a&gt; &lt;a href=&quot;https://t.co/86yur9OMCL&quot;&gt;pic.twitter.com/86yur9OMCL&lt;/a&gt;&lt;/p&gt;&amp;mdash; Cheuk Ting Ho at PyCascade (@cheukting_ho) &lt;a href=&quot;https://twitter.com/cheukting_ho/status/1637123583225864192?ref_src=twsrc%5Etfw&quot;&gt;March 18, 2023&lt;/a&gt;&lt;/blockquote&gt;
+&lt;script async=&quot;&quot; src=&quot;https://platform.twitter.com/widgets.js&quot; charset=&quot;utf-8&quot;&gt;&lt;/script&gt;
+
+&lt;p&gt;I tried to attend most of the talk on day 1, there are a few interesting talks in the morning. First, we have a very nice talk about Python syntactic sugar by Brett Cannon.&lt;/p&gt;
+
+&lt;blockquote class=&quot;twitter-tweet&quot;&gt;&lt;p lang=&quot;en&quot; dir=&quot;ltr&quot;&gt;First talk &lt;a href=&quot;https://twitter.com/pycascades?ref_src=twsrc%5Etfw&quot;&gt;@pycascades&lt;/a&gt; is by &lt;a href=&quot;https://twitter.com/brettsky?ref_src=twsrc%5Etfw&quot;&gt;@brettsky&lt;/a&gt; about Python syntactic sugars 🍬 &lt;a href=&quot;https://t.co/Oo0duHqrKC&quot;&gt;pic.twitter.com/Oo0duHqrKC&lt;/a&gt;&lt;/p&gt;&amp;mdash; Cheuk Ting Ho at PyCascade (@cheukting_ho) &lt;a href=&quot;https://twitter.com/cheukting_ho/status/1637129112853573636?ref_src=twsrc%5Etfw&quot;&gt;March 18, 2023&lt;/a&gt;&lt;/blockquote&gt;
+&lt;script async=&quot;&quot; src=&quot;https://platform.twitter.com/widgets.js&quot; charset=&quot;utf-8&quot;&gt;&lt;/script&gt;
+
+&lt;p&gt;We also have Ricky talk about the inner working of CPython, which is a very beginner-friendly talk for people who are interested in what happened to their Python code when executed.&lt;/p&gt;
+
+&lt;blockquote class=&quot;twitter-tweet&quot;&gt;&lt;p lang=&quot;en&quot; dir=&quot;ltr&quot;&gt;After the break, there’s more talks &lt;a href=&quot;https://twitter.com/pycascades?ref_src=twsrc%5Etfw&quot;&gt;@pycascades&lt;/a&gt; Here’s one by &lt;a href=&quot;https://twitter.com/coolandsmartrr?ref_src=twsrc%5Etfw&quot;&gt;@coolandsmartrr&lt;/a&gt; about the inner working of Python code &lt;a href=&quot;https://t.co/2r4uwjRxvv&quot;&gt;pic.twitter.com/2r4uwjRxvv&lt;/a&gt;&lt;/p&gt;&amp;mdash; Cheuk Ting Ho at PyCascade (@cheukting_ho) &lt;a href=&quot;https://twitter.com/cheukting_ho/status/1637160159301517313?ref_src=twsrc%5Etfw&quot;&gt;March 18, 2023&lt;/a&gt;&lt;/blockquote&gt;
+&lt;script async=&quot;&quot; src=&quot;https://platform.twitter.com/widgets.js&quot; charset=&quot;utf-8&quot;&gt;&lt;/script&gt;
+
+&lt;p&gt;PyCascade also offers silence viewing (with caption) at another theatre, taking advantage of the fact that all the talks are live-streamed for remote participants. I like the idea.&lt;/p&gt;
+
+&lt;blockquote class=&quot;twitter-tweet&quot;&gt;&lt;p lang=&quot;en&quot; dir=&quot;ltr&quot;&gt;&lt;a href=&quot;https://twitter.com/pycascades?ref_src=twsrc%5Etfw&quot;&gt;@pycascades&lt;/a&gt; support silence viewing 🤫 here is the talk by Sarah Kaiser about Spotless Development Environment &lt;a href=&quot;https://t.co/0oWmJU6RRL&quot;&gt;pic.twitter.com/0oWmJU6RRL&lt;/a&gt;&lt;/p&gt;&amp;mdash; Cheuk Ting Ho at PyCascade (@cheukting_ho) &lt;a href=&quot;https://twitter.com/cheukting_ho/status/1637206266547191808?ref_src=twsrc%5Etfw&quot;&gt;March 18, 2023&lt;/a&gt;&lt;/blockquote&gt;
+&lt;script async=&quot;&quot; src=&quot;https://platform.twitter.com/widgets.js&quot; charset=&quot;utf-8&quot;&gt;&lt;/script&gt;
+
+&lt;p&gt;For lunch, I follow Mariatta and her family to have Malaysian food. The Hainan chicken was really good. As there’s a huge Asia population in Vancouver the Asian food there seems better than what London has to offer.&lt;/p&gt;
+
+&lt;p&gt;After lunch, I met Denny and her husband Andres, my friends who helped out at Pyjamas. I am so glad to meet them in person finally!&lt;/p&gt;
+
+&lt;blockquote class=&quot;twitter-tweet&quot;&gt;&lt;p lang=&quot;en&quot; dir=&quot;ltr&quot;&gt;We had this excellent shot at &lt;a href=&quot;https://twitter.com/pycascades?ref_src=twsrc%5Etfw&quot;&gt;@pycascades&lt;/a&gt; photo booth today.😊 &lt;br /&gt;I&amp;#39;m so excited to network in person with these great people from the &lt;a href=&quot;https://twitter.com/hashtag/Python?src=hash&amp;amp;ref_src=twsrc%5Etfw&quot;&gt;#Python&lt;/a&gt; community.🐍💜 🇨🇦&lt;a href=&quot;https://twitter.com/hashtag/PyCascades2023?src=hash&amp;amp;ref_src=twsrc%5Etfw&quot;&gt;#PyCascades2023&lt;/a&gt;&lt;a href=&quot;https://twitter.com/pycon?ref_src=twsrc%5Etfw&quot;&gt;@pycon&lt;/a&gt; &lt;a href=&quot;https://t.co/Pz9QYWbhFU&quot;&gt;pic.twitter.com/Pz9QYWbhFU&lt;/a&gt;&lt;/p&gt;&amp;mdash; Denny Perez (@dennyperez18) &lt;a href=&quot;https://twitter.com/dennyperez18/status/1637540480971046913?ref_src=twsrc%5Etfw&quot;&gt;March 19, 2023&lt;/a&gt;&lt;/blockquote&gt;
+&lt;script async=&quot;&quot; src=&quot;https://platform.twitter.com/widgets.js&quot; charset=&quot;utf-8&quot;&gt;&lt;/script&gt;
+
+&lt;p&gt;The last talk of the conference was about the tricky thing of Zen of Python. It is a very interesting talk, especially for beginners that took the Zen of Python as rules for everything.&lt;/p&gt;
+
+&lt;blockquote class=&quot;twitter-tweet&quot;&gt;&lt;p lang=&quot;en&quot; dir=&quot;ltr&quot;&gt;Last talk of the day &lt;a href=&quot;https://twitter.com/pycascades?ref_src=twsrc%5Etfw&quot;&gt;@pycascades&lt;/a&gt; is about the (not so) zen of Python 🐍 by &lt;a href=&quot;https://twitter.com/chrisjrn?ref_src=twsrc%5Etfw&quot;&gt;@chrisjrn&lt;/a&gt; &lt;a href=&quot;https://t.co/ymFEPOjIHR&quot;&gt;pic.twitter.com/ymFEPOjIHR&lt;/a&gt;&lt;/p&gt;&amp;mdash; Cheuk Ting Ho at PyCascade (@cheukting_ho) &lt;a href=&quot;https://twitter.com/cheukting_ho/status/1637236576517226497?ref_src=twsrc%5Etfw&quot;&gt;March 18, 2023&lt;/a&gt;&lt;/blockquote&gt;
+&lt;script async=&quot;&quot; src=&quot;https://platform.twitter.com/widgets.js&quot; charset=&quot;utf-8&quot;&gt;&lt;/script&gt;
+
+&lt;p&gt;And that’s day 1, after that, I did a tech check for my talk the next day then I head back to the hotel and wait for my cousin to pick me up for a family dinner. I have not met my uncle and some of my cousins for years and it’s good to grab this opportunity to meet them.&lt;/p&gt;
+
+&lt;h2 id=&quot;day-2&quot;&gt;Day 2&lt;/h2&gt;
+
+&lt;p&gt;On day 2, there is a lightning talk session at the beginning. There were quite a few interesting talks, including a talk about computational literacy, equity, and digital accessibility by &lt;a href=&quot;https://tonyfast.github.io/tonyfast/&quot;&gt;Tonyfast&lt;/a&gt;. Mariatta also gives a talk about PyCon US and we should submit our memories for it.&lt;/p&gt;
+
+&lt;blockquote class=&quot;twitter-tweet&quot;&gt;&lt;p lang=&quot;en&quot; dir=&quot;ltr&quot;&gt;&lt;a href=&quot;https://twitter.com/mariatta?ref_src=twsrc%5Etfw&quot;&gt;@mariatta&lt;/a&gt; is telling us to join &lt;a href=&quot;https://twitter.com/pycon?ref_src=twsrc%5Etfw&quot;&gt;@pycon&lt;/a&gt; this year! &lt;a href=&quot;https://t.co/Ni2zecsaxH&quot;&gt;pic.twitter.com/Ni2zecsaxH&lt;/a&gt;&lt;/p&gt;&amp;mdash; Cheuk Ting Ho at PyCascade (@cheukting_ho) &lt;a href=&quot;https://twitter.com/cheukting_ho/status/1637491816533721088?ref_src=twsrc%5Etfw&quot;&gt;March 19, 2023&lt;/a&gt;&lt;/blockquote&gt;
+&lt;script async=&quot;&quot; src=&quot;https://platform.twitter.com/widgets.js&quot; charset=&quot;utf-8&quot;&gt;&lt;/script&gt;
+
+&lt;p&gt;Then I find a quiet place to prepare my talk. I headed to the green room before my talk and when it was time, the organiser and session host bring me to the room where I will be presenting. When I plugged in my computer, the unexpected happened: my screen is not mirrored but extended. It took me by surprise as it was mirrored the day before when we checked. So I have to do a presentation with live coding with my head turning to face the projected screen. It was a challenge especially I cannot see where the mouse was most of the time. Luckily the audiences are supper supportive and the talk ends up being well.&lt;/p&gt;
+
+&lt;blockquote class=&quot;twitter-tweet&quot;&gt;&lt;p lang=&quot;en&quot; dir=&quot;ltr&quot;&gt;Looking forward to &lt;a href=&quot;https://twitter.com/cheukting_ho?ref_src=twsrc%5Etfw&quot;&gt;@cheukting_ho&lt;/a&gt;&amp;#39;s talk, &amp;quot;Untangle Python Spaghettis - Deep Dive Into Environments and Dependencies Management&amp;quot;? Sound off in the comments!&lt;a href=&quot;https://twitter.com/hashtag/PyCascades?src=hash&amp;amp;ref_src=twsrc%5Etfw&quot;&gt;#PyCascades&lt;/a&gt;&lt;a href=&quot;https://t.co/CfG7OIy8t2&quot;&gt;https://t.co/CfG7OIy8t2&lt;/a&gt; &lt;a href=&quot;https://t.co/VK6Myh4L97&quot;&gt;pic.twitter.com/VK6Myh4L97&lt;/a&gt;&lt;/p&gt;&amp;mdash; Thx for joining us at PyCascades 2023!!!! 🥳🎊🍃🌄 (@pycascades) &lt;a href=&quot;https://twitter.com/pycascades/status/1634630266831659008?ref_src=twsrc%5Etfw&quot;&gt;March 11, 2023&lt;/a&gt;&lt;/blockquote&gt;
+&lt;script async=&quot;&quot; src=&quot;https://platform.twitter.com/widgets.js&quot; charset=&quot;utf-8&quot;&gt;&lt;/script&gt;
+
+&lt;p&gt;After that it was lunch time, I headed to the pub next door for a traditional Canadian poutine with Ricky, another speaker from Japan. We realised we were on the same flight from Tokyo to Vancouver the day before the conference.&lt;/p&gt;
+
+&lt;p&gt;After lunch, I have to go to my hotel room for a nap… all the jet lag and travel have caught up to me and I need more sleep. It was a struggle to get back up but I managed to attend the closing of the conference. It was quite an emotional moment as the organisers had put in a lot of effort to make it happen and I appreciated that.&lt;/p&gt;
+
+&lt;blockquote class=&quot;twitter-tweet&quot;&gt;&lt;p lang=&quot;en&quot; dir=&quot;ltr&quot;&gt;Awww it’s the end of &lt;a href=&quot;https://twitter.com/pycascades?ref_src=twsrc%5Etfw&quot;&gt;@pycascades&lt;/a&gt; &lt;a href=&quot;https://t.co/8dYg540Sjs&quot;&gt;pic.twitter.com/8dYg540Sjs&lt;/a&gt;&lt;/p&gt;&amp;mdash; Cheuk Ting Ho at PyCascade (@cheukting_ho) &lt;a href=&quot;https://twitter.com/cheukting_ho/status/1637605550463635456?ref_src=twsrc%5Etfw&quot;&gt;March 20, 2023&lt;/a&gt;&lt;/blockquote&gt;
+&lt;script async=&quot;&quot; src=&quot;https://platform.twitter.com/widgets.js&quot; charset=&quot;utf-8&quot;&gt;&lt;/script&gt;
+
+&lt;p&gt;For dinner, I was invited by Mariatta to have dinner at her place. It was very nice, the food was nice and it is a very cosy dinner with her friends. We all have a very fun time chatting and having good laughs. I am sure I will meet most of them in Salt Lake City during PyCon US next month again.&lt;/p&gt;
+
+&lt;h2 id=&quot;sprint&quot;&gt;Sprint&lt;/h2&gt;
+
+&lt;blockquote class=&quot;twitter-tweet&quot;&gt;&lt;p lang=&quot;en&quot; dir=&quot;ltr&quot;&gt;Join our in-person PyCascades Sprints projects! 💻🚀🌄 &lt;a href=&quot;https://t.co/V2IKXzM1pv&quot;&gt;pic.twitter.com/V2IKXzM1pv&lt;/a&gt;&lt;/p&gt;&amp;mdash; Thx for joining us at PyCascades 2023!!!! 🥳🎊🍃🌄 (@pycascades) &lt;a href=&quot;https://twitter.com/pycascades/status/1637870190808698880?ref_src=twsrc%5Etfw&quot;&gt;March 20, 2023&lt;/a&gt;&lt;/blockquote&gt;
+&lt;script async=&quot;&quot; src=&quot;https://platform.twitter.com/widgets.js&quot; charset=&quot;utf-8&quot;&gt;&lt;/script&gt;
+
+&lt;p&gt;The last day of the conference is the sprint. I love attending sprints however, I know that I do not have capacities to contribute this time as work has been piling up. So I opted to sit on the side to catch up with some work. I also got a great chance to chat with Kojo about his experience in China and Hong Kong before. I love this conversation and can’t wait to have more when we meet again in the future.&lt;/p&gt;
+
+&lt;hr /&gt;
+
+&lt;p&gt;Meet the organisers:&lt;/p&gt;
+
+&lt;iframe width=&quot;560&quot; height=&quot;315&quot; src=&quot;https://www.youtube.com/embed/5YgQyhHkqkg&quot; title=&quot;YouTube video player&quot; frameborder=&quot;0&quot; allow=&quot;accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture&quot; allowfullscreen=&quot;&quot;&gt;&lt;/iframe&gt;
+</description>
+        <pubDate>Tue, 21 Mar 2023 00:00:00 +0000</pubDate>
+        <link>https://cheuk.dev/2023/03/21/pycascade23/</link>
+        <guid isPermaLink="true">https://cheuk.dev/2023/03/21/pycascade23/</guid>
+        
+        <category>Conference</category>
+        
+        <category>PyCascade</category>
+        
+        
+      </item>
     
       <item>
         <title>DevRelCon Yokohama</title>
