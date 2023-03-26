@@ -1,3 +1,16 @@
+- title: PyCon Limerick 23 - Don't just test, my friend, test better
+  vid: pxabsoecl5E
+  tags:
+    - Conference
+  description: |
+    We all know that we need to write tests, some of you may even practice test-driven development. Pytest provides lots of tools for you to write better tests, however, not all of them we are familiar with. Let's revisit them and see how they can be used to write better tests.
+
+    In this talk, we will visit some valuable tools in Pytest, for example, parameterize, fixture and xfail. All of them provided what problem these tool is trying to solve, an example use case and an example code. The talk will be conducted in a storytelling kind of way, with an example project and writing a test suit to test different features in the project. The goal of this talk is to give beginner code a head start in improving their ability to write meaningful and complex tests.
+
+    This talk is for beginner programmers and data scientists who can write Python code and know the basics of testing but have yet to get their hands dirty in writing complex tests that, for example, involve an external application, which will require extra tools from Pytest to achieve that.
+  date: 2023-03-25
+  author: Cheuk Ting Ho
+
 - title: Untangle Python spaghetti
   vid: PCohAKCn1XQ
   tags:
