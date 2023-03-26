@@ -6,9 +6,72 @@
 </description>
     <link>https://cheuk.dev</link>
     <atom:link href="https://cheuk.dev/feed.xml" rel="self" type="application/rss+xml"/>
-    <pubDate>Sat, 25 Mar 2023 10:43:45 +0000</pubDate>
-    <lastBuildDate>Sat, 25 Mar 2023 10:43:45 +0000</lastBuildDate>
+    <pubDate>Sun, 26 Mar 2023 16:28:25 +0000</pubDate>
+    <lastBuildDate>Sun, 26 Mar 2023 16:28:25 +0000</lastBuildDate>
     <generator>Jekyll v3.8.7</generator>
+    
+      <item>
+        <title>PyCon Limerick 2023</title>
+        <description>&lt;p&gt;It has been a while since I have been to Limerick for PyCon. It was supposed to come back after the pandemic last year but unfortunately, last year they have to cancel the event. So what’s the rebooting of the conference this year be like?&lt;/p&gt;
+
+&lt;blockquote class=&quot;twitter-tweet&quot;&gt;&lt;p lang=&quot;en&quot; dir=&quot;ltr&quot;&gt;PyCon Limerick! &lt;a href=&quot;https://twitter.com/hashtag/PyConIe?src=hash&amp;amp;ref_src=twsrc%5Etfw&quot;&gt;#PyConIe&lt;/a&gt; &lt;a href=&quot;https://twitter.com/hashtag/PyConLimerick?src=hash&amp;amp;ref_src=twsrc%5Etfw&quot;&gt;#PyConLimerick&lt;/a&gt; &lt;a href=&quot;https://t.co/SnLxiJVJO9&quot;&gt;pic.twitter.com/SnLxiJVJO9&lt;/a&gt;&lt;/p&gt;&amp;mdash; Python Ireland (@PythonIreland) &lt;a href=&quot;https://twitter.com/PythonIreland/status/1639650345453342720?ref_src=twsrc%5Etfw&quot;&gt;March 25, 2023&lt;/a&gt;&lt;/blockquote&gt;
+&lt;script async=&quot;&quot; src=&quot;https://platform.twitter.com/widgets.js&quot; charset=&quot;utf-8&quot;&gt;&lt;/script&gt;
+
+&lt;h2 id=&quot;morning&quot;&gt;Morning&lt;/h2&gt;
+
+&lt;p&gt;I arrived the day before and stay in the hotel where the conference is happening. In the morning, I met the organisers at the breakfast table. They have problems with some speakers who cannot make it to Limerick so there will be some remote talks.&lt;/p&gt;
+
+&lt;p&gt;It’s a slow start in the morning, there’s no official opening so I arrived at the registration before the first talk started. I was glad to meet some of my friends in Ireland.&lt;/p&gt;
+
+&lt;blockquote class=&quot;twitter-tweet&quot;&gt;&lt;p lang=&quot;en&quot; dir=&quot;ltr&quot;&gt;Glad to see some familiar faces &lt;a href=&quot;https://twitter.com/hashtag/PyConLimerick?src=hash&amp;amp;ref_src=twsrc%5Etfw&quot;&gt;#PyConLimerick&lt;/a&gt; &lt;a href=&quot;https://twitter.com/PythonIreland?ref_src=twsrc%5Etfw&quot;&gt;@PythonIreland&lt;/a&gt; &lt;a href=&quot;https://t.co/JR8YQ9PvYE&quot;&gt;pic.twitter.com/JR8YQ9PvYE&lt;/a&gt;&lt;/p&gt;&amp;mdash; Cheuk Ting Ho (@cheukting_ho) &lt;a href=&quot;https://twitter.com/cheukting_ho/status/1639559420769083393?ref_src=twsrc%5Etfw&quot;&gt;March 25, 2023&lt;/a&gt;&lt;/blockquote&gt;
+&lt;script async=&quot;&quot; src=&quot;https://platform.twitter.com/widgets.js&quot; charset=&quot;utf-8&quot;&gt;&lt;/script&gt;
+
+&lt;p&gt;I attended a talk about hyper-modernising Python code, this is the first time I heard about this term but basically, that summarises the modern standard of Python projects.&lt;/p&gt;
+
+&lt;blockquote class=&quot;twitter-tweet&quot;&gt;&lt;p lang=&quot;en&quot; dir=&quot;ltr&quot;&gt;Morning talk time at &lt;a href=&quot;https://twitter.com/hashtag/PyConLimerick?src=hash&amp;amp;ref_src=twsrc%5Etfw&quot;&gt;#PyConLimerick&lt;/a&gt; about Hyper-modernising Python code base &lt;a href=&quot;https://t.co/GXzR4Q4Z54&quot;&gt;pic.twitter.com/GXzR4Q4Z54&lt;/a&gt;&lt;/p&gt;&amp;mdash; Cheuk Ting Ho (@cheukting_ho) &lt;a href=&quot;https://twitter.com/cheukting_ho/status/1639561531703558147?ref_src=twsrc%5Etfw&quot;&gt;March 25, 2023&lt;/a&gt;&lt;/blockquote&gt;
+&lt;script async=&quot;&quot; src=&quot;https://platform.twitter.com/widgets.js&quot; charset=&quot;utf-8&quot;&gt;&lt;/script&gt;
+
+&lt;p&gt;Then I tried a remote talk about managing the open-source communities. I got some inspiration from it, especially the champion program part.&lt;/p&gt;
+
+&lt;blockquote class=&quot;twitter-tweet&quot;&gt;&lt;p lang=&quot;en&quot; dir=&quot;ltr&quot;&gt;Remote talk at &lt;a href=&quot;https://twitter.com/hashtag/PyConLimerick?src=hash&amp;amp;ref_src=twsrc%5Etfw&quot;&gt;#PyConLimerick&lt;/a&gt; about managing open source communities &lt;a href=&quot;https://t.co/Sf2YNfuOxv&quot;&gt;pic.twitter.com/Sf2YNfuOxv&lt;/a&gt;&lt;/p&gt;&amp;mdash; Cheuk Ting Ho (@cheukting_ho) &lt;a href=&quot;https://twitter.com/cheukting_ho/status/1639570852428537856?ref_src=twsrc%5Etfw&quot;&gt;March 25, 2023&lt;/a&gt;&lt;/blockquote&gt;
+&lt;script async=&quot;&quot; src=&quot;https://platform.twitter.com/widgets.js&quot; charset=&quot;utf-8&quot;&gt;&lt;/script&gt;
+
+&lt;p&gt;There is also a talk about the security breach of some big companies. From what they did wrong we learnt how to better protect ourselves and our projects. The main take away, don’t hardcore any secrets from the start.&lt;/p&gt;
+
+&lt;blockquote class=&quot;twitter-tweet&quot;&gt;&lt;p lang=&quot;en&quot; dir=&quot;ltr&quot;&gt;We have a talk about how to think like a hacker to avoid hackers at &lt;a href=&quot;https://twitter.com/hashtag/PyConLimerick?src=hash&amp;amp;ref_src=twsrc%5Etfw&quot;&gt;#PyConLimerick&lt;/a&gt; &lt;a href=&quot;https://twitter.com/PythonIreland?ref_src=twsrc%5Etfw&quot;&gt;@PythonIreland&lt;/a&gt; &lt;a href=&quot;https://t.co/36GFKkSJBU&quot;&gt;pic.twitter.com/36GFKkSJBU&lt;/a&gt;&lt;/p&gt;&amp;mdash; Cheuk Ting Ho (@cheukting_ho) &lt;a href=&quot;https://twitter.com/cheukting_ho/status/1639597630832492544?ref_src=twsrc%5Etfw&quot;&gt;March 25, 2023&lt;/a&gt;&lt;/blockquote&gt;
+&lt;script async=&quot;&quot; src=&quot;https://platform.twitter.com/widgets.js&quot; charset=&quot;utf-8&quot;&gt;&lt;/script&gt;
+
+&lt;p&gt;For lunch, we are on our own, but most of us take the advantage of the hotel restaurant downstairs. The organisers book several tables for us in advance as the restaurant gets quite busy later for the ruby game. It’s nice to be able to chat with folks from the conference at the lunch tables.&lt;/p&gt;
+
+&lt;h2 id=&quot;afternoon&quot;&gt;Afternoon&lt;/h2&gt;
+
+&lt;p&gt;Right after lunch is my talk. I was given 40 mins for the talk but seriously I do not have that much to say. So in the end it ended up as a discussion about what tricks we do to test things better. Everyone shared their ideas. I am glad that it ended up becoming an interesting session because of the enthusiasm of the attendees.&lt;/p&gt;
+
+&lt;p&gt;You can watch my talk here:&lt;/p&gt;
+
+&lt;iframe width=&quot;560&quot; height=&quot;315&quot; src=&quot;https://www.youtube.com/embed/pxabsoecl5E&quot; title=&quot;YouTube video player&quot; frameborder=&quot;0&quot; allow=&quot;accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture&quot; allowfullscreen=&quot;&quot;&gt;&lt;/iframe&gt;
+
+&lt;p&gt;Then there is a talk about real-time analytics. To be honest I was too tired to focus on the talk after many interesting talks.&lt;/p&gt;
+
+&lt;blockquote class=&quot;twitter-tweet&quot;&gt;&lt;p lang=&quot;en&quot; dir=&quot;ltr&quot;&gt;Real time ML analytics talk at &lt;a href=&quot;https://twitter.com/hashtag/PyConLimerick?src=hash&amp;amp;ref_src=twsrc%5Etfw&quot;&gt;#PyConLimerick&lt;/a&gt; &lt;a href=&quot;https://twitter.com/PythonIreland?ref_src=twsrc%5Etfw&quot;&gt;@PythonIreland&lt;/a&gt; &lt;a href=&quot;https://t.co/AJWuYu77ZH&quot;&gt;pic.twitter.com/AJWuYu77ZH&lt;/a&gt;&lt;/p&gt;&amp;mdash; Cheuk Ting Ho (@cheukting_ho) &lt;a href=&quot;https://twitter.com/cheukting_ho/status/1639639559024541698?ref_src=twsrc%5Etfw&quot;&gt;March 25, 2023&lt;/a&gt;&lt;/blockquote&gt;
+&lt;script async=&quot;&quot; src=&quot;https://platform.twitter.com/widgets.js&quot; charset=&quot;utf-8&quot;&gt;&lt;/script&gt;
+
+&lt;p&gt;After that, since I was too tired to listen to more talks, I spent some time catching up with friends and talking to some organisers:&lt;/p&gt;
+
+&lt;iframe width=&quot;560&quot; height=&quot;315&quot; src=&quot;https://www.youtube.com/embed/SubAFQopHEU&quot; title=&quot;YouTube video player&quot; frameborder=&quot;0&quot; allow=&quot;accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture&quot; allowfullscreen=&quot;&quot;&gt;&lt;/iframe&gt;
+
+&lt;p&gt;I have a flight to catch so I leave after the last talk got wrapped up. All in all, it was a small but nice conference. All the attendees are very passionate about the topics and are very engaging.&lt;/p&gt;
+</description>
+        <pubDate>Sun, 26 Mar 2023 00:00:00 +0000</pubDate>
+        <link>https://cheuk.dev/2023/03/26/pyconlimerick23/</link>
+        <guid isPermaLink="true">https://cheuk.dev/2023/03/26/pyconlimerick23/</guid>
+        
+        <category>Conference</category>
+        
+        <category>PythonIreland</category>
+        
+        
+      </item>
     
       <item>
         <title>PyCascade 2023</title>
