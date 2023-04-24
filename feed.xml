@@ -6,9 +6,116 @@
 </description>
     <link>https://cheuk.dev</link>
     <atom:link href="https://cheuk.dev/feed.xml" rel="self" type="application/rss+xml"/>
-    <pubDate>Sun, 26 Mar 2023 16:28:25 +0000</pubDate>
-    <lastBuildDate>Sun, 26 Mar 2023 16:28:25 +0000</lastBuildDate>
+    <pubDate>Mon, 24 Apr 2023 14:29:44 +0000</pubDate>
+    <lastBuildDate>Mon, 24 Apr 2023 14:29:44 +0000</lastBuildDate>
     <generator>Jekyll v3.8.7</generator>
+    
+      <item>
+        <title>PyConDE and PyData Berlin 2023</title>
+        <description>&lt;p&gt;PyCon DE has been joining hands with PyData Berlin since 2019 and it has grown to a conference that is as big as EuroPython over the past years. It’s an event that is too hard to miss and of cause, I am back.&lt;/p&gt;
+
+&lt;h2 id=&quot;first-day&quot;&gt;First Day&lt;/h2&gt;
+
+&lt;blockquote class=&quot;twitter-tweet&quot;&gt;&lt;p lang=&quot;en&quot; dir=&quot;ltr&quot;&gt;So many attendees at &lt;a href=&quot;https://twitter.com/PyConDE?ref_src=twsrc%5Etfw&quot;&gt;@PyConDE&lt;/a&gt; &lt;a href=&quot;https://twitter.com/hashtag/PyConDE?src=hash&amp;amp;ref_src=twsrc%5Etfw&quot;&gt;#PyConDE&lt;/a&gt; &lt;a href=&quot;https://t.co/xUF3yvo8nn&quot;&gt;pic.twitter.com/xUF3yvo8nn&lt;/a&gt;&lt;/p&gt;&amp;mdash; Cheuk Ting Ho at #PyConUS (@cheukting_ho) &lt;a href=&quot;https://twitter.com/cheukting_ho/status/1647873088971735040?ref_src=twsrc%5Etfw&quot;&gt;April 17, 2023&lt;/a&gt;&lt;/blockquote&gt;
+&lt;script async=&quot;&quot; src=&quot;https://platform.twitter.com/widgets.js&quot; charset=&quot;utf-8&quot;&gt;&lt;/script&gt;
+
+&lt;p&gt;In the morning, registration started at 8:30 am, 1.5 hours before the opening sessions. To avoid the huge queue that happened last year, I arrived early to get my badge. Not soon after, the venue is already packed with conference attendees.&lt;/p&gt;
+
+&lt;blockquote class=&quot;twitter-tweet&quot;&gt;&lt;p lang=&quot;en&quot; dir=&quot;ltr&quot;&gt;Whole &lt;a href=&quot;https://twitter.com/PyConDE?ref_src=twsrc%5Etfw&quot;&gt;@PyConDE&lt;/a&gt; team for the opening 🙌🏻 &lt;a href=&quot;https://t.co/D5rgFlupEk&quot;&gt;pic.twitter.com/D5rgFlupEk&lt;/a&gt;&lt;/p&gt;&amp;mdash; Cheuk Ting Ho at #PyConUS (@cheukting_ho) &lt;a href=&quot;https://twitter.com/cheukting_ho/status/1647875327115374592?ref_src=twsrc%5Etfw&quot;&gt;April 17, 2023&lt;/a&gt;&lt;/blockquote&gt;
+&lt;script async=&quot;&quot; src=&quot;https://platform.twitter.com/widgets.js&quot; charset=&quot;utf-8&quot;&gt;&lt;/script&gt;
+
+&lt;p&gt;This year, there are 1700+ attendees and it reached the maximum capacity. The event is hybrid and there will be online participation, including video streaming and asking questions online via Slido and Discord server to join. When asked how are the first-time attendees, there are 80-90% of people show that they are first-timers. It has been a trend that most attendees are new since the conference came back to the Berlin venue last year.&lt;/p&gt;
+
+&lt;blockquote class=&quot;twitter-tweet&quot;&gt;&lt;p lang=&quot;en&quot; dir=&quot;ltr&quot;&gt;Attending conference by &lt;a href=&quot;https://twitter.com/PyConDE?ref_src=twsrc%5Etfw&quot;&gt;@PyConDE&lt;/a&gt; for the first time 🚀 &lt;br /&gt;&lt;br /&gt;The organization is super. I am looking forward for interesting talks and exciting insights about &lt;a href=&quot;https://twitter.com/hashtag/python?src=hash&amp;amp;ref_src=twsrc%5Etfw&quot;&gt;#python&lt;/a&gt; &lt;a href=&quot;https://twitter.com/hashtag/datascience?src=hash&amp;amp;ref_src=twsrc%5Etfw&quot;&gt;#datascience&lt;/a&gt; &lt;a href=&quot;https://twitter.com/hashtag/data?src=hash&amp;amp;ref_src=twsrc%5Etfw&quot;&gt;#data&lt;/a&gt;&lt;a href=&quot;https://twitter.com/hashtag/PyConDe?src=hash&amp;amp;ref_src=twsrc%5Etfw&quot;&gt;#PyConDe&lt;/a&gt; &lt;a href=&quot;https://twitter.com/hashtag/PyDataBerlin?src=hash&amp;amp;ref_src=twsrc%5Etfw&quot;&gt;#PyDataBerlin&lt;/a&gt; &lt;a href=&quot;https://t.co/3TkNnRgYMr&quot;&gt;pic.twitter.com/3TkNnRgYMr&lt;/a&gt;&lt;/p&gt;&amp;mdash; Sofya Guseva (@SofyaGuseva_) &lt;a href=&quot;https://twitter.com/SofyaGuseva_/status/1647882261209964545?ref_src=twsrc%5Etfw&quot;&gt;April 17, 2023&lt;/a&gt;&lt;/blockquote&gt;
+&lt;script async=&quot;&quot; src=&quot;https://platform.twitter.com/widgets.js&quot; charset=&quot;utf-8&quot;&gt;&lt;/script&gt;
+
+&lt;p&gt;Another highlight is that this year European Union is also supporting the conference. I think it is not common that, there are government organisations that have a presence at a tech conference. I like seeing that since open-source technology would be affected by government policies and we need more communication because of that.&lt;/p&gt;
+
+&lt;p&gt;Leah from NumFocus is also here to support PyData Berlin. Every year NumFocus would have a booth at eh conference. Another thing I like about this conference is there is a lot of involvement in PyLadies events.&lt;/p&gt;
+
+&lt;blockquote class=&quot;twitter-tweet&quot;&gt;&lt;p lang=&quot;en&quot; dir=&quot;ltr&quot;&gt;&lt;a href=&quot;https://twitter.com/hashtag/PyLadies?src=hash&amp;amp;ref_src=twsrc%5Etfw&quot;&gt;#PyLadies&lt;/a&gt; and friends at &lt;a href=&quot;https://twitter.com/hashtag/PyConDE?src=hash&amp;amp;ref_src=twsrc%5Etfw&quot;&gt;#PyConDE&lt;/a&gt; &lt;a href=&quot;https://twitter.com/PyConDE?ref_src=twsrc%5Etfw&quot;&gt;@PyConDE&lt;/a&gt; be aware of these events &lt;a href=&quot;https://t.co/uOFaheSxUU&quot;&gt;pic.twitter.com/uOFaheSxUU&lt;/a&gt;&lt;/p&gt;&amp;mdash; Cheuk Ting Ho at #PyConUS (@cheukting_ho) &lt;a href=&quot;https://twitter.com/cheukting_ho/status/1647883788221808641?ref_src=twsrc%5Etfw&quot;&gt;April 17, 2023&lt;/a&gt;&lt;/blockquote&gt;
+&lt;script async=&quot;&quot; src=&quot;https://platform.twitter.com/widgets.js&quot; charset=&quot;utf-8&quot;&gt;&lt;/script&gt;
+
+&lt;p&gt;In the morning, I mostly talk to people at the booths, people that I know and organisers. I also spend some time in the quiet room to prepare my talk.&lt;/p&gt;
+
+&lt;p&gt;After lunch, we have our first keynote. In the first part, she talks about using Ren’Py for game development. Then she talked about her journey in Machine Learning at Telco. Next is her experience at FinTach. Last, she talked about her role at Electric which takes care of cyber security.&lt;/p&gt;
+
+&lt;blockquote class=&quot;twitter-tweet&quot;&gt;&lt;p lang=&quot;en&quot; dir=&quot;ltr&quot;&gt;First keynote of &lt;a href=&quot;https://twitter.com/hashtag/PyConDE?src=hash&amp;amp;ref_src=twsrc%5Etfw&quot;&gt;#PyConDE&lt;/a&gt; &lt;a href=&quot;https://twitter.com/PyConDE?ref_src=twsrc%5Etfw&quot;&gt;@PyConDE&lt;/a&gt; by Susan Shu Chang about her rich background in multiple industries using &lt;a href=&quot;https://twitter.com/hashtag/Python?src=hash&amp;amp;ref_src=twsrc%5Etfw&quot;&gt;#Python&lt;/a&gt; &lt;a href=&quot;https://t.co/x18uyaR0G4&quot;&gt;pic.twitter.com/x18uyaR0G4&lt;/a&gt;&lt;/p&gt;&amp;mdash; Cheuk Ting Ho at #PyConUS (@cheukting_ho) &lt;a href=&quot;https://twitter.com/cheukting_ho/status/1647932682225975301?ref_src=twsrc%5Etfw&quot;&gt;April 17, 2023&lt;/a&gt;&lt;/blockquote&gt;
+&lt;script async=&quot;&quot; src=&quot;https://platform.twitter.com/widgets.js&quot; charset=&quot;utf-8&quot;&gt;&lt;/script&gt;
+
+&lt;p&gt;Then there is a coffee break. The talk before mine is by Emeli about continuous testing of the machine learning model.&lt;/p&gt;
+
+&lt;p&gt;After that it was my talk, the room was full and I asked the capacity of the room it was around 100. Unfortunately, I cannot find any pictures on Twitter - people are very serious and take notes during the talk. Generally, it was a very engaging audience.&lt;/p&gt;
+
+&lt;p&gt;After my talk, Luis from Stack Builder come talked to me and ask how his company can help contribute to our projects as Anaconda. They are interested in packaging so I said feedback on conda would be nice. We connected on LinkedIn and will follow up if needed.&lt;/p&gt;
+
+&lt;p&gt;After that, I head back to my hotel to chill and attend Zoom meetings. When the meetings are done. I had to meet up with others at one Bavaria restaurant nearby. The organising team, the SciKit-lean team and Ines - founder of explosion and creator of spaCy were there. I also catch up with my old friend Alejandro who used to be living in London and had just recently moved to Berlin.&lt;/p&gt;
+
+&lt;blockquote class=&quot;twitter-tweet&quot;&gt;&lt;p lang=&quot;en&quot; dir=&quot;ltr&quot;&gt;There were more of us but these are the last ones still there. It was delightful having a nice conversation with friends - old and new at &lt;a href=&quot;https://twitter.com/hashtag/PyConDE?src=hash&amp;amp;ref_src=twsrc%5Etfw&quot;&gt;#PyConDE&lt;/a&gt; &lt;a href=&quot;https://t.co/l6jPJEYxPm&quot;&gt;pic.twitter.com/l6jPJEYxPm&lt;/a&gt;&lt;/p&gt;&amp;mdash; Cheuk Ting Ho at #PyConUS (@cheukting_ho) &lt;a href=&quot;https://twitter.com/cheukting_ho/status/1648219883534970880?ref_src=twsrc%5Etfw&quot;&gt;April 18, 2023&lt;/a&gt;&lt;/blockquote&gt;
+&lt;script async=&quot;&quot; src=&quot;https://platform.twitter.com/widgets.js&quot; charset=&quot;utf-8&quot;&gt;&lt;/script&gt;
+
+&lt;h2 id=&quot;second-day&quot;&gt;Second Day&lt;/h2&gt;
+
+&lt;p&gt;The second data kick-started with a keynote by Noa - in which she talked about her perspective on managing a data team. It’s refreshing to have a talk that is about career development but not technical things.&lt;/p&gt;
+
+&lt;blockquote class=&quot;twitter-tweet&quot;&gt;&lt;p lang=&quot;en&quot; dir=&quot;ltr&quot;&gt;First keynote of day 2 - about managing data science team IRL - &lt;a href=&quot;https://twitter.com/PyConDE?ref_src=twsrc%5Etfw&quot;&gt;@PyConDE&lt;/a&gt; &lt;a href=&quot;https://twitter.com/hashtag/PyConDE?src=hash&amp;amp;ref_src=twsrc%5Etfw&quot;&gt;#PyConDE&lt;/a&gt; &lt;a href=&quot;https://t.co/8mVVE9ezIs&quot;&gt;pic.twitter.com/8mVVE9ezIs&lt;/a&gt;&lt;/p&gt;&amp;mdash; Cheuk Ting Ho at #PyConUS (@cheukting_ho) &lt;a href=&quot;https://twitter.com/cheukting_ho/status/1648224198442057729?ref_src=twsrc%5Etfw&quot;&gt;April 18, 2023&lt;/a&gt;&lt;/blockquote&gt;
+&lt;script async=&quot;&quot; src=&quot;https://platform.twitter.com/widgets.js&quot; charset=&quot;utf-8&quot;&gt;&lt;/script&gt;
+
+&lt;p&gt;Then the rest of the day is between the hall tract and a quiet room for preparing for PyCon US. I do love both conferences but if there are not happening back to back it would have been much better.&lt;/p&gt;
+
+&lt;p&gt;If I am not working, I spent a lot of time socialising in the hallway. Especially when my friend Autur arrived. Even though I was busy, I managed to attend Valerio’s talk about PyScript.&lt;/p&gt;
+
+&lt;blockquote class=&quot;twitter-tweet&quot;&gt;&lt;p lang=&quot;en&quot; dir=&quot;ltr&quot;&gt;&lt;a href=&quot;https://twitter.com/leriomaggio?ref_src=twsrc%5Etfw&quot;&gt;@leriomaggio&lt;/a&gt; is talking at &lt;a href=&quot;https://twitter.com/pyscript_dev?ref_src=twsrc%5Etfw&quot;&gt;@pyscript_dev&lt;/a&gt; at &lt;a href=&quot;https://twitter.com/PyConDE?ref_src=twsrc%5Etfw&quot;&gt;@PyConDE&lt;/a&gt; &lt;a href=&quot;https://twitter.com/hashtag/PyConDE?src=hash&amp;amp;ref_src=twsrc%5Etfw&quot;&gt;#PyConDE&lt;/a&gt; &lt;a href=&quot;https://t.co/pcHQqssGPy&quot;&gt;pic.twitter.com/pcHQqssGPy&lt;/a&gt;&lt;/p&gt;&amp;mdash; Cheuk Ting Ho at #PyConUS (@cheukting_ho) &lt;a href=&quot;https://twitter.com/cheukting_ho/status/1648252613836636160?ref_src=twsrc%5Etfw&quot;&gt;April 18, 2023&lt;/a&gt;&lt;/blockquote&gt;
+&lt;script async=&quot;&quot; src=&quot;https://platform.twitter.com/widgets.js&quot; charset=&quot;utf-8&quot;&gt;&lt;/script&gt;
+
+&lt;p&gt;I volunteered to host the Lighting Talks with Miro, a very talented friend who is a polyglot and also the keynote speaker the next day. We have prepared some tricky Python questions to ask the audience while the talks are switching. It was fun and there were some awesome lightning talks as well. I also gave a lightning talk about CRA - I am raising awareness of it because I think it will be GDPR 2.0 and why there aren’t more developers talking about it?&lt;/p&gt;
+
+&lt;blockquote class=&quot;twitter-tweet&quot;&gt;&lt;p lang=&quot;en&quot; dir=&quot;ltr&quot;&gt;&lt;a href=&quot;https://twitter.com/condaforge?ref_src=twsrc%5Etfw&quot;&gt;@condaforge&lt;/a&gt; lighting talk at &lt;a href=&quot;https://twitter.com/PyConDE?ref_src=twsrc%5Etfw&quot;&gt;@PyConDE&lt;/a&gt; &lt;a href=&quot;https://twitter.com/hashtag/PyConDE?src=hash&amp;amp;ref_src=twsrc%5Etfw&quot;&gt;#PyConDE&lt;/a&gt; &lt;a href=&quot;https://t.co/YpU9dxNLVA&quot;&gt;pic.twitter.com/YpU9dxNLVA&lt;/a&gt;&lt;/p&gt;&amp;mdash; Cheuk Ting Ho at #PyConUS (@cheukting_ho) &lt;a href=&quot;https://twitter.com/cheukting_ho/status/1648355062853271557?ref_src=twsrc%5Etfw&quot;&gt;April 18, 2023&lt;/a&gt;&lt;/blockquote&gt;
+&lt;script async=&quot;&quot; src=&quot;https://platform.twitter.com/widgets.js&quot; charset=&quot;utf-8&quot;&gt;&lt;/script&gt;
+
+&lt;p&gt;In the evening it was the social party sponsored by Octopus, everything becomes pink and there are Octopus everywhere in the hall. There were refreshments and doughnuts.&lt;/p&gt;
+
+&lt;p&gt;After the social event, we went out for one last drink. At our table, there were a few newcomers to the conference and it seems they are having a good time. My friend Martin and Martin (yes there are two of them) and I was giving them tips on how to make the best use of the conference to meet people who are learning more Python. I love seeing new people at the conference.&lt;/p&gt;
+
+&lt;h2 id=&quot;i-missed-the-third-day-&quot;&gt;I missed the Third Day :(&lt;/h2&gt;
+
+&lt;p&gt;Unfortunately, I have to give the third day of PyCon DE a miss because it is the travel day to PyCon US. There are some attendees and friends of mine who are also going to PyCon US on the same flight. The journey is so much more enjoyable (or more tolerable depending on how you look at it) when you have friends travelling together.&lt;/p&gt;
+
+&lt;p&gt;However, my friend Martin sent me a picture of PyCon DE on day 3. I was mentioned at Jürgen’s talk. I feel so honoured. Everyone’s very kind to me.&lt;/p&gt;
+
+&lt;blockquote class=&quot;twitter-tweet&quot;&gt;&lt;p lang=&quot;en&quot; dir=&quot;ltr&quot;&gt;Thank you &lt;a href=&quot;https://twitter.com/jugmac00?ref_src=twsrc%5Etfw&quot;&gt;@jugmac00&lt;/a&gt; for mentioning me at his talk at &lt;a href=&quot;https://twitter.com/hashtag/PyConDE?src=hash&amp;amp;ref_src=twsrc%5Etfw&quot;&gt;#PyConDE&lt;/a&gt;! I was on my way to &lt;a href=&quot;https://twitter.com/hashtag/PyConUS?src=hash&amp;amp;ref_src=twsrc%5Etfw&quot;&gt;#PyConUS&lt;/a&gt; but I will definitely watch it later ❤️ and yes I love Tox &lt;a href=&quot;https://t.co/LnlRixVKTV&quot;&gt;pic.twitter.com/LnlRixVKTV&lt;/a&gt;&lt;/p&gt;&amp;mdash; Cheuk Ting Ho at #PyConUS (@cheukting_ho) &lt;a href=&quot;https://twitter.com/cheukting_ho/status/1649038693083095042?ref_src=twsrc%5Etfw&quot;&gt;April 20, 2023&lt;/a&gt;&lt;/blockquote&gt;
+&lt;script async=&quot;&quot; src=&quot;https://platform.twitter.com/widgets.js&quot; charset=&quot;utf-8&quot;&gt;&lt;/script&gt;
+
+&lt;hr /&gt;
+
+&lt;p&gt;I cannot agree with this tweet more, PyCon DE is an awesome conference.&lt;/p&gt;
+
+&lt;blockquote class=&quot;twitter-tweet&quot;&gt;&lt;p lang=&quot;en&quot; dir=&quot;ltr&quot;&gt;There&amp;#39;s SO many reasons why &lt;a href=&quot;https://twitter.com/PyConDE?ref_src=twsrc%5Etfw&quot;&gt;@PyConDE&lt;/a&gt; is a GREAT conference. On top of the community, vegan veggie delicious catering, sustainable setup, child-care, gender neutral bathrooms, inclusive language, riddles to integrate people, diverse topics &amp;amp; speakers... so much 🥰 &lt;a href=&quot;https://t.co/vsKzeIMAgH&quot;&gt;pic.twitter.com/vsKzeIMAgH&lt;/a&gt;&lt;/p&gt;&amp;mdash; Paloma Oliveira (@pcultural) &lt;a href=&quot;https://twitter.com/pcultural/status/1649104131720724486?ref_src=twsrc%5Etfw&quot;&gt;April 20, 2023&lt;/a&gt;&lt;/blockquote&gt;
+&lt;script async=&quot;&quot; src=&quot;https://platform.twitter.com/widgets.js&quot; charset=&quot;utf-8&quot;&gt;&lt;/script&gt;
+
+&lt;p&gt;Follow PyCon DE:&lt;/p&gt;
+
+&lt;table&gt;
+  &lt;tbody&gt;
+    &lt;tr&gt;
+      &lt;td&gt;&lt;a href=&quot;de.pycon.org&quot;&gt;Website&lt;/a&gt;&lt;/td&gt;
+      &lt;td&gt;&lt;a href=&quot;https://twitter.com/pyconde&quot;&gt;Twitter&lt;/a&gt;&lt;/td&gt;
+    &lt;/tr&gt;
+  &lt;/tbody&gt;
+&lt;/table&gt;
+</description>
+        <pubDate>Wed, 19 Apr 2023 00:00:00 +0000</pubDate>
+        <link>https://cheuk.dev/2023/04/19/pyconde23/</link>
+        <guid isPermaLink="true">https://cheuk.dev/2023/04/19/pyconde23/</guid>
+        
+        <category>Conference</category>
+        
+        <category>PyConDE</category>
+        
+        <category>PyDataBer</category>
+        
+        
+      </item>
     
       <item>
         <title>PyCon Limerick 2023</title>
