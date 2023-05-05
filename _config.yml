@@ -28,7 +28,7 @@ youtube_username: "@cheuktingho"
 googleplus_username:
 medium_username:
 devto_username:
-twitch_username: 
+twitch_username:
 
 # About Section
 # about_title: About Me (Use this to override about section title)
@@ -106,6 +106,7 @@ plugins:
  - jekyll-paginate-v2
  - jekyll-sitemap
  - jekyll-linkpreview
+ - jekyll-feed
 # - data_page_generator
 
 exclude : [
