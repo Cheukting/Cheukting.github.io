@@ -1,3 +1,21 @@
+- title: PyCon Sweden - I hate writing tests, that's why I use Hypothesis
+  vid: 4kQiC6leO54
+  tags:
+    - Conference
+  description: |
+    Ok, I lied, I still write tests. But instead of the example-based tests that we normally write, have you heard of property-based testing? By using Hypothesis, instead of thinking about what data I should test it for, it will generate test data, including boundary cases, for you.
+  date: 2023-04-30
+  author: Cheuk Ting Ho
+
+- title: PyCascades 2023 - Untangle Python Spaghettis - Deep Dive Into Environments
+  vid: Rfz5Bm-AG1M
+  tags:
+    - Conference
+  description: |
+    After learning doing in Python, we started multiple Python or Data Science projects. Dependency management becomes a skill that we need to avoid requirement conflicts amount projects. In this talk, we will learn how dependencies management tools work and how to choose the right one to use.
+  date: 2023-04-12
+  author: Cheuk Ting Ho
+
 - title: PyCon Limerick 23 - Don't just test, my friend, test better
   vid: pxabsoecl5E
   tags:
