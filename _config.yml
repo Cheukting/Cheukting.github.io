@@ -34,7 +34,7 @@ twitch_username:
 # about_title: About Me (Use this to override about section title)
 about_profile_image: images/IMG_1037.jpg
 about_content: | # this will include new lines to allow paragraphs
-    Before working in Developer Relations, Cheuk has been a Data Scientist in various companies which demands high numerical and programmatical skills, especially in Python. To follow her passion for the tech community, Cheuk is now the Developer Advocate at [Anaconda](https://www.anaconda.com/). Cheuk also contributes to multiple Open Source libraries like [Hypothesis](https://hypothesis.readthedocs.io/en/latest/) and [Pandas](https://pandas.pydata.org/).
+    Before working in Developer Relations, Cheuk has been a Data Scientist in various companies which demands high numerical and programmatical skills, especially in Python. To follow her passion for the tech community, Cheuk is now the Developer Advocate. Cheuk also contributes to multiple Open Source libraries like [Hypothesis](https://hypothesis.readthedocs.io/en/latest/), [Pandas](https://pandas.pydata.org/) and [Django](https://www.djangoproject.com/).
 
     Besides her work, Cheuk enjoys talking about Python on [personal streaming platforms](https://twitch.tv/cheukting_ho) and [podcasts](https://open.spotify.com/show/62pAW7B3wQVe87sbt75nnh). Cheuk has also been a speaker at Universities and various conferences. Besides speaking at conferences, Cheuk also organises events for developers. Conferences that Cheuk has organized include [EuroPython](https://europython.eu/) (which she is a board member), [PyData Global](https://global.pydata.org/) and [Pyjamas Conf](https://pyjamas.live/). Believing in Tech Diversity and Inclusion, Cheuk constantly organizes [workshops](https://humbledata.org/) and [mentored sprints](https://www.mentored-sprints.dev/) for minority groups. In 2021, Cheuk has become a [Python Software Foundation](https://www.python.org/psf/) fellow.
 
@@ -60,7 +60,7 @@ footer_show_references: true
 # Author settings
 author:
   - name: Cheuk Ting Ho
-    bio: After having a career in data science, Cheuk now brings her knowledge in data and passion for the tech community as the developer advocate for Anaconda. Cheuk constantly contributes to the open-source community by giving free talks and tutorials and organize sprints to encourage diversity contributions.
+    bio: After having a career in data science, Cheuk now brings her knowledge in data and passion for the tech community as the developer advocate. Cheuk constantly contributes to the open-source community by giving free talks and tutorials and organize sprints to encourage diversity contributions.
     url: https://cheuk.dev
 
 # Pagination settings
