@@ -1,3 +1,32 @@
+- title: PyCon US - Trying No GIL on Scientific Programming
+  vid: 7ih7LbK6ODo
+  tags:
+    - Conference
+  description: |
+    Last year, Sam Gross, the author of nogil fork on Python 3.9, demonstrated the GIL can be removed. For scientific programs which use heavy CPU-bound processes, it could be a huge performance improvement. In this talk, we will see if this is true and compare the no-gil version to the original.
+
+    In this talk, we will have a look at what is no-gil Python and how it may improve the performance of some scientific calculations. First of all, we will touch upon the background knowledge of the Python GIL, what is it and why it is needed. On the contrary, why it is stopping multi-threaded CPU processes to take advantage of multi-core machines.
+
+    After that, we will have a look at no-gil Python, a fork of CPython 3.9 by Sam Gross, and how it provides an alternative to using Python with no GIL, demonstrating it could be the future of the newer versions of Python. With that, we will try out this version of Python in some popular yet calculation-heavy algorithms in scientific programming and data sciences e.g. PCA, clustering, categorization and data manipulation with Scikit-learn and Pandas. We will compare the performance of this no-gil version with the original standard CPython distribution.
+
+    This talk is for Pythonistas who have intermediate knowledge of Python and are interested in using Python for scientific programming or data science. It may shine some light on having a more efficient way of using Python in their tasks and interest in trying the no-gil version of Python.
+  date: 2023-06-02
+  author: Cheuk Ting Ho
+
+- title: PyCon US - Power up your work with compiling and profiling
+  vid: uI6T0y4Vbyc
+  tags:
+    - Conference
+    - Tutorial
+  description: |
+    Have you been troubled by Python code that took too long to run? Do you want to know why and how to improve?
+
+    In this workshop, we will introduce Numba - a JIT compiler that is designed to speed up numerical calculations. Most people found all of it is like a mystery - It sounds like magic, but how does it work? Under what conditions does it work? And because of it, new users found it hard to start using it and it requires a steep learning curve to get the hang of it. This workshop will provide all the knowledge that you need to make Numba works for you.
+
+    This workshop is for Data scientists or developers who have math-heavy code that would like to speed up with the benefit of Numpy and Numba.
+  date: 2023-06-02
+  author: Cheuk Ting Ho
+
 - title: PyCon Sweden - I hate writing tests, that's why I use Hypothesis
   vid: 4kQiC6leO54
   tags:
