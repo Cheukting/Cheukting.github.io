@@ -1,0 +1,384 @@
+<!DOCTYPE html>
+<html lang=" en "><head>
+  <meta charset="utf-8" />
+  <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+
+  <title>Cheuk Ting Ho | Building the Open-source Community</title><!-- Begin Jekyll SEO tag v2.8.0 -->
+<meta name="generator" content="Jekyll v3.8.7" />
+<meta property="og:title" content="DjangoCon Europe 2023 - HTMX vs WASM - more backend or more frontend?" />
+<meta name="author" content="Cheuk Ting Ho" />
+<meta property="og:locale" content="en_US" />
+<meta name="description" content="Mozilla has been promoting WASM for years, on the other hand, HTMX is gaining attraction. Question is, do we want more frontend or more backend? Do we still need to write JavaScripts? In the first half of the talk we would explore the history of WASM and the Iodide project, what they enable and the closing of the Iodide project. Then we will talk about the rise of the Pyodide project and what this project enables - including another popular framework - PyScript. There will be some quick code demo of both Pyodide and PyScript. In the second half of the talk, we will switch our attention to HTMX, what’s the idea behind it and how it can be used to access AJAX, CSS Transitions, WebSockets and Server-Sent Events directly in HTML. There will also be some code demos of how to use HTMX, especially using it together with Django. In the last part of the talk, there will be a conclusion, do we want more backend or more frontend? And most importantly, will web developers ever need to write JavaScript anymore? Goal The attendee of this talk will explore several popular tools in recent years which will make them rethink their approach to building their applications. Hopefully, by seeing the live demos, they are encouraged to try these tools out and learn more about the use case and how it can help them in future projects." />
+<meta property="og:description" content="Mozilla has been promoting WASM for years, on the other hand, HTMX is gaining attraction. Question is, do we want more frontend or more backend? Do we still need to write JavaScripts? In the first half of the talk we would explore the history of WASM and the Iodide project, what they enable and the closing of the Iodide project. Then we will talk about the rise of the Pyodide project and what this project enables - including another popular framework - PyScript. There will be some quick code demo of both Pyodide and PyScript. In the second half of the talk, we will switch our attention to HTMX, what’s the idea behind it and how it can be used to access AJAX, CSS Transitions, WebSockets and Server-Sent Events directly in HTML. There will also be some code demos of how to use HTMX, especially using it together with Django. In the last part of the talk, there will be a conclusion, do we want more backend or more frontend? And most importantly, will web developers ever need to write JavaScript anymore? Goal The attendee of this talk will explore several popular tools in recent years which will make them rethink their approach to building their applications. Hopefully, by seeing the live demos, they are encouraged to try these tools out and learn more about the use case and how it can help them in future projects." />
+<link rel="canonical" href="https://cheuk.dev/videos/zm7ejc_9jiy/" />
+<meta property="og:url" content="https://cheuk.dev/videos/zm7ejc_9jiy/" />
+<meta property="og:site_name" content="Building the Open-source Community" />
+<meta property="og:type" content="article" />
+<meta property="article:published_time" content="2023-06-08T00:00:00+00:00" />
+<meta name="twitter:card" content="summary" />
+<meta property="twitter:title" content="DjangoCon Europe 2023 - HTMX vs WASM - more backend or more frontend?" />
+<script type="application/ld+json">
+{"@context":"https://schema.org","@type":"BlogPosting","author":{"@type":"Person","name":"Cheuk Ting Ho"},"dateModified":"2023-06-08T00:00:00+00:00","datePublished":"2023-06-08T00:00:00+00:00","description":"Mozilla has been promoting WASM for years, on the other hand, HTMX is gaining attraction. Question is, do we want more frontend or more backend? Do we still need to write JavaScripts? In the first half of the talk we would explore the history of WASM and the Iodide project, what they enable and the closing of the Iodide project. Then we will talk about the rise of the Pyodide project and what this project enables - including another popular framework - PyScript. There will be some quick code demo of both Pyodide and PyScript. In the second half of the talk, we will switch our attention to HTMX, what’s the idea behind it and how it can be used to access AJAX, CSS Transitions, WebSockets and Server-Sent Events directly in HTML. There will also be some code demos of how to use HTMX, especially using it together with Django. In the last part of the talk, there will be a conclusion, do we want more backend or more frontend? And most importantly, will web developers ever need to write JavaScript anymore? Goal The attendee of this talk will explore several popular tools in recent years which will make them rethink their approach to building their applications. Hopefully, by seeing the live demos, they are encouraged to try these tools out and learn more about the use case and how it can help them in future projects.","headline":"DjangoCon Europe 2023 - HTMX vs WASM - more backend or more frontend?","mainEntityOfPage":{"@type":"WebPage","@id":"https://cheuk.dev/videos/zm7ejc_9jiy/"},"url":"https://cheuk.dev/videos/zm7ejc_9jiy/"}</script>
+<!-- End Jekyll SEO tag -->
+<link rel="stylesheet" href="/assets/css/app.min.css" />
+
+  <!--
+  <link rel="shortcut icon" type="image/x-icon" href="">
+  -->
+
+<!-- favicon -->
+  <link rel="apple-touch-icon" sizes="180x180" href="/favicon/apple-touch-icon.png" />
+  <link rel="icon" type="image/png" sizes="32x32" href="/favicon/favicon-32x32.png" />
+  <link rel="icon" type="image/png" sizes="16x16" href="/favicon/favicon-16x16.png" />
+  <link rel="manifest" href="/favicon/site.webmanifest" />
+<!-- favicon -->
+
+<!-- indieweb links -->
+  <link rel="authorization_endpoint" href="https://indieauth.com/auth" />
+  <link rel="token_endpoint" href="https://tokens.indieauth.com/token" />
+  <link rel="webmention" href="https://webmention.io/cheuk.dev/webmention" />
+  <link rel="pingback" href="https://webmention.io/cheuk.dev/xmlrpc" />
+<!-- indieweb links --></head>
+<body id="page-top"><nav id="mainNav" class="navbar navbar-default navbar-fixed-top">
+    <div class="container-fluid">
+        <!-- Brand and toggle get grouped for better mobile display -->
+        <div class="navbar-header">
+            <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1">
+                <span class="sr-only">Toggle navigation</span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+            </button>
+            <a class="navbar-brand" href="/"><img src="/images/32px-home.png" alt="back to home"></a>
+        </div>
+
+        <!-- Collect the nav links, forms, and other content for toggling -->
+        <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+            <ul class="nav navbar-nav navbar-right">
+                <li>
+                    <a href="/#projects">Projects</a>
+                </li>
+                <li>
+                    <a href="/#articles">Articles</a>
+                </li>
+                <li>
+                    <a href="/#meetups">Meetups</a>
+                </li>
+                <li>
+                    <a href="/#videos">Videos</a>
+                </li>
+                <li>
+                    <a href="/#workshops">Workshops</a>
+                </li>
+            </ul>
+        </div>
+        <!-- /.navbar-collapse -->
+    </div>
+    <!-- /.container-fluid -->
+</nav>
+<div class="container header-contianer h-card">
+  <div class="row">
+    <div class="col-xs-12 col-sm-6 col-md-6 col-lg-8 header-left">
+      <img class="banner-logo u-photo" src="/images/logo.png" alt="website banner">
+        <!----
+      <h1>Cheuk Ting Ho</h1>
+      <h2>Building the Open-source Community</h2>
+      --->
+    </div>
+    <div class="col-xs-12 col-sm-6 col-md-6 col-lg-4 header-right">
+      <ul class="icons no-print"><li>
+            <a target="_blank" href="https://github.com/Cheukting" class="button button--sacnite button--round-l u-url" rel="me">
+              <i class="fab fa-github" title="Github link"></i>
+            </a>
+          </li><li>
+            <a target="_blank" href="https://www.linkedin.com/in/cheukting-ho" class="button button--sacnite button--round-l u-url">
+              <i class="fab fa-linkedin" title="Linkedin link"></i>
+            </a>
+          </li><li>
+            <a target="_blank" href="https://twitter.com/cheukting_ho" class="button button--sacnite button--round-l u-url" rel="me">
+              <i class="fab fa-twitter" title="Twitter link"></i>
+            </a>
+          </li><li>
+            <a target="_blank" href="https://www.youtube.com/%40cheuktingho" class="button button--sacnite button--round-l u-url" rel="me">
+              <i class="fab fa-youtube" title="Youtube link"></i>
+            </a>
+          </li></ul></div>
+  </div>
+</div>
+<main class="page-content" aria-label="Content">
+<div class="post container intro-container">
+  <article itemprop="blogPost" itemscope itemtype="http://schema.org/BlogPosting" class="h-entry">
+    <div class="post__header section-padding">
+      <div class="grid-large">
+        <h2 itemprop="name headline" class="p-name">DjangoCon Europe 2023 - HTMX vs WASM - more backend or more frontend?</h2>
+
+        <time class="post__date dt-published" datetime="2023-06-08T00:00:00+00:00" itemprop="datePublished">8 Jun 2023</time>
+      </div>
+    </div>
+
+    
+    <div class="post__header" style="text-align: center; background-color: #000;">
+      <div class="ytcontainer">
+        <iframe class="yt" src="https://www.youtube.com/embed/zm7eJC_9JiY" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+      </div>
+    </div>
+    
+
+    <div class="post__img u-photo" style="display: none;">
+      <div>
+        <figure class="absolute-bg" style="background-image: url('http://img.youtube.com/vi/zm7eJC_9JiY/0.jpg');"></figure>
+      </div>
+    </div>
+
+    <div class="post__content section-padding">
+      <div class="grid-large">
+        <div id="markdown" itemprop="articleBody" class="e-content">
+            
+            <p><p>Mozilla has been promoting WASM for years, on the other hand, HTMX is gaining attraction. Question is, do we want more frontend or more backend? Do we still need to write JavaScripts?</p>
+
+<p>In the first half of the talk we would explore the history of WASM and the Iodide project, what they enable and the closing of the Iodide project. Then we will talk about the rise of the Pyodide project and what this project enables - including another popular framework - PyScript. There will be some quick code demo of both Pyodide and PyScript.</p>
+
+<p>In the second half of the talk, we will switch our attention to HTMX, what’s the idea behind it and how it can be used to access AJAX, CSS Transitions, WebSockets and Server-Sent Events directly in HTML. There will also be some code demos of how to use HTMX, especially using it together with Django.</p>
+
+<p>In the last part of the talk, there will be a conclusion, do we want more backend or more frontend? And most importantly, will web developers ever need to write JavaScript anymore?</p>
+
+<p>Goal
+The attendee of this talk will explore several popular tools in recent years which will make them rethink their approach to building their applications. Hopefully, by seeing the live demos, they are encouraged to try these tools out and learn more about the use case and how it can help them in future projects.</p>
+</p>
+            
+            <p>See more of my talks on <a href="https://www.youtube.com/results?search_query=cheuk+ting+ho">YouTube</a>.</p>
+        </div>
+
+
+        <br /><br />
+<h2 class="post__social">Share this video</h2>
+<ul class="post__social">
+  <li><a href="https://www.facebook.com/sharer/sharer.php?u=https://cheuk.dev/videos/zm7ejc_9jiy/" target="_blank"><i class="fa fa-facebook"></i></a></li>
+  <li><a href="https://twitter.com/intent/tweet?&text=DjangoCon Europe 2023 - HTMX vs WASM - more backend or more frontend?+https://cheuk.dev/videos/zm7ejc_9jiy/+by+Cheuk Ting Ho" target="_blank"><i class="fa fa-twitter"></i></a></li>
+  <!------
+  <li><a href="https://plus.google.com/share?url=https://cheuk.dev/videos/zm7ejc_9jiy/" target="_blank"><i class="fa fa-google-plus"></i></a></li>
+  ------->
+  <li><a href="https://www.linkedin.com/shareArticle?mini=true&source=DjangoCon Europe 2023 - HTMX vs WASM - more backend or more frontend?&summary=Mozilla has been promoting WASM for years, on the other hand, HTMX is gaining attraction. Question is, do we want more frontend or more backend? Do we still need to write JavaScripts?
+
+In the first half of the talk we would explore the history of WASM and the Iodide project, what they enable and the closing of the Iodide project. Then we will talk about the rise of the Pyodide project and what this project enables - including another popular framework - PyScript. There will be some quick code demo of both Pyodide and PyScript.
+
+In the second half of the talk, we will switch our attention to HTMX, what's the idea behind it and how it can be used to access AJAX, CSS Transitions, WebSockets and Server-Sent Events directly in HTML. There will also be some code demos of how to use HTMX, especially using it together with Django.
+
+In the last part of the talk, there will be a conclusion, do we want more backend or more frontend? And most importantly, will web developers ever need to write JavaScript anymore?
+
+Goal
+The attendee of this talk will explore several popular tools in recent years which will make them rethink their approach to building their applications. Hopefully, by seeing the live demos, they are encouraged to try these tools out and learn more about the use case and how it can help them in future projects.
+&url=https://cheuk.dev/videos/zm7ejc_9jiy/" target="_blank"><i class="fa fa-linkedin"></i></a></li>
+  <!------
+  <li><a href="https://www.stumbleupon.com/badge/?url=https://cheuk.dev/videos/zm7ejc_9jiy/" target="_blank"><i class="fa fa-stumbleupon"></i></a></li>
+  ------->
+  <li><a href="https://www.reddit.com/submit?url=https://cheuk.dev/videos/zm7ejc_9jiy/" target="_blank"><i class="fa fa-reddit-alien"></i></a></li>
+  <li><a href="https://www.tumblr.com/share/link?url=https://cheuk.dev/videos/zm7ejc_9jiy/" target="_blank"><i class="fa fa-tumblr"></i></a></li>
+  <li><a href="https://www.pinterest.com/pin/create/link/?description=Mozilla has been promoting WASM for years, on the other hand, HTMX is gaining attraction. Question is, do we want more frontend or more backend? Do we still need to write JavaScripts?
+
+In the first half of the talk we would explore the history of WASM and the Iodide project, what they enable and the closing of the Iodide project. Then we will talk about the rise of the Pyodide project and what this project enables - including another popular framework - PyScript. There will be some quick code demo of both Pyodide and PyScript.
+
+In the second half of the talk, we will switch our attention to HTMX, what's the idea behind it and how it can be used to access AJAX, CSS Transitions, WebSockets and Server-Sent Events directly in HTML. There will also be some code demos of how to use HTMX, especially using it together with Django.
+
+In the last part of the talk, there will be a conclusion, do we want more backend or more frontend? And most importantly, will web developers ever need to write JavaScript anymore?
+
+Goal
+The attendee of this talk will explore several popular tools in recent years which will make them rethink their approach to building their applications. Hopefully, by seeing the live demos, they are encouraged to try these tools out and learn more about the use case and how it can help them in future projects.
+&media=&url=https://cheuk.dev/videos/zm7ejc_9jiy/" target="_blank"><i class="fa fa-pinterest"></i></a></li>
+</ul>
+<a href="https://cheuk.dev/videos/zm7ejc_9jiy/" class="post__social u-url">https://cheuk.dev/videos/zm7ejc_9jiy/</a>
+
+      </div>
+    </div>
+
+    <div class="grid">
+      <div class="post__webmention">
+  <div id="webmentions" ></div>
+</div>
+
+    </div>
+
+    <!-- Everything inside the #author tags pulls data from the author -->
+    
+      <div class="section-padding--none">
+        <div class="grid">
+          <hr class="sep"/>
+        </div>
+      </div>
+
+      <div class="section-padding">
+        <div class="grid p-author h-card">
+          
+            
+            
+              <span class="post__author">About
+            
+            <a href="https://cheuk.dev" title="More By Cheuk Ting Ho" class="p-name u-url">Cheuk Ting Ho</a></span>
+            <p class="post__bio p-note">After having a career in data science, Cheuk now brings her knowledge in data and passion for the tech community as the developer advocate. Cheuk constantly contributes to the open-source community by giving free talks and tutorials and organize sprints to encourage diversity contributions.</p>
+          
+        </div>
+      </div>
+    
+
+    <!--
+
+If you use Disqus comments, just uncomment this block.
+The only thing you need to change is "test-apkdzgmqhj" - which
+should be replaced with your own Disqus site-id.
+
+<div class="post__comments section-padding">
+  <div class="grid-small">
+    <div id="disqus_thread"></div>
+    <script>
+      var disqus_config = function () {
+        this.page.url = 'https://cheuk.dev/videos/zm7ejc_9jiy/';
+        this.page.identifier = 'https://cheuk.dev/videos/zm7ejc_9jiy/';
+      };
+      (function() {
+        var d = document, s = d.createElement('script');
+        s.src = 'https://.disqus.com/embed.js';
+        s.setAttribute('data-timestamp', + new Date());
+        (d.head || d.body).appendChild(s);
+      })();
+    </script>
+  </div>
+</div>
+-->
+
+
+  </article>
+</div>
+
+<!-- Links to Previous/Next posts -->
+
+
+  <section class="related section-padding">
+    <div class="grid-xlarge">
+      <h2 class="related__title">Related</h2>
+      <div class="related__container">
+      
+        
+          
+          
+        
+          
+            
+              
+                <article class="related__post">
+                  <a class="related__link" href="">
+                    <figure class="related__img">
+                      <img src="http://img.youtube.com/vi/7ih7LbK6ODo/0.jpg" alt="PyCon US - Trying No GIL on Scientific Programming"/>
+                    </figure>
+                    <div>
+                      <h2 class="related__text">PyCon US - Trying No GIL on Scientific Programming</h2>
+                    </div>
+                  </a>
+                </article>
+              
+              
+            
+          
+          
+        
+          
+            
+              
+                <article class="related__post">
+                  <a class="related__link" href="">
+                    <figure class="related__img">
+                      <img src="http://img.youtube.com/vi/uI6T0y4Vbyc/0.jpg" alt="PyCon US - Power up your work with compiling and profiling"/>
+                    </figure>
+                    <div>
+                      <h2 class="related__text">PyCon US - Power up your work with compiling and profiling</h2>
+                    </div>
+                  </a>
+                </article>
+              
+              
+            
+              
+            
+          
+          
+        
+          
+            
+              
+                <article class="related__post">
+                  <a class="related__link" href="">
+                    <figure class="related__img">
+                      <img src="http://img.youtube.com/vi/4kQiC6leO54/0.jpg" alt="PyCon Sweden - I hate writing tests, that's why I use Hypothesis"/>
+                    </figure>
+                    <div>
+                      <h2 class="related__text">PyCon Sweden - I hate writing tests, that's why I use Hypothesis</h2>
+                    </div>
+                  </a>
+                </article>
+              
+              
+            
+          
+          
+            
+        
+          
+      
+      </div>
+    </div>
+  </section>
+
+</main><div class="container footer-container">
+  <p>
+    Cheuk Ting Ho -
+    <!-- <a href="mailto:" target="_blank"></a> -->
+    
+<a href="//" target="_blank" class=""></a>&nbsp;- building the open-source community</p>
+</div>
+
+<!-- Fathom - simple website analytics - https://usefathom.com -->
+<script>
+(function(f, a, t, h, o, m){
+a[h]=a[h]||function(){
+(a[h].q=a[h].q||[]).push(arguments)
+};
+o=f.createElement('script'),
+m=f.getElementsByTagName('script')[0];
+o.async=1; o.src=t; o.id='fathom-script';
+m.parentNode.insertBefore(o,m)
+})(document, window, 'https://cdn.usefathom.com/tracker.js', 'fathom');
+fathom('set', 'siteId', 'HNKQJJRG');
+fathom('trackPageview');
+</script>
+<!-- / Fathom -->
+<!-- jQuery -->
+<script src="/js/jquery.js"></script>
+
+<!-- Bootstrap Core JavaScript -->
+<script src="/js/bootstrap.min.js"></script>
+
+<!-- Plugin JavaScript -->
+<script src="/js/jquery.easing.min.js"></script>
+<script src="/js/jquery.fittext.js"></script>
+<script src="/js/wow.min.js"></script>
+
+<!-- Custom Theme JavaScript -->
+<script src="/js/creative.js"></script>
+
+<!-- Embed Medium posts -->
+<!-- <script src="https://www.twilik.com/assets/retainable/rss-embed/retainable-rss-embed.js"></script> -->
+<!-- No longer in use, see origin here https://medium.com/twilik/how-to-embed-medium-on-your-website-the-easy-way-41ac0a13231e -->
+
+
+<!-- Posts -->
+
+
+<script src="/assets/js/app.min.js"></script>
+
+<script src="/js/webmention.js"></script>
+
+</body>
+
+
+
+</html>
