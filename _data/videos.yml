@@ -1,3 +1,22 @@
+- title: DjangoCon Europe 2023 - HTMX vs WASM - more backend or more frontend?
+  vid: zm7eJC_9JiY
+  tags:
+    - Conference
+    - Django
+  description: |
+    Mozilla has been promoting WASM for years, on the other hand, HTMX is gaining attraction. Question is, do we want more frontend or more backend? Do we still need to write JavaScripts?
+
+    In the first half of the talk we would explore the history of WASM and the Iodide project, what they enable and the closing of the Iodide project. Then we will talk about the rise of the Pyodide project and what this project enables - including another popular framework - PyScript. There will be some quick code demo of both Pyodide and PyScript.
+
+    In the second half of the talk, we will switch our attention to HTMX, what's the idea behind it and how it can be used to access AJAX, CSS Transitions, WebSockets and Server-Sent Events directly in HTML. There will also be some code demos of how to use HTMX, especially using it together with Django.
+
+    In the last part of the talk, there will be a conclusion, do we want more backend or more frontend? And most importantly, will web developers ever need to write JavaScript anymore?
+
+    Goal
+    The attendee of this talk will explore several popular tools in recent years which will make them rethink their approach to building their applications. Hopefully, by seeing the live demos, they are encouraged to try these tools out and learn more about the use case and how it can help them in future projects.
+  date: 2023-06-08
+  author: Cheuk Ting Ho
+
 - title: PyCon US - Trying No GIL on Scientific Programming
   vid: 7ih7LbK6ODo
   tags:
