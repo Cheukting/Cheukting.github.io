@@ -6,7 +6,7 @@
       </figure>
     {% endif %}
     <div>
-      <h2 class="posts__text e-content" style="overflow-wrap: break-word;"><strong itemprop="name">{{ post.title }}</strong> — <span itemprop="description">{{ post.content | strip_html | truncatewords: 30 }}</span></h2>
+      <h2 class="posts__text e-content" style="overflow-wrap: break-word;"><strong itemprop="name">{{ post.title }}</strong> — <span itemprop="description">{{ post.description | strip_html | truncatewords: 30 }}</span></h2>
     </div>
   </a>
 </article>
