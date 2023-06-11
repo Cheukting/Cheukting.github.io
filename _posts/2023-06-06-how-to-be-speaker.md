@@ -11,6 +11,10 @@ tags:
 
 ---
 
+*[Haga clic aquí para la versión en español](/2023/06/10/how-to-be-speaker-es/)*
+
+---
+
 So you have been to meet-ups and conferences and wish that you are one of the speakers, or you have some great ideas, discover something or have an opinion about something that you wanna share, and you wonder how can you start? Here are some useful information for you. The information provided will apply to both in-person and online events.
 
 ## How to become a speaker?
