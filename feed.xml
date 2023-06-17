@@ -6,9 +6,108 @@
 </description>
     <link>https://cheuk.dev</link>
     <atom:link href="https://cheuk.dev/feed.xml" rel="self" type="application/rss+xml"/>
-    <pubDate>Sun, 11 Jun 2023 16:29:01 +0000</pubDate>
-    <lastBuildDate>Sun, 11 Jun 2023 16:29:01 +0000</lastBuildDate>
+    <pubDate>Sat, 17 Jun 2023 22:14:09 +0000</pubDate>
+    <lastBuildDate>Sat, 17 Jun 2023 22:14:09 +0000</lastBuildDate>
     <generator>Jekyll v3.8.7</generator>
+    
+      <item>
+        <title>Humble Data workshop with PyLadies Colombia and PyCon Colombia</title>
+        <description>&lt;p&gt;This is my first time, also Humble Data’s first time in Latin America. I have heard Colombia is a beautiful country and people are welcoming. However, that’s pretty much all I know about Colombia before going. I was very excited to discover this country and the community.&lt;/p&gt;
+
+&lt;h2 id=&quot;humble-data-at-bogota-with-pyladies&quot;&gt;Humble Data at Bogota with PyLadies&lt;/h2&gt;
+
+&lt;p&gt;At the beginning of the year, I give myself a mission to bring Humble Data to Latin America. This is the day that my dream becomes reality.&lt;/p&gt;
+
+&lt;p&gt;In the evening, Karolina picked me up at my hotel and we went to the event space, it is a nice shared office with good internet. There is a projector and we can use that to give an introduction to all the attendees.&lt;/p&gt;
+
+&lt;blockquote class=&quot;twitter-tweet&quot;&gt;&lt;p lang=&quot;en&quot; dir=&quot;ltr&quot;&gt;A great start for &lt;a href=&quot;https://twitter.com/HumbleData?ref_src=twsrc%5Etfw&quot;&gt;@HumbleData&lt;/a&gt; and &lt;a href=&quot;https://twitter.com/pyladies_co?ref_src=twsrc%5Etfw&quot;&gt;@pyladies_co&lt;/a&gt; workshop &lt;br /&gt;&lt;br /&gt;Un gran comienzo para el taller de &lt;a href=&quot;https://twitter.com/HumbleData?ref_src=twsrc%5Etfw&quot;&gt;@HumbleData&lt;/a&gt; y &lt;a href=&quot;https://twitter.com/pyladies_co?ref_src=twsrc%5Etfw&quot;&gt;@pyladies_co&lt;/a&gt; &lt;a href=&quot;https://t.co/iIfwcqvsgx&quot;&gt;pic.twitter.com/iIfwcqvsgx&lt;/a&gt;&lt;/p&gt;&amp;mdash; Cheuk Ting Ho (@cheukting_ho) &lt;a href=&quot;https://twitter.com/cheukting_ho/status/1666588003500695552?ref_src=twsrc%5Etfw&quot;&gt;June 7, 2023&lt;/a&gt;&lt;/blockquote&gt;
+&lt;script async=&quot;&quot; src=&quot;https://platform.twitter.com/widgets.js&quot; charset=&quot;utf-8&quot;&gt;&lt;/script&gt;
+
+&lt;p&gt;Since I didn’t speak Spanish, Karolina gave a welcome all the attendees, explain what we do, invite attendees to join the Spanish-speaking Python user community on Discord, and thanked all the sponsors.&lt;/p&gt;
+
+&lt;p&gt;We also have a lot of mentors to help, they are really helpful and I am glad that they are there to help. The workshop was a success and went well.&lt;/p&gt;
+
+&lt;blockquote class=&quot;twitter-tweet&quot;&gt;&lt;p lang=&quot;en&quot; dir=&quot;ltr&quot;&gt;&lt;a href=&quot;https://twitter.com/HumbleData?ref_src=twsrc%5Etfw&quot;&gt;@HumbleData&lt;/a&gt; was a great success! Thank you for all the mentors, organiser &lt;a href=&quot;https://twitter.com/pyladies_co?ref_src=twsrc%5Etfw&quot;&gt;@pyladies_co&lt;/a&gt; and everyone who participated (and thank you &lt;a href=&quot;https://twitter.com/europythons?ref_src=twsrc%5Etfw&quot;&gt;@europythons&lt;/a&gt; for supporting the event) Mucha gracias 🙏🏻 ❤️ &lt;a href=&quot;https://t.co/ZpSjLnrTdU&quot;&gt;pic.twitter.com/ZpSjLnrTdU&lt;/a&gt;&lt;/p&gt;&amp;mdash; Cheuk Ting Ho (@cheukting_ho) &lt;a href=&quot;https://twitter.com/cheukting_ho/status/1667144341364547585?ref_src=twsrc%5Etfw&quot;&gt;June 9, 2023&lt;/a&gt;&lt;/blockquote&gt;
+&lt;script async=&quot;&quot; src=&quot;https://platform.twitter.com/widgets.js&quot; charset=&quot;utf-8&quot;&gt;&lt;/script&gt;
+
+&lt;p&gt;Since the workshop is happening in the mid-week. We decided to have it as two evenings instead of a whole day. This works better for those who need to work in the office. The second day, it is the same day as the Django Girls workshop and it was a busy day for everyone who are involved in both. I am glad that we made it to the end.&lt;/p&gt;
+
+&lt;p&gt;Later Karolina told me that amount all the participants, there was a teacher who found the workshop material useful and would use them to teach Python. It is amazing! I think it is thanks to Sandrine and her experience being a teacher in the past and being able to create beginner-friendly material to start with.&lt;/p&gt;
+
+&lt;blockquote class=&quot;twitter-tweet&quot;&gt;&lt;p lang=&quot;es&quot; dir=&quot;ltr&quot;&gt;Día 2 del taller de &lt;a href=&quot;https://twitter.com/HumbleData?ref_src=twsrc%5Etfw&quot;&gt;@HumbleData&lt;/a&gt; con @pylaides_co y seguimos fuertes &lt;a href=&quot;https://t.co/HFGx5PlUIV&quot;&gt;pic.twitter.com/HFGx5PlUIV&lt;/a&gt;&lt;/p&gt;&amp;mdash; Cheuk Ting Ho (@cheukting_ho) &lt;a href=&quot;https://twitter.com/cheukting_ho/status/1666958833648914436?ref_src=twsrc%5Etfw&quot;&gt;June 9, 2023&lt;/a&gt;&lt;/blockquote&gt;
+&lt;script async=&quot;&quot; src=&quot;https://platform.twitter.com/widgets.js&quot; charset=&quot;utf-8&quot;&gt;&lt;/script&gt;
+
+&lt;p&gt;I need to thank everyone who makes this event possible. PyLadies Colombia organisers: &lt;a href=&quot;https://twitter.com/karobotco&quot;&gt;Karolina&lt;/a&gt;, &lt;a href=&quot;https://twitter.com/nicolefrale&quot;&gt;Nicole&lt;/a&gt; and Lucy who helped find the venue and extra sponsors for the refreshment. All the mentors that help out during the 2 events. And my friend &lt;a href=&quot;https://maureira.xyz/&quot;&gt;Cristián Maureira-Fredes&lt;/a&gt; who help with the translation.&lt;/p&gt;
+
+&lt;h2 id=&quot;django-girls-workshop&quot;&gt;Django Girls workshop&lt;/h2&gt;
+
+&lt;p&gt;The day before PyCon Colombia, there is a Django Girls workshop. The workshop has almost double the participants than Humble Data workshop but I am not surprised as Django Girls are more established. It was our inspiration after all.&lt;/p&gt;
+
+&lt;p&gt;There are mentors to help as well, each one of them was given a thank you card handmade by the organisers. It was really sweet. I also like the handmade decoration at the workshop.&lt;/p&gt;
+
+&lt;blockquote class=&quot;twitter-tweet&quot;&gt;&lt;p lang=&quot;es&quot; dir=&quot;ltr&quot;&gt;Me gusta &lt;a href=&quot;https://twitter.com/DjangoGirlsCo?ref_src=twsrc%5Etfw&quot;&gt;@DjangoGirlsCo&lt;/a&gt; especialmente la decoración &lt;a href=&quot;https://t.co/ipNvIJ4HOB&quot;&gt;pic.twitter.com/ipNvIJ4HOB&lt;/a&gt;&lt;/p&gt;&amp;mdash; Cheuk Ting Ho (@cheukting_ho) &lt;a href=&quot;https://twitter.com/cheukting_ho/status/1666932377011060742?ref_src=twsrc%5Etfw&quot;&gt;June 8, 2023&lt;/a&gt;&lt;/blockquote&gt;
+&lt;script async=&quot;&quot; src=&quot;https://platform.twitter.com/widgets.js&quot; charset=&quot;utf-8&quot;&gt;&lt;/script&gt;
+
+&lt;p&gt;I met one of the mentors later a the conference and he said some participants ask if there are any workshops to learn Python and data science. I think that’s why we need a Humble Data workshop, the materials covered are different from Django Girls and both can work together and teach more people coding and Python.&lt;/p&gt;
+
+&lt;h2 id=&quot;pycon-colombia&quot;&gt;PyCon Colombia&lt;/h2&gt;
+
+&lt;p&gt;I am super excited about PyCon Colombia, it is my first time attending a conference in Latin America. The first day, you get checked in and were given a braceletta - you get one every day and there’s one for each event in conjunction with the conference, I ended up collecting 7 of them (and beating everyone else).&lt;/p&gt;
+
+&lt;blockquote class=&quot;twitter-tweet&quot;&gt;&lt;p lang=&quot;es&quot; dir=&quot;ltr&quot;&gt;Are you excited about &lt;a href=&quot;https://twitter.com/pyconcolombia?ref_src=twsrc%5Etfw&quot;&gt;@pyconcolombia&lt;/a&gt; ? Están ustedes emocionados? &lt;a href=&quot;https://t.co/FdNoPhnlYG&quot;&gt;pic.twitter.com/FdNoPhnlYG&lt;/a&gt;&lt;/p&gt;&amp;mdash; Cheuk Ting Ho (@cheukting_ho) &lt;a href=&quot;https://twitter.com/cheukting_ho/status/1667157455313174528?ref_src=twsrc%5Etfw&quot;&gt;June 9, 2023&lt;/a&gt;&lt;/blockquote&gt;
+&lt;script async=&quot;&quot; src=&quot;https://platform.twitter.com/widgets.js&quot; charset=&quot;utf-8&quot;&gt;&lt;/script&gt;
+
+&lt;p&gt;All the keynote speakers are invited from abroad. They are Lukasz Langa, Catherin Devlin, Fabio Pliger, Deb Nicholson and Travis Oliphant. The organisers are being very good hosts and take care of them very well. This is not common for conferences in Europe. I can see the hospitality of Colombia through the organisers. The selection of keynote speakers is also very good, it covers a huge variety of topics and all of them are good speakers. All the keynotes are funny at the same time deliver important messages. I enjoyed all of them.&lt;/p&gt;
+
+&lt;blockquote class=&quot;twitter-tweet&quot;&gt;&lt;p lang=&quot;en&quot; dir=&quot;ltr&quot;&gt;&lt;a href=&quot;https://twitter.com/baconandcoconut?ref_src=twsrc%5Etfw&quot;&gt;@baconandcoconut&lt;/a&gt; is going to tell us how to ask for help as a non-profit at her keynote &lt;a href=&quot;https://twitter.com/pyconcolombia?ref_src=twsrc%5Etfw&quot;&gt;@pyconcolombia&lt;/a&gt; &lt;a href=&quot;https://t.co/zATsoGqRKT&quot;&gt;pic.twitter.com/zATsoGqRKT&lt;/a&gt;&lt;/p&gt;&amp;mdash; Cheuk Ting Ho (@cheukting_ho) &lt;a href=&quot;https://twitter.com/cheukting_ho/status/1668002933693112324?ref_src=twsrc%5Etfw&quot;&gt;June 11, 2023&lt;/a&gt;&lt;/blockquote&gt;
+&lt;script async=&quot;&quot; src=&quot;https://platform.twitter.com/widgets.js&quot; charset=&quot;utf-8&quot;&gt;&lt;/script&gt;
+
+&lt;p&gt;When I am not giving a talk or workshop, I spend most of my time at the conference talking to sponsors and people who don’t mind I cannot speak Spanish. Most of the sponsors are proud Latin American companies. They are just like any startup in Europe, very innovative and hungry for more talents to join them. I also spend a lot of time talking to other ladies at the conference and they are all very nice and tell me where to go for sightseeing.&lt;/p&gt;
+
+&lt;blockquote class=&quot;twitter-tweet&quot; data-conversation=&quot;none&quot;&gt;&lt;p lang=&quot;es&quot; dir=&quot;ltr&quot;&gt;Día 2:&lt;br /&gt;La charla de Cheuk Ting Ho (&lt;a href=&quot;https://twitter.com/cheukting_ho?ref_src=twsrc%5Etfw&quot;&gt;@cheukting_ho&lt;/a&gt;) acerca de como hacer pruebas en Python de una mejor manera me resultó sumamente útil. Espero aplicar estos principios al programar con Python &lt;a href=&quot;https://t.co/FrvcSErWm2&quot;&gt;pic.twitter.com/FrvcSErWm2&lt;/a&gt;&lt;/p&gt;&amp;mdash; Juliana Nieto Cárdenas (@junietoc) &lt;a href=&quot;https://twitter.com/junietoc/status/1668823721505693707?ref_src=twsrc%5Etfw&quot;&gt;June 14, 2023&lt;/a&gt;&lt;/blockquote&gt;
+&lt;script async=&quot;&quot; src=&quot;https://platform.twitter.com/widgets.js&quot; charset=&quot;utf-8&quot;&gt;&lt;/script&gt;
+
+&lt;p&gt;Every evening at the conference there are activities, on the first day, there is bowling. I was lucky that the organisers invited me. It was at a bowling place that is decorated with a medieval theme. It is very interesting. I had a good time chatting with nice people and discovered that some of my friends are very good at bowling.&lt;/p&gt;
+
+&lt;blockquote class=&quot;twitter-tweet&quot;&gt;&lt;p lang=&quot;en&quot; dir=&quot;ltr&quot;&gt;The speaker dinner &lt;a href=&quot;https://twitter.com/pyconcolombia?ref_src=twsrc%5Etfw&quot;&gt;@pyconcolombia&lt;/a&gt; has really cool decorations - “less fear more faith” - “dream leads us to success” &lt;a href=&quot;https://t.co/hVZZB6QWSV&quot;&gt;pic.twitter.com/hVZZB6QWSV&lt;/a&gt;&lt;/p&gt;&amp;mdash; Cheuk Ting Ho (@cheukting_ho) &lt;a href=&quot;https://twitter.com/cheukting_ho/status/1667687918616432640?ref_src=twsrc%5Etfw&quot;&gt;June 11, 2023&lt;/a&gt;&lt;/blockquote&gt;
+&lt;script async=&quot;&quot; src=&quot;https://platform.twitter.com/widgets.js&quot; charset=&quot;utf-8&quot;&gt;&lt;/script&gt;
+
+&lt;p&gt;On the second day, it was the speaker dinner, I had so much fun sitting with the local organisers and they teach me a lot about their dancing culture. We were so excited that they decided to let me experience it myself - we went dancing after. It was so much fun! I feel like I can dance every day in Colombia. People there dance so well! I get closer to the local speakers and organisers because of that. I am so glad to be welcomed into the party.&lt;/p&gt;
+
+&lt;p&gt;On the last day, the social event was drinking at BBC (a Colombia cervezaria chain - think of Starbucks but for beers). Since Travis is only able to join on the last day, I got a chance to chat with him, Juanlita and Mridul and we talked a lot about how to improve the open-source community, especially the scientific programming community.&lt;/p&gt;
+
+&lt;blockquote class=&quot;twitter-tweet&quot;&gt;&lt;p lang=&quot;en&quot; dir=&quot;ltr&quot;&gt;What’s in the coffee break &lt;a href=&quot;https://twitter.com/pyconcolombia?ref_src=twsrc%5Etfw&quot;&gt;@pyconcolombia&lt;/a&gt; ? PyCon Colombia cakes &lt;a href=&quot;https://t.co/Y79yqp2ODR&quot;&gt;pic.twitter.com/Y79yqp2ODR&lt;/a&gt;&lt;/p&gt;&amp;mdash; Cheuk Ting Ho (@cheukting_ho) &lt;a href=&quot;https://twitter.com/cheukting_ho/status/1667992748627042308?ref_src=twsrc%5Etfw&quot;&gt;June 11, 2023&lt;/a&gt;&lt;/blockquote&gt;
+&lt;script async=&quot;&quot; src=&quot;https://platform.twitter.com/widgets.js&quot; charset=&quot;utf-8&quot;&gt;&lt;/script&gt;
+
+&lt;p&gt;To make it a tradition, I also give (half of) a lighting talk in Spanish. This time I read it off my phone. But folks still love it and come to talk to me after about how much they appreciate it… it motivated me to keep learning Spanish. I hope one day I do not have to read it off my phone.&lt;/p&gt;
+
+&lt;p&gt;I have made a lot of connections via the conference. I get to know a lot of people that I already know better because I got to spend more time with them in person at Bogotá. I enjoy the time I spent with them. I hope we will see each other soon.&lt;/p&gt;
+
+&lt;blockquote class=&quot;twitter-tweet&quot;&gt;&lt;p lang=&quot;en&quot; dir=&quot;ltr&quot;&gt;Look at all these amazing &lt;a href=&quot;https://twitter.com/pyladies_co?ref_src=twsrc%5Etfw&quot;&gt;@pyladies_co&lt;/a&gt; ladies at &lt;a href=&quot;https://twitter.com/pyconcolombia?ref_src=twsrc%5Etfw&quot;&gt;@pyconcolombia&lt;/a&gt; I am so glad to meet you all ❤️ &lt;a href=&quot;https://t.co/HX6Ihhss1z&quot;&gt;pic.twitter.com/HX6Ihhss1z&lt;/a&gt;&lt;/p&gt;&amp;mdash; Cheuk Ting Ho (@cheukting_ho) &lt;a href=&quot;https://twitter.com/cheukting_ho/status/1667645573921484801?ref_src=twsrc%5Etfw&quot;&gt;June 10, 2023&lt;/a&gt;&lt;/blockquote&gt;
+&lt;script async=&quot;&quot; src=&quot;https://platform.twitter.com/widgets.js&quot; charset=&quot;utf-8&quot;&gt;&lt;/script&gt;
+
+&lt;h2 id=&quot;special-thanks&quot;&gt;Special Thanks&lt;/h2&gt;
+
+&lt;p&gt;All of the amazing things mentioned would not be happening without the sponsor of the Humble Data workshop in Bogotá - &lt;a href=&quot;https://www.europython-society.org/&quot;&gt;EuroPython Society&lt;/a&gt;. They sponsor my trip to make this connection with the Colombian community and to provide a Spanish workshop to the local folks.&lt;/p&gt;
+
+&lt;p&gt;If you have a chance in the future, come to our annual EuroPython conference. We would love to meet people around the world.&lt;/p&gt;
+
+&lt;blockquote class=&quot;twitter-tweet&quot;&gt;&lt;p lang=&quot;es&quot; dir=&quot;ltr&quot;&gt;Thank you very much for these volunteers to make &lt;a href=&quot;https://twitter.com/pyconcolombia?ref_src=twsrc%5Etfw&quot;&gt;@pyconcolombia&lt;/a&gt; such an amazing conference &lt;br /&gt;&lt;br /&gt;Muchas gracias por estos voluntarios para hacer de &lt;a href=&quot;https://twitter.com/pyconcolombia?ref_src=twsrc%5Etfw&quot;&gt;@pyconcolombia&lt;/a&gt; una conferencia tan increíble &lt;a href=&quot;https://t.co/IhcRzuJiDE&quot;&gt;pic.twitter.com/IhcRzuJiDE&lt;/a&gt;&lt;/p&gt;&amp;mdash; Cheuk Ting Ho (@cheukting_ho) &lt;a href=&quot;https://twitter.com/cheukting_ho/status/1668042977552265217?ref_src=twsrc%5Etfw&quot;&gt;June 11, 2023&lt;/a&gt;&lt;/blockquote&gt;
+&lt;script async=&quot;&quot; src=&quot;https://platform.twitter.com/widgets.js&quot; charset=&quot;utf-8&quot;&gt;&lt;/script&gt;
+
+</description>
+        <pubDate>Sat, 17 Jun 2023 00:00:00 +0000</pubDate>
+        <link>https://cheuk.dev/2023/06/17/pyladies-pycon-co/</link>
+        <guid isPermaLink="true">https://cheuk.dev/2023/06/17/pyladies-pycon-co/</guid>
+        
+        <category>Conference</category>
+        
+        <category>PyLadies</category>
+        
+        <category>HumbleData</category>
+        
+        
+      </item>
     
       <item>
         <title>¿Cómo empezar a dar charlas en conferencias?</title>
