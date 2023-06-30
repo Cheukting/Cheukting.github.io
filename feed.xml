@@ -6,9 +6,100 @@
 </description>
     <link>https://cheuk.dev</link>
     <atom:link href="https://cheuk.dev/feed.xml" rel="self" type="application/rss+xml"/>
-    <pubDate>Thu, 22 Jun 2023 10:20:18 +0000</pubDate>
-    <lastBuildDate>Thu, 22 Jun 2023 10:20:18 +0000</lastBuildDate>
+    <pubDate>Fri, 30 Jun 2023 07:56:15 +0000</pubDate>
+    <lastBuildDate>Fri, 30 Jun 2023 07:56:15 +0000</lastBuildDate>
     <generator>Jekyll v3.8.7</generator>
+    
+      <item>
+        <title>What does Python 3.7 End-of-life mean?</title>
+        <description>&lt;p&gt;You have probably seen everyone has been talking about the end-of-life of Python 3.7 recently. Do you know what does it mean? What happened if you are still using Python 3.7?&lt;/p&gt;
+
+&lt;h2 id=&quot;what-does-it-mean&quot;&gt;What does it mean?&lt;/h2&gt;
+
+&lt;p&gt;According to &lt;a href=&quot;https://devguide.python.org/versions/&quot;&gt;the status of Python versions&lt;/a&gt;, each Python version will have a “lifespan” of its own. From its “birth” - when it got released, to when it will stop getting bug fixes and when we get to the stage that there will no longer be any security bug fixes, that version of Python is considered “dead”.&lt;/p&gt;
+
+&lt;p&gt;Is it a good idea to upgrade to using more modern Python versions? Absolutely yes! It is never a good idea to use a piece of software that will not receive security fixes - it carries potential risks, if there is a vulnerability found, it will not be fixed and baddies will be able to exploit that vulnerability and potentially do you harm.&lt;/p&gt;
+
+&lt;h2 id=&quot;why-cant-python-3x-be-maintained-for-ever&quot;&gt;Why can’t Python 3.x be maintained for ever?&lt;/h2&gt;
+
+&lt;p&gt;It is very common that software will have a life cycle like Python does. As the number of engineers and resources is limited. It is simply impossible to maintain a piece of software forever. It is even more so for open-source projects when the software is maintained mostly by volunteers. It is better to put resources to improve Python and maintain newer versions of it. That’s why each Python version will have its life cycle.&lt;/p&gt;
+
+&lt;p&gt;It is also easier for library maintainer to also maintain their library similarly, supporting only a set of newer versions of the libraries and newer versions of the releases will no longer support old, especially end-of-life versions of Python. In this case, it is possible to publish new features if it does not need to be compatible with Python versions that are very old and are quite different from the newest version.&lt;/p&gt;
+
+&lt;h2 id=&quot;how-i-am-affected&quot;&gt;How I am affected?&lt;/h2&gt;
+
+&lt;p&gt;You will probably need to make sure that all your projects are compatible with Python 3.8+ - time to upgrade old and dusty projects, show them some love or make the hard decision to achieve them.&lt;/p&gt;
+
+&lt;p&gt;After upgrading to Python 3.7, check if your dependencies are also upgraded. There are also popular Python libraries, or frameworks that will stop supporting Python 3.7. It will happen again in 3.8 in a year and so on, so it is always a good idea to keep up to date. Ideally, you should be using Python 3.11 right now and is ready to move on to Python 3.12 once it is released.&lt;/p&gt;
+
+&lt;p&gt;There is also a good thing about the Python 3.7 end-of-life, you can now stop testing again Python 3.7 in your CI/CD pipeline. And now you can also use the following cool features that are introduced in Python 3.8 without worrying about breaking backward compatibility.&lt;/p&gt;
+
+&lt;h2 id=&quot;what-are-the-coolest-features-in-python-38&quot;&gt;What are the coolest features in Python 3.8?&lt;/h2&gt;
+
+&lt;p&gt;Take this session with a grain of salt! It is my personal opinion! Python 3.8 has been out for a while so everyone will have their own opinion. Here are my top 3 features:&lt;/p&gt;
+
+&lt;h4 id=&quot;walrus-operator&quot;&gt;Walrus operator&lt;/h4&gt;
+
+&lt;p&gt;This is a very controversial one when it came out! However, now people are starting to get more and more used to it and now after Ptyhon 3.7 is retired you will see them more often. In my opinion,  the most useful way to use it when we have a while loop like this:&lt;/p&gt;
+
+&lt;pre&gt;&lt;code class=&quot;language-Python&quot;&gt;while content := fetch_from_source(url) is not None:
+    do_somthing_with_it(content)
+&lt;/code&gt;&lt;/pre&gt;
+
+&lt;p&gt;compare it to the older version which will be:&lt;/p&gt;
+
+&lt;pre&gt;&lt;code class=&quot;language-Python&quot;&gt;content = fetch_from_source(url)
+while content is not None:
+    do_somthing_with_it(content)
+    content = fetch_from_source(url)
+&lt;/code&gt;&lt;/pre&gt;
+
+&lt;p&gt;we do not have to write the same line &lt;code class=&quot;highlighter-rouge&quot;&gt;content = fetch_from_source(url)&lt;/code&gt; twice and can keep things consistent easily.&lt;/p&gt;
+
+&lt;h4 id=&quot;enforced-positional-argument&quot;&gt;Enforced positional argument&lt;/h4&gt;
+
+&lt;p&gt;Now you can enforce arguments to be positional only:&lt;/p&gt;
+
+&lt;pre&gt;&lt;code class=&quot;language-Python&quot;&gt;def my_func(arg1, /, arg2):
+    do_something(arg1, arg2)
+&lt;/code&gt;&lt;/pre&gt;
+
+&lt;p&gt;Here you can only call &lt;code class=&quot;highlighter-rouge&quot;&gt;my_func(1, 2)&lt;/code&gt; or &lt;code class=&quot;highlighter-rouge&quot;&gt;my_func(1, arg2=2)&lt;/code&gt; but not &lt;code class=&quot;highlighter-rouge&quot;&gt;my_func(arg1=1, arg2=2)&lt;/code&gt; anymore.&lt;/p&gt;
+
+&lt;p&gt;I can imagine this will affect how we use our favourite libraries in the future. As more and more libraries will use enforced positional arguments. Time to double-check their documentation if you are not sure if certain arguments are positional only.&lt;/p&gt;
+
+&lt;h4 id=&quot;using--in-f-strings&quot;&gt;Using = in f-strings&lt;/h4&gt;
+
+&lt;p&gt;f-string was introduced in Python 3.6 and it was a game changer in how we print things. It has been more powerful and convenient over time. In Python 3.8, you can now use &lt;code class=&quot;highlighter-rouge&quot;&gt;=&lt;/code&gt; in f-strings like &lt;code class=&quot;highlighter-rouge&quot;&gt;f&quot;Account info: {user_name=}&quot;&lt;/code&gt; and it will print out something like “Account info: user_name=user1”. It is extremely useful for debugging and error messages.&lt;/p&gt;
+
+&lt;hr /&gt;
+
+&lt;p&gt;To know more about what’s introduced in Python 3.8, you can check out &lt;a href=&quot;https://docs.python.org/3/whatsnew/3.8.html&quot;&gt;this page at the official documentation&lt;/a&gt;.&lt;/p&gt;
+
+&lt;h2 id=&quot;what-if-my-work-is-still-using-python-37&quot;&gt;What if my work is still using Python 3.7?&lt;/h2&gt;
+
+&lt;p&gt;As I said, it is crucial and beneficial to be using an updated version of Python. I understand that sometimes there are reasons Python 3.7 is still needed.&lt;/p&gt;
+
+&lt;p&gt;If it is for compatibility of a certain piece of software. Look for if a newer version of that piece of software is available. If it is a commercial piece of software, contact the publisher to ask for an update. If it is an open-source piece of software, report the issue and see what you can do to help. I am happily offering my help to any open-source project that may need help in updating the dependencies and removing Python 3.7 from their dependencies (I cannot promise I can solve your problem 100% but I will try)&lt;/p&gt;
+
+&lt;p&gt;If you are required to use Python 3.7 internally, mention the potential concern to the decision makers and explain the importance, like for security reasons, to upgrade to a newer version of Python.&lt;/p&gt;
+
+&lt;hr /&gt;
+
+&lt;p&gt;I hope you found this blog post useful If you have any comments, feel free to get in touch with me on social media and I am happy to chat.&lt;/p&gt;
+
+&lt;hr /&gt;
+
+&lt;p&gt;Cover Photo by &lt;a href=&quot;https://unsplash.com/@andyjh07?utm_source=unsplash&amp;amp;utm_medium=referral&amp;amp;utm_content=creditCopyText&quot;&gt;Andy Holmes&lt;/a&gt; on &lt;a href=&quot;https://unsplash.com/photos/zUor3ZmVbss?utm_source=unsplash&amp;amp;utm_medium=referral&amp;amp;utm_content=creditCopyText&quot;&gt;Unsplash&lt;/a&gt;&lt;/p&gt;
+</description>
+        <pubDate>Fri, 30 Jun 2023 00:00:00 +0000</pubDate>
+        <link>https://cheuk.dev/2023/06/30/python37-eol/</link>
+        <guid isPermaLink="true">https://cheuk.dev/2023/06/30/python37-eol/</guid>
+        
+        <category>Python</category>
+        
+        
+      </item>
     
       <item>
         <title>Humble Data workshop with PyLadies Colombia and PyCon Colombia</title>

@@ -1,0 +1,441 @@
+<!DOCTYPE html>
+<html lang=" en "><head>
+  <meta charset="utf-8" />
+  <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+
+  <title>Cheuk Ting Ho | Building the Open-source Community</title><!-- Begin Jekyll SEO tag v2.8.0 -->
+<meta name="generator" content="Jekyll v3.8.7" />
+<meta property="og:title" content="What does Python 3.7 End-of-life mean?" />
+<meta name="author" content="Cheuk Ting Ho" />
+<meta property="og:locale" content="en_US" />
+<meta name="description" content="You have probably seen everyone has been talking about the end-of-life of Python 3.7 recently. Do you know what does it mean? What happened if you are still using Python 3.7?" />
+<meta property="og:description" content="You have probably seen everyone has been talking about the end-of-life of Python 3.7 recently. Do you know what does it mean? What happened if you are still using Python 3.7?" />
+<link rel="canonical" href="https://cheuk.dev/2023/06/30/python37-eol/" />
+<meta property="og:url" content="https://cheuk.dev/2023/06/30/python37-eol/" />
+<meta property="og:site_name" content="Building the Open-source Community" />
+<meta property="og:image" content="https://cheuk.dev/assets/images/andy-holmes-zUor3ZmVbss-unsplash.jpg" />
+<meta property="og:type" content="article" />
+<meta property="article:published_time" content="2023-06-30T00:00:00+00:00" />
+<meta name="twitter:card" content="summary_large_image" />
+<meta property="twitter:image" content="https://cheuk.dev/assets/images/andy-holmes-zUor3ZmVbss-unsplash.jpg" />
+<meta property="twitter:title" content="What does Python 3.7 End-of-life mean?" />
+<script type="application/ld+json">
+{"@context":"https://schema.org","@type":"BlogPosting","author":{"@type":"Person","name":"Cheuk Ting Ho"},"dateModified":"2023-06-30T00:00:00+00:00","datePublished":"2023-06-30T00:00:00+00:00","description":"You have probably seen everyone has been talking about the end-of-life of Python 3.7 recently. Do you know what does it mean? What happened if you are still using Python 3.7?","headline":"What does Python 3.7 End-of-life mean?","image":"https://cheuk.dev/assets/images/andy-holmes-zUor3ZmVbss-unsplash.jpg","mainEntityOfPage":{"@type":"WebPage","@id":"https://cheuk.dev/2023/06/30/python37-eol/"},"url":"https://cheuk.dev/2023/06/30/python37-eol/"}</script>
+<!-- End Jekyll SEO tag -->
+<link rel="stylesheet" href="/assets/css/app.min.css" />
+
+  <!--
+  <link rel="shortcut icon" type="image/x-icon" href="">
+  -->
+
+<!-- favicon -->
+  <link rel="apple-touch-icon" sizes="180x180" href="/favicon/apple-touch-icon.png" />
+  <link rel="icon" type="image/png" sizes="32x32" href="/favicon/favicon-32x32.png" />
+  <link rel="icon" type="image/png" sizes="16x16" href="/favicon/favicon-16x16.png" />
+  <link rel="manifest" href="/favicon/site.webmanifest" />
+<!-- favicon -->
+
+<!-- indieweb links -->
+  <link rel="authorization_endpoint" href="https://indieauth.com/auth" />
+  <link rel="token_endpoint" href="https://tokens.indieauth.com/token" />
+  <link rel="webmention" href="https://webmention.io/cheuk.dev/webmention" />
+  <link rel="pingback" href="https://webmention.io/cheuk.dev/xmlrpc" />
+<!-- indieweb links --></head>
+<body id="page-top"><nav id="mainNav" class="navbar navbar-default navbar-fixed-top">
+    <div class="container-fluid">
+        <!-- Brand and toggle get grouped for better mobile display -->
+        <div class="navbar-header">
+            <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1">
+                <span class="sr-only">Toggle navigation</span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+            </button>
+            <a class="navbar-brand" href="/"><img src="/images/32px-home.png" alt="back to home"></a>
+        </div>
+
+        <!-- Collect the nav links, forms, and other content for toggling -->
+        <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+            <ul class="nav navbar-nav navbar-right">
+                <li>
+                    <a href="/#projects">Projects</a>
+                </li>
+                <li>
+                    <a href="/#articles">Articles</a>
+                </li>
+                <li>
+                    <a href="/#meetups">Meetups</a>
+                </li>
+                <li>
+                    <a href="/#videos">Videos</a>
+                </li>
+                <li>
+                    <a href="/#workshops">Workshops</a>
+                </li>
+            </ul>
+        </div>
+        <!-- /.navbar-collapse -->
+    </div>
+    <!-- /.container-fluid -->
+</nav>
+<div class="container header-contianer h-card">
+  <div class="row">
+    <div class="col-xs-12 col-sm-6 col-md-6 col-lg-8 header-left">
+      <img class="banner-logo u-photo" src="/images/logo.png" alt="website banner">
+        <!----
+      <h1>Cheuk Ting Ho</h1>
+      <h2>Building the Open-source Community</h2>
+      --->
+    </div>
+    <div class="col-xs-12 col-sm-6 col-md-6 col-lg-4 header-right">
+      <ul class="icons no-print"><li>
+            <a target="_blank" href="https://github.com/Cheukting" class="button button--sacnite button--round-l u-url" rel="me">
+              <i class="fab fa-github" title="Github link"></i>
+            </a>
+          </li><li>
+            <a target="_blank" href="https://www.linkedin.com/in/cheukting-ho" class="button button--sacnite button--round-l u-url">
+              <i class="fab fa-linkedin" title="Linkedin link"></i>
+            </a>
+          </li><li>
+            <a target="_blank" href="https://twitter.com/cheukting_ho" class="button button--sacnite button--round-l u-url" rel="me">
+              <i class="fab fa-twitter" title="Twitter link"></i>
+            </a>
+          </li><li>
+            <a target="_blank" href="https://www.youtube.com/%40cheuktingho" class="button button--sacnite button--round-l u-url" rel="me">
+              <i class="fab fa-youtube" title="Youtube link"></i>
+            </a>
+          </li></ul></div>
+  </div>
+</div>
+<main class="page-content" aria-label="Content">
+<div class="post container intro-container">
+  <article itemprop="blogPost" itemscope itemtype="http://schema.org/BlogPosting" class="h-entry">
+    <div class="post__header section-padding">
+      <div class="grid-large">
+        <h2 itemprop="name headline" class="p-name">What does Python 3.7 End-of-life mean?</h2>
+
+        <time class="post__date dt-published" datetime="2023-06-30T00:00:00+00:00" itemprop="datePublished">30 Jun 2023</time>
+      </div>
+    </div>
+
+    
+      <div class="post__img u-photo">
+        <div>
+          <figure class="absolute-bg" style="background-image: url('/assets/images/andy-holmes-zUor3ZmVbss-unsplash.jpg');"></figure>
+        </div>
+      </div>
+    
+
+    <div class="post__content section-padding">
+      <div class="grid-large">
+        <div id="markdown" itemprop="articleBody" class="e-content">
+          <p>You have probably seen everyone has been talking about the end-of-life of Python 3.7 recently. Do you know what does it mean? What happened if you are still using Python 3.7?</p>
+
+<h2 id="what-does-it-mean">What does it mean?</h2>
+
+<p>According to <a href="https://devguide.python.org/versions/">the status of Python versions</a>, each Python version will have a “lifespan” of its own. From its “birth” - when it got released, to when it will stop getting bug fixes and when we get to the stage that there will no longer be any security bug fixes, that version of Python is considered “dead”.</p>
+
+<p>Is it a good idea to upgrade to using more modern Python versions? Absolutely yes! It is never a good idea to use a piece of software that will not receive security fixes - it carries potential risks, if there is a vulnerability found, it will not be fixed and baddies will be able to exploit that vulnerability and potentially do you harm.</p>
+
+<h2 id="why-cant-python-3x-be-maintained-for-ever">Why can’t Python 3.x be maintained for ever?</h2>
+
+<p>It is very common that software will have a life cycle like Python does. As the number of engineers and resources is limited. It is simply impossible to maintain a piece of software forever. It is even more so for open-source projects when the software is maintained mostly by volunteers. It is better to put resources to improve Python and maintain newer versions of it. That’s why each Python version will have its life cycle.</p>
+
+<p>It is also easier for library maintainer to also maintain their library similarly, supporting only a set of newer versions of the libraries and newer versions of the releases will no longer support old, especially end-of-life versions of Python. In this case, it is possible to publish new features if it does not need to be compatible with Python versions that are very old and are quite different from the newest version.</p>
+
+<h2 id="how-i-am-affected">How I am affected?</h2>
+
+<p>You will probably need to make sure that all your projects are compatible with Python 3.8+ - time to upgrade old and dusty projects, show them some love or make the hard decision to achieve them.</p>
+
+<p>After upgrading to Python 3.7, check if your dependencies are also upgraded. There are also popular Python libraries, or frameworks that will stop supporting Python 3.7. It will happen again in 3.8 in a year and so on, so it is always a good idea to keep up to date. Ideally, you should be using Python 3.11 right now and is ready to move on to Python 3.12 once it is released.</p>
+
+<p>There is also a good thing about the Python 3.7 end-of-life, you can now stop testing again Python 3.7 in your CI/CD pipeline. And now you can also use the following cool features that are introduced in Python 3.8 without worrying about breaking backward compatibility.</p>
+
+<h2 id="what-are-the-coolest-features-in-python-38">What are the coolest features in Python 3.8?</h2>
+
+<p>Take this session with a grain of salt! It is my personal opinion! Python 3.8 has been out for a while so everyone will have their own opinion. Here are my top 3 features:</p>
+
+<h4 id="walrus-operator">Walrus operator</h4>
+
+<p>This is a very controversial one when it came out! However, now people are starting to get more and more used to it and now after Ptyhon 3.7 is retired you will see them more often. In my opinion,  the most useful way to use it when we have a while loop like this:</p>
+
+<pre><code class="language-Python">while content := fetch_from_source(url) is not None:
+    do_somthing_with_it(content)
+</code></pre>
+
+<p>compare it to the older version which will be:</p>
+
+<pre><code class="language-Python">content = fetch_from_source(url)
+while content is not None:
+    do_somthing_with_it(content)
+    content = fetch_from_source(url)
+</code></pre>
+
+<p>we do not have to write the same line <code class="highlighter-rouge">content = fetch_from_source(url)</code> twice and can keep things consistent easily.</p>
+
+<h4 id="enforced-positional-argument">Enforced positional argument</h4>
+
+<p>Now you can enforce arguments to be positional only:</p>
+
+<pre><code class="language-Python">def my_func(arg1, /, arg2):
+    do_something(arg1, arg2)
+</code></pre>
+
+<p>Here you can only call <code class="highlighter-rouge">my_func(1, 2)</code> or <code class="highlighter-rouge">my_func(1, arg2=2)</code> but not <code class="highlighter-rouge">my_func(arg1=1, arg2=2)</code> anymore.</p>
+
+<p>I can imagine this will affect how we use our favourite libraries in the future. As more and more libraries will use enforced positional arguments. Time to double-check their documentation if you are not sure if certain arguments are positional only.</p>
+
+<h4 id="using--in-f-strings">Using = in f-strings</h4>
+
+<p>f-string was introduced in Python 3.6 and it was a game changer in how we print things. It has been more powerful and convenient over time. In Python 3.8, you can now use <code class="highlighter-rouge">=</code> in f-strings like <code class="highlighter-rouge">f"Account info: {user_name=}"</code> and it will print out something like “Account info: user_name=user1”. It is extremely useful for debugging and error messages.</p>
+
+<hr />
+
+<p>To know more about what’s introduced in Python 3.8, you can check out <a href="https://docs.python.org/3/whatsnew/3.8.html">this page at the official documentation</a>.</p>
+
+<h2 id="what-if-my-work-is-still-using-python-37">What if my work is still using Python 3.7?</h2>
+
+<p>As I said, it is crucial and beneficial to be using an updated version of Python. I understand that sometimes there are reasons Python 3.7 is still needed.</p>
+
+<p>If it is for compatibility of a certain piece of software. Look for if a newer version of that piece of software is available. If it is a commercial piece of software, contact the publisher to ask for an update. If it is an open-source piece of software, report the issue and see what you can do to help. I am happily offering my help to any open-source project that may need help in updating the dependencies and removing Python 3.7 from their dependencies (I cannot promise I can solve your problem 100% but I will try)</p>
+
+<p>If you are required to use Python 3.7 internally, mention the potential concern to the decision makers and explain the importance, like for security reasons, to upgrade to a newer version of Python.</p>
+
+<hr />
+
+<p>I hope you found this blog post useful If you have any comments, feel free to get in touch with me on social media and I am happy to chat.</p>
+
+<hr />
+
+<p>Cover Photo by <a href="https://unsplash.com/@andyjh07?utm_source=unsplash&amp;utm_medium=referral&amp;utm_content=creditCopyText">Andy Holmes</a> on <a href="https://unsplash.com/photos/zUor3ZmVbss?utm_source=unsplash&amp;utm_medium=referral&amp;utm_content=creditCopyText">Unsplash</a></p>
+
+        </div>
+
+        <br /><br />
+<h2 class="post__social">Share this article</h2>
+<ul class="post__social">
+  <li><a href="https://www.facebook.com/sharer/sharer.php?u=https://cheuk.dev/2023/06/30/python37-eol/" target="_blank"><i class="fa fa-facebook"></i></a></li>
+  <li><a href="https://twitter.com/intent/tweet?&text=What does Python 3.7 End-of-life mean?+https://cheuk.dev/2023/06/30/python37-eol/+by+Cheuk Ting Ho" target="_blank"><i class="fa fa-twitter"></i></a></li>
+  <!------
+  <li><a href="https://plus.google.com/share?url=https://cheuk.dev/2023/06/30/python37-eol/" target="_blank"><i class="fa fa-google-plus"></i></a></li>
+  ------->
+  <li><a href="https://www.linkedin.com/shareArticle?mini=true&source=What does Python 3.7 End-of-life mean?&summary=You have probably seen everyone has been talking about the end-of-life of Python 3.7 recently. Do you know what does it mean? What happened if you are still using Python 3.7?&url=https://cheuk.dev/2023/06/30/python37-eol/" target="_blank"><i class="fa fa-linkedin"></i></a></li>
+  <!------
+  <li><a href="https://www.stumbleupon.com/badge/?url=https://cheuk.dev/2023/06/30/python37-eol/" target="_blank"><i class="fa fa-stumbleupon"></i></a></li>
+  ------->
+  <li><a href="https://www.reddit.com/submit?url=https://cheuk.dev/2023/06/30/python37-eol/" target="_blank"><i class="fa fa-reddit-alien"></i></a></li>
+  <li><a href="https://www.tumblr.com/share/link?url=https://cheuk.dev/2023/06/30/python37-eol/" target="_blank"><i class="fa fa-tumblr"></i></a></li>
+  <li><a href="https://www.pinterest.com/pin/create/link/?description=You have probably seen everyone has been talking about the end-of-life of Python 3.7 recently. Do you know what does it mean? What happened if you are still using Python 3.7?&media=https://cheuk.dev/assets/images/andy-holmes-zUor3ZmVbss-unsplash.jpg&url=https://cheuk.dev/2023/06/30/python37-eol/" target="_blank"><i class="fa fa-pinterest"></i></a></li>
+</ul>
+<a href="https://cheuk.dev/2023/06/30/python37-eol/" class="post__social u-url">https://cheuk.dev/2023/06/30/python37-eol/</a>
+
+      </div>
+    </div>
+
+    <div class="grid">
+      <div class="post__webmention">
+  <div id="webmentions" ></div>
+</div>
+
+    </div>
+
+    <!-- Everything inside the #author tags pulls data from the author -->
+    
+      <div class="section-padding--none">
+        <div class="grid">
+          <hr class="sep"/>
+        </div>
+      </div>
+
+      <div class="section-padding">
+        <div class="grid p-author h-card">
+          
+            
+            
+              <span class="post__author">About
+            
+            <a href="https://cheuk.dev" title="More By Cheuk Ting Ho" class="p-name u-url">Cheuk Ting Ho</a></span>
+            <p class="post__bio p-note">After having a career in data science, Cheuk now brings her knowledge in data and passion for the tech community as the developer advocate. Cheuk constantly contributes to the open-source community by giving free talks and tutorials and organize sprints to encourage diversity contributions.</p>
+          
+        </div>
+      </div>
+    
+
+    <!--
+
+If you use Disqus comments, just uncomment this block.
+The only thing you need to change is "test-apkdzgmqhj" - which
+should be replaced with your own Disqus site-id.
+
+<div class="post__comments section-padding">
+  <div class="grid-small">
+    <div id="disqus_thread"></div>
+    <script>
+      var disqus_config = function () {
+        this.page.url = 'https://cheuk.dev/2023/06/30/python37-eol/';
+        this.page.identifier = 'https://cheuk.dev/2023/06/30/python37-eol/';
+      };
+      (function() {
+        var d = document, s = d.createElement('script');
+        s.src = 'https://.disqus.com/embed.js';
+        s.setAttribute('data-timestamp', + new Date());
+        (d.head || d.body).appendChild(s);
+      })();
+    </script>
+  </div>
+</div>
+-->
+
+
+  </article>
+</div>
+
+<!-- Links to Previous/Next posts -->
+
+
+  <section class="related section-padding">
+    <div class="grid-xlarge">
+      <h2 class="related__title">Related</h2>
+      <div class="related__container">
+      
+        
+          
+          
+        
+          
+            
+              
+                <article class="related__post">
+                  <a class="related__link" href="https://cheuk.dev/2022/09/12/love-pandas/">
+                    
+                      <figure class="related__img">
+                        <img src="/assets/images/trojan-horse.png" alt="I Have to Confess I Still Love Pandas 🐼"/>
+                      </figure>
+                    
+                    <div>
+                      <h2 class="related__text">I Have to Confess I Still Love Pandas 🐼</h2>
+                    </div>
+                  </a>
+                </article>
+                
+              
+            
+              
+            
+              
+            
+          
+          
+        
+          
+            
+              
+                <article class="related__post">
+                  <a class="related__link" href="https://cheuk.dev/2022/06/06/trojan-source/">
+                    
+                      <figure class="related__img">
+                        <img src="/assets/images/trojan-horse.png" alt="Trojan Source Code (Can we trust open-source anymore?)"/>
+                      </figure>
+                    
+                    <div>
+                      <h2 class="related__text">Trojan Source Code (Can we trust open-source anymore?)</h2>
+                    </div>
+                  </a>
+                </article>
+                
+              
+            
+              
+            
+              
+            
+          
+          
+        
+          
+            
+              
+                <article class="related__post">
+                  <a class="related__link" href="https://cheuk.dev/2020/07/20/shiny-app-python/">
+                    
+                      <figure class="related__img">
+                        <img src="/assets/images/line_reg.gif" alt="Shiny App in Python? Bokeh + Jupyter notebook"/>
+                      </figure>
+                    
+                    <div>
+                      <h2 class="related__text">Shiny App in Python? Bokeh + Jupyter notebook</h2>
+                    </div>
+                  </a>
+                </article>
+                
+              
+            
+              
+            
+              
+            
+          
+          
+            
+      
+        
+      
+      </div>
+    </div>
+  </section>
+
+</main><div class="container footer-container">
+  <p>
+    Cheuk Ting Ho -
+    <!-- <a href="mailto:" target="_blank"></a> -->
+    
+<a href="//" target="_blank" class=""></a>&nbsp;- building the open-source community</p>
+</div>
+
+<!-- Fathom - simple website analytics - https://usefathom.com -->
+<script>
+(function(f, a, t, h, o, m){
+a[h]=a[h]||function(){
+(a[h].q=a[h].q||[]).push(arguments)
+};
+o=f.createElement('script'),
+m=f.getElementsByTagName('script')[0];
+o.async=1; o.src=t; o.id='fathom-script';
+m.parentNode.insertBefore(o,m)
+})(document, window, 'https://cdn.usefathom.com/tracker.js', 'fathom');
+fathom('set', 'siteId', 'HNKQJJRG');
+fathom('trackPageview');
+</script>
+<!-- / Fathom -->
+<!-- jQuery -->
+<script src="/js/jquery.js"></script>
+
+<!-- Bootstrap Core JavaScript -->
+<script src="/js/bootstrap.min.js"></script>
+
+<!-- Plugin JavaScript -->
+<script src="/js/jquery.easing.min.js"></script>
+<script src="/js/jquery.fittext.js"></script>
+<script src="/js/wow.min.js"></script>
+
+<!-- Custom Theme JavaScript -->
+<script src="/js/creative.js"></script>
+
+<!-- Embed Medium posts -->
+<!-- <script src="https://www.twilik.com/assets/retainable/rss-embed/retainable-rss-embed.js"></script> -->
+<!-- No longer in use, see origin here https://medium.com/twilik/how-to-embed-medium-on-your-website-the-easy-way-41ac0a13231e -->
+
+
+<!-- Posts -->
+
+
+<script src="/assets/js/app.min.js"></script>
+
+<script src="/js/webmention.js"></script>
+
+</body>
+
+
+
+</html>
