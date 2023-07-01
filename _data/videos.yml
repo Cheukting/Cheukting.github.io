@@ -1,3 +1,13 @@
+- title: PyCon Lithuania 2023 - Driving Down The Memray Lane
+  vid: 4nEBZkdqmS8
+  tags:
+    - Conference
+    - PyCon LT
+  description: |
+    When handling a large amount of data, memory profiling the data science workflow becomes more important. It gives you insight into which process consumes lots of memory. In this talk, we will introduce Mamray, a Python memory profiling tool and its new Jupyter plugin.
+  date: 2023-06-15
+  author: Cheuk Ting Ho
+
 - title: DjangoCon Europe 2023 - HTMX vs WASM - more backend or more frontend?
   vid: zm7eJC_9JiY
   tags:
