@@ -12,98 +12,105 @@
         {%- if site.dribbble_username -%}
           <li>
             <a target="_blank" href="https://dribbble.com/{{ site.dribbble_username| cgi_escape | escape }}" class="button button--sacnite button--round-l u-url" rel="me">
-              <i class="fab fa-dribbble-square" title="Dribble link"></i>
+              <i class="fa-brands fa-dribbble-square" title="Dribble link"></i>
             </a>
           </li>
         {%- endif -%}
         {%- if site.facebook_username -%}
           <li>
             <a target="_blank" href="https://www.facebook.com/{{ site.facebook_username| cgi_escape | escape }}" class="button button--sacnite button--round-l u-url" rel="me">
-              <i class="fab fa-facebook" title="Facebook link"></i>
+              <i class="fa-brands fa-facebook" title="Facebook link"></i>
             </a>
           </li>
         {%- endif -%}
         {%- if site.flickr_username -%}
           <li>
             <a target="_blank" href="https://www.flickr.com/photos/{{ site.flickr_username| cgi_escape | escape }}" class="button button--sacnite button--round-l u-url" rel="me">
-              <i class="fab fa-flickr" title="Flickr link"></i>
+              <i class="fa-brands fa-flickr" title="Flickr link"></i>
             </a>
           </li>
         {%- endif -%}
         {%- if site.github_username -%}
           <li>
             <a target="_blank" href="https://github.com/{{ site.github_username| cgi_escape | escape }}" class="button button--sacnite button--round-l u-url" rel="me">
-              <i class="fab fa-github" title="Github link"></i>
+              <i class="fa-brands fa-github" title="Github link"></i>
             </a>
           </li>
         {%- endif -%}
         {%- if site.instagram_username -%}
           <li>
             <a target="_blank" href="https://www.instagram.com/{{ site.instagram_username| cgi_escape | escape }}" class="button button--sacnite button--round-l u-url" rel="me">
-              <i class="fab fa-instagram" title="Instagram link"></i>
+              <i class="fa-brands fa-instagram" title="Instagram link"></i>
             </a>
           </li>
         {%- endif -%}
         {%- if site.linkedin_username -%}
           <li>
             <a target="_blank" href="https://www.linkedin.com/in/{{ site.linkedin_username| cgi_escape | escape }}" class="button button--sacnite button--round-l u-url">
-              <i class="fab fa-linkedin" title="Linkedin link"></i>
+              <i class="fa-brands fa-linkedin" title="Linkedin link"></i>
             </a>
           </li>
         {%- endif -%}
         {%- if site.xing_username -%}
           <li>
             <a target="_blank" href="https://www.xing.com/profile/{{ site.xing_username| cgi_escape | escape }}" class="button button--sacnite button--round-l u-url" rel="me">
-              <i class="fab fa-xing" title="Xing link"></i>
+              <i class="fa-brands fa-xing" title="Xing link"></i>
             </a>
           </li>
         {%- endif -%}
         {%- if site.pinterest_username -%}
           <li>
             <a target="_blank" href="https://www.pinterest.com/{{ site.pinterest_username| cgi_escape | escape }}" class="button button--sacnite button--round-l u-url" rel="me">
-              <i class="fab fa-pinterest" title="Pintrest link"></i>
+              <i class="fa-brands fa-pinterest" title="Pintrest link"></i>
             </a>
           </li>
         {%- endif -%}
         {%- if site.twitter_username -%}
           <li>
             <a target="_blank" href="https://twitter.com/{{ site.twitter_username| cgi_escape | escape }}" class="button button--sacnite button--round-l u-url" rel="me">
-              <i class="fab fa-twitter" title="Twitter link"></i>
+              <i class="fa-brands fa-twitter" title="Twitter link"></i>
+            </a>
+          </li>
+        {%- endif -%}
+        {%- if site.mastodon_profilelink -%}
+          <li>
+            <a target="_blank" href="{{ site.mastodon_profilelink }}" class="button button--sacnite button--round-l u-url" rel="me">
+              <i class="fa-brands fa-mastodon" title="Mastodon profile link"></i>
             </a>
           </li>
         {%- endif -%}
         {%- if site.youtube_username -%}
           <li>
             <a target="_blank" href="https://www.youtube.com/{{ site.youtube_username| cgi_escape | escape }}" class="button button--sacnite button--round-l u-url" rel="me">
-              <i class="fab fa-youtube" title="Youtube link"></i>
+              <i class="fa-brands fa-youtube" title="Youtube link"></i>
             </a>
           </li>
         {%- endif -%}
         {%- if site.googleplus_username -%}
           <li>
             <a target="_blank" href="https://plus.google.com/{{ site.googleplus_username| escape }}" class="button button--sacnite button--round-l u-url" rel="me">
-              <i class="fab fa-google-plus" title="Google plus link"></i>
+              <i class="fa-brands fa-google-plus" title="Google plus link"></i>
             </a>
           </li>
         {%- endif -%}
         {%- if site.medium_username -%}
           <li>
             <a target="_blank" href="https://medium.com/@{{ site.medium_username}}" class="button button--sacnite button--round-l u-url" rel="me">
-              <i class="fab fa-medium-m" title="Medium link"></i>
+              <i class="fa-brands fa-medium-m" title="Medium link"></i>
             </a>
           </li>
         {%- endif -%}
         {%- if site.devto_username -%}
         <li>
           <a target="_blank" href="https://dev.to/{{ site.devto_username}}" class="button button--sacnite button--round-l u-url" rel="me">
-            <i class="fab fa-dev" title="DEV Profile"></i>
+            <i class="fa-brands fa-dev" title="DEV Profile"></i>
           </a>
         </li>
         {%- endif -%}
         {%- if site.twitch_username -%}
         <li>
           <a target="_blank" href="https://www.twitch.tv/{{ site.twitch_username}}" class="button button--sacnite button--round-l u-url">
-            <i class="fab fa-twitch" title="Twitch Channel"></i>
+            <i class="fa-brands fa-twitch" title="Twitch Channel"></i>
           </a>
         </li>
         {%- endif -%}

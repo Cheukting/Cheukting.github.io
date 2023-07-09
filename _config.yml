@@ -29,6 +29,7 @@ googleplus_username:
 medium_username:
 devto_username:
 twitch_username:
+mastodon_profilelink: "https://fosstodon.org/@cheukting_ho"
 
 # About Section
 # about_title: About Me (Use this to override about section title)
