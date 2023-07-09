@@ -28,25 +28,27 @@ To further help you to pick and get a basic understanding of the popular license
 
 #### The MIT License
 
-The MIT License, as the name suggested, it was created at the Massachusetts Institute of Technology in the late ‘80s. It is one of the most popular and permissive free software licenses. You can do whatever you want as long as you add a copy of the original MIT license and copyright notice to it.
-
 - category: permissive
+
+The MIT License, as the name suggested, it was created at the Massachusetts Institute of Technology in the late ‘80s. It is one of the most popular and permissive free software licenses. You can do whatever you want as long as you add a copy of the original MIT license and copyright notice to it.
 
 #### Apache License
 
-Just like the name suggested, this license is released by the Apache Software Foundation (ASF). It’s popular and is backed by a strong community. The Apache License allows you to freely use, modify, and distribute any Apache-licensed product. However, you’re required to follow the terms of the Apache License.
-
 - category: permissive
 
+Just like the name suggested, this license is released by the Apache Software Foundation (ASF). It’s popular and is backed by a strong community. The Apache License allows you to freely use, modify, and distribute any Apache-licensed product. However, you’re required to follow the terms of the Apache License.
+
 #### BSD License
+
+- category: permissive
 
 Nowadays, BSD Licenses are mainly used as two variants from the original – the Modified BSD License (3-clause), and the Simplified BSD License/FreeBSD License (2-clause). They are both permissive free software licenses.
 
 The BSD License lets you modify and distribute your software’s code in the source or binary format freely as long as you retain a copy of the copyright notice, list of conditions, and disclaimer.
 
-- category: permissive
-
 #### Eclipse Public License
+
+- category: semi-permissive (copyleft)
 
 As you can guess, this is a license developed by the Eclipse Foundation. If you modify a component under this license and distribute it in the source code form as part of your program, you must disclose the modified code under the EPL. If you distribute such a program in its object code form, you must state that the source code can be made available upon request, and you must explain how to request the source code.
 
@@ -54,17 +56,17 @@ If you redistribute a program with an EPL component, you must include the full l
 
 The EPL protects the author of the software from possible lawsuits or damages caused if a company uses their component in a commercial product. It also offers a patent grant.
 
-- category: semi-permissive (copyleft)
-
 #### Mozilla Public License
+
+- category: semi-permissive (copyleft)
 
 The Mozilla Public License is maintained by the Mozilla project. It is sitting between the Apache license, which does not require modifications to be shared, and the GNU family of licenses, which requires modifications to be shared under a much broader set of circumstances than the MPL.
 
 The MPL's "file-level" copyleft is designed to encourage contributors to share modifications they make to your code, while still allowing them to combine the original code with code under other licenses (open or proprietary) with minimal restrictions.
 
-- category: semi-permissive (copyleft)
-
 #### Common Development and Distribution License
+
+- category: semi-permissive
 
 CDDL is an open-source license published by Oracle. You’re free to reproduce and distribute any original or derivative works of any software licensed under the CDDL. However, you must not remove or make any changes to any copyright, patent, or trademark notices contained in the software. You must also retain any notices of licensing or any descriptive text that attributes any contributor or the initial developer.
 
@@ -72,13 +74,11 @@ When you distribute your software in an executable form (i.e. any form other tha
 
 If your modifications are in separate and independent files that do not contain the original code, you do not have to release it under the CDDL. Furthermore, you must include a copy of the CDDL with any source code that you distribute. For each modification that you make, you must identify yourself as the modifier by including a notice in your modified files.
 
-- category: semi-permissive
-
 #### GNU (Lesser) General Public Licenses
 
-The GNU’s General Public License is a copyleft license. This means that any software based on any GPL component must be released as open source. It does have a strong community and is quite popular among open-source licenses.
-
 - category: copyleft
+
+The GNU’s General Public License is a copyleft license. This means that any software based on any GPL component must be released as open source. It does have a strong community and is quite popular among open-source licenses.
 
 ## Last thought
 
