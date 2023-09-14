@@ -6,9 +6,63 @@
 </description>
     <link>https://cheuk.dev</link>
     <atom:link href="https://cheuk.dev/feed.xml" rel="self" type="application/rss+xml"/>
-    <pubDate>Wed, 06 Sep 2023 08:41:25 +0000</pubDate>
-    <lastBuildDate>Wed, 06 Sep 2023 08:41:25 +0000</lastBuildDate>
+    <pubDate>Thu, 14 Sep 2023 13:42:29 +0000</pubDate>
+    <lastBuildDate>Thu, 14 Sep 2023 13:42:29 +0000</lastBuildDate>
     <generator>Jekyll v3.8.7</generator>
+    
+      <item>
+        <title>My first NumFocus DISC Unconference</title>
+        <description>&lt;p&gt;Last weekend we were very productive. We spent two full days working on projects that can improve diversity and inclusion in computation science. As a first-time participant, I was impressed by the result we have achieved at the end. I think it was a nicely organised event.&lt;/p&gt;
+
+&lt;h2 id=&quot;before-the-unconference-at-amsterdam&quot;&gt;Before the unconference at Amsterdam&lt;/h2&gt;
+
+&lt;p&gt;To have a successful event, I think part of it is the result of great preparation work.&lt;/p&gt;
+
+&lt;p&gt;Before we gathered at the unconference, we had to propose what projects to work on and each one of them had to have a suggested outcome. This is very important as we do not want to just spend a weekend talking about things, feeling good and that’s it. We want actual outputs that can benefit the community.&lt;/p&gt;
+
+&lt;p&gt;Besides, we also have a few office hours that participants can join and get to know each other, new participants can get a feeling of what the unconference is like etc.&lt;/p&gt;
+
+&lt;p&gt;Accommodation and venue have been nicely organised by the NumFocus staff and we have support in arranging our transportation as well.&lt;/p&gt;
+
+&lt;h2 id=&quot;project-that-i-have-worked-on&quot;&gt;Project that I have worked on&lt;/h2&gt;
+
+&lt;p&gt;I arrived late due to bad weather and the flight was severely delayed. I was told that at the beginning there were votes on which projects to work on and people formed groups to brainstorm how to approach the goal. When I arrived there were already a lot of ideas noted down.&lt;/p&gt;
+
+&lt;p&gt;I decided to join the project that was creating a mentoring guide. From my experience, it is hard to run a mentorship program or mentor someone. So it is good to have some kind of guide and help for those who want to contribute to the community via the form of mentorship.&lt;/p&gt;
+
+&lt;p&gt;We use HackMD for collaborative writing. My groupmate and I picked which session they were interested in and started writing.  When we are not sure about anything, we just put it out on the table and discuss it. I think it was working quite well.&lt;/p&gt;
+
+&lt;iframe src=&quot;https://fosstodon.org/@cheukting_ho/111041492801319809/embed&quot; class=&quot;mastodon-embed&quot; style=&quot;max-width: 100%; border: 0&quot; width=&quot;400&quot; allowfullscreen=&quot;allowfullscreen&quot;&gt;&lt;/iframe&gt;
+&lt;script src=&quot;https://fosstodon.org/embed.js&quot; async=&quot;async&quot;&gt;&lt;/script&gt;
+
+&lt;h2 id=&quot;output-of-the-unconference&quot;&gt;Output of the unconference&lt;/h2&gt;
+
+&lt;p&gt;As mentioned before, we want actual outputs that can benefit the community. Since most of the groups have written down something, we decided to put our work in a GitHub repository and publish it via GitBook. The project outputs are:&lt;/p&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;A mentoring guide for open projects&lt;/li&gt;
+  &lt;li&gt;Project taxonomy and recommendations for Diversity Equity and Inclusion&lt;/li&gt;
+  &lt;li&gt;Methodologies For Collecting Community Data&lt;/li&gt;
+  &lt;li&gt;Organizational Guide for Supporting Volunteers and Reducing Burnout&lt;/li&gt;
+  &lt;li&gt;Knowhow: everything you wanted to know about applying for grants but didn’t ask&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;&lt;a href=&quot;https://numfocus.github.io/disc-unconference-2023-projects/en/intro.html&quot;&gt;You can find all of them here!&lt;/a&gt;&lt;/p&gt;
+
+&lt;h2 id=&quot;conclusion&quot;&gt;Conclusion&lt;/h2&gt;
+
+&lt;p&gt;Overall it was an enjoyable experience. We also got a lot of networking opportunities with other members of the community. We had a lot of great conversations working on the project and during the social events.&lt;/p&gt;
+
+&lt;p&gt;Thank you NumFocus, especially for their staff who helped in organising this event. I think it was a great investment for the community and I have to applaud for their work on diversity and inclusion.&lt;/p&gt;
+</description>
+        <pubDate>Thu, 14 Sep 2023 00:00:00 +0000</pubDate>
+        <link>https://cheuk.dev/2023/09/14/numfocus-disc-unconference/</link>
+        <guid isPermaLink="true">https://cheuk.dev/2023/09/14/numfocus-disc-unconference/</guid>
+        
+        <category>OSS</category>
+        
+        
+      </item>
     
       <item>
         <title>Open Source Software License 101</title>
