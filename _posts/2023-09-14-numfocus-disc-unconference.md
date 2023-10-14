@@ -6,6 +6,7 @@ description: "Last weekend we were very productive. We spent two full days worki
 image: /assets/images/disc-unconference-2023.jpg
 author: Cheuk Ting Ho
 tags:
+  - D&I
   - OSS
 
 ---
