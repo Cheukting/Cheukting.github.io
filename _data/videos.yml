@@ -1,3 +1,142 @@
+- title: SciWork - Use Hypothesis, whether you like writing tests or not
+  vid: AefFxD3IG-o
+  tags:
+    - Testing
+    - Conference
+  description: |
+    I bet you like writing tests. But instead of the example-based tests that we normally write, have you heard of property-based testing? By using Hypothesis, instead of thinking about what data I should test it for, it will generate test data, including Numpy and Pandas objects, for you.
+  date: 2023-12-31
+  author: Cheuk Ting Ho
+
+- title: PyCon ES - Untangle Python Spaghetti
+  vid: vuQA9aQPs8U
+  tags:
+    - Packaging
+    - Conference
+  description: |
+    In this talk, we will use venv, the environment managing tool that come with CPython, and conda, the tool that is popular among data science partitioners to decipher how environment and dependency management works. First, we will go through some basic knowledge of how Python “sees” your package and know where to import them when needed. Then, we will make the audience aware that, to avoid the requirement conflict amount different projects, we need a new set of environments for each project.
+  date: 2023-12-19
+  author: Cheuk Ting Ho
+
+- title: DjangoCon US - Let's build a BeeWare app that uses Django
+  vid: wAExEfkcY1U
+  tags:
+    - Django
+    - Conference
+  description: |
+    BeeWare is a framework that let users of all skill levels develop applications with native user interfaces. It is very powerful to extend the already existing Django application to multiple devices. In this talk, we will demo building a simple Beeware app with a Django backend.
+  date: 2023-12-15
+  author: Cheuk Ting Ho
+
+- title: TechWebinarNepal - What are the most common OSS security pitfalls?
+  vid: KFKW9xUiFMY
+  tags:
+    - Security
+    - Conference
+  description: |
+    We are all aware of OWASP top 10 and the most common vulnerabilities in API usage and web applications. However, have you considered what are the most common pitfalls of security risk in using open-source projects? In this talk, we will explore them and think of how we can avoid them.
+  date: 2023-12-14
+  author: Cheuk Ting Ho
+
+- title: OpenSSF Day - We Make Python Safer Than Ever
+  vid: jhzv5RU56V4
+  tags:
+    - Security
+    - Conference
+  description: |
+    Python is one of the programming languages that has a huge open-source supply chain. There are over 400,000 Python packages on Python Package Index (PyPI) and many more on other registries. Making sure this and the wider Python ecosystem are secure is a huge job and requires consistent contributions. Thanks to OpenSSF’s Alpha-Omega project, we now have a PSF Security Developer-in-Residence whose responsibility includes a security audit of the PyPI codebase and infrastructure, improving security practices, and establishing metrics on security posture to show impact. In this talk, we will have the PSF Security Developer-in-Residence himself talk about the effort that has been put in and plans to make Python safer. We will also have one of the PSF board of directors talking about what this means for the Python community and as community members how we can contribute to this effort.
+  date: 2023-10-06
+  author: Cheuk Ting Ho
+
+- title: PyCon Estonia - HTMX vs WASM more backend or frontend?
+  vid: E9AIPYsR_2c
+  tags:
+    - WASM
+    - Conference
+  description: |
+    This talk discusses the history of WASM, the Iodide project, and the rise of Pyodide and PyScript alongside the HTMX library, demonstrating their usage. It invites you to reconsider their application-building approaches and questions the need for JavaScript in web development. You will explore several popular tools in recent years, making them rethink their approach to building their applications. Hopefully, by seeing the live demos, you are encouraged to try these tools and learn more about the use case and how it can help them in future projects.
+  date: 2023-10-06
+  author: Cheuk Ting Ho
+
+- title: EuroPython - Polars vs Pandas what's the difference?
+  vid: YUMhGp1ryUY
+  tags:
+    - Data
+    - Conference
+  description: |
+    Have you heard about Polars? What are the differences? Is Polars replacing Pandas? In this talk, we are going to demystify these questions about Polars. Compares the differences between Polars and Pandas, and explains the pros and cons of both of them.
+  date: 2023-09-19
+  author: Cheuk Ting Ho
+
+- title: EuroPython - Q&A panel for data science newbies
+  vid: GUbxXyUw_30
+  tags:
+    - Data
+    - Conference
+  description: |
+    Join us for this Q&A session, where a panel of data science experts will be there to address all of your pressing questions. This session is designed to create a relaxed and welcoming environment for complete beginners in the field, offering guidance on topics that might be causing confusion.
+  date: 2023-09-19
+  author: Cheuk Ting Ho
+
+- title: PyCon PL - Polars vs Pandas what's the difference?
+  vid: By22S56bLC8
+  tags:
+    - Data
+    - Conference
+  description: |
+    In this talk, we will explore what is Polars, a new tabular data management package that is written in Rust and used Arrow. Many people compare it to Pandas, the goto package for tabular data management for years. However, there is still some confusion regarding what Polars really is, whether or not it is more efficient than Pandas and if you can just replace Pandas with Polars. Hopefully, by the end of the talk, all of these questions will be answered and for people new to Polars, they will feel encouraged to try it out and more confident to make the switch.
+  date: 2023-08-29
+  author: Cheuk Ting Ho
+
+- title: PyCon PL - Untangle Python Spaghetti
+  vid: pXg2UHv-B5M
+  tags:
+    - Packaging
+    - Conference
+  description: |
+    In this talk, we will use venv, the environment managing tool that come with CPython, and conda, the tool that is popular among data science partitioners to decipher how environment and dependency management works. First, we will go through some basic knowledge of how Python “sees” your package and know where to import them when needed. Then, we will make the audience aware that, to avoid the requirement conflict amount different projects, we need a new set of environments for each project.
+  date: 2023-08-29
+  author: Cheuk Ting Ho
+
+- title: PyCon PL - Untangle Python Spaghetti
+  vid: pXg2UHv-B5M
+  tags:
+    - Packaging
+    - Conference
+  description: |
+    In this talk, we will use venv, the environment managing tool that come with CPython, and conda, the tool that is popular among data science partitioners to decipher how environment and dependency management works. First, we will go through some basic knowledge of how Python “sees” your package and know where to import them when needed. Then, we will make the audience aware that, to avoid the requirement conflict amount different projects, we need a new set of environments for each project.
+  date: 2023-08-29
+  author: Cheuk Ting Ho
+
+- title: PyCon Chana PyLadies Night - How To Step Up Your Talk/Proposal For A Python Conference.
+  vid: 1T1tJ8FAwkc
+  tags:
+    - Community
+  description: |
+    Discover and learn expert tips on how to level up your talk/ tutorial proposal and make a lasting impression at any Python conference.
+  date: 2023-08-25
+  author: Cheuk Ting Ho
+
+- title: DevRelCon Tokyo - What’s wrong with Hacktoberfest.
+  vid: G3IuoV0_2G8
+  tags:
+    - Community
+    - Conference
+  description: |
+    In this talk, we will briefly introduce Hactoberfest, though not much introduction is needed as it is a well-known event. We will go through some fun facts and the history of Hacktoberfest fest and how it goes from 700 participants to more than 100,000. Then, we will go from why it is good for the open source community and from both the perspective of the contributors and the maintainers.
+  date: 2023-08-10
+  author: Cheuk Ting Ho
+
+- title: PyCon Colombia - Don't just test, my friend, test better.
+  vid: tA51jXVLnQY
+  tags:
+    - Testing
+    - Conference
+  description: |
+    In this talk, we will visit some valuable tools in Pytest, for example, parameterize, fixture and xfail. All of them provided what problem these tool is trying to solve, an example use case and an example code. The talk will be conducted in a storytelling kind of way, with an example project and writing a test suit to test different features in the project. The goal of this talk is to give beginner code a head start in improving their ability to write meaningful and complex tests.
+  date: 2023-08-04
+  author: Cheuk Ting Ho
+
 - title: JupyterCon 2023 - Driving Down The Memray Lane
   vid: 56smzzDadwQ
   tags:
@@ -5,6 +144,16 @@
   description: |
     When handling a large amount of data, memory profiling the data science workflow becomes more important. It gives you insight into which process consumes lots of memory. In this talk, we will introduce Mamray, a Python memory profiling tool and its new Jupyter plugin.
   date: 2023-07-20
+  author: Cheuk Ting Ho
+
+- title: PyCon Lithuania 2023 - HTMX vs WASM
+  vid: 58EA9kXQFHE
+  tags:
+    - Conference
+    - PyCon LT
+  description: |
+    This talk discusses the history of WASM, the Iodide project, and the rise of Pyodide and PyScript alongside the HTMX library, demonstrating their usage. It invites you to reconsider their application-building approaches and questions the need for JavaScript in web development. You will explore several popular tools in recent years, making them rethink their approach to building their applications. Hopefully, by seeing the live demos, you are encouraged to try these tools and learn more about the use case and how it can help them in future projects.
+  date: 2023-06-15
   author: Cheuk Ting Ho
 
 - title: PyCon Lithuania 2023 - Driving Down The Memray Lane
@@ -148,6 +297,16 @@
 
     This talk requires no prior experience. Through demos, we will explore in what situation Numba works, when it does not and the reason why. We will also look at some cases where we can make Numba works by changing a few things in your code. Hopefully, by the end of the talk, you will have a better understanding of how Numba works before you even start using it. This knowledge can save you some time on try and error, making your experience in using it better.
   date: 2023-01-12
+  author: Cheuk Ting Ho
+
+- title: PyData Tel Aviv 2022 - I Hate writing Tests, That's Why I Use Hypothesis
+  vid: __DfM6R4nVs
+  tags:
+    - PyData
+    - OSS
+  description: |
+    In this talk, we will explore what is property-based testing and why it can do a lot of heavy lifting in writing tests for us. As a contributor, I will introduce Hypothesis, a Python library that can help perform property-based tests with ease.
+  date: 2023-01-11
   author: Cheuk Ting Ho
 
 - title: PyBerlin 36 - 🍁🍁 Special autumn event. Day 1 🍁🍁
