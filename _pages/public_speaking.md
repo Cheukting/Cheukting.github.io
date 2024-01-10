@@ -129,7 +129,9 @@ A short online introduction session to get to know each other and understand you
 ### 1-1 coaching session £50 / hour
 After the introduction sessions, tailor-made online coaching sessions will be provided
 
-[Book an introduction session to get started](/){: .btn-new} <sup>(coming soon)</sup>
+**Book an introduction session to get started**
+
+[Check my schedule](/){: .btn-new} <sup>(coming soon)</sup>
 
 ---
 

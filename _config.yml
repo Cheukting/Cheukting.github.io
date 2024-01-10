@@ -55,7 +55,7 @@ meetups_title: Meetups / Events
 # More Section
 more_title: Invite me to speak? #(Use this to override about more section title)
 more_content: | # this will include new lines to allow paragraphs
-  I am happy to speak at conferences/ meetups / events, or facilitate the above workshops for the community. You can contact me via [Twitter](https://twitter.com/cheukting_ho) or [LinkedIn](https://www.linkedin.com/in/cheukting-ho).
+  I am happy to speak at conferences/ meetups / events, or facilitate the above workshops for the community. You can contact me via [this form](/contact.html).
 
 # Footer
 footer_show_references: true
