@@ -93,6 +93,10 @@ page_gen:
 
 markdown: kramdown
 highlighter: rouge
+collections:
+  pages:
+    output: true
+    permalink: /:name
 
 # Markdown Processors
 kramdown:
