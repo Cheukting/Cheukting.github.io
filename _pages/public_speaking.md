@@ -137,7 +137,7 @@ After the introduction sessions, tailor-made online coaching sessions will be pr
 
 Tailor-made online or in-person small group training (6- 10 people) for cooperate employees can be provided to meet your need, please get in touch for quotes and details.
 
-[Get in touch with this form](https://docs.google.com/forms/d/e/1FAIpQLScnCY1NxVPWt3Mpcd0xgRulgbsqvzmcKNOX2rX111JVNwRJhA/viewform?usp=sf_link){: .btn-new}
+[Get in touch with this form](/contact.html){: .btn-new}
 
 ---
 
@@ -145,7 +145,7 @@ Tailor-made online or in-person small group training (6- 10 people) for cooperat
 
 If you are a community-run event that would love to provide speaker training for underrepresented folks, please get in touch.
 
-[Get in touch with this form](https://docs.google.com/forms/d/e/1FAIpQLScnCY1NxVPWt3Mpcd0xgRulgbsqvzmcKNOX2rX111JVNwRJhA/viewform?usp=sf_link){: .btn-new}
+[Get in touch with this form](/contact.html){: .btn-new}
 
 ---
 
