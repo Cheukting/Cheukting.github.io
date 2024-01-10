@@ -1,6 +1,6 @@
 ---
 layout: pages
-title: Rapid Presentation Club and Public Speaking Workshop
+title: Learn public speaking with me
 author: Cheuk Ting Ho
 
 ---
@@ -8,7 +8,7 @@ author: Cheuk Ting Ho
 ## Rapid presentation club
 
 
-*£5 - 1.5 hours - every Tuesday (except 1st week) - 6:30 pm - online - max 10 ppl*
+*£5 - 1.5 hours - every Tuesday (except 1st week) - 6:30 pm (UK time) - online - max 10 ppl*
 
 A regular meetup for folks to practice presentations regularly. It is recommended to those who have taken the courses.
 
@@ -24,7 +24,7 @@ A regular meetup for folks to practice presentations regularly. It is recommende
 
 ## Overcoming the fear of public speaking
 
-*£120 - 1 day - once per month on Friday/ Saturday/ Sunday - 10 - 4 pm - online - max 6 ppl*
+*£120 - 1 day - once per month on Friday/ Saturday/ Sunday - 10 - 4 pm (UK time) - online - max 6 ppl*
 
 A one-day workshop, combining actor training skills to overcome the fear of speaking in public and presenting in front of a crowd. Participants are required to prepare a monologue (choose from examples or pick one themselves), no need to remember the whole thing, just the first few lines.
 
@@ -57,7 +57,7 @@ A one-day workshop, combining actor training skills to overcome the fear of spea
 
 This course goes through how to prepare a presentation from start to finish with you, over the 5 weeks, with class exercises and homework to work on. At the end, everyone will give a 20-minute presentation on a topic that they how chosen themselves.
 
-*£150 - 5 weeks consecutive 1.5 hours each (except presentation day) - every Monday - 6 pm - online - max 6 ppl*
+*£150 - 5 weeks consecutive 1.5 hours each (except presentation day) - every Monday - 6 pm (UK time) - online - max 6 ppl*
 
 ### Week 1 - Presentation ideas
 
@@ -159,7 +159,7 @@ We expect all participants to join the workshops and the club to follow the [Cod
 
 ## FAQ
 
-**English is not my mother's tough, is that ok?**
+**English is not my mother's tongue, is that ok?**
 
 So do I and many of us. This is not an English class and we will not judge you. However, we expect our participants to be comfortable using English to communicate as the workshops are conducted in English.
 
