@@ -1,0 +1,73 @@
+---
+layout: default
+---
+<body id="page-top">
+  {%- include post-nav.html -%}
+  {%- include header.html -%}
+
+  <main class="page-content" aria-label="Content">
+<div class="post container intro-container">
+  <article itemprop="blogPost" itemscope itemtype="http://schema.org/BlogPosting" class="h-entry">
+    <div class="post__header section-padding">
+      <div class="grid-large">
+        <h2 itemprop="name headline" class="p-name">{{ page.title }}</h2>
+
+        <time class="post__date dt-published" datetime="{{ page.date | date_to_xmlschema }}" itemprop="datePublished">{{ page.date | date: "%-d %b %Y" }}</time>
+      </div>
+    </div>
+
+    {% if page.image %}
+      <div class="post__img u-photo">
+        <div>
+          <figure class="absolute-bg" style="background-image: url('{{ page.image }}');"></figure>
+        </div>
+      </div>
+    {% endif %}
+
+    <div class="post__content section-padding">
+      <div class="grid-large">
+        <div id="markdown" itemprop="articleBody" class="e-content">
+          {{content}}
+        </div>
+
+        {% include share.html %}
+      </div>
+    </div>
+
+    <div class="grid">
+      {% include webmention.html %}
+    </div>
+
+    <!-- Everything inside the #author tags pulls data from the author -->
+    {% if page.author %}
+      <div class="section-padding--none">
+        <div class="grid">
+          <hr class="sep"/>
+        </div>
+      </div>
+
+      <div class="section-padding">
+        <div class="grid p-author h-card">
+          {% for author in page.author %}
+            {% assign authorDetails = site.author | where: "name", author %}
+            {% if forloop.first == true %}
+              <span class="post__author">About
+            {% else %}
+              <span class="post__author">&amp;
+            {% endif %}
+            {% if authorDetails[0]["url"] %}<a href="{{ authorDetails[0]['url'] }}" title="More By {{ author }}" class="p-name u-url">{% endif %}{{ author }}{% if authorDetails[0]["url"] %}</a>{% endif %}</span>
+            <p class="post__bio p-note">{{ authorDetails[0]["bio"] }}</p>
+          {% endfor %}
+        </div>
+      </div>
+    {% endif %}
+
+  </article>
+</div>
+
+</main>
+
+{%- include footer.html -%}
+
+{% include post-scripts.html %}
+</body>
