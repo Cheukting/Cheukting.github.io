@@ -151,7 +151,7 @@ If you are a community-run event that would love to provide speaker training for
 
 ## Code of Conduct
 
-We expect all participants to join the workshops and the club to follow the [Code of Conduct](/pages/coc/) of the Rapid Presentation Club.
+We expect all participants to join the workshops and the club to follow the [Code of Conduct](/coc.html) of the Rapid Presentation Club.
 
 [Report CoC issues](/){: .btn-new} <sup>(coming soon)</sup>
 
