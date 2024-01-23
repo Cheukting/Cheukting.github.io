@@ -1,6 +1,22 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <urlset xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.sitemaps.org/schemas/sitemap/0.9 http://www.sitemaps.org/schemas/sitemap/0.9/sitemap.xsd" xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
 <url>
+<loc>https://cheuk.dev/coc</loc>
+<lastmod>2024-01-23T23:00:29+00:00</lastmod>
+</url>
+<url>
+<loc>https://cheuk.dev/coc-report</loc>
+<lastmod>2024-01-23T23:00:29+00:00</lastmod>
+</url>
+<url>
+<loc>https://cheuk.dev/contact</loc>
+<lastmod>2024-01-23T23:00:29+00:00</lastmod>
+</url>
+<url>
+<loc>https://cheuk.dev/public-speaking</loc>
+<lastmod>2024-01-23T23:00:29+00:00</lastmod>
+</url>
+<url>
 <loc>https://cheuk.dev/2019/10/15/ably-tf/</loc>
 <lastmod>2019-10-15T00:00:00+00:00</lastmod>
 </url>
@@ -906,18 +922,18 @@
 </url>
 <url>
 <loc>https://cheuk.dev/assets/html/ice-cream-d3.html</loc>
-<lastmod>2024-01-09T12:19:17+00:00</lastmod>
+<lastmod>2024-01-23T22:59:44+00:00</lastmod>
 </url>
 <url>
 <loc>https://cheuk.dev/assets/html/ice-cream.html</loc>
-<lastmod>2024-01-09T12:19:17+00:00</lastmod>
+<lastmod>2024-01-23T22:59:44+00:00</lastmod>
 </url>
 <url>
 <loc>https://cheuk.dev/assets/html/interactive_network_graph.html</loc>
-<lastmod>2024-01-09T12:19:17+00:00</lastmod>
+<lastmod>2024-01-23T22:59:44+00:00</lastmod>
 </url>
 <url>
 <loc>https://cheuk.dev/assets/html/line_reg.html</loc>
-<lastmod>2024-01-09T12:19:17+00:00</lastmod>
+<lastmod>2024-01-23T22:59:44+00:00</lastmod>
 </url>
 </urlset>
