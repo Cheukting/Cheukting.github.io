@@ -5,12 +5,14 @@ author: Cheuk Ting Ho
 
 ---
 
-## Rapid presentation club
+## Rapid Presentation Club
 
 
-*£5 - 1.5 hours - every Tuesday (except 1st week) - 6:30 pm (UK time) - online - max 10 ppl*
+*£5 per session - 1.5 hours - every Tuesday (except 1st week) - 6:30 pm (UK time) - online - max 10 ppl*
 
-A regular meetup for folks to practice presentations regularly. It is recommended to those who have taken the courses.
+There will never be a single workshop that will make you a professional speaker over night. Practice is the key to success.
+
+Rapid presentation club is a regular meetup for folks to practice presentations regularly. It is recommended to those who have taken the courses and would like to imroove and polish their presentation skills.
 
 - Welcome newcomers and introduction
 - Topic of today
@@ -22,11 +24,15 @@ A regular meetup for folks to practice presentations regularly. It is recommende
 
 ---
 
-## Overcoming the fear of public speaking
+## Overcoming the Fear of Public Speaking
 
-*£120 - 1 day - once per month on Friday/ Saturday/ Sunday - 10 - 4 pm (UK time) - online - max 6 ppl*
+*£120 for a full day workshop - 1 day - once per month on Friday/ Saturday/ Sunday - 10 - 4 pm (UK time) - online - max 6 ppl*
 
-A one-day workshop, combining actor training skills to overcome the fear of speaking in public and presenting in front of a crowd. Participants are required to prepare a monologue (choose from examples or pick one themselves), no need to remember the whole thing, just the first few lines.
+Are you afraid speaking in front of people, when there are many pairs of eyes looking at you adn waiting for you to open your mouth to speak, it can be daunting. The same can be apply for actors, while being on stage, when audiences watching, stage flight is a real thing!
+
+Cheuk has a unique background, before becoming a successful public speaker, she had taken actor trainings before and understand how actors learn to play on stage, how to capture the audiences while fighting against self-criticism and tell a great story.
+
+Overcoming the Fear of Public Speaking is a one-day workshop, combining actor training skills to overcome the fear of speaking in public and presenting in front of a crowd. Participants are required to prepare a monologue (choose from examples or pick one themselves), no need to remember the whole thing, just the first few lines. All information about preparation will be provided piror to the workshop. After the workshop, you will be equipted with the tools that can preapre you to start joining us at the Rapid Presentation Club to keep practicing presentation and on the path to become a successful public speaker.
 
 - Self-introduction
 - Introduction to the workshop
@@ -53,11 +59,14 @@ A one-day workshop, combining actor training skills to overcome the fear of spea
 
 ---
 
-## Building your presentation from start to finish
+## Building Your Presentation from Start to Finish
 
-This course goes through how to prepare a presentation from start to finish with you, over the 5 weeks, with class exercises and homework to work on. At the end, everyone will give a 20-minute presentation on a topic that they how chosen themselves.
+*£150 for a 5 week course - consecutive weekly sessions 1.5 hours each (except presentation day) - every Monday - 6 pm (UK time) - online - max 6 ppl*
 
-*£150 - 5 weeks consecutive 1.5 hours each (except presentation day) - every Monday - 6 pm (UK time) - online - max 6 ppl*
+Wanna try giving a talk? Have a presentation that you need to prepare? Wether or not you are presenting for the first time, you may want to know how Cheuk, who sometimes give multiple talks within a week, can prepare and give talks in such a short period of time.
+
+Building Your Presentation from Start to Finish is a course that goes through how to prepare a presentation from start to finish with you, over the 5 weeks. With class exercises and homework to work on, Cheuk will gives you her secret system, the needed skills and useful tools to build a talk with any topics. In the last week, everyone will give a 20-minute presentation on a topic that they have chosen themselves.
+
 
 ### Week 1 - Presentation ideas
 
@@ -121,7 +130,7 @@ This course goes through how to prepare a presentation from start to finish with
 
 ## 1-1 Coaching
 
-1-1 coaching is available on request. Prices are:
+If the above group sessions/ workshops are not soemthing that you are looking for and you would prefer a private coaching session for your special need 1-1 coaching is available on request. Prices are:
 
 ### Introduction session £15 / 30 mins
 A short online introduction session to get to know each other and understand your need for coaching
@@ -137,15 +146,19 @@ After the introduction sessions, tailor-made online coaching sessions will be pr
 
 ## Cooperate training
 
-Tailor-made online or in-person small group training (6- 10 people) for cooperate employees can be provided to meet your need, please get in touch for quotes and details.
+Public speaking workshops can be a good team building exercise, it can also be an opportunity for employees' personal growth, to learn a soft skill that can improve their self confident and benifit different aspect in their career.
+
+Tailor-made online or in-person small group training (6 - 10 people) for cooperate employees can be provided to meet your need, please get in touch for quotes and details.
 
 [Get in touch with this form](/contact.html){: .btn-new}
 
 ---
 
-## Sponsored training for non-profit communities
+## Sponsored Training for Non-Profit Communities
 
-If you are a community-run event that would love to provide speaker training for underrepresented folks, please get in touch.
+Diversity and Inclusion is an important aspect for communities, by encouraging underrepresented folks to give presentations about their opnion, misunderstanding and bias can be reduce in the community and the community can be a more welcoming and safe space for everyone.
+
+Cheuk is happy to sponsor and provide help if you are a community-run event that would love to provide speaker training for underrepresented folks with minimum or no cost, please get in touch.
 
 [Get in touch with this form](/contact.html){: .btn-new}
 
@@ -173,4 +186,4 @@ Yes of course, we welcome newcomers, however, it is recommended to have a look a
 
 **I want to join the workshop but the time you offer does not suit my schedule.**
 
-We will try to offer alternative times for more workshops in the future. Please get in touch and let us know you are interested and we will notify you when there is a new workshop that may suit your schedule.
+We will try to offer alternative times for more workshops in the future. Please [get in touch](/contact.html) and let us know you are interested and we will notify you when there is a new workshop that may suit your schedule.

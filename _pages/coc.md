@@ -34,7 +34,7 @@ Insults, put downs, or jokes that are based upon stereotypes, that are exclusion
 - Continued one-on-one communication after requests to cease
 - Other conduct that is inappropriate for a professional audience including people of many different backgrounds
 
-Participates asked to stop any inappropriate behaviour are expected to comply immediately.
+Participates asked to stop any inappropriate behaviour are expected to comply immediately. Organisers/ course instructors reserved the right to remove any partivipants if they do not comply and payment will not be refunded.
 
 If a participant engages in behaviour that violates this code of conduct, please get in touch for reporting.
 
