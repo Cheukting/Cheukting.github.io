@@ -20,7 +20,7 @@ Rapid presentation club is a regular meetup for folks to practice presentations 
 - *Break/ presentation prep (5 mins)*
 - 5 mins presentations each
 
-[Check time and register](/){: .btn-new} <sup>(coming soon)</sup>
+[Check time and register](#){: .btn-new} <sup>(coming soon)</sup>
 
 ---
 
@@ -55,7 +55,7 @@ Overcoming the Fear of Public Speaking is a one-day workshop, combining actor tr
 - 5 minutes rapid presentations each - followed by comments and suggestions
 - Closing
 
-[Check time and register](/){: .btn-new} <sup>(coming soon)</sup>
+[Check time and register](#){: .btn-new} <sup>(coming soon)</sup>
 
 ---
 
@@ -124,7 +124,7 @@ Building Your Presentation from Start to Finish is a course that goes through ho
 - Speakeasy (warm-up)
 - Presentation (20 mins each) - Follow up by comment and suggestions
 
-[Check time and register](/){: .btn-new} <sup>(coming soon)</sup>
+[Check time and register](#){: .btn-new} <sup>(coming soon)</sup>
 
 ---
 
@@ -140,7 +140,7 @@ After the introduction sessions, tailor-made online coaching sessions will be pr
 
 **Book an introduction session to get started**
 
-[Check my schedule](/){: .btn-new} <sup>(coming soon)</sup>
+[Check my schedule](#){: .btn-new} <sup>(coming soon)</sup>
 
 ---
 
@@ -168,22 +168,22 @@ Cheuk is happy to sponsor and provide help if you are a community-run event that
 
 We expect all participants to join the workshops and the club to follow the [Code of Conduct](/coc.html) of the Rapid Presentation Club.
 
-[Report CoC issues](/){: .btn-new} <sup>(coming soon)</sup>
+[Report CoC issues](/coc-report.html){: .btn-new}
 
 ---
 
 ## FAQ
 
-**English is not my mother's tongue, is that ok?**
+**❓English is not my mother's tongue, is that ok?**
 
 So do I and many of us. This is not an English class and we will not judge you. However, we expect our participants to be comfortable using English to communicate as the workshops are conducted in English.
 
 
-**Can I join the rapid presentation club without joining the workshop?**
+**❓Can I join the rapid presentation club without joining the workshop?**
 
 Yes of course, we welcome newcomers, however, it is recommended to have a look at our workshops if you are a new speaker or want to improve your presentation skills.
 
 
-**I want to join the workshop but the time you offer does not suit my schedule.**
+**❓I want to join the workshop but the time you offer does not suit my schedule.**
 
 We will try to offer alternative times for more workshops in the future. Please [get in touch](/contact.html) and let us know you are interested and we will notify you when there is a new workshop that may suit your schedule.

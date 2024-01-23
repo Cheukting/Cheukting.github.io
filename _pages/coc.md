@@ -38,4 +38,4 @@ Participates asked to stop any inappropriate behaviour are expected to comply im
 
 If a participant engages in behaviour that violates this code of conduct, please get in touch for reporting.
 
-[Report CoC issues](/){: .btn-new} <sup>(coming soon)</sup>
+[Report CoC issues](/coc-report.html){: .btn-new}
