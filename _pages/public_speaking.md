@@ -1,18 +1,21 @@
 ---
 layout: pages
-title: Learn public speaking with me
+title: Learn public speaking with Cheuk
 author: Cheuk Ting Ho
+
+---
+
+One thing that makes Cheuk stand out during her tech career is that she is a professional public speaker! Being able to present a wide variety of topics and able to prepare talks from start to finish, delivering multiple high-energy and audience-capturing talks in a short period of time is her superpower. However, growing up as a shy kid and a nerd, she understand these skills can be learnt and you don’t have to be born with certain talent to do that. By joining the workshops and a lot of practices, you can also be a great public speaker and use these skills in your career.
 
 ---
 
 ## Rapid Presentation Club
 
-
 *£5 per session - 1.5 hours - every Tuesday (except 1st week) - 6:30 pm (UK time) - online - max 10 ppl*
 
 There will never be a single workshop that will make you a professional speaker over night. Practice is the key to success.
 
-Rapid presentation club is a regular meetup for folks to practice presentations regularly. It is recommended to those who have taken the courses and would like to imroove and polish their presentation skills.
+Rapid presentation club is a regular meetup for folks to practice presentations regularly. It is recommended to those who have taken the courses and would like to improve and polish their presentation skills.
 
 - Welcome newcomers and introduction
 - Topic of today
@@ -28,7 +31,7 @@ Rapid presentation club is a regular meetup for folks to practice presentations 
 
 *£120 for a full day workshop - 1 day - once per month on Friday/ Saturday/ Sunday - 10 - 4 pm (UK time) - online - max 6 ppl*
 
-Are you afraid speaking in front of people, when there are many pairs of eyes looking at you adn waiting for you to open your mouth to speak, it can be daunting. The same can be apply for actors, while being on stage, when audiences watching, stage flight is a real thing!
+Are you afraid speaking in front of people? when there are many pairs of eyes looking at you and waiting for you to open your mouth to speak, it can be daunting. The same can be apply for actors, while being on stage, when audiences watching, stage flight is a real thing!
 
 Cheuk has a unique background, before becoming a successful public speaker, she had taken actor trainings before and understand how actors learn to play on stage, how to capture the audiences while fighting against self-criticism and tell a great story.
 
@@ -63,9 +66,9 @@ Overcoming the Fear of Public Speaking is a one-day workshop, combining actor tr
 
 *£150 for a 5 week course - consecutive weekly sessions 1.5 hours each (except presentation day) - every Monday - 6 pm (UK time) - online - max 6 ppl*
 
-Wanna try giving a talk? Have a presentation that you need to prepare? Wether or not you are presenting for the first time, you may want to know how Cheuk, who sometimes give multiple talks within a week, can prepare and give talks in such a short period of time.
+Wanna try giving a talk? Have a presentation that you need to prepare? Whether or not you are presenting for the first time, you may want to know how Cheuk, who sometimes give multiple talks within a week, can prepare and give talks in such a short period of time.
 
-Building Your Presentation from Start to Finish is a course that goes through how to prepare a presentation from start to finish with you, over the 5 weeks. With class exercises and homework to work on, Cheuk will gives you her secret system, the needed skills and useful tools to build a talk with any topics. In the last week, everyone will give a 20-minute presentation on a topic that they have chosen themselves.
+Building Your Presentation from Start to Finish is a course that goes through how to prepare a presentation from start to finish with you, over the 5 weeks. With class exercises and homework to work on, Cheuk will gives you her secret system, the needed skills and useful tools to build a talk with any topic. In the last week, everyone will give a 20-minute presentation on a topic that they have chosen themselves.
 
 
 ### Week 1 - Presentation ideas
