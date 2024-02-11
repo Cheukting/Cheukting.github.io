@@ -11,7 +11,7 @@ One thing that makes Cheuk stand out during her tech career is that she is a pro
 
 ## Rapid Presentation Club
 
-*£5 per session - 1.5 hours - every Tuesday (except 1st week) - 6:30 pm (UK time) - online - max 10 ppl*
+*£5 per session - 1.5 hours - every Tuesday (mostly) - 6:30 pm (UK time) - online - max 10 ppl*
 
 There will never be a single workshop that will make you a professional speaker over night. Practice is the key to success.
 
@@ -23,7 +23,7 @@ Rapid presentation club is a regular meetup for folks to practice presentations 
 - *Break/ presentation prep (5 mins)*
 - 5 mins presentations each
 
-[Check time and register](#){: .btn-new} <sup>(coming soon)</sup>
+[Check time and register](https://www.eventbrite.com/cc/rapid-presentation-club-and-workshops-3083679){: .btn-new}{:target="_blank"}
 
 ---
 
@@ -58,7 +58,7 @@ Overcoming the Fear of Public Speaking is a one-day workshop, combining actor tr
 - 5 minutes rapid presentations each - followed by comments and suggestions
 - Closing
 
-[Check time and register](#){: .btn-new} <sup>(coming soon)</sup>
+[Check time and register](https://www.eventbrite.com/cc/rapid-presentation-club-and-workshops-3083679){: .btn-new}{:target="_blank"}
 
 ---
 
