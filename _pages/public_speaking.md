@@ -135,10 +135,10 @@ Building Your Presentation from Start to Finish is a course that goes through ho
 
 If the above group sessions/ workshops are not soemthing that you are looking for and you would prefer a private coaching session for your special need 1-1 coaching is available on request. Prices are:
 
-### Introduction session £15 / 30 mins
+### Introduction session £20 / 30 mins
 A short online introduction session to get to know each other and understand your need for coaching
 
-### 1-1 coaching session £50 / hour
+### 1-1 coaching session £80 / hour
 After the introduction sessions, tailor-made online coaching sessions will be provided
 
 **Book an introduction session to get started**
