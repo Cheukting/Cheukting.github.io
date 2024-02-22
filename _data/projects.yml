@@ -59,3 +59,14 @@
 
   description: | # this will include new lines to allow paragraphs
      Hypothesis is a Python library for creating unit tests which are simpler to write and more powerful when run, finding edge cases in your code you wouldn’t have thought to look for. It is stable, powerful and easy to add to any existing test suite.
+
+- layout: inline-logo
+  name: PyPodcats
+  link: https://pypodcats.live/
+  github:
+  twitter: https://twitter.com/pypodcats
+  logo: /images/pypodcats.png
+  quote: >
+
+  description: | # this will include new lines to allow paragraphs
+     Hidden Figures of Python podcast series is a hosted by the PyPodcats team. Our aim is to highlight voices of the underrepresented group members of the Python community.
