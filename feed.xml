@@ -6,9 +6,96 @@
 </description>
     <link>https://cheuk.dev</link>
     <atom:link href="https://cheuk.dev/feed.xml" rel="self" type="application/rss+xml"/>
-    <pubDate>Thu, 22 Feb 2024 17:37:32 +0000</pubDate>
-    <lastBuildDate>Thu, 22 Feb 2024 17:37:32 +0000</lastBuildDate>
+    <pubDate>Tue, 27 Feb 2024 15:48:24 +0000</pubDate>
+    <lastBuildDate>Tue, 27 Feb 2024 15:48:24 +0000</lastBuildDate>
     <generator>Jekyll v3.8.7</generator>
+    
+      <item>
+        <title>FOSDEM Afterthought - What's New with CRA</title>
+        <description>&lt;p&gt;I had another busy FOSDEM this year - wearing too many hats and running between 1 booth and 4 devrooms. I was exhausted. But one thing I think I care about the most is the CRA (Cyber Resilience Act). While there are many sessions about it, I think the best are the sessions in FOSDEM that we have &lt;a href=&quot;https://fosdem.org/2024/schedule/speaker/7PS7PX/&quot;&gt;Benjamin Bögel&lt;/a&gt; and &lt;a href=&quot;https://fosdem.org/2024/schedule/speaker/PDBC78/&quot;&gt;Omar Ennaji&lt;/a&gt; from the European Commission to give us first-hand information and talk to participants about the upcoming CRA and PLD (Product Liability Directive) amendments. In this blog post, we will focus on CRA.&lt;/p&gt;
+
+&lt;p&gt;&lt;em&gt;Here is what I summarise, please also note that the thoughts and opinions in this blog post are solely my personal opinions.&lt;/em&gt;&lt;/p&gt;
+
+&lt;h2 id=&quot;cra-in-a-nutshell&quot;&gt;CRA in a nutshell&lt;/h2&gt;
+
+&lt;p&gt;A common way to put it simply is “to put a CE marking on the product”. Traditionally, when we think of a product with a CE marking, we think of something physical, something that you can touch. It is quite easy to imagine the CRA will apply to hardware like laptops, phones, IoT devices, CPU chips etc. However, CRA will also cover software including OS, apps - and even packages and libraries. It also includes remote data processing solutions, which means, let’s say if you make a query to a cloud database, the software that handles the query should also be CRA compliance.&lt;/p&gt;
+
+&lt;p&gt;Note that it only applies to commercial products. Hobby projects, websites and standalone SaaS services are not in scope.&lt;/p&gt;
+
+&lt;p&gt;That is a lot to take in, how do I know if my open source projects are in scope? When I will be held accountable as a contributor? We will look in-depth into what is in and out of scope in a bit.&lt;/p&gt;
+
+&lt;h2 id=&quot;is-my-foss-project-in-scope&quot;&gt;Is my FOSS project in scope?&lt;/h2&gt;
+
+&lt;p&gt;&lt;img src=&quot;/assets/images/Slides_CRA_FOSDEM_flow_chat.jpg&quot; alt=&quot;CRA scope flow chat&quot; /&gt;&lt;/p&gt;
+
+&lt;p&gt;If you look at this simplified flow chat from the presentation of the &lt;a href=&quot;https://fosdem.org/2024/schedule/event/fosdem-2024-3683-the-regulators-are-coming-one-year-on/&quot;&gt;The Regulators Are Coming: One Year On&lt;/a&gt; session you will see two questions you have to ask is:&lt;/p&gt;
+
+&lt;ol&gt;
+  &lt;li&gt;Are you the legal owner of the project?&lt;/li&gt;
+  &lt;li&gt;Are you monetising &lt;strong&gt;directly&lt;/strong&gt; from the project?&lt;/li&gt;
+&lt;/ol&gt;
+
+&lt;p&gt;If both the questions are no, you are pretty safe. But if your answer to the first question is yes. There is a chance that you can be an open source software steward instead.&lt;/p&gt;
+
+&lt;h2 id=&quot;what-is-open-source-software-steward&quot;&gt;What is open source software steward?&lt;/h2&gt;
+
+&lt;p&gt;If the project that you or your organisation own or maintain legally, and the project is intended for commercial use, then you may classify as the open source software steward if you are not monetising from the project directly.&lt;/p&gt;
+
+&lt;p&gt;As an open source software steward, you still have some obligations even though you are not putting a CE marking on the software. Some of them include:&lt;/p&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;Put in place a cybersecurity policy taking into account the specific nature of the open-source software steward&lt;/li&gt;
+  &lt;li&gt;Cooperate with market surveillance authorities&lt;/li&gt;
+  &lt;li&gt;Report incidents and vulnerabilities to the extent that they are involved in the development.&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;So what we will see is that some projects would need to have an organisation that acts as their steward to fulfil the above obligations. And more organisations would have an incentive to become a &lt;a href=&quot;https://www.cve.org/ProgramOrganization/CNAs&quot;&gt;CVE Numbering Authority&lt;/a&gt;.&lt;/p&gt;
+
+&lt;h2 id=&quot;when-is-it-going-to-happen&quot;&gt;When is it going to happen?&lt;/h2&gt;
+
+&lt;p&gt;Right now we can expect the CRA will be voted on this year and after there will be around 2-3 years for it to take full effect. The clock is ticking and we have to be prepared early for what is to come in a few years.&lt;/p&gt;
+
+&lt;p&gt;I think there is nothing to be scared of, once we are sure of what requirements are needed, we can adopt new industry standards and provide safer software.&lt;/p&gt;
+
+&lt;h2 id=&quot;what-should-we-do-now&quot;&gt;What should we do now?&lt;/h2&gt;
+
+&lt;p&gt;As an individual developer:&lt;/p&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;Education yourself in CRA and pay attention to what implications it has&lt;/li&gt;
+  &lt;li&gt;Join constructive discussions, especially with the foundations and organisations that support open source software and ecosystems&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;As a project maintainer:&lt;/p&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;Do all of the above as individual developers, plus;&lt;/li&gt;
+  &lt;li&gt;Be prepared to review the cybersecurity policy and the incidents and vulnerabilities reporting mechanisms when the guideline of CRA compliance is more clear&lt;/li&gt;
+  &lt;li&gt;If appropriate, get up a governing body that will be able to take up the role of an open source software steward&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;As a potential open source software steward:&lt;/p&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;Be prepared to fulfil the CRA obligations&lt;/li&gt;
+  &lt;li&gt;Communicate with other potential open source software stewards, e.g. foundations and organisations, for constructive discussions&lt;/li&gt;
+  &lt;li&gt;Communicate with your community regarding CRA, tell them you have plans to get ready for CRA and what the plan is&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;hr /&gt;
+
+&lt;p&gt;Final words: I think we should look at CRA with a constructive mindset, we have time to get the community and the industry to be ready. Let’s hope the outcome will be beneficial to everyone.&lt;/p&gt;
+</description>
+        <pubDate>Fri, 23 Feb 2024 00:00:00 +0000</pubDate>
+        <link>https://cheuk.dev/2024/02/23/cra-update/</link>
+        <guid isPermaLink="true">https://cheuk.dev/2024/02/23/cra-update/</guid>
+        
+        <category>CRA</category>
+        
+        <category>policy</category>
+        
+        
+      </item>
     
       <item>
         <title>You Are Doing DevRel Wrong</title>
