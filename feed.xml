@@ -2,12 +2,12 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Building the Open-source Community</title>
-    <description>Cheuk constantly contributes to the open-source community by giving AI and deep learning workshops and organize sprints to encourage diversity contributions.
+    <description>Cheuk constantly contributes to the open-source community by giving workshops and organize events to encourage diversity contributions.
 </description>
     <link>https://cheuk.dev</link>
     <atom:link href="https://cheuk.dev/feed.xml" rel="self" type="application/rss+xml"/>
-    <pubDate>Mon, 22 Apr 2024 14:03:31 +0000</pubDate>
-    <lastBuildDate>Mon, 22 Apr 2024 14:03:31 +0000</lastBuildDate>
+    <pubDate>Wed, 29 May 2024 13:32:06 +0000</pubDate>
+    <lastBuildDate>Wed, 29 May 2024 13:32:06 +0000</lastBuildDate>
     <generator>Jekyll v3.8.7</generator>
     
       <item>
