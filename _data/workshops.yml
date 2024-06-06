@@ -1,4 +1,13 @@
 - layout: top-middle-link
+  name: PyO3 101 - Writing Python modules in Rust
+  link: https://github.com/Cheukting/py03_101
+  dates:
+  qualification:
+  quote: >
+    In this workshop, we will cover the very basic of using PyO3 - rust library that package rust crates into Python modules. This is the most popular tool in terms of creating Python libraries with Rust.
+  description: | # this will include new lines to allow paragraphs
+
+- layout: top-middle-link
   name: Workshop about How to Submit a Call for Proposal
   link: https://github.com/Cheukting/CfP-workshop
   dates:
